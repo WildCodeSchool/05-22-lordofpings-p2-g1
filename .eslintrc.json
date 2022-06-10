@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 
+=======
+	"parser": "@babel/eslint-parser",
+>>>>>>> main
 	"plugins": ["prettier"],
 	"extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
 	"env": { "browser": true, "node": true, "jest": true },
@@ -26,7 +30,11 @@
 		"react/no-unescaped-entities": 1,
 		"react/no-unknown-property": 1,
 		"react/prop-types": "off",
+<<<<<<< HEAD
 		"react/require-render-return": 1,
 		"parser": "@babel/eslint-parser"
+=======
+		"react/require-render-return": 1
+>>>>>>> main
 	}
 }
