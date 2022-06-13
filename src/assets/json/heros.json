@@ -1,15 +1,15 @@
-{
-  "archer": {
+[
+  { 
     "class": "archer",
     "heal": 100,
     "money": 300,
-    "image": "/assets/img/heros/archer.svg",
+    "image": "assets/img/heros/archer.jpg",
     "equipped": {
       "armor": {
         "helmet": {
           "id": 1,
           "name": "Casque de débutant",
-          "image": "/assets/img/weapons/helm1.svg",
+          "image": "assets/img/weapons/helm1.svg",
           "resistance": 15,
           "shop": {
             "buyPrice":  20,
@@ -25,7 +25,7 @@
         "chest": {
           "id": 1,
           "name": "Plastron de débutant",
-          "image": "/assets/img/weapons/helm1.svg",
+          "image": "assets/img/weapons/helm1.svg",
           "resistance": 15,
           "shop": {
             "buyPrice":  20,
@@ -42,7 +42,7 @@
       "weapons": {
         "id": 1,
         "name": "Arc de débutant",
-        "image": "/assets/img/weapons/bow1.svg",
+        "image": "assets/img/weapons/bow1.svg",
         "damage": 15,
         "shop": {
           "buyPrice":  20,
@@ -66,19 +66,22 @@
       "strength": 50,
       "intelligence": 50,
       "resistance": 50
-    }
+      }
+    
   },
-  "knight": {
+
+
+  {
     "class": "knight",
     "heal": 100,
     "money": 300,
-    "image": "/assets/img/heros/knight.svg",
+    "image": "assets/img/heros/knight.jpg",
     "equipped": {
       "armor": {
         "helmet": {
           "id": 1,
           "name": "Casque de débutant",
-          "image": "/assets/img/weapons/helm1.svg",
+          "image": "assets/img/weapons/helm1.svg",
           "resistance": 15,
           "shop": {
             "buyPrice":  20,
@@ -94,7 +97,7 @@
         "chest": {
           "id": 1,
           "name": "Plastron de débutant",
-          "image": "/assets/img/weapons/helm1.svg",
+          "image": "assets/img/weapons/helm1.svg",
           "resistance": 15,
           "shop": {
             "buyPrice":  20,
@@ -111,7 +114,7 @@
       "weapons": {
         "id": 1,
         "name": "Épée de débutant",
-        "image": "/assets/img/weapons/sword1.svg",
+        "image": "assets/img/weapons/sword1.svg",
         "damage": 15,
         "shop": {
           "buyPrice":  20,
@@ -137,4 +140,4 @@
       "resistance": 50
     }
   }
-}
+]
