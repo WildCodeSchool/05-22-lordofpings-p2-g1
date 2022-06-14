@@ -9,25 +9,23 @@ function Characters() {
         {heroes &&
           heroes.map(hero => {
             return (
-              <div className='heroesCard' key={hero.class}>
-                <div className='hero' key={hero.class}>
+              <div className='heroesCard' key={hero.name}>
+                <div className='hero' key={hero.name}>
                   <img
                     src={require(`../${hero.image}`)}
                     alt='hero'
                     className='imgHero'
                   />
                   <div className='profil'>
-                    <h2>{hero.class}</h2>
-                    <ul>
-                      <li>{hero.heal} points de vie</li>
-                      <li>{hero.money} pieces d&#39;or</li>
-                    </ul>
+                    <h2>{hero.name}</h2>
                   </div>
                 </div>
                 <div className='heroSkills'>
                   <h2>Statistiques</h2>
                   <div key={hero.skills}>
                     <ul>
+                      <li>points de vie: {hero.heal} </li>
+                      <li>pieces d&#39;or: {hero.money} </li>
                       <li>Agilité: {hero.skills.agility}</li>
                       <li>Force: {hero.skills.strength}</li>
                       <li>Intelligence: {hero.skills.intelligence}</li>

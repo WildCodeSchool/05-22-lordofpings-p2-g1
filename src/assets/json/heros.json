@@ -1,137 +1,52 @@
 [
-  { 
+  {
     "class": "archer",
+    "name": "Archer",
     "heal": 100,
-    "money": 300,
+    "money": 100,
     "image": "assets/img/heros/archer.jpg",
     "equipped": {
       "armor": {
-        "helmet": {
-          "id": 1,
-          "name": "Casque de débutant",
-          "image": "assets/img/weapons/helm1.svg",
-          "resistance": 15,
-          "shop": {
-            "buyPrice":  20,
-            "sellPrice": 10
-          },
-          "requires": {
-            "agility": 0,
-            "strength": 0,
-            "intelligence": 0,
-            "resistance": 0
-          }
-        },
-        "chest": {
-          "id": 1,
-          "name": "Plastron de débutant",
-          "image": "assets/img/weapons/helm1.svg",
-          "resistance": 15,
-          "shop": {
-            "buyPrice":  20,
-            "sellPrice": 10
-          },
-          "requires": {
-            "agility": 0,
-            "strength": 0,
-            "intelligence": 0,
-            "resistance": 0
-          }
-        }
+        "helmet": 1,
+        "chest": 1
       },
       "weapons": {
-        "id": 1,
-        "name": "Arc de débutant",
-        "image": "assets/img/weapons/bow1.svg",
-        "damage": 15,
-        "shop": {
-          "buyPrice":  20,
-          "sellPrice": 10
-        },
-        "requires": {
-          "agility": 0,
-          "strength": 0,
-          "intelligence": 0,
-          "resistance": 0
-        }
+        "bow": 1
       }
     },
     "inventory": {
-      "armors": [{}],
-      "weapons": [{}],
-      "items": [{}]
+      "armors": {},
+      "weapons": {},
+      "items": {}
     },
     "skills": {
       "agility": 50,
       "strength": 50,
       "intelligence": 50,
       "resistance": 50
-      }
-    
+    }
   },
-
-
   {
     "class": "knight",
+    "name": "Épéiste",
     "heal": 100,
-    "money": 300,
+    "money": 100,
     "image": "assets/img/heros/knight.jpg",
     "equipped": {
       "armor": {
-        "helmet": {
-          "id": 1,
-          "name": "Casque de débutant",
-          "image": "assets/img/weapons/helm1.svg",
-          "resistance": 15,
-          "shop": {
-            "buyPrice":  20,
-            "sellPrice": 10
-          },
-          "requires": {
-            "agility": 0,
-            "strength": 0,
-            "intelligence": 0,
-            "resistance": 0
-          }
-        },
-        "chest": {
-          "id": 1,
-          "name": "Plastron de débutant",
-          "image": "assets/img/weapons/helm1.svg",
-          "resistance": 15,
-          "shop": {
-            "buyPrice":  20,
-            "sellPrice": 10
-          },
-          "requires": {
-            "agility": 0,
-            "strength": 0,
-            "intelligence": 0,
-            "resistance": 0
-          }
-        }
+        "helmet": 4,
+        "chest": 4
       },
       "weapons": {
-        "id": 1,
-        "name": "Épée de débutant",
-        "image": "assets/img/weapons/sword1.svg",
-        "damage": 15,
-        "shop": {
-          "buyPrice":  20,
-          "sellPrice": 10
-        },
-        "requires": {
-          "agility": 0,
-          "strength": 0,
-          "intelligence": 0,
-          "resistance": 0
-        }
+        "sword": 1
       }
     },
     "inventory": {
-      "armors": [{}],
-      "weapons": [{}],
-      "items": [{}]
+      "armors": {},
+      "weapons": {
+        "axe": 1
+      },
+      "items": {}
     },
     "skills": {
       "agility": 50,
