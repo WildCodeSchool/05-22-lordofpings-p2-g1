@@ -9,7 +9,13 @@ function Characters() {
         {heroes &&
           heroes.map(hero => {
             return (
-              <div className='heroesCard' key={hero.name}>
+              <div
+                className='heroesCard'
+                key={hero.name}
+                onClick={() =>
+                  localStorage.setItem('hero', JSON.stringify(hero))
+                }
+              >
                 <div className='hero' key={hero.name}>
                   <img
                     src={require(`../${hero.image}`)}
