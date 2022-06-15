@@ -5,6 +5,11 @@
 
 @import "./pages/game";
 @import "./components/gameTavern";
+@import "./components/gameHeader";
+@import "./components/gameHeaderHud";
+@import "./components/gameHeaderHudGold";
+@import "./components/gameHeaderHudHealth";
+@import "./components/gameHeaderHudPortrait";
 
 body {
   margin: 0;
