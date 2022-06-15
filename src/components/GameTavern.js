@@ -1,4 +1,5 @@
 import React from 'react'
+import GameTavernShop from './GameTavernShop'
 
 const GameTavern = () => {
   // 0 = No menu
@@ -14,7 +15,7 @@ const GameTavern = () => {
       <div className='knife' onClick={() => setMenu(0)} />
       <div className='idiot' onClick={() => setMenu(2)} />
       {/* {menu === 1 && <GameTavernQuest /> */}
-      {/* menu === 2 && <GameTavernShop /> */}
+      {menu === 2 && <GameTavernShop />}
       {/* menu === 3 && <GameTavernSkills />} */}
     </div>
   )

@@ -1,56 +1,56 @@
-{
-  "archer": {
-    "name": "Archer",
-    "heal": 100,
-    "money": 100,
-    "image": "/assets/img/heros/archer.svg",
-    "equipped": {
-      "armor": {
-        "helmet": 1,
-        "chest": 1
+;[
+  {
+    name: 'Archer',
+    heal: 100,
+    money: 100,
+    image: '/assets/img/heros/archer.svg',
+    equipped: {
+      armor: {
+        helmet: 1,
+        chest: 1
       },
-      "weapons": {
-        "bow": 1
+      weapons: {
+        bow: 1
       }
     },
-    "inventory": {
-      "armors": {},
-      "weapons": {},
-      "items": {}
+    inventory: {
+      armors: {},
+      weapons: {},
+      items: {}
     },
-    "skills": {
-      "agility": 50,
-      "strength": 50,
-      "intelligence": 50,
-      "resistance": 50
+    skills: {
+      agility: 50,
+      strength: 50,
+      intelligence: 50,
+      resistance: 50
     }
   },
-  "knight": {
-    "name": "Épéiste",
-    "heal": 100,
-    "money": 100,
-    "image": "/assets/img/heros/knight.svg",
-    "equipped": {
-      "armor": {
-        "helmet": 4,
-        "chest": 4
+  {
+    name: 'Épéiste',
+    heal: 100,
+    money: 100,
+    image: '/assets/img/heros/knight.svg',
+    equipped: {
+      armor: {
+        helmet: 4,
+        chest: 4
       },
-      "weapons": {
-        "sword": 1
+      weapons: {
+        sword: 1
       }
     },
-    "inventory": {
-      "armors": {},
-      "weapons": {
-        "axe": 1
+    inventory: {
+      armors: {},
+      weapons: {
+        axe: 1
       },
-      "items": {}
+      items: {}
     },
-    "skills": {
-      "agility": 50,
-      "strength": 50,
-      "intelligence": 50,
-      "resistance": 50
+    skills: {
+      agility: 50,
+      strength: 50,
+      intelligence: 50,
+      resistance: 50
     }
   }
-}
+]

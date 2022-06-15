@@ -28,14 +28,16 @@
   }
 
   .idiot {
-    background-image: url('../../img/background/tavern/idiot.svg');
+    background-image: url('../../img/background/tavern/idiot2.svg');
     height: 48.4%;
-    width: 44%;
+    width: 22.6%;
     top: -2%;
     left: 32.2%;
-    clip-path: polygon(0 0, 0 100%, 47% 100%, 47% 60%, 100% 60%, 100% 37%, 51% 37%, 51% 0%);
-    -webkit-clip-path: polygon(0 0, 0 100%, 47% 100%, 47% 60%, 100% 60%, 100% 37%, 51% 37%, 51% 0%);
     @include characters;
+
+    &:hover {
+      background-image: url('../../img/background/tavern/idiot2-hover.svg');
+    }
   }
 
   .barman {
