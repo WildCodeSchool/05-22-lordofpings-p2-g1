@@ -1,30 +1,15 @@
-import logo from './logo.svg'
-<<<<<<< HEAD
-import './App.css'
-=======
->>>>>>> main
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import GameStory from './components/GameStory'
+import Parchment from './components/GameStoryParchment'
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-<<<<<<< HEAD
-          Edit <code>src/App.js</code> and save to reload.
-=======
-          Edit <code>src/App.js</code> and save to reload.yozz
->>>>>>> main
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn Reactsccc
-        </a>
-      </header>
+      <Routes>
+        <Route path='/' element={<div></div>} />
+        <Route path='/story' element={<GameStory />} />
+      </Routes>
     </div>
   )
 }

@@ -5,6 +5,8 @@
 
 @import "./pages/game";
 @import "./components/gameTavern";
+@import "./components/gamestoryparchment";
+@import "./pages/gamestory";
 
 body {
   margin: 0;
@@ -22,4 +24,5 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
+  
 }
