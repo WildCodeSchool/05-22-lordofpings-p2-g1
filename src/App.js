@@ -1,3 +1,4 @@
+import Characters from './pages/Characters'
 import GameStoryBattleDice from './components/GameStoryBattleDice'
 import GameOver from './components/GameOver'
 import React from 'react'
