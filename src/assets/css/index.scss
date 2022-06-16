@@ -1,10 +1,14 @@
 @import "./settings";
 
+
+@import "./components/dice";
+@import "./components/gameOver";
 @import "./components/footer";
 @import "./components/header";
 
 @import "./pages/game";
 @import "./components/gameTavern";
+@import "./components/gameStoryBattleDice";
 
 body {
   margin: 0;
