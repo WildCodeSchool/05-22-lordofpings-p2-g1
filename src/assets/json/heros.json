@@ -4,7 +4,7 @@
     "name": "Archer",
     "heal": 100,
     "money": 100,
-    "image": "assets/img/heros/archer.jpg",
+    "image": "assets/img/heroes/archer.jpg",
     "equipped": {
       "armor": {
         "helmet": 1,
@@ -31,7 +31,7 @@
     "name": "Épéiste",
     "heal": 100,
     "money": 100,
-    "image": "assets/img/heros/knight.jpg",
+    "image": "assets/img/heroes/knight.jpg",
     "equipped": {
       "armor": {
         "helmet": 4,
