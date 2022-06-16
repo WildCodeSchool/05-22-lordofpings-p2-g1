@@ -11,7 +11,6 @@ function Home() {
           <h3>Ames</h3>
         </div>
         {/* <BigButton/> */}
-        />
       </div>
     </div>
   )
