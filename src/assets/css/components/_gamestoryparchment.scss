@@ -1,0 +1,87 @@
+.box {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+    
+    
+    
+        img {
+        height: 300px;
+        
+    }
+
+    .left-rouleau {
+        margin-right: -52px;
+        z-index: 1;
+  }
+  
+  .right-rouleau{
+      margin-left: -52px;
+      z-index: 1;
+  }
+  
+  
+  .text {
+      height: 270px;
+      width: inherit;
+      animation: openParchment 2s ease-in-out;
+      background: rgb(215, 99, 110);
+      background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(236,167,105,1) 20%, rgba(236,167,105,1) 80%, rgba(215,99,110,1) 100%);
+      margin-top: 30px;
+      border: 2px solid #ffcdab;
+      text-align: center;
+      display: flex;
+      box-sizing: border-box;
+      position: relative;
+      align-items: center;
+      font-family: 'Jim Nightshade', cursive;
+      overflow-x: hidden;
+
+      p {
+          position: absolute;
+          font-size: 20px;
+          width:calc(55vw - 104px) ;
+          margin-left: 50%;
+          transform: translateX(-50%);
+          max-height: 250px;
+          overflow-y: scroll;
+          scrollbar-width: thin;
+          scrollbar-color: rgb(215, 99, 110)  rgba(0,0,0,0) ;
+          &::-webkit-scrollbar {
+            width: 4px;
+          }
+          
+          &::-webkit-scrollbar-track {
+            background: none;
+          }
+          
+          &::-webkit-scrollbar-thumb {
+            background: #f1c2a2;
+          }
+          
+          &::-webkit-scrollbar-thumb {
+            &:hover {
+                
+            }
+          }
+        }
+  }
+    
+
+   
+  
+  
+}
+
+
+
+@keyframes openParchment {
+    from {width: 104px;}
+    to {width: inherit;}
+}

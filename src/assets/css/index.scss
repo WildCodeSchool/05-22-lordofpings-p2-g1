@@ -1,15 +1,22 @@
 @import "./settings";
 
+
+@import "./components/dice";
+@import "./components/gameOver";
 @import "./components/footer";
 @import "./components/header";
 
 @import "./pages/game";
+@import "./pages/characters";
 @import "./components/gameTavern";
 @import "./components/gameHeader";
 @import "./components/gameHeaderHud";
 @import "./components/gameHeaderHudGold";
 @import "./components/gameHeaderHudHealth";
 @import "./components/gameHeaderHudPortrait";
+@import "./components/gameStoryBattleDice";
+@import "./components/gamestoryparchment";
+@import "./pages/gamestory";
 
 body {
   margin: 0;
@@ -27,4 +34,5 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
+  
 }
