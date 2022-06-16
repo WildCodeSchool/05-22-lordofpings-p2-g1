@@ -1,9 +1,9 @@
 import GameHeaderHud from './GameHeaderHud'
 
-const GameHeader = () => {
+const GameHeader = ({ hero }) => {
   return (
     <div className='gameHeader'>
-      <GameHeaderHud />
+      <GameHeaderHud hero={hero} />
     </div>
   )
 }
