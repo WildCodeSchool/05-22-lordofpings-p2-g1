@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Dice from '../components/Dice'
+import Dice from './Dice'
 
 const GameStoryBattleDice = () => {
   const [state, setState] = useState({

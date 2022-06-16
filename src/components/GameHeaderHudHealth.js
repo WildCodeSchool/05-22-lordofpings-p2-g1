@@ -1,4 +1,4 @@
-import Heart from '../assets/img/hud/heart.svg'
+import Heart from '../assets/img/ui/hud/heart.svg'
 
 const GameHeaderHudHealth = () => {
   return (

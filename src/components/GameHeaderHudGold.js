@@ -1,4 +1,4 @@
-import Purse from '../assets/img/hud/purse.svg'
+import Purse from '../assets/img/ui/hud/purse.svg'
 
 const GameHeaderHudGold = () => {
   return (

@@ -1,16 +1,11 @@
-import { useEffect, useState } from 'react'
 import Parchment from './GameStoryParchment'
-import quests from '../assets/json/frame.json'
 import Buttons from './GameStoryButtons'
-const GameStory = () => {
-  const [page, setPage] = useState(0)
-  const [quest, setQuest] = useState(quests[page])
-  useEffect(() => {
-    page >= 0 && setQuest(quests[page])
-  }, [page])
+import GameHeader from './GameHeader'
 
+const GameStory = ({ quest, setPage }) => {
   return (
-    <div className='storyQuest'>
+    <div className='gameStory'>
+      <GameHeader />
       <Parchment quest={quest} />
       <Buttons quest={quest} setPage={setPage} />
     </div>

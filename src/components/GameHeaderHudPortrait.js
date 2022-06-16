@@ -1,4 +1,4 @@
-import Archer from '../assets/img/heroes/archer-portrait.png'
+import Archer from '../assets/img/heroes/archer.png'
 
 const GameHeaderHudPortrait = () => {
   return (

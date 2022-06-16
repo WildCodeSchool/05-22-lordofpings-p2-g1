@@ -1,19 +1,15 @@
-import React from 'react'
-import GameHeaderHud from './components/GameHeaderHud'
-import Characters from './pages/Characters'
-import GameStoryBattleDice from './components/GameStoryBattleDice'
-import GameOver from './components/GameOver'
-import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import GameStory from './components/GameStory'
-import Parchment from './components/GameStoryParchment'
+import Characters from './pages/Characters'
+import Home from './pages/Home'
+import Game from './pages/Game'
 
 function App() {
   return (
     <div className='App'>
       <Routes>
-        <Route path='/' element={<div></div>} />
-        <Route path='/story' element={<GameStory />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/create' element={<Characters />} />
+        <Route path='/game' element={<Game />} />
       </Routes>
     </div>
   )

@@ -1,16 +1,16 @@
-import rouleaugauche from '../assets/img/left.svg'
-import rouleaudroite from '../assets/img/right.svg'
+import parchmentLeft from '../assets/img/ui/left.svg'
+import parchmentRight from '../assets/img/ui/right.svg'
 
-const GameParchment = ({ quest }) => {
+const GameStoryParchment = ({ quest }) => {
   return (
-    <div className='box'>
-      <img src={rouleaugauche} className='left-rouleau'></img>
+    <div className='gameStoryParchment'>
+      <img src={parchmentLeft} className='parchmentLeft'></img>
       <div className='text'>
-        <p>{quest.text}</p>
+        <p>{quest?.text}</p>
       </div>
-      <img src={rouleaudroite} className='right-rouleau'></img>
+      <img src={parchmentRight} className='parchmentRight'></img>
     </div>
   )
 }
 
-export default GameParchment
+export default GameStoryParchment

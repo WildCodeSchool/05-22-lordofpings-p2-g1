@@ -1,5 +1,3 @@
-import React from 'react'
-
 function GameOver() {
   return (
     <div className='gameOver'>

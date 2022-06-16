@@ -1,4 +1,4 @@
-import heroes from '../assets/json/heros.json'
+import heroes from '../assets/json/heroes.json'
 
 function Characters() {
   return (
