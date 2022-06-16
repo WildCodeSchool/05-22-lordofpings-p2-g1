@@ -7,7 +7,7 @@ import tavernImg from '../assets/img/background/tavern.svg'
 import quests from '../assets/json/frame.json'
 
 const Game = () => {
-  const [page, setPage] = useState(0) // ID de la page en cours (Sommaire au dessous)
+  const [page, setPage] = useState(-3) // ID de la page en cours (Sommaire au dessous)
   // 0+ = Game Story
   // -1 = Game Launch [Setup]// ID de la quête en cours
   // -2 = Game Tavern
@@ -24,8 +24,6 @@ const Game = () => {
       setBg(quests[quest]?.image)
     } else if (page === -2) {
       setBg(tavernImg)
-    } else if (page === -3) {
-      setBg()
     } else if (page === -4) {
       setBg()
     } else if (page === -5) {
@@ -39,7 +37,7 @@ const Game = () => {
     <div className='game' style={{ backgroundImage: bg && `url(${bg})` }}>
       {page >= 0 && <GameStory quest={quest} setPage={setPage} />}
       {page === -2 && <GameTavern />}
-      {page === -3 && <GameOver />}
+      {page === -3 && <GameOver setPage={setPage} /*setHero={setHero}*/ />}
       {page === -4 && <></>}
       {page === -5 && <GameStoryBattle />}
 
