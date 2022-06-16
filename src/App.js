@@ -1,3 +1,5 @@
+import GameStoryBattleDice from './components/GameStoryBattleDice'
+import GameOver from './components/GameOver'
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import GameStory from './components/GameStory'
