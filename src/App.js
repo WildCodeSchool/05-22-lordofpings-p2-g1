@@ -1,3 +1,5 @@
+import React from 'react'
+import GameHeaderHud from './components/GameHeaderHud'
 import Characters from './pages/Characters'
 import GameStoryBattleDice from './components/GameStoryBattleDice'
 import GameOver from './components/GameOver'

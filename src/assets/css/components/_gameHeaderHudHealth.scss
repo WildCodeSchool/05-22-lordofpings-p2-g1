@@ -1,0 +1,11 @@
+
+.gameHeaderHudHealth {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 2px;
+  
+  .lifePoint {
+    width: 20px;
+  }
+}
