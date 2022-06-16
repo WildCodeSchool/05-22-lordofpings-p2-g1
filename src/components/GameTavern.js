@@ -1,4 +1,5 @@
-import React from 'react'
+import { useState } from 'react'
+import GameHeader from './GameHeader'
 import GameTavernShop from './GameTavernShop'
 
 const GameTavern = () => {
@@ -6,10 +7,11 @@ const GameTavern = () => {
   // 1 = Quest
   // 2 = Shop
   // 3 = Mini Games
-  const [menu, setMenu] = React.useState(0)
+  const [menu, setMenu] = useState(0)
 
   return (
     <div className='gameTavern'>
+      <GameHeader />
       <div className='target' onClick={() => setMenu(3)} />
       <div className='barman' onClick={() => setMenu(1)} />
       <div className='knife' onClick={() => setMenu(0)} />
