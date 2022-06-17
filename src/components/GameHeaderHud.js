@@ -2,10 +2,10 @@ import GameHeaderHudGold from './GameHeaderHudGold'
 import GameHeaderHudHealth from './GameHeaderHudHealth'
 import GameHeaderHudPortrait from './GameHeaderHudPortrait'
 
-const GameHeaderHud = ({ hero }) => {
+const GameHeaderHud = () => {
   return (
     <div className='gameHeaderHud'>
-      <GameHeaderHudPortrait hero={hero} />
+      <GameHeaderHudPortrait />
       <div className='stats'>
         <GameHeaderHudHealth />
         <GameHeaderHudGold />
