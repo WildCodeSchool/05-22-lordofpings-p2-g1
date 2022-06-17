@@ -2,7 +2,7 @@
   {
     "class": "archer",
     "name": "Archer",
-    "heal": 100,
+    "heal": 5,
     "money": 100,
     "equipped": {
       "armor": {
@@ -28,7 +28,7 @@
   {
     "class": "knight",
     "name": "Épéiste",
-    "heal": 100,
+    "heal": 5,
     "money": 100,
     "equipped": {
       "armor": {

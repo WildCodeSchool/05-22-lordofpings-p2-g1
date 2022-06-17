@@ -1,9 +1,13 @@
 import Archer from '../assets/img/heroes/archer.png'
+import Knight from '../assets/img/heroes/knight.png'
 
-const GameHeaderHudPortrait = () => {
+const GameHeaderHudPortrait = ({ hero }) => {
   return (
     <div className='gameHeaderHudPortrait'>
-      <img src={Archer} className='portrait' />
+      <img
+        src={hero?.class === 'archer' ? Archer : Knight}
+        className='portrait'
+      />
     </div>
   )
 }

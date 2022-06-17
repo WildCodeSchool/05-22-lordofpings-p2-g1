@@ -1,0 +1,21 @@
+.bigButton {
+    background-image: url(../../img/ui/button.svg);
+    background-size: contain;
+    aspect-ratio: 2.75;
+    box-sizing: border-box;
+    padding: 2% 3% 6.5% 6%;
+
+    &:hover {
+        background-image: url(../../img/ui/button-hover.svg);
+        padding: 3.5% 4% 5% 5%;
+    }
+
+    p {
+        aspect-ratio: 4;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
