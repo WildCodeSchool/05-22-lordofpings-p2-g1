@@ -7,7 +7,7 @@ import tavernImg from '../assets/img/background/tavern.svg'
 import quests from '../assets/json/frame.json'
 
 const Game = () => {
-  const [page, setPage] = useState(-3) // ID de la page en cours (Sommaire au dessous)
+  const [page, setPage] = useState(-2) // ID de la page en cours (Sommaire au dessous)
   // 0+ = Game Story
   // -1 = Game Launch [Setup]// ID de la quête en cours
   // -2 = Game Tavern

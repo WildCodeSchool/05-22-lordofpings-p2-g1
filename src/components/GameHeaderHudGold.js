@@ -1,5 +1,4 @@
 import Purse from '../assets/img/ui/hud/purse.svg'
-import { useState, useEffect } from 'react'
 
 const GameHeaderHudGold = ({ hero }) => {
   return (
