@@ -11,7 +11,7 @@ function Home() {
           <h2>des</h2>
           <h3>Ames</h3>
         </div>
-        <BigButton text='JOUER' />
+        <BigButton text='JOUER' height='100px' />
       </div>
     </div>
   )
