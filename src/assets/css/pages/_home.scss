@@ -18,15 +18,7 @@
         opacity: 90%;
 
     }
-    .buttonStart {        
-        width: 45%;
-        height: 45vh; 
-        }
-    .buttonStart:active {background: no-repeat url(../../img/items/buttons/bigbutton.svg);
-        box-shadow: 0 5px url(../../img/items/buttons/bigbutton2.svg);
-        transform: translateY(4px);}
-        cursor: pointer;
-        outline: none;
+    
     .title {
         display: flex;
         flex-direction: column;

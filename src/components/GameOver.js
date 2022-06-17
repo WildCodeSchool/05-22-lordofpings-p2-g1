@@ -1,9 +1,10 @@
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import gameover from '../assets/img/gameover.svg'
 
-function GameOver({ setPage }) {
+function GameOver({ setPage, setHero }) {
   useEffect(() => {
-    // setHero('')
+    setHero('')
   }, [])
 
   return (
@@ -17,10 +18,10 @@ function GameOver({ setPage }) {
 
         <div className='containerRight'>
           <img src={gameover} className='imgGameOver' />
-          <button className='gameOverButton' onClick={() => setPage(-1)}>
+          <Link to='/'>
             {' '}
-            Restart{' '}
-          </button>
+            <button onClick={() => setPage(-1)}> Restart </button>
+          </Link>
         </div>
       </div>
     </div>

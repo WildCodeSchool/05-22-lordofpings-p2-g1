@@ -31,13 +31,12 @@
         font-family: 'Cinzel Decorative', cursive;
         color: goldenrod;
         font-size: 80px;
-        padding-right: 5%;
-        
-            .p {
-                display:flex;
-                justify-content: center;
-                align-items: center;
-            }
+        padding-right: 5%;  
+
+        p { 
+            font-size: 90%;
+        }
+    
         
            hr {
             display: flex;
@@ -70,9 +69,9 @@
         
     }
 
-    .gameOverButton {
+    button {
          height: 9vh;
-         width: 60%;
+         width: 100%;
          font-family: 'Cinzel Decorative', cursive;
          color: goldenrod;
          font-style: bold;

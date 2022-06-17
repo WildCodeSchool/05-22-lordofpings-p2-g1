@@ -17,6 +17,13 @@ const Game = () => {
   const [quest, setQuest] = useState(quests[page])
   const [bg, setBg] = useState(0)
 
+  const [hero, setHero] = useState(JSON.parse(localStorage.getItem('hero')))
+
+  const setHeroData = data => {
+    setHero(data)
+    localStorage.setItem('hero', JSON.stringify(data))
+  }
+
   useEffect(() => {
     page >= 0 && setQuest(quests[page])
     page === -1 && setPage(quest)
@@ -37,7 +44,7 @@ const Game = () => {
     <div className='game' style={{ backgroundImage: bg && `url(${bg})` }}>
       {page >= 0 && <GameStory quest={quest} setPage={setPage} />}
       {page === -2 && <GameTavern />}
-      {page === -3 && <GameOver setPage={setPage} /*setHero={setHero}*/ />}
+      {page === -3 && <GameOver setPage={setPage} setHero={setHeroData} />}
       {page === -4 && <></>}
       {page === -5 && <GameStoryBattle />}
 
