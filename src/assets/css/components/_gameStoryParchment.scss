@@ -1,6 +1,6 @@
 .gameStoryParchment {
   width: 100%;
- padding: 20px;
+  padding: 20px;
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
@@ -47,7 +47,6 @@
       margin-left: 50%;
       transform: translateX(-50%);
       max-height: 250px;
-      box-sizing: border-box;
       overflow-y: scroll;
       box-sizing: border-box;
       scrollbar-width: thin;
