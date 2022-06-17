@@ -16,7 +16,6 @@ const Game = () => {
   // -5 = Game [Other]
   const [quest, setQuest] = useState(quests[page])
   const [bg, setBg] = useState(0)
-
   const [hero, setHero] = useState(JSON.parse(localStorage.getItem('hero')))
 
   const setHeroData = data => {
@@ -42,9 +41,16 @@ const Game = () => {
 
   return (
     <div className='game' style={{ backgroundImage: bg && `url(${bg})` }}>
-      {page >= 0 && <GameStory quest={quest} setPage={setPage} />}
-      {page === -2 && <GameTavern />}
-      {page === -3 && <GameOver setPage={setPage} setHero={setHeroData} />}
+      {page >= 0 && (
+        <GameStory
+          quest={quest}
+          setPage={setPage}
+          hero={hero}
+          setHero={setHeroData}
+        />
+      )}
+      {page === -2 && <GameTavern hero={hero} setHero={setHeroData} />}
+      {page === -3 && <GameOver hero={hero} setHero={setHeroData} />}
       {page === -4 && <></>}
       {page === -5 && <GameStoryBattle />}
 
