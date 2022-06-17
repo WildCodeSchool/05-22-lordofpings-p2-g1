@@ -3,8 +3,10 @@
 @import "./components/footer";
 @import "./components/header";
 
-@import "./pages/game";
-@import "./components/gameTavern";
+@import "./components/bigButton";
+
+// @import "./pages/game";
+// @import "./components/gameTavern";
 
 body {
   margin: 0;
@@ -23,3 +25,4 @@ body {
   display: flex;
   justify-content: center;
 }
+
