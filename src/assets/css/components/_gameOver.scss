@@ -1,4 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+
 .gameOver {
-    background-color: #1f002F;
+    display: flex;
+    justify-content: center;
     width: 100%;
+    height: 100vh;
+    background-color: #1f002F;
+
+    .containermother {
+        display: flex;
+        justify-content: center;
+        width: 94%;
+        border: solid goldenrod;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    
+
+    
+    .containerLeft {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;    
+        width: 60%;
+        font-family: 'Cinzel Decorative', cursive;
+        color: goldenrod;
+        font-size: 80px;
+        padding-right: 5%;  
+
+        p { 
+            font-size: 90%;
+        }
+    
+        
+           hr {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            background-color: goldenrod;
+            border: none;
+            margin: 8%;
+            height: 2px;
+            
+
+           }
+
+    }
+
+    .containerRight {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 40%;
+
+    }
+
+    img.imgGameOver {
+        margin-top: 20%;
+        size: 35%;
+        padding-right: 0.5%;
+        
+        
+    }
+
+    button {
+         height: 9vh;
+         width: 100%;
+         font-family: 'Cinzel Decorative', cursive;
+         color: goldenrod;
+         font-style: bold;
+         font-size: 48px;
+         background-color: #6C1C63;
+         border-style: solid;
+         border-radius: 25px;
+         border-color: goldenrod;
+   
+
+    }
+    
 }

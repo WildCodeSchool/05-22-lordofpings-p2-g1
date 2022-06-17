@@ -3,7 +3,7 @@ import GameHeaderHud from './GameHeaderHud'
 const GameHeader = ({ hero }) => {
   return (
     <div className='gameHeader'>
-      <GameHeaderHud hero={ hero } />
+      <GameHeaderHud hero={hero} />
     </div>
   )
 }
