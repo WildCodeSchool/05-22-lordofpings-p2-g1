@@ -1,0 +1,32 @@
+.bigButton {
+    max-height: 300px; 
+    // une hauteur qui ne peut pas être dépassé
+    background-size: contain; 
+    // bg-size permet de conserver 
+    // l'image original, pas de crop
+    aspect-ratio: 2.75;
+    padding: 2% 0 7% 7%;
+    box-sizing: border-box;
+    
+    .pressed {
+        height: 100%;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 360%;
+        box-sizing: border-box;
+        padding-bottom: 7.2%;
+        padding-left: 3.5%;
+
+        &:hover {
+            background-image: none!important; 
+            // cible l'image elle-même qui peut disparaitre 
+            // en fonction de ce que l'on cherche 
+            padding-bottom: 0;
+            padding-left: 0;
+        }
+    }
+}
