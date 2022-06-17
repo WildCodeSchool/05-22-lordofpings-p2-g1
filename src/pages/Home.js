@@ -1,4 +1,5 @@
 import logoMerlin from '../assets/img/logo_merlin.jpg'
+import BigButton from '../components/BigButton'
 
 function Home() {
   return (
@@ -10,8 +11,7 @@ function Home() {
           <h2>des</h2>
           <h3>Ames</h3>
         </div>
-        {/* <BigButton/> */}
-        />
+        <BigButton text='JOUER' />
       </div>
     </div>
   )
