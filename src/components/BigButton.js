@@ -1,18 +1,9 @@
-import buttonNormal from '../assets/img/ui/bigbutton.svg'
-import buttonPressed from '../assets/img/ui/bigbutton2.svg'
+const BigButton = ({ text, height }) => {
+  const fontSize = parseInt(height) / 5
 
-const BigButton = ({ text }) => {
   return (
-    <div
-      className='bigButton'
-      style={{ backgroundImage: `url(${buttonNormal})` }}
-    >
-      <div
-        className='pressed'
-        style={{ backgroundImage: `url(${buttonPressed})` }}
-      >
-        {text}
-      </div>
+    <div className='bigButton' style={{ height: height }}>
+      <p style={{ fontSize: `${fontSize}px` }}>{text}</p>
     </div>
   )
 }
