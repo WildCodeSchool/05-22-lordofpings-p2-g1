@@ -1,69 +1,68 @@
 .gameTavern {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  
-    @mixin characters {
-      background-size: contain;
-      background-repeat: no-repeat;
-      position: relative;
-      cursor: pointer;
-  
-      &:hover {
-        filter: brightness(0.9);
-      }
-    }
-  
-    .knife {
-      background-image: url('../../img/background/tavern/knife.svg');
-      height: 12.5%;
-      width: 50%;
-      top: -14.6%;
-      left: 89.3%;
-      @include characters;
-  
-      &:hover {
-        background-image: url('../../img/background/tavern/knife-hover.svg');
-      }
-    }
-  
-    .idiot {
-      background-image: url('../../img/background/tavern/idiot2.svg');
-      height: 48.4%;
-      width: 22.6%;
-      top: -2%;
-      left: 32.2%;
-      @include characters;
-  
-      &:hover {
-        background-image: url('../../img/background/tavern/idiot2-hover.svg');
-      }
-    }
-  
-    .barman {
-      background-image: url('../../img/background/tavern/barman.svg');
-      height: 16.4%;
-      width: 9.3%;
-      top: 20.5%;
-      left: 54.1%;
-      z-index: 1;
-      @include characters;
-  
-      &:hover {
-        background-image: url('../../img/background/tavern/barman-hover.svg');
-      }
-    }
-  
-    .target {
-      background-image: url('../../img/background/tavern/target.svg');
-      height: 24.8%;
-      width: 8.8%;
-      top: 37.4%;
-      @include characters;
-  
-      &:hover {
-        background-image: url('../../img/background/tavern/target-hover.svg');
-      }
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  @mixin characters {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+      filter: brightness(0.9);
     }
   }
-  
+
+  .knife {
+    background-image: url('../../img/background/tavern/knife.svg');
+    height: 12.5%;
+    width: 50%;
+    top: -14.6%;
+    left: 89.3%;
+    @include characters;
+
+    &:hover {
+      background-image: url('../../img/background/tavern/knife-hover.svg');
+    }
+  }
+
+  .idiot {
+    background-image: url('../../img/background/tavern/idiot2.svg');
+    height: 48.4%;
+    width: 22.6%;
+    top: -2%;
+    left: 32.2%;
+    @include characters;
+
+    &:hover {
+      background-image: url('../../img/background/tavern/idiot2-hover.svg');
+    }
+  }
+
+  .barman {
+    background-image: url('../../img/background/tavern/barman.svg');
+    height: 16.4%;
+    width: 9.3%;
+    top: 20.5%;
+    left: 54.1%;
+    z-index: 1;
+    @include characters;
+
+    &:hover {
+      background-image: url('../../img/background/tavern/barman-hover.svg');
+    }
+  }
+
+  .target {
+    background-image: url('../../img/background/tavern/target.svg');
+    height: 24.8%;
+    width: 8.8%;
+    top: 37.4%;
+    @include characters;
+
+    &:hover {
+      background-image: url('../../img/background/tavern/target-hover.svg');
+    }
+  }
+}
