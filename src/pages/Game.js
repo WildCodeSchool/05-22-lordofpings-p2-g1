@@ -79,7 +79,7 @@ const Game = () => {
           />
         )}
         {page === 1000 && <GameTavern hero={hero} setHero={setHeroData} />}
-        {page === 1001 && <GameOver />}
+        {page === 1001 && <GameOver setHero={setHeroData} />}
         {page === 1002 && <></>}
         {page === 1003 && <GameStoryBattle />}
 

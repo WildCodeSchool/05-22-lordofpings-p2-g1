@@ -2,7 +2,8 @@
   {
     "class": "archer",
     "name": "Archer",
-    "heal": 5,
+    "heal": 4,
+    "maxHeal": 4,
     "money": 100,
     "image": "assets/img/heroes/archer.png",
     "equipped": {
@@ -30,6 +31,7 @@
     "class": "knight",
     "name": "Épéiste",
     "heal": 5,
+    "maxHeal": 5,
     "money": 100,
     "image": "assets/img/heroes/knight.png",
     "equipped": {
