@@ -3,7 +3,7 @@ import Buttons from './GameStoryButtons'
 import GameHeader from './GameHeader'
 import { useEffect, useState } from 'react'
 
-const GameStory = ({ quest, setPage }) => {
+const GameStory = ({ quest, setPage, hero }) => {
   const [animation, setAnimation] = useState(true)
 
   useEffect(() => {
@@ -15,7 +15,7 @@ const GameStory = ({ quest, setPage }) => {
   }, [animation])
   return (
     <>
-      <GameHeader />
+      <GameHeader hero={hero} />
       <div className='gameStory'>
         <Parchment quest={quest} animation={animation.toString()} />
         <Buttons quest={quest} setPage={setPage} animation={animation} />

@@ -27,7 +27,6 @@ const Game = () => {
   }
 
   useEffect(() => {
-    console.log('page: ' + page)
     page < 1000 && setQuest(quests[page])
     page === -1 && setPage(quest)
     if (page < 1000) {
