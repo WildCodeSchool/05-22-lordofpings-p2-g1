@@ -1,6 +1,6 @@
 .gameStoryParchment {
   width: 100%;
- padding: 20px;
+  padding: 20px;
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
@@ -25,7 +25,6 @@
   .text {
     height: 270px;
     width: inherit;
-    animation: openParchment 2s ease-in-out;
     background: rgb(215, 99, 110);
     background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(236,167,105,1) 20%, rgba(236,167,105,1) 80%, rgba(215,99,110,1) 100%);
     margin-top: 30px;
@@ -38,6 +37,10 @@
     font-family: 'Jim Nightshade', cursive;
     overflow-x: hidden;
 
+    &[animation="true"] {
+      animation: openParchment 2s ease-in-out;
+    }
+
     p {
       position: absolute;
       font-size: 20px;
@@ -47,7 +50,6 @@
       margin-left: 50%;
       transform: translateX(-50%);
       max-height: 250px;
-      box-sizing: border-box;
       overflow-y: scroll;
       box-sizing: border-box;
       scrollbar-width: thin;

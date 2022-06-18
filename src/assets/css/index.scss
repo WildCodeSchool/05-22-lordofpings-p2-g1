@@ -21,21 +21,32 @@
 @import "./components/gameHeaderHudPortrait";
 
 @import "./components/gameStory";
-
+@import "./components/gameStoryButtons";
 @import "./components/gameStoryBattle";
 @import "./components/gameStoryBattleDice";
-
 @import "./components/gameStoryParchment";
 
 @import "./components/gameOver";
 
-body {
+*, ::before, ::after {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
+}
+
+body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #333;
   background-color: #000;
   height: 100vh;
   width: 100%;
+  scrollbar-width: 0;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.App {
+  position: relative;
 }

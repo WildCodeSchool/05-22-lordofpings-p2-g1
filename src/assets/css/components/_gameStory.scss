@@ -2,12 +2,12 @@
     width: 100%;
     box-sizing: border-box;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     .box {
         margin-bottom: 20px;
-    }
-
-    .button {
-        display: flex;
-        
     }
 }

@@ -1,11 +1,22 @@
-const GameStoryButtons = ({ quest, setPage }) => {
+import BigButton from './BigButton'
+
+const GameStoryButtons = ({ quest, setPage, animation }) => {
   return (
-    <div className='button'>
-      {quest.buttons.map((button, index) => (
-        <button key={index} onClick={() => setPage(button.quest)}>
-          {button.title}
-        </button>
-      ))}
+    <div
+      className='gameStoryButtons'
+      animation={animation.toString()}
+      style={{ height: '75px' }}
+    >
+      {quest &&
+        !animation &&
+        quest.buttons.map((button, index) => (
+          <BigButton
+            key={index}
+            onclick={() => setPage(button.quest)}
+            text={button.title}
+            height='75'
+          />
+        ))}
     </div>
   )
 }
