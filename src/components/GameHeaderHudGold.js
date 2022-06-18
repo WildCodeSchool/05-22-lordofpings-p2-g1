@@ -1,10 +1,10 @@
 import Purse from '../assets/img/ui/hud/purse.svg'
 
-const GameHeaderHudGold = () => {
+const GameHeaderHudGold = ({ hero }) => {
   return (
     <div className='gameHeaderHudGold'>
       <img src={Purse} />
-      <p>200</p>
+      <p>{hero.money}</p>
     </div>
   )
 }

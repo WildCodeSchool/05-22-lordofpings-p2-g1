@@ -20,7 +20,6 @@ const Game = () => {
   )
   const [bg, setBg] = useState(0)
   const [hero, setHero] = useState(JSON.parse(localStorage.getItem('hero')))
-
   const setHeroData = data => {
     setHero(data)
     localStorage.setItem('hero', JSON.stringify(data))
