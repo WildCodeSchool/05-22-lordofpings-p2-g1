@@ -1,10 +1,17 @@
-const BigButton = ({ text, height }) => {
-  const fontSize = parseInt(height) / 5
+const BigButton = ({ text, height, onclick }) => {
+  let fontSize = height / 5
+  if (text.length > 20) {
+    fontSize = height / 6
+  }
 
   return (
-    <div className='bigButton' style={{ height: height }}>
-      <p style={{ fontSize: `${fontSize}px` }}>{text}</p>
-    </div>
+    <button
+      className='bigButton'
+      style={{ height: `${height}px` }}
+      onClick={onclick}
+    >
+      <p style={{ fontSize, lineHeight: `${fontSize}px` }}>{text}</p>
+    </button>
   )
 }
 
