@@ -5,7 +5,6 @@
     "heal": 4,
     "maxHeal": 4,
     "money": 100,
-    "image": "assets/img/heroes/archer.png",
     "equipped": {
       "armor": {
         "helmet": 1,
@@ -33,7 +32,6 @@
     "heal": 5,
     "maxHeal": 5,
     "money": 100,
-    "image": "assets/img/heroes/knight.png",
     "equipped": {
       "armor": {
         "helmet": 4,
