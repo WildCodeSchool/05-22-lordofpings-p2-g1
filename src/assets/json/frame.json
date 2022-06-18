@@ -112,7 +112,7 @@
       },
       {
         "title": "Retourner à la taverne",
-        "quest": -2,
+        "quest": 1000,
         "unique": false
       }
     ]
@@ -205,12 +205,7 @@
       },
       {
         "title": "Retourner à la taverne",
-        "quest": 2,
-        "unique": false
-      },
-      {
-        "title": "Retourner à la taverne",
-        "quest": 2,
+        "quest": 1000,
         "unique": false
       }
     ]
@@ -299,7 +294,7 @@
     "buttons": [
       {
         "title": "Continuer",
-        "quest": -4,
+        "quest": 1002,
         "unique": false
       }
     ]

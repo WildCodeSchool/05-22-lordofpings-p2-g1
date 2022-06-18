@@ -8,13 +8,13 @@ import quests from '../assets/json/frame.json'
 import forest from '../assets/img/background/forest1.svg'
 
 const Game = () => {
-  const [page, setPage] = useState(-2) // ID de la page en cours (Sommaire au dessous)
-  // 0+ = Game Story
+  const [page, setPage] = useState(0) // ID de la page en cours (Sommaire au dessous)
   // -1 = Game Launch [Setup]// ID de la quête en cours
-  // -2 = Game Tavern
-  // -3 = Game Over
-  // -4 = Game Won
-  // -5 = Game [Other]
+  // 0+ = Game Story
+  // 1000 = Game Tavern
+  // 1001 = Game Over
+  // 1002 = Game Won
+  // 1003 = Game [Other]
   const [quest, setQuest] = useState(
     JSON.stringify(quests[localStorage.getItem('quest')])
   )
@@ -28,23 +28,30 @@ const Game = () => {
   }
 
   useEffect(() => {
-    page >= 0 && setQuest(quests[page])
+    console.log('page: ' + page)
+    page < 1000 && setQuest(quests[page])
     page === -1 && setPage(quest)
-    if (page >= 0) {
+    if (page < 1000) {
+      // Game Story
       if (quests[quest]?.image) {
-        setBg(quests[quest]?.image)
+        setBg(quests[quest].image)
       } else {
         setBg(forest)
       }
-    } else if (page === -2) {
+    } else if (page === 1000) {
+      // Game Tavern
       setBg(tavernImg)
-    } else if (page === -3) {
+    } else if (page === 1001) {
+      // Game Over
       setBg()
-    } else if (page === -4) {
+    } else if (page === 1002) {
+      // Game Won
       setBg()
-    } else if (page === -5) {
+    } else if (page === 1003) {
+      // Game [Other]
       setBg()
     } else {
+      // Game Launch [Setup]
       setBg()
     }
   }, [page])
@@ -53,11 +60,19 @@ const Game = () => {
     <>
       <div
         className='gameBackground'
-        style={{ backgroundImage: `url(${tavernImg})` }}
+        style={{ backgroundImage: `url(${bg})` }}
       ></div>
 
+      <div className='gameAdmin'>
+        <b>ADMIN MENU: </b>
+        <button onClick={() => setPage(1000)}>Tavern</button>
+        <button onClick={() => setPage(1001)}>GameOver</button>
+        <button onClick={() => setPage(1002)}>GameWon</button>
+        <button onClick={() => setPage(1003)}>GameBattle</button>
+      </div>
+
       <div className='game' style={{ backgroundImage: bg && `url(${bg})` }}>
-        {page >= 0 && (
+        {page < 1000 && (
           <GameStory
             quest={quest}
             setPage={setPage}
@@ -65,10 +80,10 @@ const Game = () => {
             setHero={setHeroData}
           />
         )}
-        {page === -2 && <GameTavern hero={hero} setHero={setHeroData} />}
-        {page === -3 && <GameOver />}
-        {page === -4 && <></>}
-        {page === -5 && <GameStoryBattle />}
+        {page === 1000 && <GameTavern hero={hero} setHero={setHeroData} />}
+        {page === 1001 && <GameOver />}
+        {page === 1002 && <></>}
+        {page === 1003 && <GameStoryBattle />}
 
         <div>
           <a
