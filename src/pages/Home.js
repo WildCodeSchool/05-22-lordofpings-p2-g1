@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import logoMerlin from '../assets/img/logo_merlin.jpg'
 import BigButton from '../components/BigButton'
 
@@ -11,7 +12,9 @@ function Home() {
           <h2>des</h2>
           <h3>Ames</h3>
         </div>
-        <BigButton text='JOUER' height='100' />
+        <Link to='/create'>
+          <BigButton text='JOUER' height='100' />
+        </Link>
       </div>
     </div>
   )

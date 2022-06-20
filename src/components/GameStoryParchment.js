@@ -5,7 +5,7 @@ const GameStoryParchment = ({ quest, animation }) => {
   return (
     <div className='gameStoryParchment'>
       <img src={parchmentLeft} className='parchmentLeft'></img>
-      <div className='text' animation={animation.toString()}>
+      <div className='text' animation={animation && animation.toString()}>
         <p>{quest?.text}</p>
       </div>
       <img src={parchmentRight} className='parchmentRight'></img>
