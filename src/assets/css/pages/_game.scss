@@ -1,3 +1,22 @@
+.gameBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 100vh;
+    z-index: -1;
+    filter: blur(10px);
+    background-size: cover;
+}
+
+.gameAdmin {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px 50px;
+}
+
 .game {
       background-repeat: no-repeat;
       background-size: contain;

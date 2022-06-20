@@ -1,7 +1,8 @@
 .gameStoryParchment {
   width: 100%;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +25,6 @@
   .text {
     height: 270px;
     width: inherit;
-    animation: openParchment 2s ease-in-out;
     background: rgb(215, 99, 110);
     background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(236,167,105,1) 20%, rgba(236,167,105,1) 80%, rgba(215,99,110,1) 100%);
     margin-top: 30px;
@@ -37,16 +37,42 @@
     font-family: 'Jim Nightshade', cursive;
     overflow-x: hidden;
 
+    &[animation="true"] {
+      animation: openParchment 2s ease-in-out;
+    }
+
     p {
       position: absolute;
       font-size: 20px;
-      width:calc(55vw - 104px) ;
+      width:calc(77.5vw - 104px);
+      max-width: 800px;
+      padding: 0 65px;
       margin-left: 50%;
       transform: translateX(-50%);
       max-height: 250px;
       overflow-y: scroll;
+      box-sizing: border-box;
       scrollbar-width: thin;
       scrollbar-color: rgb(215, 99, 110)  rgba(0,0,0,0) ;
+
+      &::-webkit-scrollbar {
+        width: 4px;
+      }
+    
+      &::-webkit-scrollbar-track {
+        background: none;
+      }
+    
+      &::-webkit-scrollbar-thumb {
+        background: rgb(215, 99, 110);
+      }
+    
+      &::-webkit-scrollbar-thumb {
+        &:hover {
+          background: rgb(236, 167, 105);
+    
+        }
+     }
     }
   } 
 }

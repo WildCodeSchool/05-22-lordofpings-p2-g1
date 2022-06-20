@@ -1,0 +1,15 @@
+.gameStoryButtons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+
+  button {
+    animation: buttons 0.5s ease-in-out;
+  }
+}
+
+@keyframes buttons {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

@@ -1,555 +1,543 @@
-
 [
-    
-    {   
-        "_id": 0,
-        "title": "Le départ de Camelot",
-        "battle": false,
-        "text": "Vous marchez depuis quelques heures déjà. Lorsque vous vous êtes mise en route pour le fief de Merlin, vous aviez déjà entendu les histoires. La petite ville ne serait qu’une énième plaisanterie d’un esprit tombant irrémédiablement en décrépitude. L’enchanteur royal n’est plus que l’ombre de lui-même depuis près de 20 ans maintenant. Il terrorise aujourd’hui des villageois avec des golems de pierre, caché dans son château. Lorsque vous avez vu le décret royal à la taverne du “Rotiwok”, vous avez été quelque peu interloqué par la formulation : “Le Roi Arthur ordonne la saisie du grimoire de Merlin, utilisé pour invoquer les “Témoins de Merlin”, des golems de pierre. Sera attribuée la récompense de 1 000 pièces d’or à…” C’est à partir de là que votre cerveau n’en avait plus grand-chose à foutre.",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Poursuivre votre route",
-                "quest": 1,
-                "unique": false
-            }
-        ]     
-            
-    },
-    {   
-        "_id": 1,
-        "title": "Les Témoins de Merlin",
-        "battle": false,
-        "text": "Lorsque vous passez le panneau indiquant “Fookin Foolths”, des golems se précipitent vers vous. Les fameux “Témoins de Merlin” en pierre et en… pierre. De prime abord effrayée, vous réalisez rapidement qu’ils n’en veulent qu’à vos oreilles : ils ne cessent de réclamer de votre temps pour vous entretenir de “la grandeur du seigneur Merlin”. Vous n’avez droit à aucun répit jusqu’à atteindre la taverne. Pire, vous constatez que les golems commencent à diversifier leurs activités en proposant des ventes de bocaux et autres babioles - vous remarquez notamment une étrange pyramide en fer, très étirée en hauteur, qu’un golem particulièrement enthousiaste vous agite sous le nez en articulant “Touréphel”.",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Pousser la porte de la taverne",
-                "quest": 2,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 2,
-        "title": "La Taverne de Fookin Foolths ",
-        "battle": false,
-        "text": "L’endroit est chaleureux. Peut-être est-ce la lourde porte qui s’est refermée sur les sollicitations incessantes des golems, mais vous vous sentez profondément apaisée. Le feu dans l’âtre et la vague odeur de cochon grillé ainsi que… oui… celle de la bonne bière… vous êtes ici en lieu sûr. La taverne est peu peuplée - il n’y a que vous pour vous pointer à 17h et espérer trouver tout le monde à l’apéro. Ce n’est pas une critique. Mais franchement vous pourriez penser à freiner. Le tavernier essuie des verres derrière le comptoir, cependant qu’un vieil homme se cure le nez dans un coin. Tous les yeux sont posés sur vous.",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Parler au tavernier",
-                "quest": 3,
-                "unique": false
-            },
-            {
-                "title": "Demander plus d'infos à l'autre glandu",
-                "quest": 18,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 3,
-        "title": "Borduk la cuillère",
-        "battle": false,
-        "text": "“Bonjour à vous, cuillère !”",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Pardon ?",
-                "quest": 4,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 4,
-        "title": "Pardon ?",
-        "battle": false,
-        "text": "“Je veux dire, bonjour à vous, aventurière. On m’appelle Borduk la cuillère. Rapport au fait que je dis tout le temps cuillère. C’est pas de mon fait, notez bien. Je suis tombé sur la tête quand j’étais petit, et depuis je répète cuillère à tout bout de champ, c’est plus fort que moi.” Un long silence s’installe durant lequel Borduk semble se concentrer avec beaucoup d’application. Ses joues s’empourprent, son front se plisse, son visage tout entier se renfrogne. Un râle monte dans sa gorge tandis qu’une larme se forme au coin de son œil. “Cuillère.”",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Demander comment se rendre au château de Merlin",
-                "quest": 5,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 5,
-        "battle": false,
-        "title": "Demander comment se rendre au château de Merlin",
-        "text": "Le visage du tavernier s’éclaire.“Vous êtes venu nous débarrasser de ces fichus golems ? Dieu soit cuillère ! Le château de Merlin se trouve au sud. Vous pourrez vous y rendre par la forêt des Troncs Sonneurs ou par le Mont Kuyerh. C’est le vrai nom ça, c’est pas mon tic de langage. La forêt est plus hospitalière que les monts enneigés, même si l’on raconte qu’on peut y faire d’étranges rencontres. Le Mont Kuyerh est un peu cuillère - pardon, dangereux -, mais vous pourrez peut-être passer plus rapidement ",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Remercier Borduk et sortir",
-                "quest": 7,
-                "unique": false
-            },
-            {
-                "title": "Remercier Borduk et cuillière",
-                "quest": 2,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 7,
-        "battle": false,
-        "title": "Départ pour le château du vioc",
-        "image": "",
-        "text": "La fraîcheur de la nuit naissante vous caresse les joues. Seules quelques torches éclairent ça et là les habitations du village. À quelques kilomètres vers l’est, vous voyez le Mont Kuyerh s’élever fièrement contre le firmament. Droit devant vous, au sud, la forêt des Troncs Sonneurs sommeille au-delà du village. Il est temps de choisir votre route : des voix se rapprochent, et elles veulent vous vendre des encyclopédies d’histoire.",   
-        "buttons": [
-            {
-                "title": "Passer par la forêt des Troncs Sonneurs",
-                "quest": 8,
-                "unique": false
-            },
-            {
-                "title": "Gravir le Mont Kuyerh",
-                "quest": 19,
-                "unique": false
-            },
-            {
-                "title": "Retourner à la taverne",
-                "quest": -2,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 8,
-        "battle": false,
-        "title": "La forêt des Troncs Sonneurs",
-        "image": "", 
-        "text": "À mesure que vous approchez de la forêt, un murmure grandit jusqu’à devenir une étrange petite musique, comme jamais vous n’en avez entendu auparavant. Parmi les Troncs Sonneurs qui dessinent l’orée de la forêt, vous voyez deux chemins se dessiner. L’un trace à travers les arbres un passage clairsemé ; l’autre se montre plus sombre, même si vous croyez apercevoir une faible lueur rougeâtre plus loin dans cette direction. Tandis que vous réfléchissez, vous remarquez de magnifiques champignons à proximité. Vous salivez rien qu’à les regarder.",  
-        "buttons": [
-            {
-                "title": "Dans la lunaire, nul ne saurait me surprendre",
-                "quest": 9,
-                "unique": false
-            },
-            {
-                "title": "Dans les ombres, personne ne me verra avancer",
-                "quest": 13,
-                "unique": false
-            },
-            {
-                "title": "Cueillir quelques champignons",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 9,
-        "battle": false,
-        "title": "Balade au clair de lune",
-        "image": "", 
-        "text": " Un peu froussarde sur ce coup (si, avouez, sinon vous auriez pris le chemin sombre), vous vous sentez rassurée sur le sentier bien éclairé qui s’étend devant vous. C’est alors qu’entre deux sonneries des Troncs cernant le chemin, vous percevez un craquement. Le temps que vous tourniez la tête, 3 hommes vous barrent la route.“Bien le bonsoir ! lance le plus grand. Vous m’avez l’air perdue, laissez-nous vous indiquer le chemin. On se contentera de ce que vous avez en compensation.” Vous connaissez le chemin. Ils le savent. Ils s’en tamponnent. Ce n’était pas une proposition."
-        ,
-        "buttons": [
-            {
-                "title": "Leurs demander s'ils pensent que leurs mamans seraient fières d'eux",
-                "quest": 0,
-                "unique": true
-            },
-            {
-                "title": "Accepter de payer leur tribut",
-                "quest": 10,
-                "unique": true
-            },
-            {
-                "title": "Ecraser leurs sales petites tronches de glands contre des chênes",
-                "quest": 0,
-                "unique": true
-            }
-        ]     
-    },
-    {   
-        "_id": 10,
-        "battle": false,
-        "title": "Le temps de la disette",
-        "text": "“Je me disais bien que vous aviez besoin d’aide !” Un sourire presque édenté fend le visage du grand type. Ses deux acolytes restent quant à eux impassibles. Chacun garde la main sur le pommeau de son épée. Juste au cas où. “C’est par là !” lâche capitaine Tête de Gland en faisant un pas de côté pour vous montrer la suite du chemin que vous suiviez déjà. Vous les dépassez, d’ores et déjà habitée par le regret de ne pas les avoir maravés.",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Laisser ces pourritures derrière vous",
-                "quest": 11,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 11,  
-        "battle": true,
-        "title": "La porte des étoles (Accepter de payer leur tribut)",
-        "text":"Franchement vous auriez dû les maraver. Une bonne petite torgnole, ça fait toujours du bien. Ce n’est pas pour vous influencer, mais du coup maintenant vous ne pouvez même plus vous payer des pâtes au beurre. Heureusement, vous vous rappelez qu’il vous reste de quoi vous faire un cassoulet de minuit chez vous au besoin.Tandis que vous ruminez, vous déviez de votre trajectoire sans même vous en rendre compte. Soudain, vous réalisez que vous vous tenez face à une sorte d’immense portail. Sur son pourtour sont enroulées des étoffes soyeuses. Aux branches des arbres alentour sont suspendus de longues bandes de tissu. Votre pied trébuche sur une tablette de pierre gravée posée au milieu des herbes folles.“Je suis un tissu tricoté à partir de gros mythos, que suis-je ?” ",
-        "buttons": [
-            {
-                "title": "Résoudre l'énigme",
-                "quest": 12,
-                "unique": false
-            }
-        ]  
-    },
-    {   
-        "_id": 12,
-        "battle": false,
-        "title": "Un portail",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Entrée",
-                "quest": 2,
-                "unique": false
-            },
-            {
-                "title": "Retourner à la taverne",
-                "quest": 2,
-                "unique": false
-            },
-            {
-                "title": "Retourner à la taverne",
-                "quest": 2,
-                "unique": false
-            }
-        ]
-    },
-    {   
-        "_id": 13,
-        "battle": false,
-        "title": "Une rencontre inattendue",
-        "text":"À mesure que vous avancez à travers la végétation dense, la lueur rouge se fait de plus en plus nette, d’autant que la lumière de la lune peine à percer la frondaison. Vous manquez de vous vautrer à plusieurs reprises, mais c’est vous qui avez voulu vous la péter en prenant le chemin sombre. La lueur rouge se transforme finalement en un magnifique cerf flamboyant. La créature note votre présence. Elle fait un petit mouvement de la tête qui ressemble à s’y méprendre à un hochement. Dans votre tête, des mots se forment : “Approchez jeune aventurière, approchez ! Ne ratez pas la chance de votre vie !”",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Saisissez la chance de votre vie",
-                "quest": 14,
-                "unique": false
-            },
-            {
-                "title": "Un cerf qui parle ? C’est mort : fuyez vers une grotte que vous avez repérée.",
-                "quest": 0,
-                "unique": false
-            }
-            ,
-            {
-                "title": "Continuer tranquillement en ignorant le cerf. Vous imaginez clairement des choses.",
-                "quest": 0,
-                "unique": false
-            }
-        ]    
-    },
-    {   
-        "_id": 14,
-        "battle": false,
-        "title": "La chance de votre vie (Saisissez la chance de votre vie)",
-        "text": "“Bonjour, je suis Karvagma, l’un des 4 grands cerfs spirituels. Et aujourd’hui, c’est votre jour de chance mon amie : pendant 24h, je vous offre une remise de 75% sur les kits ignifuges Karvagma. Pas d’entourloupe ! Le jour où mon cousin Gollum est tombé dans la lave, j’ai compris qu’il y avait un marché à saisir. Tenez, prenez ma carte, ça vous donnera un avant-goût !” Là-dessus, Karvagma, CEO spirituel de Karvagma Inc. disparaît dans une volute de fumée. À sa place, vous voyez une carte de visite aussi rougeoyante que lui, au nom de sa start-up.",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Dormir pour se reposer.",
-                "quest": 15,
-                "unique": false
-            },
-            {
-                "title": "Persévérer et avancer.",
-                "quest": 16,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id":  15,
-        "battle": false,
-        "title": "Grooarrrrrr… (Dormir pour se reposer)",
-        "text": "Allongée près du feu de camp, le sommeil vous prend rapidement… avant de vous lâcher aussi sec. Vous sentez quelque chose vous effleurer. Sans même vous en rendre compte, vous sautez sur vos deux jambes et vous vous retrouvez face à plusieurs ours. Vous avez d’abord peur pour votre vie, avant de réaliser qu’ils ne sont pas là pour manger. Les pattes en avant, les yeux avides… ils cherchent à vous peloter. On vous a déjà parlé des Rel’Ours, et ils ne vous lâcheront pas.",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Fuir vers des contrées plus sûres",
-                "quest": 17,
-                "unique": false
-            },
-            {
-                "title": "Donner une leçon aux Rel'Ours",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 16,
-        "battle": false,
-        "title": "À cœur vaillant, rien d’impossible (Persévérer et avancer)",
-        "text": " Vous n’allez quand même pas vous arrêter en si bon chemin. Vous gagnerez le château dès cette nuit, c’est décidé. L’air frais de la nuit emplit vos poumons d’énergie. Vous parvenez même à marcher plus vite. Si vous aviez eu un podomètre, vous auriez vu que vous avez augmenté votre moyenne. Sauf que ça n’existe pas ici, les podomètres.Alors que le jour commence à chasser les étoiles, vous tombez enfin sur le château de Merlin, presque par surprise, à la sortie du Bois des Troncs Sonneurs.",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Vous avancer vers le Château",
-                "quest": 17,
-                "unique": false
-            }
-            
-        ]     
-    },
-    {   
-        "_id": 17,
-        "battle": true,
-        "title": "Le Château",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Continuer",
-                "quest": -4,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 18,
-        "battle": false,
+  {
+    "_id": 0,
+    "title": "Le départ de Camelot",
+    "battle": false,
+    "text": "Vous marchez depuis quelques heures déjà. Lorsque vous vous êtes mise en route pour le fief de Merlin, vous aviez déjà entendu les histoires. La petite ville ne serait qu’une énième plaisanterie d’un esprit tombant irrémédiablement en décrépitude. L’enchanteur royal n’est plus que l’ombre de lui-même depuis près de 20 ans maintenant. Il terrorise aujourd’hui des villageois avec des golems de pierre, caché dans son château. Lorsque vous avez vu le décret royal à la taverne du “Rotiwok”, vous avez été quelque peu interloqué par la formulation : “Le Roi Arthur ordonne la saisie du grimoire de Merlin, utilisé pour invoquer les “Témoins de Merlin”, des golems de pierre. Sera attribuée la récompense de 1 000 pièces d’or à…” C’est à partir de là que votre cerveau n’en avait plus grand-chose à foutre.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre votre route",
+        "quest": 1,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 1,
+    "title": "Les Témoins de Merlin",
+    "battle": false,
+    "text": "Lorsque vous passez le panneau indiquant “Fookin Foolths”, des golems se précipitent vers vous. Les fameux “Témoins de Merlin” en pierre et en… pierre. De prime abord effrayée, vous réalisez rapidement qu’ils n’en veulent qu’à vos oreilles : ils ne cessent de réclamer de votre temps pour vous entretenir de “la grandeur du seigneur Merlin”. Vous n’avez droit à aucun répit jusqu’à atteindre la taverne. Pire, vous constatez que les golems commencent à diversifier leurs activités en proposant des ventes de bocaux et autres babioles - vous remarquez notamment une étrange pyramide en fer, très étirée en hauteur, qu’un golem particulièrement enthousiaste vous agite sous le nez en articulant “Touréphel”.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Pousser la porte de la taverne",
+        "quest": 2,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "title": "La Taverne de Fookin Foolths ",
+    "battle": false,
+    "text": "L’endroit est chaleureux. Peut-être est-ce la lourde porte qui s’est refermée sur les sollicitations incessantes des golems, mais vous vous sentez profondément apaisée. Le feu dans l’âtre et la vague odeur de cochon grillé ainsi que… oui… celle de la bonne bière… vous êtes ici en lieu sûr. La taverne est peu peuplée - il n’y a que vous pour vous pointer à 17h et espérer trouver tout le monde à l’apéro. Ce n’est pas une critique. Mais franchement vous pourriez penser à freiner. Le tavernier essuie des verres derrière le comptoir, cependant qu’un vieil homme se cure le nez dans un coin. Tous les yeux sont posés sur vous.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Parler au tavernier",
+        "quest": 3,
+        "unique": false
+      },
+      {
         "title": "Demander plus d'infos à l'autre glandu",
-        "text": "Vous vous approchez de l’explorateur des cavités nasales. Après vous être présentée autour d’une bière, l’homme a accepté de vous expliquer comment tout a commencé. Après avoir apporté sa contribution ultime à Arthur - une potion favorisant la repousse des poils -, ce dernier lui a demandé de rassembler son nécessaire d’alchimie et sa plante en pot et de “dégager fissa” Aussi fou qu’il se sentait floué, Merlin s’est alors isolé à une centaine de kilomètres de Camelot - avec son nécessaire d’alchimie et sa plante en pot. Un bégonia si vous voulez tout savoir. Malheureusement, il avait égaré quelques années auparavant son sort de construction de château. À moins qu’il n’ait jamais existé. Pas impossible, ça.",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Boire une autre gorgée",
-                "quest": 2,
-                "unique": false
-            },
-            {
-                "title": "Encore une petite lampée pour la route",
-                "quest": 2,
-                "unique": false
-            },
-            {
-                "title": "Finissez votre bière",
-                "quest": 2,
-                "unique": false
-            }
-        ]     
-    },
-    {
-        "_id": 19,
-        "battle": false,
+        "quest": 18,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "title": "Borduk la cuillère",
+    "battle": false,
+    "text": "“Bonjour à vous, cuillère !”",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Pardon ?",
+        "quest": 4,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "title": "Pardon ?",
+    "battle": false,
+    "text": "“Je veux dire, bonjour à vous, aventurière. On m’appelle Borduk la cuillère. Rapport au fait que je dis tout le temps cuillère. C’est pas de mon fait, notez bien. Je suis tombé sur la tête quand j’étais petit, et depuis je répète cuillère à tout bout de champ, c’est plus fort que moi.” Un long silence s’installe durant lequel Borduk semble se concentrer avec beaucoup d’application. Ses joues s’empourprent, son front se plisse, son visage tout entier se renfrogne. Un râle monte dans sa gorge tandis qu’une larme se forme au coin de son œil. “Cuillère.”",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Demander comment se rendre au château de Merlin",
+        "quest": 5,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "battle": false,
+    "title": "Demander comment se rendre au château de Merlin",
+    "text": "Le visage du tavernier s’éclaire.“Vous êtes venu nous débarrasser de ces fichus golems ? Dieu soit cuillère ! Le château de Merlin se trouve au sud. Vous pourrez vous y rendre par la forêt des Troncs Sonneurs ou par le Mont Kuyerh. C’est le vrai nom ça, c’est pas mon tic de langage. La forêt est plus hospitalière que les monts enneigés, même si l’on raconte qu’on peut y faire d’étranges rencontres. Le Mont Kuyerh est un peu cuillère - pardon, dangereux -, mais vous pourrez peut-être passer plus rapidement ",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Remercier Borduk et sortir",
+        "quest": 7,
+        "unique": false
+      },
+      {
+        "title": "Remercier Borduk et cuillière",
+        "quest": 2,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 7,
+    "battle": false,
+    "title": "Départ pour le château du vioc",
+    "image": "",
+    "text": "La fraîcheur de la nuit naissante vous caresse les joues. Seules quelques torches éclairent ça et là les habitations du village. À quelques kilomètres vers l’est, vous voyez le Mont Kuyerh s’élever fièrement contre le firmament. Droit devant vous, au sud, la forêt des Troncs Sonneurs sommeille au-delà du village. Il est temps de choisir votre route : des voix se rapprochent, et elles veulent vous vendre des encyclopédies d’histoire.",
+    "buttons": [
+      {
+        "title": "Passer par la forêt des Troncs Sonneurs",
+        "quest": 8,
+        "unique": false
+      },
+      {
         "title": "Gravir le Mont Kuyerh",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Chemin 1",
-                "quest": 20,
-                "unique": false
-            },
-            {
-                "title": "Chemin 2",
-                "quest": 0,
-                "unique": false
-            },
-            {
-                "title": "Chemin 3",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 20,
-        "battle": false,
-        "title": "Le grand Loup",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Se cacher dans une grotte",
-                "quest": 21,
-                "unique": false
-            },
-            {
-                "title": "L'aider à retrouver ses fringues",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 21,
-        "battle": false,
-        "title": "Caverne de Cristal",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "Prendre le temps de récupérer des cristaux",
-                "quest": 0,
-                "unique": false
-            },
-            {
-                "title": "Chercher la sortie le plus vite possible",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 22,
-        "battle": false,
+        "quest": 19,
+        "unique": false
+      },
+      {
+        "title": "Retourner à la taverne",
+        "quest": 1000,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 8,
+    "battle": false,
+    "title": "La forêt des Troncs Sonneurs",
+    "image": "",
+    "text": "À mesure que vous approchez de la forêt, un murmure grandit jusqu’à devenir une étrange petite musique, comme jamais vous n’en avez entendu auparavant. Parmi les Troncs Sonneurs qui dessinent l’orée de la forêt, vous voyez deux chemins se dessiner. L’un trace à travers les arbres un passage clairsemé ; l’autre se montre plus sombre, même si vous croyez apercevoir une faible lueur rougeâtre plus loin dans cette direction. Tandis que vous réfléchissez, vous remarquez de magnifiques champignons à proximité. Vous salivez rien qu’à les regarder.",
+    "buttons": [
+      {
+        "title": "Dans la lunaire, nul ne saurait me surprendre",
+        "quest": 9,
+        "unique": false
+      },
+      {
+        "title": "Dans les ombres, personne ne me verra avancer",
+        "quest": 13,
+        "unique": false
+      },
+      {
+        "title": "Cueillir quelques champignons",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 9,
+    "battle": false,
+    "title": "Balade au clair de lune",
+    "image": "",
+    "text": " Un peu froussarde sur ce coup (si, avouez, sinon vous auriez pris le chemin sombre), vous vous sentez rassurée sur le sentier bien éclairé qui s’étend devant vous. C’est alors qu’entre deux sonneries des Troncs cernant le chemin, vous percevez un craquement. Le temps que vous tourniez la tête, 3 hommes vous barrent la route.“Bien le bonsoir ! lance le plus grand. Vous m’avez l’air perdue, laissez-nous vous indiquer le chemin. On se contentera de ce que vous avez en compensation.” Vous connaissez le chemin. Ils le savent. Ils s’en tamponnent. Ce n’était pas une proposition.",
+    "buttons": [
+      {
+        "title": "Leurs demander s'ils pensent que leurs mamans seraient fières d'eux",
+        "quest": 0,
+        "unique": true
+      },
+      {
+        "title": "Accepter de payer leur tribut",
+        "quest": 10,
+        "unique": true
+      },
+      {
+        "title": "Ecraser leurs sales petites tronches de glands contre des chênes",
+        "quest": 0,
+        "unique": true
+      }
+    ]
+  },
+  {
+    "_id": 10,
+    "battle": false,
+    "title": "Le temps de la disette",
+    "text": "“Je me disais bien que vous aviez besoin d’aide !” Un sourire presque édenté fend le visage du grand type. Ses deux acolytes restent quant à eux impassibles. Chacun garde la main sur le pommeau de son épée. Juste au cas où. “C’est par là !” lâche capitaine Tête de Gland en faisant un pas de côté pour vous montrer la suite du chemin que vous suiviez déjà. Vous les dépassez, d’ores et déjà habitée par le regret de ne pas les avoir maravés.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Laisser ces pourritures derrière vous",
+        "quest": 11,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 11,
+    "battle": true,
+    "title": "La porte des étoles (Accepter de payer leur tribut)",
+    "text": "Franchement vous auriez dû les maraver. Une bonne petite torgnole, ça fait toujours du bien. Ce n’est pas pour vous influencer, mais du coup maintenant vous ne pouvez même plus vous payer des pâtes au beurre. Heureusement, vous vous rappelez qu’il vous reste de quoi vous faire un cassoulet de minuit chez vous au besoin.Tandis que vous ruminez, vous déviez de votre trajectoire sans même vous en rendre compte. Soudain, vous réalisez que vous vous tenez face à une sorte d’immense portail. Sur son pourtour sont enroulées des étoffes soyeuses. Aux branches des arbres alentour sont suspendus de longues bandes de tissu. Votre pied trébuche sur une tablette de pierre gravée posée au milieu des herbes folles.“Je suis un tissu tricoté à partir de gros mythos, que suis-je ?” ",
+    "buttons": [
+      {
+        "title": "Résoudre l'énigme",
+        "quest": 12,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 12,
+    "battle": false,
+    "title": "Un portail",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Entrée",
+        "quest": 2,
+        "unique": false
+      },
+      {
+        "title": "Retourner à la taverne",
+        "quest": 1000,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 13,
+    "battle": false,
+    "title": "Une rencontre inattendue",
+    "text": "À mesure que vous avancez à travers la végétation dense, la lueur rouge se fait de plus en plus nette, d’autant que la lumière de la lune peine à percer la frondaison. Vous manquez de vous vautrer à plusieurs reprises, mais c’est vous qui avez voulu vous la péter en prenant le chemin sombre. La lueur rouge se transforme finalement en un magnifique cerf flamboyant. La créature note votre présence. Elle fait un petit mouvement de la tête qui ressemble à s’y méprendre à un hochement. Dans votre tête, des mots se forment : “Approchez jeune aventurière, approchez ! Ne ratez pas la chance de votre vie !”",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Saisissez la chance de votre vie",
+        "quest": 14,
+        "unique": false
+      },
+      {
+        "title": "Un cerf qui parle ? C’est mort : fuyez vers une grotte que vous avez repérée.",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "Continuer tranquillement en ignorant le cerf. Vous imaginez clairement des choses.",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 14,
+    "battle": false,
+    "title": "La chance de votre vie (Saisissez la chance de votre vie)",
+    "text": "“Bonjour, je suis Karvagma, l’un des 4 grands cerfs spirituels. Et aujourd’hui, c’est votre jour de chance mon amie : pendant 24h, je vous offre une remise de 75% sur les kits ignifuges Karvagma. Pas d’entourloupe ! Le jour où mon cousin Gollum est tombé dans la lave, j’ai compris qu’il y avait un marché à saisir. Tenez, prenez ma carte, ça vous donnera un avant-goût !” Là-dessus, Karvagma, CEO spirituel de Karvagma Inc. disparaît dans une volute de fumée. À sa place, vous voyez une carte de visite aussi rougeoyante que lui, au nom de sa start-up.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Dormir pour se reposer.",
+        "quest": 15,
+        "unique": false
+      },
+      {
+        "title": "Persévérer et avancer.",
+        "quest": 16,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 15,
+    "battle": false,
+    "title": "Grooarrrrrr… (Dormir pour se reposer)",
+    "text": "Allongée près du feu de camp, le sommeil vous prend rapidement… avant de vous lâcher aussi sec. Vous sentez quelque chose vous effleurer. Sans même vous en rendre compte, vous sautez sur vos deux jambes et vous vous retrouvez face à plusieurs ours. Vous avez d’abord peur pour votre vie, avant de réaliser qu’ils ne sont pas là pour manger. Les pattes en avant, les yeux avides… ils cherchent à vous peloter. On vous a déjà parlé des Rel’Ours, et ils ne vous lâcheront pas.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Fuir vers des contrées plus sûres",
+        "quest": 17,
+        "unique": false
+      },
+      {
+        "title": "Donner une leçon aux Rel'Ours",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 16,
+    "battle": false,
+    "title": "À cœur vaillant, rien d’impossible (Persévérer et avancer)",
+    "text": " Vous n’allez quand même pas vous arrêter en si bon chemin. Vous gagnerez le château dès cette nuit, c’est décidé. L’air frais de la nuit emplit vos poumons d’énergie. Vous parvenez même à marcher plus vite. Si vous aviez eu un podomètre, vous auriez vu que vous avez augmenté votre moyenne. Sauf que ça n’existe pas ici, les podomètres.Alors que le jour commence à chasser les étoiles, vous tombez enfin sur le château de Merlin, presque par surprise, à la sortie du Bois des Troncs Sonneurs.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Vous avancer vers le Château",
+        "quest": 17,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 17,
+    "battle": true,
+    "title": "Le Château",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Continuer",
+        "quest": 1002,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 18,
+    "battle": false,
+    "title": "Demander plus d'infos à l'autre glandu",
+    "text": "Vous vous approchez de l’explorateur des cavités nasales. Après vous être présentée autour d’une bière, l’homme a accepté de vous expliquer comment tout a commencé. Après avoir apporté sa contribution ultime à Arthur - une potion favorisant la repousse des poils -, ce dernier lui a demandé de rassembler son nécessaire d’alchimie et sa plante en pot et de “dégager fissa” Aussi fou qu’il se sentait floué, Merlin s’est alors isolé à une centaine de kilomètres de Camelot - avec son nécessaire d’alchimie et sa plante en pot. Un bégonia si vous voulez tout savoir. Malheureusement, il avait égaré quelques années auparavant son sort de construction de château. À moins qu’il n’ait jamais existé. Pas impossible, ça.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Boire une autre gorgée",
+        "quest": 2,
+        "unique": false
+      },
+      {
+        "title": "Encore une petite lampée pour la route",
+        "quest": 2,
+        "unique": false
+      },
+      {
+        "title": "Finissez votre bière",
+        "quest": 2,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 19,
+    "battle": false,
+    "title": "Gravir le Mont Kuyerh",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Chemin 1",
+        "quest": 20,
+        "unique": false
+      },
+      {
+        "title": "Chemin 2",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "Chemin 3",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 20,
+    "battle": false,
+    "title": "Le grand Loup",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Se cacher dans une grotte",
+        "quest": 21,
+        "unique": false
+      },
+      {
+        "title": "L'aider à retrouver ses fringues",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 21,
+    "battle": false,
+    "title": "Caverne de Cristal",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Prendre le temps de récupérer des cristaux",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "Chercher la sortie le plus vite possible",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 22,
+    "battle": false,
+    "title": "",
+    "image": "",
+    "buttons": [
+      {
         "title": "",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            },
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 23,
-        "battle": false,
+        "quest": 0,
+        "unique": false
+      },
+      {
         "title": "",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            },
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 24,
-        "battle": false,
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 23,
+    "battle": false,
+    "title": "",
+    "image": "",
+    "buttons": [
+      {
         "title": "",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            },
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 25,
-        "battle": false,
+        "quest": 0,
+        "unique": false
+      },
+      {
         "title": "",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            },
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 26,
-        "battle": false,
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 24,
+    "battle": false,
+    "title": "",
+    "image": "",
+    "buttons": [
+      {
         "title": "",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            },
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 27,
+        "quest": 0,
+        "unique": false
+      },
+      {
         "title": "",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            },
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 28,
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 25,
+    "battle": false,
+    "title": "",
+    "image": "",
+    "buttons": [
+      {
         "title": "",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            },
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 29,
+        "quest": 0,
+        "unique": false
+      },
+      {
         "title": "",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            },
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    },
-    {   
-        "_id": 30,
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 26,
+    "battle": false,
+    "title": "",
+    "image": "",
+    "buttons": [
+      {
         "title": "",
-        "image": "",   
-        "buttons": [
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            },
-            {
-                "title": "",
-                "quest": 0,
-                "unique": false
-            }
-        ]     
-    }
-
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 27,
+    "title": "",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 28,
+    "title": "",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 29,
+    "title": "",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 30,
+    "title": "",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  }
 ]
