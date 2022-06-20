@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Parchment from '../components/GameStoryParchment'
+import BigButton from '../components/BigButton'
 
 const Concept = () => {
   const concept = {
@@ -12,7 +13,7 @@ const Concept = () => {
         <Parchment quest={concept} />
       </div>
       <Link to='/create'>
-        <button>A vous de jouer !</button>
+        <BigButton text='A vous de jouer !' height='100' />
       </Link>
     </div>
   )
