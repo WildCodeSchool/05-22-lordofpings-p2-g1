@@ -8,7 +8,7 @@ const GameHeaderHudHealth = ({ hero }) => {
 
   useEffect(() => {
     const result = []
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < hero.maxHeal; i++) {
       if (i < hero.heal) {
         result.push(Heart)
       } else {
