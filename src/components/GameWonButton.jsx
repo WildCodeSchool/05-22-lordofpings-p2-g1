@@ -8,7 +8,7 @@ function GameWonButton({ setPage }) {
       <img src={book} className='book' />
       <Link to='/'>
         {' '}
-        <button onClick={() => setPage(-1)}> Restart </button>
+        <button onClick={() => setPage(-1)}> Rejouer </button>
       </Link>
     </div>
   )
