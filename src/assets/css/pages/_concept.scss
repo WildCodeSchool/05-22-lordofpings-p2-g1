@@ -11,4 +11,13 @@
     .conceptParchment{
         width: 100%;
     }
+    button {
+        animation: buttonConcept 4s ease-in-out;
+      }
+}
+
+@keyframes buttonConcept{
+    from {opacity: 0;}
+    88% {opacity: 0;}
+    to {opacity: 1;}
 }
