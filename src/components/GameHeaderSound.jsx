@@ -28,6 +28,7 @@ const GameHeaderSound = () => {
 
   const handleSound = () => {
     setIsSound(!isSound)
+    setVolume(isSound ? 0 : 100)
   }
 
   return (
@@ -44,6 +45,7 @@ const GameHeaderSound = () => {
             className='volumeFull'
             src={fullIcon}
             key={index}
+            alt='full volume icon'
             onClick={() => setVolume((index + 1) * 20)}
           />
         ) : (
@@ -51,6 +53,7 @@ const GameHeaderSound = () => {
             className='volumeEmpty'
             src={emptyIcon}
             key={index}
+            alt='empty volume icon'
             onClick={() => setVolume((index + 1) * 20)}
           />
         )
