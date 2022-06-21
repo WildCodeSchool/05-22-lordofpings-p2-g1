@@ -12,7 +12,7 @@ function Home() {
           <h2>des</h2>
           <h3>Ames</h3>
         </div>
-        <Link to='/create'>
+        <Link to='/concept'>
           <BigButton text='JOUER' height='100' />
         </Link>
       </div>
