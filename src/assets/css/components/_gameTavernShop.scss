@@ -1,8 +1,79 @@
 .gameTavernShop {
-  position: relative;
-  top: -100%;
-  aspect-ratio: 16 / 9;
-  max-height: 100vh;
-  margin: 50px;
-  z-index: 9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 40px);
+  background-color: rgba(0,0,0,0.6);
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: opacity 0.5s ease-in;
+
+
+  .gameTavernShopArticles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
+    .gameTavernShopBox {
+      width: 20vw;
+      aspect-ratio: 1/1;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      margin: 1vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      &.bg-0 {
+        background-image: url('../../img/ui/shop/common.svg');
+      }
+
+      &.bg-1 {
+        background-image: url('../../img/ui/shop/rare.svg');
+      }
+
+      &.bg-2 {
+        background-image: url('../../img/ui/shop/legendary.svg');
+      }
+
+      h1 {
+        font-weight: bold;
+        margin-top: 17%;
+        font-size: 1vw;
+        text-align: center;
+      }
+
+      img {
+        margin-top: 17%;
+        height: 30%;
+      }
+
+      span {
+        width: 30%;
+        height: 13%;
+        margin-top: 7%;
+        padding: 3% 8% 0 0;
+        font-size: 1vw;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+          color: white;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  button {
+    margin: 20px;
+    box-sizing: content-box;
+  }
 }
