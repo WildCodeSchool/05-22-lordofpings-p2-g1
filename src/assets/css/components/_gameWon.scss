@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.gameWon {
+    display: flex;
+    padding: 80px;
+
+    .containerLeft {
+        flex-flow: column nowrap;
+        align-content: center;
+    }
+    .containerRight {
+        background: rgba(108, 28, 99, 0.6);
+        border: 2px solid #EDC90E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+
+        h1 {
+            font-family: 'Cinzel Decorative', cursive;
+            text-align: center;
+            color: #EDC90E;
+            font-size: 50px;
+            padding-top: 20px;
+        }
+
+        
+         hr {
+             display: flex;
+             align-items: center;
+             width: 80%;
+             background-color: goldenrod;
+             border: none;
+             margin: 8%;
+             height: 2px;         
+            }
+    
+        
+
+        p {
+            font-family: 'Quicksand', sans-serif;
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #EDC90E;
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+    }
+}
