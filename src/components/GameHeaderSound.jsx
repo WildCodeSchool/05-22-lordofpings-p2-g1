@@ -1,12 +1,30 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
-import FullIcon from '../assets/img/ui/volume/full-icon.svg'
-import EmptyIcon from '../assets/img/ui/volume/empty-icon.svg'
-import SoundOff from '../assets/img/ui/volume/sound-off.svg'
-import SoundOn from '../assets/img/ui/volume/sound-on.svg'
+import fullIcon from '../assets/img/ui/volume/full-icon.svg'
+import emptyIcon from '../assets/img/ui/volume/empty-icon.svg'
+import soundOff from '../assets/img/ui/volume/sound-off.svg'
+import soundOn from '../assets/img/ui/volume/sound-on.svg'
 
 const GameHeaderSound = () => {
   const [isSound, setIsSound] = useState(true)
+
+  const [volume, setVolume] = useState(100)
+  const [checkVolume, setCheckVolume] = useState([])
+
+  useEffect(() => {
+    const result = []
+    let volumeValue = 0
+    for (let i = 0; i < 5; i++) {
+      volumeValue += 20
+      if (volume >= volumeValue) {
+        result.push(true)
+      } else {
+        result.push(false)
+      }
+    }
+    console.log(result)
+    setCheckVolume(result)
+  }, [volume])
 
   const handleSound = () => {
     setIsSound(!isSound)
@@ -16,15 +34,27 @@ const GameHeaderSound = () => {
     <div className='gameHeaderSound'>
       <img
         className='soundOn'
-        src={isSound ? SoundOn : SoundOff}
+        src={isSound ? soundOn : soundOff}
         alt='Sound: activated'
         onClick={handleSound}
       />
-      <img className='volumeFull' src={FullIcon} />
-      <img className='volumeFull' src={FullIcon} />
-      <img className='volumeFull' src={FullIcon} />
-      <img className='volumeFull' src={FullIcon} />
-      <img className='volumeEmpty' src={EmptyIcon} />
+      {checkVolume.map((volumePoint, index) =>
+        volumePoint ? (
+          <img
+            className='volumeFull'
+            src={fullIcon}
+            key={index}
+            onClick={() => setVolume((index + 1) * 20)}
+          />
+        ) : (
+          <img
+            className='volumeEmpty'
+            src={emptyIcon}
+            key={index}
+            onClick={() => setVolume((index + 1) * 20)}
+          />
+        )
+      )}
     </div>
   )
 }
