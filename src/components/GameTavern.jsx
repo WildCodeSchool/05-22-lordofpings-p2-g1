@@ -7,7 +7,7 @@ const GameTavern = ({ hero }) => {
   // 1 = Quest
   // 2 = Shop
   // 3 = Mini Games
-  const [menu, setMenu] = useState(0)
+  const [menu, setMenu] = useState(2)
 
   return (
     <div className='gameTavern'>

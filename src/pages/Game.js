@@ -63,6 +63,7 @@ const Game = () => {
 
       <div className='gameAdmin'>
         <b>ADMIN MENU: </b>
+        <button onClick={() => setPage(quest)}>Story</button>
         <button onClick={() => setPage(1000)}>Tavern</button>
         <button onClick={() => setPage(1001)}>GameOver</button>
         <button onClick={() => setPage(1002)}>GameWon</button>
