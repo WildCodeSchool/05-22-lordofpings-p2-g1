@@ -7,11 +7,11 @@ function GameWon() {
         <GameWonButton />
       </div>
       <div className='containerRight'>
-        <h1>VOUS AVEZ REUSSI !</h1>
+        <h1>VOUS AVEZ RÉUSSI !</h1>
         <hr></hr>
         <p>
-          Vous avez arrêté la folie de Merlin et la propagation de golems. Le
-          Roi vous en remercie en vous donnant une récompense conséquente.
+          Vous avez arrêté la folie de Merlin et la propagation des golems. Le
+          Roi vous en remercie et vous rétribue généreusement.
         </p>
       </div>
     </div>

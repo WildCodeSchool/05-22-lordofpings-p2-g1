@@ -70,18 +70,17 @@
     }
 
     button {
-         height: 9vh;
-         width: 100%;
-         font-family: 'Cinzel Decorative', cursive;
-         color: goldenrod;
-         font-style: bold;
-         font-size: 48px;
-         background-color: #6C1C63;
-         border-style: solid;
-         border-radius: 25px;
-         border-color: goldenrod;
-   
-
+        height: 9vh;
+        width: 100%;
+        font-family: 'Cinzel Decorative', cursive;
+        color: goldenrod;
+        font-style: bold;
+        font-size: 48px;
+        background-color: #6C1C63;
+        border-style: solid;
+        border-radius: 25px;
+        border-color: goldenrod;
+        cursor: url('../../img/ui/knight-cursor-select.png'), auto;
     }
     
 }
