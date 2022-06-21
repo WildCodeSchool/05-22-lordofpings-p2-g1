@@ -11,14 +11,18 @@ const GameStory = ({ quest, setPage, hero }) => {
   }, [quest])
 
   useEffect(() => {
-    setTimeout(() => setAnimation(false), 4000)
+    animation && setTimeout(() => setAnimation(false), 4000)
   }, [animation])
   return (
     <>
       <GameHeader hero={hero} />
       <div className='gameStory'>
         <Parchment quest={quest} animation={animation.toString()} />
-        <Buttons quest={quest} setPage={setPage} animation={animation} />
+        <Buttons
+          quest={quest}
+          setPage={animation === false && setPage}
+          animation={animation}
+        />
       </div>
     </>
   )

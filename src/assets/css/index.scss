@@ -21,12 +21,15 @@
 @import "./components/gameHeaderHudPortrait";
 
 @import "./components/gameStory";
-@import "./components/gameStoryButtons";
 @import "./components/gameStoryBattle";
 @import "./components/gameStoryBattleDice";
+@import "./components/gameStoryButtons";
 @import "./components/gameStoryParchment";
 
 @import "./components/gameOver";
+
+@import "./components/gameWon";
+@import "./components/gameWonButton";
 
 *, ::before, ::after {
   box-sizing: border-box;
