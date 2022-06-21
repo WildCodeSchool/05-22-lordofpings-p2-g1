@@ -6,6 +6,8 @@ import GameTavern from '../components/GameTavern'
 import tavernImg from '../assets/img/background/tavern.svg'
 import quests from '../assets/json/frame.json'
 import forest from '../assets/img/background/forest1.svg'
+import GameWon from '../components/GameWon'
+import gameWonImg from '../assets/img/background/gameWon.svg'
 
 const Game = () => {
   const [page, setPage] = useState(0) // ID de la page en cours (Sommaire au dessous)
@@ -44,7 +46,7 @@ const Game = () => {
       setBg()
     } else if (page === 1002) {
       // Game Won
-      setBg()
+      setBg(gameWonImg)
     } else if (page === 1003) {
       // Game [Other]
       setBg()
@@ -79,8 +81,8 @@ const Game = () => {
           />
         )}
         {page === 1000 && <GameTavern hero={hero} setHero={setHeroData} />}
-        {page === 1001 && <GameOver setHero={setHeroData} />}
-        {page === 1002 && <></>}
+        {page === 1001 && <GameOver setHero={setHeroData} setPage={setPage} />}
+        {page === 1002 && <GameWon setPage={setPage} />}
         {page === 1003 && <GameStoryBattle />}
 
         <div>

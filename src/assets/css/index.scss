@@ -28,6 +28,9 @@
 
 @import "./components/gameOver";
 
+@import "./components/gameWon";
+@import "./components/gameWonButton";
+
 *, ::before, ::after {
   box-sizing: border-box;
   margin: 0;
