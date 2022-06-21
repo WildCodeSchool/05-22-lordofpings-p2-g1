@@ -34,7 +34,7 @@ const GameHeaderSound = () => {
   return (
     <div className='gameHeaderSound'>
       <img
-        className='soundOn'
+        className='soundOnOff'
         src={isSound ? soundOn : soundOff}
         alt='Sound: activated'
         onClick={handleSound}
@@ -47,6 +47,7 @@ const GameHeaderSound = () => {
             key={index}
             alt='full volume icon'
             onClick={() => setVolume((index + 1) * 20)}
+            id={`soundIcon${index}`}
           />
         ) : (
           <img
@@ -55,6 +56,7 @@ const GameHeaderSound = () => {
             key={index}
             alt='empty volume icon'
             onClick={() => setVolume((index + 1) * 20)}
+            id={`soundIcon${index}`}
           />
         )
       )}
