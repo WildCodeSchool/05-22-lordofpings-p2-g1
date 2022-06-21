@@ -1,7 +1,11 @@
 .rollDice {
     display: flex;
+    align-items: center;
     flex-flow: column nowrap;
-    min-height: 100vh;
+    width: 35%;
+    background-image: url('../../img/ui/plate.svg');
+    background-repeat: no-repeat;
+    
 
     .rollDice-container {
         display: flex;
