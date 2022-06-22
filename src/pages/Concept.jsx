@@ -11,7 +11,7 @@ const Concept = () => {
       <div className='conceptParchment'>
         <Parchment quest={concept} />
       </div>
-      <Link to='/create'>
+      <Link to='/create' draggable={false}>
         <button>A vous de jouer !</button>
       </Link>
     </div>

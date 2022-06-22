@@ -1,4 +1,4 @@
-import GameWonButton from '../components/GameWonButton'
+import GameWonButton from './GameWonButton'
 
 function GameWon() {
   return (
