@@ -47,6 +47,8 @@ const Game = () => {
     } else if (page === 1002) {
       // Game Won
       setBg(gameWonImg)
+      setQuest(undefined)
+      setHero(localStorage.removeItem('hero'))
     } else if (page === 1003) {
       // Game [Other]
       setBg()
