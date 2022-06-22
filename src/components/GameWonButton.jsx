@@ -1,5 +1,4 @@
 import book from '../assets/img/props/book.svg'
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 function GameWonButton({ setPage }) {

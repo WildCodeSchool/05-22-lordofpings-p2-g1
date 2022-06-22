@@ -1,32 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
 .rollDice {
     display: flex;
-    align-items: center;
+    align-items: flex-end ;
+    justify-content: flex-end;
     flex-flow: column nowrap;
-    width: 35%;
-    background-image: url('../../img/ui/plate.svg');
+    background-image: url(../../img/ui/verticalPlate.svg);
     background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y: 60vh;
+    background-size: 200px;
+    height: 100vh;
     
-
-    .rollDice-container {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    }
-
-    button {
-        align-self: center;
-        width: 15em;
-        padding: 1.5em;
-        font-size: 1em;
-        border: 0px;
-        border-radius: 10px;
-        color: white;
-        background-color: orchid;
-        margin-top: 3em;
-        
-        &:hover {
-            background-color: darkslateblue;
-            cursor: pointer ;
+    
+        h1 {
+            font-size: 10px;
+            color: #EDC90E;
+            font-family:'Quicksand', cursive;
+            z-index: 1;
         }
-    }
+
+        button {
+            width: 10em;
+            font-size: 8px;
+            font-family: 'Quicksand', cursive;
+            border: 2px solid #EDC90E;
+            border-radius: 10px;
+            color: #EDC90E;
+            background-color: rgba(108, 28, 99, 0.6);
+            margin-top: 1em;
+            z-index: 1;
+            
+            &:hover {
+                background-color: darkslateblue;
+                cursor: pointer ;
+            }
+        }
 }
