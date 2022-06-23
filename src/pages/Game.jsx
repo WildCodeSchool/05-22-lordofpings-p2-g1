@@ -91,10 +91,12 @@ const Game = () => {
             setHero={setHeroData}
           />
         )}
-        {page === 1000 && <GameTavern hero={hero} setHero={setHeroData} />}
+        {page === 1000 && (
+          <GameTavern hero={hero} setHero={setHeroData} setPage={setPage} />
+        )}
         {page === 1001 && <GameOver setHero={setHeroData} setPage={setPage} />}
         {page === 1002 && <GameWon setPage={setPage} />}
-        {page === 1003 && <GameSkills />}
+        {page === 1003 && <GameSkills hero={hero} />}
         {page === 1004 && <GameStoryBattle />}
 
         <div>

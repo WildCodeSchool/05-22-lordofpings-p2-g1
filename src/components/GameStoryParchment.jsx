@@ -6,7 +6,6 @@ const GameStoryParchment = ({ quest, animation, setAnimation }) => {
   useEffect(() => {
     setAnimation(true)
   }, [quest])
-  console.log(animation)
   useEffect(() => {
     animation && setTimeout(() => setAnimation(false), 4000)
   }, [animation])

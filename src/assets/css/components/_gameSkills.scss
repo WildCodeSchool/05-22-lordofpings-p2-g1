@@ -1,6 +1,15 @@
-.gameStoryTavernSkills {
-  img {
-    width: 200px;
-    height: 400px;
+.gameSkills {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  .gladiator {
+    background-image: url('../../img/background/gladiator.svg');
+    height: 40%;
+    width: 20%;
+    top: 45%;
+    left: 35%;
+
+    @include characters;
   }
 }
