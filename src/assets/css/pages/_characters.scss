@@ -31,7 +31,7 @@
             align-items: center;
             box-sizing: border-box;
             position: relative;
-            top: 100px;
+            top: 85px;
     
             li {
                 list-style-type: none;
@@ -51,7 +51,7 @@
     }
 
     .hero {
-        
+        text-shadow: 2px 2px 2px black;
         color: #F79500;
         margin-top: 32px;
         display: flex;
@@ -68,6 +68,8 @@
     .heroSkills {
         border-bottom:  solid 2px #F79500;
         color: #F79500;
+        font-size: 1.1rem;
+        text-shadow: 2px 2px 2px black;
         margin: 16px;
         width: 300px;
         
