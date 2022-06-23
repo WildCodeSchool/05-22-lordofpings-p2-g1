@@ -83,7 +83,7 @@
     "buttons": [
       {
         "title": "Remercier Borduk et sortir",
-        "quest": 7,
+        "quest": 6,
         "unique": false
       },
       {
@@ -102,12 +102,12 @@
     "buttons": [
       {
         "title": "Passer par la forêt des Troncs Sonneurs",
-        "quest": 8,
+        "quest": 7,
         "unique": false
       },
       {
         "title": "Gravir le Mont Kuyerh",
-        "quest": 19,
+        "quest": 18,
         "unique": false
       },
       {
@@ -131,7 +131,7 @@
       },
       {
         "title": "Dans les ombres, personne ne me verra avancer",
-        "quest": 13,
+        "quest": 12,
         "unique": false
       },
       {
@@ -155,7 +155,7 @@
       },
       {
         "title": "Accepter de payer leur tribut",
-        "quest": 10,
+        "quest": 9,
         "unique": true
       },
       {
@@ -174,7 +174,7 @@
     "buttons": [
       {
         "title": "Laisser ces pourritures derrière vous",
-        "quest": 11,
+        "quest": 10,
         "unique": false
       }
     ]
@@ -187,7 +187,7 @@
     "buttons": [
       {
         "title": "Résoudre l'énigme",
-        "quest": 12,
+        "quest": 11,
         "unique": false
       }
     ]
@@ -219,7 +219,7 @@
     "buttons": [
       {
         "title": "Saisissez la chance de votre vie",
-        "quest": 14,
+        "quest": 13,
         "unique": false
       },
       {
@@ -243,12 +243,12 @@
     "buttons": [
       {
         "title": "Dormir pour se reposer.",
-        "quest": 15,
+        "quest": 14,
         "unique": false
       },
       {
         "title": "Persévérer et avancer.",
-        "quest": 16,
+        "quest": 15,
         "unique": false
       }
     ]
@@ -262,7 +262,7 @@
     "buttons": [
       {
         "title": "Fuir vers des contrées plus sûres",
-        "quest": 17,
+        "quest": 16,
         "unique": false
       },
       {
@@ -281,7 +281,7 @@
     "buttons": [
       {
         "title": "Vous avancer vers le Château",
-        "quest": 17,
+        "quest": 16,
         "unique": false
       }
     ]
@@ -327,20 +327,41 @@
     "_id": 18,
     "battle": false,
     "title": "Gravir le Mont Kuyerh",
+    "text": "Vous voilà sur les pentes immaculées du Mont Kuyerh, et celles-ci se révèlent plutôt inhospitalières.La rencontre du firmament et du manteau opalin vous donne néamoins de la force, tandis que le calme absolu qui règne sur ces hauteurs laisse libre cours à un vague à l'âme. Vous vous sentez bien seule, là au milieu de nulle part. Vous l'avez toujours été. Enfant, vous n'étiez pas vraiment ce qu'on peut appeler sociable. Le nez du petit Kylian s'en rappelle encore. Certes il avait un nom peu enviable, mais cela vous obligeait-il à le martyriser pour autant ?  ",
     "image": "",
     "buttons": [
       {
-        "title": "Chemin 1",
+        "title": "Jeter un oeil vers le Nord-Ouest",
+        "quest": 19,
+        "unique": false
+      },
+      {
+        "title": "L'Est vous semble être la meilleure option",
         "quest": 20,
         "unique": false
       },
       {
-        "title": "Chemin 2",
+        "title": "Le Nord c'est bien aussi",
+        "quest": 24,
+        "unique": false
+      },
+      {
+        "title": "Non mais en vrai on n'a qu'à dire Nord-Est",
         "quest": 0,
         "unique": false
       },
       {
-        "title": "Chemin 3",
+        "title": "Ou alors l'Ouest",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "C'est une direction Est-Ouest ?",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "Au pire on peut sur Sud-Est",
         "quest": 0,
         "unique": false
       }
@@ -349,17 +370,13 @@
   {
     "_id": 19,
     "battle": false,
-    "title": "Le grand Loup",
+    "title": "De la belle poudreuse (Jeter un oeil vers le Nord-Ouest)",
+    "text": "C'est de la neige",
     "image": "",
     "buttons": [
       {
-        "title": "Se cacher dans une grotte",
-        "quest": 21,
-        "unique": false
-      },
-      {
-        "title": "L'aider à retrouver ses fringues",
-        "quest": 0,
+        "title": "Ah bah oui, je me disais bien aussi",
+        "quest": 18,
         "unique": false
       }
     ]
@@ -367,17 +384,13 @@
   {
     "_id": 20,
     "battle": false,
-    "title": "Caverne de Cristal",
+    "title": "Un début de piste (l'Est vous semble être la meilleure option, allez c'est parti)",
+    "text": "Alors que vous posez votre regard sur les étendues neigeuses à l'Est, vous vous rendez compte que le manteau blanc présente des irrégularités.",
     "image": "",
     "buttons": [
       {
-        "title": "Prendre le temps de récupérer des cristaux",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "Chercher la sortie le plus vite possible",
-        "quest": 0,
+        "title": "Regarder de plus près",
+        "quest": 21,
         "unique": false
       }
     ]
@@ -385,17 +398,13 @@
   {
     "_id": 21,
     "battle": false,
-    "title": "",
+    "title": "Des traces dans la neige (Regarder de plus) ",
+    "text": "Vous vous approchez et posez un genou à terre. La neige craque sous votre poids. Vous n'auriez peut-être pas dû vous enfiler ce rôti en entier. On dit ça, on ne dit rien. Vous observez ce qui ressemble à de légères empreintes. Les marques sont discrètes, mais bien présentes. Elles se dessinent sous la clarté de la lune.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Observer plus attentivement",
+        "quest": 22,
         "unique": false
       }
     ]
@@ -403,17 +412,13 @@
   {
     "_id": 22,
     "battle": false,
-    "title": "",
+    "title": "Le pistage n'a jamais été votre fort (Observer plus attentivement)",
+    "text": "Ah bah non, c'est juste de la neige",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Sûr ?",
+        "quest": 23,
         "unique": false
       }
     ]
@@ -421,12 +426,13 @@
   {
     "_id": 23,
     "battle": false,
-    "title": "",
+    "title": "Oui, sûr",
+    "text": "Puisqu'on vous le dit",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Revenir sur vos pas",
+        "quest": 18,
         "unique": false
       },
       {
@@ -439,16 +445,17 @@
   {
     "_id": 24,
     "battle": false,
-    "title": "",
+    "title": "Le Canidé dénudé (Le Nord c'est bien aussi)",
+    "text": "“Vous, là ! Que faites-vous ici ?” À peine faites-vous quelques pas en direction du nord qu’une voix rauque vous interpelle au premier tournant. Vous faites volte-face et vous retrouvez nez à nez avec un énorme loup. Une particularité vous saute aux yeux : il porte un caleçon. Avec des motifs. Ce sont des louves. Avec du rouge à lèvres. Des louves pin-ups.“Peu importe, reprend le loup (presque et en même temps complètement) à poil. Vous avez vu… (il semble réfléchir) Vous avez vu ma cape ?” Vous sentez qu’il est sur les nerfs. Il peut vous sauter dessus à tout moment.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Vous enfuir par une grotte à proximité",
+        "quest": 25,
         "unique": false
       },
       {
-        "title": "",
+        "title": "Proposer votre aide au loup à poil",
         "quest": 0,
         "unique": false
       }
@@ -457,33 +464,30 @@
   {
     "_id": 25,
     "battle": false,
-    "title": "",
+    "title": "De nouveau en sûreté (Vous enfuir par une grotte à proximité)",
+    "text": "Vous vous jetez à terre pour vous glisser dans une petite cavité au moment-même où le loup bondit pour vous attraper. Le bruit sec que vous entendez, c’est sa tête qui s’écrase contre la roche.Un peu sonné, il essaie néanmoins de vous attraper les jambes pendant que vous finissez de ramper dans le boyau qui, heureusement, s’agrandit pour former une grotte. Un cri rageur retentit derrière vous : “C’est vous qui l’avez ! Vous l’avez cachée !” Le loup laisse échapper une longue plainte. Vous devez maintenant trouver comment sortir de là.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Explorer la grotte",
+        "quest": 26,
         "unique": false
       }
     ]
   },
   {
     "_id": 26,
-    "title": "",
+    "title": "La grotte de cristal ( Explorer la grotte )",
+    "text": "Vous avancez à tâtons. L’endroit est plongé dans le noir. Après quelques minutes et quelques bleus récoltés à force de se cogner dans les murs, vous percevez une clarté sourde provenant d’un couloir latéral. Obliquant dans cette direction, vous débouchez dans une immense caverne remplie de cristaux de toutes sortes de couleurs et de formes. Il pourrait se trouver parmi ceux-ci des crystomonnaies : des petits cristaux sphériques très précieux. Les plus riches sujets du royaume sont pratiquement les seuls à en posséder et à s’en servir. Il s’agit d’une monnaie équivalente à environ 200 pièces d’or. Tandis que vous êtes perdue dans vos pensées, votre regard tombe sur un coin légèrement reculé sur votre gauche. Il est jonché d’os divers, éparpillés sur des traces d’un rouge sombre.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Prendre le temps de récupérer des cristaux",
+        "quest": 27,
         "unique": false
       },
       {
-        "title": "",
+        "title": "Chercher la sortie le plus vite possible",
         "quest": 0,
         "unique": false
       }
