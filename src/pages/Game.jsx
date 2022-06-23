@@ -15,7 +15,7 @@ import skillsImg from '../assets/img/background/arena.svg'
 import quests from '../assets/json/frame.json'
 
 const Game = () => {
-  const [page, setPage] = useState(0) // ID de la page en cours (Sommaire au dessous)
+  const [page, setPage] = useState(1003) // ID de la page en cours (Sommaire au dessous)
   // -1 = Game Launch [Setup]// ID de la quête en cours
   // 0+ = Game Story
   // 1000 = Game Tavern

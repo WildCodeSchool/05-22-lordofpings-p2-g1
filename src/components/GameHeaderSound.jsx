@@ -22,7 +22,6 @@ const GameHeaderSound = () => {
         result.push(false)
       }
     }
-    console.log(result)
     setCheckVolume(result)
   }, [volume])
 
