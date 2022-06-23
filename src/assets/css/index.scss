@@ -19,6 +19,7 @@
 @import "./components/gameHeaderHudGold";
 @import "./components/gameHeaderHudHealth";
 @import "./components/gameHeaderHudPortrait";
+@import "./components/gameHeaderSound";
 
 @import "./components/gameStory";
 @import "./components/gameStoryBattle";
@@ -44,6 +45,7 @@ body {
   height: 100vh;
   width: 100%;
   scrollbar-width: 0;
+  cursor: url('../img/ui/knight-cursor.png'), auto;
 
   &::-webkit-scrollbar {
     width: 0;
