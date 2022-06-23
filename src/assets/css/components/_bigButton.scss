@@ -7,7 +7,7 @@
     overflow: hidden;
     border: none;
     background-color: initial;
-    cursor: pointer;
+    cursor: url('../../img/ui/knight-cursor-select.png'), auto;
 
     &:hover {
         background-image: url(../../img/ui/button-hover.svg);
