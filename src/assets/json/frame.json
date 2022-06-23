@@ -243,11 +243,13 @@
     "buttons": [
       {
         "title": "Dormir pour se reposer.",
+        "item": "carte",
         "quest": 14,
         "unique": false
       },
       {
         "title": "Persévérer et avancer.",
+        "item": "carte",
         "quest": 15,
         "unique": false
       }
@@ -488,23 +490,29 @@
       },
       {
         "title": "Chercher la sortie le plus vite possible",
-        "quest": 0,
+        "quest": 33,
         "unique": false
       }
     ]
   },
   {
     "_id": 27,
-    "title": "",
+    "title": "Le Gardien des Crystomannaies (Prendre le temps de récupérer des cristaux)",
+    "text": "Vous vous affairez à dégoter des crystomonnaies, vous voyant déjà vivre comme une reine grâce à votre nouvelle fortune. Alors que vous tâtonnez parmi les rangées de cristaux multicolores, vos doigts finissent par se poser sur quelque chose qui n’a plus rien à voir avec la roche, mais qui vous paraît pourtant dur comme pierre.Levant les yeux, vous voyez culminer sur un corps de géant une tête monstrueuse pourvue de grandes défenses. Un sourire menaçant lézarde son visage.“Bonjour, toute petite demoiselle. Alors comme ça on vient miner des crystomonnaies ? Et ce, sans demander l’autorisation au gardien des lieux. À présent, vous allez me donner l’intégralité du contenu de votre bourse.” Il marque une pause, en proie à la réflexion, avant de proposer :“Vous savez quoi ? Je m’ennuie ferme depuis trop longtemps. Alors je vous propose de résoudre une petite énigme, et vous pourrez garder votre vie en plus d’une crystomonnaie.”",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Accepter de lui donner toutes vos richesses",
+        "quest": 28,
         "unique": false
       },
       {
-        "title": "",
+        "title": "Résoudre l’énigme du gardien",
+        "quest": 29,
+        "unique": false
+      },
+      {
+        "title": "Tenter de pousser le gardien contre un gros cristal bien pointu",
         "quest": 0,
         "unique": false
       }
@@ -512,9 +520,126 @@
   },
   {
     "_id": 28,
-    "title": "",
+    "title": "La bourse plutôt que la vie (Accepter de lui donner toutes vos richesses)",
+    "text":"“Merci, c’est bien urbain de votre part.” L’œil avide, le Gardien des Crystomonnaies se jette sur son butin et s’emploie à faire les comptes. C’est le moment de vous barrer. Maintenant. Qu’est-ce que vous attendez ? Décarrez",
     "image": "",
     "buttons": [
+      {
+        "title": "Foutez le camp",
+        "quest": 35,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 29,
+    "title": "Vous vivez pour jouer, à moins que ce ne soit l’inverse (Résoudre l’énigme du gardien)",
+    "text":"“Énoncez votre énigme, qu’on en finisse. Allons, un peu d’entrain, sinon à quoi bon jouer ?” Voyant que vous ne vous dériderez pas, le géant obtempère, un brin vexé. “Si j’écris tous les nombres de 100 à 400, combien de fois ai-je écrit le chiffre 2 ?” “Ha ! Bien joué !” Le Gardien des Crystomonnaie est visiblement satisfait de votre réponse.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "160",
+        "quest": 30,
+        "unique": false
+      },
+      {
+        "title": "200",
+        "quest": 31,
+        "unique": false
+      },
+      {
+        "title": "Cuillère ?",
+        "quest": 31,
+        "unique": false
+      },
+      {
+        "title": "360",
+        "quest": 31,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 30,
+    "title":"Les chiffres, c'est votre truc( Réussite de l'énigme)",
+    "text":"“Ha ! Bien joué !” Le Gardien des Crystomonnaie est visiblement satisfait de votre réponse. “Vous m’avez apporté un peu de distraction, et pour cette raison je vais vous laisser partir. Comme promis, voici une crystomonnaie, faites-en bon usage.” Même s’il avait promis de vous la remettre, la frustration est peinte sur son visage. “La sortie vers la vallée est par là.” En suivant son doigt du regard, vous apercevez un vaste tunnel. En l’empruntant, vous trouvez rapidement la lumière du jour.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Sortir à l’air libre",
+        "quest": 35,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 31,
+    "title": "Vous n'avez jamais été très chiffre(Echec de l'énigme du gardien)",
+    "text":"Vous donnez votre réponse, convaincue d’avoir déjoué l’énigme du gardien. Mais son grognement de frustration vient couper court à vos espoirs. La frustration se transforme rapidement en rage, et un léger tintement tout autour de vous vous fait réaliser la puissance du grondement grandissant du géant. Il semble que vous n’ayez d’autre choix que de vous battre.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Abattre le gardien",
+        "quest": "0 GameStoryBattle",
+        "unique": false
+      },
+      {
+        "title": "Sauf que vous n’avez pas envie de vous battre",
+        "quest": 32,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 32,
+    
+    "title": "Oui alors bon (Sauf que vous n'avez pas envie de vous battre)",
+    "text":"Vous savez comme on dit que “dans la vie, on n’a pas toujours le choix ?”",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Abattre le gardien",
+        "battle":true,
+        "quest": "0 GameStoryBattle",
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 33,
+    "title": "Pas de repos pour les braves (Chercher la sortie le plus vite possible)",
+    "text":"Vous ne vous attardez pas, malgré les richesses potentielles qui vous tendent les bras. C’est dommage parce que les thunes, ça fait pas le bonheur, mais ça fait à minima l’équipement. M’enfin c’est vous qui voyez. Vous finissez par trouver une sortie qui vous ramène à l’air libre. Des vibrations régulières dans le sol, comme les pas d’une créature anormalement lourde, vous font penser que vous avez bien fait de ne pas vous attarder. Une chaleur suffocante vous assaille, et pour cause : vous vous trouvez face à un immense lac de lave. Aucun moyen de le contourner, vous allez devoir traverser. Après considération, vous vous dites qu’il est peut-être possible d’atteindre l’autre rive grâce aux rochers qui émergent du magma ça et là",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Traverser rapidement",
+        "quest": 34,
+        "unique": false
+      },
+      {
+        "title": "Traverser avec prudence",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "Sauter de rocher en rocher",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 34,
+    "title": "Karvagma a de l'avenir (Traverser rapidement)",
+    "text": "Vous sortez de votre poche la carte de visite de Karvagma, le vendeur de kits ignifuges révolutionnaires, et vous vous rappelez ses mots : “Le jour où mon cousin Gollum est tombé dans la lave, j’ai compris qu’il y avait un marché à saisir. Tenez, prenez ma carte, ça vous donnera un avant-goût !”Vous avancez un pied au-dessus de la lave en fusion, hésitante. Si vous vous plantez, ça va faire mal. Très mal. Comme pour cousin Gollum. Comme on arrache un pansement, vous fermez les yeux et y allez d’un coup sec. Aucune douleur. Rouvrant les yeux, vous constatez que le lave n’est qu’un simple tapis rougeoyant pour vous. Craignant que l’effet ne s’estompe, vous courrez le plus vite possible pour atteindre l’autre rive. Lorsque vous l’atteignez, la carte a disparu de votre main. En contrebas, une vallée s’offre à vos yeux, et dans cette vallée se dressent quatre tours et un donjon, assortis de murailles. Le château de Merlin est en vue.",
+    "item": "carte",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Rejoindre la vallée",
+        "quest": 35,
+        "unique": false
+      },
       {
         "title": "",
         "quest": 0,
@@ -528,10 +653,430 @@
     ]
   },
   {
-    "_id": 29,
+    "_id": 35,
     "title": "",
+    "text":"",
     "image": "",
     "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 36,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 37,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 38,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 39,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 40,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 41,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 42,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 43,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 44,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 45,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 46,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 47,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 48,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 49,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 50,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 51,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 52,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 53,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
       {
         "title": "",
         "quest": 0,
