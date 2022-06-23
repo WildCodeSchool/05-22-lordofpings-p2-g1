@@ -1,5 +1,4 @@
 import book from '../assets/img/props/book.svg'
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 function GameWonButton({ setPage }) {
@@ -8,7 +7,7 @@ function GameWonButton({ setPage }) {
       <img src={book} className='book' />
       <Link to='/'>
         {' '}
-        <button onClick={() => setPage(-1)}> Restart </button>
+        <button onClick={() => setPage(-1)}> Rejouer </button>
       </Link>
     </div>
   )
