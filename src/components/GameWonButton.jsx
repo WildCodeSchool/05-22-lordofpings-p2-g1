@@ -7,7 +7,7 @@ function GameWonButton({ setPage }) {
       <img src={book} className='book' draggable={false} />
       <Link to='/' draggable={false}>
         {' '}
-        <button onClick={() => setPage(-1)}> Restart </button>
+        <button onClick={() => setPage(-1)}> Rejouer </button>
       </Link>
     </div>
   )

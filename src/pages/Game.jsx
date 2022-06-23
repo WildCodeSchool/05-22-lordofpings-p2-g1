@@ -13,6 +13,7 @@ import tavernImg from '../assets/img/background/tavern.svg'
 import skillsImg from '../assets/img/background/arena.svg'
 
 import quests from '../assets/json/frame.json'
+import Contact from './Contact'
 
 const Game = () => {
   const [page, setPage] = useState(1003) // ID de la page en cours (Sommaire au dessous)
@@ -23,6 +24,7 @@ const Game = () => {
   // 1002 = Game Won
   // 1003 = Game Skills
   // 1004 = Game [Other]
+  // 1005 = Contact
   const [quest, setQuest] = useState(
     JSON.stringify(quests[localStorage.getItem('quest')])
   )
@@ -53,11 +55,16 @@ const Game = () => {
     } else if (page === 1002) {
       // Game Won
       setBg(gameWonImg)
+      setQuest(undefined)
+      setHero(localStorage.removeItem('hero'))
     } else if (page === 1003) {
       // Game Skills
       setBg(skillsImg)
     } else if (page === 1004) {
       // Game [Other]
+      setBg()
+    } else if (page === 1005) {
+      // Contact
       setBg()
     } else {
       // Game Launch [Setup]
@@ -80,6 +87,7 @@ const Game = () => {
         <button onClick={() => setPage(1002)}>GameWon</button>
         <button onClick={() => setPage(1003)}>GameSkills</button>
         <button onClick={() => setPage(1004)}>GameBattle</button>
+        <button onClick={() => setPage(1005)}>Contact</button>
       </div>
 
       <div className='game' style={{ backgroundImage: bg && `url(${bg})` }}>
@@ -98,6 +106,7 @@ const Game = () => {
         {page === 1002 && <GameWon setPage={setPage} />}
         {page === 1003 && <GameSkills hero={hero} />}
         {page === 1004 && <GameStoryBattle />}
+        {page === 1005 && <Contact />}
 
         <div>
           <a
