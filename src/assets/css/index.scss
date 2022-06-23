@@ -19,14 +19,18 @@
 @import "./components/gameHeaderHudGold";
 @import "./components/gameHeaderHudHealth";
 @import "./components/gameHeaderHudPortrait";
+@import "./components/gameHeaderSound";
 
 @import "./components/gameStory";
-@import "./components/gameStoryButtons";
 @import "./components/gameStoryBattle";
 @import "./components/gameStoryBattleDice";
+@import "./components/gameStoryButtons";
 @import "./components/gameStoryParchment";
 
 @import "./components/gameOver";
+
+@import "./components/gameWon";
+@import "./components/gameWonButton";
 
 *, ::before, ::after {
   box-sizing: border-box;
@@ -41,6 +45,7 @@ body {
   height: 100vh;
   width: 100%;
   scrollbar-width: 0;
+  cursor: url('../img/ui/knight-cursor.png'), auto;
 
   &::-webkit-scrollbar {
     width: 0;

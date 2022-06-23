@@ -1,0 +1,17 @@
+.GameWonButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #EDC90E;
+    background-color: rgba(108, 28, 99, 0.6);
+
+    .book {
+        height: 15vh;
+        
+    }
+
+    .button {
+        cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+    }
+}
