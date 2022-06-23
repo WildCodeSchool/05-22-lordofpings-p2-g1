@@ -23,10 +23,10 @@
         color: white;
         background-color: orchid;
         margin-top: 3em;
+        cursor: url('../../img/ui/knight-cursor-select.png'), auto;
         
         &:hover {
             background-color: darkslateblue;
-            cursor: pointer ;
         }
     }
 }

@@ -10,7 +10,7 @@ function Home() {
         <div className='title'>
           <h1>Le Déclin</h1>
           <h2>des</h2>
-          <h3>Ames</h3>
+          <h3>Âmes</h3>
         </div>
         <Link to='/create' draggable={false}>
           <BigButton text='JOUER' height='100' />
