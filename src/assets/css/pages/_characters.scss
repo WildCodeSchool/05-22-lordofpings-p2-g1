@@ -17,7 +17,7 @@
             margin: 5%;
 
             &:hover {
-                cursor: pointer;
+                cursor: url('../../img/ui/knight-cursor-select.png'), auto;
                 transform: scale(110%);
             }
         }

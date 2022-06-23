@@ -1,32 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
 .rollDice {
     display: flex;
-    align-items: center;
+    align-items: flex-end ;
+    justify-content: flex-end;
     flex-flow: column nowrap;
-    width: 35%;
-    background-image: url('../../img/ui/plate.svg');
+    background-image: url(../../img/ui/verticalPlate.svg);
     background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y: 93%;
+    background-size: 200px;
+    height: 100vh;
     
-
     .rollDice-container {
-        display: flex;
-        justify-content: center;
-        align-content: center;
+        padding-right: 4.2%;
+        padding-bottom: 2.5%;
     }
 
-    button {
-        align-self: center;
-        width: 15em;
-        padding: 1.5em;
-        font-size: 1em;
-        border: 0px;
-        border-radius: 10px;
-        color: white;
-        background-color: orchid;
-        margin-top: 3em;
-        
-        &:hover {
-            background-color: darkslateblue;
-            cursor: pointer ;
+        h1 {
+            font-size: 13px;
+            color: #EDC90E;
+            font-family:'Quicksand', cursive;
+            padding-right: 1%;
+            padding-bottom: 1%;
+            
+
         }
-    }
+
+        button {
+            width: 10%;
+            height: 5%;
+            font-size: 21px;
+            font-family: 'Quicksand', cursive;
+            border: 4px solid #EDC90E;
+            border-radius: 10px;
+            color: #EDC90E;
+            background-color: rgba(108, 28, 99, 0.6);
+            margin-right: 2%;
+            margin-bottom: 6%;
+        
+            
+            
+            &:hover {
+                background-color: darkslateblue;
+                cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+            }
+
+           
+        }
 }

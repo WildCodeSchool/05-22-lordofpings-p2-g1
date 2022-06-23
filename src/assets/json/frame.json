@@ -41,7 +41,7 @@
       },
       {
         "title": "Demander plus d'infos à l'autre glandu",
-        "quest": 18,
+        "quest": 17,
         "unique": false
       }
     ]
@@ -83,7 +83,7 @@
     "buttons": [
       {
         "title": "Remercier Borduk et sortir",
-        "quest": 7,
+        "quest": 6,
         "unique": false
       },
       {
@@ -94,7 +94,7 @@
     ]
   },
   {
-    "_id": 7,
+    "_id": 6,
     "battle": false,
     "title": "Départ pour le château du vioc",
     "image": "",
@@ -102,12 +102,12 @@
     "buttons": [
       {
         "title": "Passer par la forêt des Troncs Sonneurs",
-        "quest": 8,
+        "quest": 7,
         "unique": false
       },
       {
         "title": "Gravir le Mont Kuyerh",
-        "quest": 19,
+        "quest": 18,
         "unique": false
       },
       {
@@ -118,7 +118,7 @@
     ]
   },
   {
-    "_id": 8,
+    "_id": 7,
     "battle": false,
     "title": "La forêt des Troncs Sonneurs",
     "image": "",
@@ -126,12 +126,12 @@
     "buttons": [
       {
         "title": "Dans la lunaire, nul ne saurait me surprendre",
-        "quest": 9,
+        "quest": 8,
         "unique": false
       },
       {
         "title": "Dans les ombres, personne ne me verra avancer",
-        "quest": 13,
+        "quest": 12,
         "unique": false
       },
       {
@@ -142,7 +142,7 @@
     ]
   },
   {
-    "_id": 9,
+    "_id": 8,
     "battle": false,
     "title": "Balade au clair de lune",
     "image": "",
@@ -155,7 +155,7 @@
       },
       {
         "title": "Accepter de payer leur tribut",
-        "quest": 10,
+        "quest": 9,
         "unique": true
       },
       {
@@ -166,7 +166,7 @@
     ]
   },
   {
-    "_id": 10,
+    "_id": 9,
     "battle": false,
     "title": "Le temps de la disette",
     "text": "“Je me disais bien que vous aviez besoin d’aide !” Un sourire presque édenté fend le visage du grand type. Ses deux acolytes restent quant à eux impassibles. Chacun garde la main sur le pommeau de son épée. Juste au cas où. “C’est par là !” lâche capitaine Tête de Gland en faisant un pas de côté pour vous montrer la suite du chemin que vous suiviez déjà. Vous les dépassez, d’ores et déjà habitée par le regret de ne pas les avoir maravés.",
@@ -174,6 +174,19 @@
     "buttons": [
       {
         "title": "Laisser ces pourritures derrière vous",
+        "quest": 10,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 10,
+    "battle": true,
+    "title": "La porte des étoles (Accepter de payer leur tribut)",
+    "text": "Franchement vous auriez dû les maraver. Une bonne petite torgnole, ça fait toujours du bien. Ce n’est pas pour vous influencer, mais du coup maintenant vous ne pouvez même plus vous payer des pâtes au beurre. Heureusement, vous vous rappelez qu’il vous reste de quoi vous faire un cassoulet de minuit chez vous au besoin.Tandis que vous ruminez, vous déviez de votre trajectoire sans même vous en rendre compte. Soudain, vous réalisez que vous vous tenez face à une sorte d’immense portail. Sur son pourtour sont enroulées des étoffes soyeuses. Aux branches des arbres alentour sont suspendus de longues bandes de tissu. Votre pied trébuche sur une tablette de pierre gravée posée au milieu des herbes folles.“Je suis un tissu tricoté à partir de gros mythos, que suis-je ?” ",
+    "buttons": [
+      {
+        "title": "Résoudre l'énigme",
         "quest": 11,
         "unique": false
       }
@@ -181,19 +194,6 @@
   },
   {
     "_id": 11,
-    "battle": true,
-    "title": "La porte des étoles (Accepter de payer leur tribut)",
-    "text": "Franchement vous auriez dû les maraver. Une bonne petite torgnole, ça fait toujours du bien. Ce n’est pas pour vous influencer, mais du coup maintenant vous ne pouvez même plus vous payer des pâtes au beurre. Heureusement, vous vous rappelez qu’il vous reste de quoi vous faire un cassoulet de minuit chez vous au besoin.Tandis que vous ruminez, vous déviez de votre trajectoire sans même vous en rendre compte. Soudain, vous réalisez que vous vous tenez face à une sorte d’immense portail. Sur son pourtour sont enroulées des étoffes soyeuses. Aux branches des arbres alentour sont suspendus de longues bandes de tissu. Votre pied trébuche sur une tablette de pierre gravée posée au milieu des herbes folles.“Je suis un tissu tricoté à partir de gros mythos, que suis-je ?” ",
-    "buttons": [
-      {
-        "title": "Résoudre l'énigme",
-        "quest": 12,
-        "unique": false
-      }
-    ]
-  },
-  {
-    "_id": 12,
     "battle": false,
     "title": "Un portail",
     "image": "",
@@ -211,7 +211,7 @@
     ]
   },
   {
-    "_id": 13,
+    "_id": 12,
     "battle": false,
     "title": "Une rencontre inattendue",
     "text": "À mesure que vous avancez à travers la végétation dense, la lueur rouge se fait de plus en plus nette, d’autant que la lumière de la lune peine à percer la frondaison. Vous manquez de vous vautrer à plusieurs reprises, mais c’est vous qui avez voulu vous la péter en prenant le chemin sombre. La lueur rouge se transforme finalement en un magnifique cerf flamboyant. La créature note votre présence. Elle fait un petit mouvement de la tête qui ressemble à s’y méprendre à un hochement. Dans votre tête, des mots se forment : “Approchez jeune aventurière, approchez ! Ne ratez pas la chance de votre vie !”",
@@ -219,7 +219,7 @@
     "buttons": [
       {
         "title": "Saisissez la chance de votre vie",
-        "quest": 14,
+        "quest": 13,
         "unique": false
       },
       {
@@ -235,7 +235,7 @@
     ]
   },
   {
-    "_id": 14,
+    "_id": 13,
     "battle": false,
     "title": "La chance de votre vie (Saisissez la chance de votre vie)",
     "text": "“Bonjour, je suis Karvagma, l’un des 4 grands cerfs spirituels. Et aujourd’hui, c’est votre jour de chance mon amie : pendant 24h, je vous offre une remise de 75% sur les kits ignifuges Karvagma. Pas d’entourloupe ! Le jour où mon cousin Gollum est tombé dans la lave, j’ai compris qu’il y avait un marché à saisir. Tenez, prenez ma carte, ça vous donnera un avant-goût !” Là-dessus, Karvagma, CEO spirituel de Karvagma Inc. disparaît dans une volute de fumée. À sa place, vous voyez une carte de visite aussi rougeoyante que lui, au nom de sa start-up.",
@@ -243,18 +243,20 @@
     "buttons": [
       {
         "title": "Dormir pour se reposer.",
-        "quest": 15,
+        "item": "carte",
+        "quest": 14,
         "unique": false
       },
       {
         "title": "Persévérer et avancer.",
-        "quest": 16,
+        "item": "carte",
+        "quest": 15,
         "unique": false
       }
     ]
   },
   {
-    "_id": 15,
+    "_id": 14,
     "battle": false,
     "title": "Grooarrrrrr… (Dormir pour se reposer)",
     "text": "Allongée près du feu de camp, le sommeil vous prend rapidement… avant de vous lâcher aussi sec. Vous sentez quelque chose vous effleurer. Sans même vous en rendre compte, vous sautez sur vos deux jambes et vous vous retrouvez face à plusieurs ours. Vous avez d’abord peur pour votre vie, avant de réaliser qu’ils ne sont pas là pour manger. Les pattes en avant, les yeux avides… ils cherchent à vous peloter. On vous a déjà parlé des Rel’Ours, et ils ne vous lâcheront pas.",
@@ -262,7 +264,7 @@
     "buttons": [
       {
         "title": "Fuir vers des contrées plus sûres",
-        "quest": 17,
+        "quest": 16,
         "unique": false
       },
       {
@@ -273,7 +275,7 @@
     ]
   },
   {
-    "_id": 16,
+    "_id": 15,
     "battle": false,
     "title": "À cœur vaillant, rien d’impossible (Persévérer et avancer)",
     "text": " Vous n’allez quand même pas vous arrêter en si bon chemin. Vous gagnerez le château dès cette nuit, c’est décidé. L’air frais de la nuit emplit vos poumons d’énergie. Vous parvenez même à marcher plus vite. Si vous aviez eu un podomètre, vous auriez vu que vous avez augmenté votre moyenne. Sauf que ça n’existe pas ici, les podomètres.Alors que le jour commence à chasser les étoiles, vous tombez enfin sur le château de Merlin, presque par surprise, à la sortie du Bois des Troncs Sonneurs.",
@@ -281,13 +283,13 @@
     "buttons": [
       {
         "title": "Vous avancer vers le Château",
-        "quest": 17,
+        "quest": 16,
         "unique": false
       }
     ]
   },
   {
-    "_id": 17,
+    "_id": 16,
     "battle": true,
     "title": "Le Château",
     "image": "",
@@ -300,7 +302,7 @@
     ]
   },
   {
-    "_id": 18,
+    "_id": 17,
     "battle": false,
     "title": "Demander plus d'infos à l'autre glandu",
     "text": "Vous vous approchez de l’explorateur des cavités nasales. Après vous être présentée autour d’une bière, l’homme a accepté de vous expliquer comment tout a commencé. Après avoir apporté sa contribution ultime à Arthur - une potion favorisant la repousse des poils -, ce dernier lui a demandé de rassembler son nécessaire d’alchimie et sa plante en pot et de “dégager fissa” Aussi fou qu’il se sentait floué, Merlin s’est alors isolé à une centaine de kilomètres de Camelot - avec son nécessaire d’alchimie et sa plante en pot. Un bégonia si vous voulez tout savoir. Malheureusement, il avait égaré quelques années auparavant son sort de construction de château. À moins qu’il n’ait jamais existé. Pas impossible, ça.",
@@ -324,24 +326,59 @@
     ]
   },
   {
-    "_id": 19,
+    "_id": 18,
     "battle": false,
     "title": "Gravir le Mont Kuyerh",
+    "text": "Vous voilà sur les pentes immaculées du Mont Kuyerh, et celles-ci se révèlent plutôt inhospitalières.La rencontre du firmament et du manteau opalin vous donne néamoins de la force, tandis que le calme absolu qui règne sur ces hauteurs laisse libre cours à un vague à l'âme. Vous vous sentez bien seule, là au milieu de nulle part. Vous l'avez toujours été. Enfant, vous n'étiez pas vraiment ce qu'on peut appeler sociable. Le nez du petit Kylian s'en rappelle encore. Certes il avait un nom peu enviable, mais cela vous obligeait-il à le martyriser pour autant ?  ",
     "image": "",
     "buttons": [
       {
-        "title": "Chemin 1",
+        "title": "Jeter un oeil vers le Nord-Ouest",
+        "quest": 19,
+        "unique": false
+      },
+      {
+        "title": "L'Est vous semble être la meilleure option",
         "quest": 20,
         "unique": false
       },
       {
-        "title": "Chemin 2",
+        "title": "Le Nord c'est bien aussi",
+        "quest": 24,
+        "unique": false
+      },
+      {
+        "title": "Non mais en vrai on n'a qu'à dire Nord-Est",
         "quest": 0,
         "unique": false
       },
       {
-        "title": "Chemin 3",
+        "title": "Ou alors l'Ouest",
         "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "C'est une direction Est-Ouest ?",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "Au pire on peut sur Sud-Est",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 19,
+    "battle": false,
+    "title": "De la belle poudreuse (Jeter un oeil vers le Nord-Ouest)",
+    "text": "C'est de la neige",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Ah bah oui, je me disais bien aussi",
+        "quest": 18,
         "unique": false
       }
     ]
@@ -349,17 +386,13 @@
   {
     "_id": 20,
     "battle": false,
-    "title": "Le grand Loup",
+    "title": "Un début de piste (l'Est vous semble être la meilleure option, allez c'est parti)",
+    "text": "Alors que vous posez votre regard sur les étendues neigeuses à l'Est, vous vous rendez compte que le manteau blanc présente des irrégularités.",
     "image": "",
     "buttons": [
       {
-        "title": "Se cacher dans une grotte",
+        "title": "Regarder de plus près",
         "quest": 21,
-        "unique": false
-      },
-      {
-        "title": "L'aider à retrouver ses fringues",
-        "quest": 0,
         "unique": false
       }
     ]
@@ -367,17 +400,13 @@
   {
     "_id": 21,
     "battle": false,
-    "title": "Caverne de Cristal",
+    "title": "Des traces dans la neige (Regarder de plus) ",
+    "text": "Vous vous approchez et posez un genou à terre. La neige craque sous votre poids. Vous n'auriez peut-être pas dû vous enfiler ce rôti en entier. On dit ça, on ne dit rien. Vous observez ce qui ressemble à de légères empreintes. Les marques sont discrètes, mais bien présentes. Elles se dessinent sous la clarté de la lune.",
     "image": "",
     "buttons": [
       {
-        "title": "Prendre le temps de récupérer des cristaux",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "Chercher la sortie le plus vite possible",
-        "quest": 0,
+        "title": "Observer plus attentivement",
+        "quest": 22,
         "unique": false
       }
     ]
@@ -385,17 +414,13 @@
   {
     "_id": 22,
     "battle": false,
-    "title": "",
+    "title": "Le pistage n'a jamais été votre fort (Observer plus attentivement)",
+    "text": "Ah bah non, c'est juste de la neige",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Sûr ?",
+        "quest": 23,
         "unique": false
       }
     ]
@@ -403,12 +428,13 @@
   {
     "_id": 23,
     "battle": false,
-    "title": "",
+    "title": "Oui, sûr",
+    "text": "Puisqu'on vous le dit",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Revenir sur vos pas",
+        "quest": 18,
         "unique": false
       },
       {
@@ -421,16 +447,17 @@
   {
     "_id": 24,
     "battle": false,
-    "title": "",
+    "title": "Le Canidé dénudé (Le Nord c'est bien aussi)",
+    "text": "“Vous, là ! Que faites-vous ici ?” À peine faites-vous quelques pas en direction du nord qu’une voix rauque vous interpelle au premier tournant. Vous faites volte-face et vous retrouvez nez à nez avec un énorme loup. Une particularité vous saute aux yeux : il porte un caleçon. Avec des motifs. Ce sont des louves. Avec du rouge à lèvres. Des louves pin-ups.“Peu importe, reprend le loup (presque et en même temps complètement) à poil. Vous avez vu… (il semble réfléchir) Vous avez vu ma cape ?” Vous sentez qu’il est sur les nerfs. Il peut vous sauter dessus à tout moment.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Vous enfuir par une grotte à proximité",
+        "quest": 25,
         "unique": false
       },
       {
-        "title": "",
+        "title": "Proposer votre aide au loup à poil",
         "quest": 0,
         "unique": false
       }
@@ -439,51 +466,53 @@
   {
     "_id": 25,
     "battle": false,
-    "title": "",
+    "title": "De nouveau en sûreté (Vous enfuir par une grotte à proximité)",
+    "text": "Vous vous jetez à terre pour vous glisser dans une petite cavité au moment-même où le loup bondit pour vous attraper. Le bruit sec que vous entendez, c’est sa tête qui s’écrase contre la roche.Un peu sonné, il essaie néanmoins de vous attraper les jambes pendant que vous finissez de ramper dans le boyau qui, heureusement, s’agrandit pour former une grotte. Un cri rageur retentit derrière vous : “C’est vous qui l’avez ! Vous l’avez cachée !” Le loup laisse échapper une longue plainte. Vous devez maintenant trouver comment sortir de là.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Explorer la grotte",
+        "quest": 26,
         "unique": false
       }
     ]
   },
   {
     "_id": 26,
-    "battle": false,
-    "title": "",
+    "title": "La grotte de cristal ( Explorer la grotte )",
+    "text": "Vous avancez à tâtons. L’endroit est plongé dans le noir. Après quelques minutes et quelques bleus récoltés à force de se cogner dans les murs, vous percevez une clarté sourde provenant d’un couloir latéral. Obliquant dans cette direction, vous débouchez dans une immense caverne remplie de cristaux de toutes sortes de couleurs et de formes. Il pourrait se trouver parmi ceux-ci des crystomonnaies : des petits cristaux sphériques très précieux. Les plus riches sujets du royaume sont pratiquement les seuls à en posséder et à s’en servir. Il s’agit d’une monnaie équivalente à environ 200 pièces d’or. Tandis que vous êtes perdue dans vos pensées, votre regard tombe sur un coin légèrement reculé sur votre gauche. Il est jonché d’os divers, éparpillés sur des traces d’un rouge sombre.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Prendre le temps de récupérer des cristaux",
+        "quest": 27,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
+        "title": "Chercher la sortie le plus vite possible",
+        "quest": 33,
         "unique": false
       }
     ]
   },
   {
     "_id": 27,
-    "title": "",
+    "title": "Le Gardien des Crystomannaies (Prendre le temps de récupérer des cristaux)",
+    "text": "Vous vous affairez à dégoter des crystomonnaies, vous voyant déjà vivre comme une reine grâce à votre nouvelle fortune. Alors que vous tâtonnez parmi les rangées de cristaux multicolores, vos doigts finissent par se poser sur quelque chose qui n’a plus rien à voir avec la roche, mais qui vous paraît pourtant dur comme pierre.Levant les yeux, vous voyez culminer sur un corps de géant une tête monstrueuse pourvue de grandes défenses. Un sourire menaçant lézarde son visage.“Bonjour, toute petite demoiselle. Alors comme ça on vient miner des crystomonnaies ? Et ce, sans demander l’autorisation au gardien des lieux. À présent, vous allez me donner l’intégralité du contenu de votre bourse.” Il marque une pause, en proie à la réflexion, avant de proposer :“Vous savez quoi ? Je m’ennuie ferme depuis trop longtemps. Alors je vous propose de résoudre une petite énigme, et vous pourrez garder votre vie en plus d’une crystomonnaie.”",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Accepter de lui donner toutes vos richesses",
+        "quest": 28,
         "unique": false
       },
       {
-        "title": "",
+        "title": "Résoudre l’énigme du gardien",
+        "quest": 29,
+        "unique": false
+      },
+      {
+        "title": "Tenter de pousser le gardien contre un gros cristal bien pointu",
         "quest": 0,
         "unique": false
       }
@@ -491,26 +520,126 @@
   },
   {
     "_id": 28,
-    "title": "",
+    "title": "La bourse plutôt que la vie (Accepter de lui donner toutes vos richesses)",
+    "text":"“Merci, c’est bien urbain de votre part.” L’œil avide, le Gardien des Crystomonnaies se jette sur son butin et s’emploie à faire les comptes. C’est le moment de vous barrer. Maintenant. Qu’est-ce que vous attendez ? Décarrez",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Foutez le camp",
+        "quest": 35,
         "unique": false
       }
     ]
   },
   {
     "_id": 29,
-    "title": "",
+    "title": "Vous vivez pour jouer, à moins que ce ne soit l’inverse (Résoudre l’énigme du gardien)",
+    "text":"“Énoncez votre énigme, qu’on en finisse. Allons, un peu d’entrain, sinon à quoi bon jouer ?” Voyant que vous ne vous dériderez pas, le géant obtempère, un brin vexé. “Si j’écris tous les nombres de 100 à 400, combien de fois ai-je écrit le chiffre 2 ?” “Ha ! Bien joué !” Le Gardien des Crystomonnaie est visiblement satisfait de votre réponse.",
     "image": "",
     "buttons": [
+      {
+        "title": "160",
+        "quest": 30,
+        "unique": false
+      },
+      {
+        "title": "200",
+        "quest": 31,
+        "unique": false
+      },
+      {
+        "title": "Cuillère ?",
+        "quest": 31,
+        "unique": false
+      },
+      {
+        "title": "360",
+        "quest": 31,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 30,
+    "title":"Les chiffres, c'est votre truc( Réussite de l'énigme)",
+    "text":"“Ha ! Bien joué !” Le Gardien des Crystomonnaie est visiblement satisfait de votre réponse. “Vous m’avez apporté un peu de distraction, et pour cette raison je vais vous laisser partir. Comme promis, voici une crystomonnaie, faites-en bon usage.” Même s’il avait promis de vous la remettre, la frustration est peinte sur son visage. “La sortie vers la vallée est par là.” En suivant son doigt du regard, vous apercevez un vaste tunnel. En l’empruntant, vous trouvez rapidement la lumière du jour.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Sortir à l’air libre",
+        "quest": 35,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 31,
+    "title": "Vous n'avez jamais été très chiffre(Echec de l'énigme du gardien)",
+    "text":"Vous donnez votre réponse, convaincue d’avoir déjoué l’énigme du gardien. Mais son grognement de frustration vient couper court à vos espoirs. La frustration se transforme rapidement en rage, et un léger tintement tout autour de vous vous fait réaliser la puissance du grondement grandissant du géant. Il semble que vous n’ayez d’autre choix que de vous battre.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Abattre le gardien",
+        "quest": "0 GameStoryBattle",
+        "unique": false
+      },
+      {
+        "title": "Sauf que vous n’avez pas envie de vous battre",
+        "quest": 32,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 32,
+    
+    "title": "Oui alors bon (Sauf que vous n'avez pas envie de vous battre)",
+    "text":"Vous savez comme on dit que “dans la vie, on n’a pas toujours le choix ?”",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Abattre le gardien",
+        "battle":true,
+        "quest": "0 GameStoryBattle",
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 33,
+    "title": "Pas de repos pour les braves (Chercher la sortie le plus vite possible)",
+    "text":"Vous ne vous attardez pas, malgré les richesses potentielles qui vous tendent les bras. C’est dommage parce que les thunes, ça fait pas le bonheur, mais ça fait à minima l’équipement. M’enfin c’est vous qui voyez. Vous finissez par trouver une sortie qui vous ramène à l’air libre. Des vibrations régulières dans le sol, comme les pas d’une créature anormalement lourde, vous font penser que vous avez bien fait de ne pas vous attarder. Une chaleur suffocante vous assaille, et pour cause : vous vous trouvez face à un immense lac de lave. Aucun moyen de le contourner, vous allez devoir traverser. Après considération, vous vous dites qu’il est peut-être possible d’atteindre l’autre rive grâce aux rochers qui émergent du magma ça et là",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Traverser rapidement",
+        "quest": 34,
+        "unique": false
+      },
+      {
+        "title": "Traverser avec prudence",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "Sauter de rocher en rocher",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 34,
+    "title": "Karvagma a de l'avenir (Traverser rapidement)",
+    "text": "Vous sortez de votre poche la carte de visite de Karvagma, le vendeur de kits ignifuges révolutionnaires, et vous vous rappelez ses mots : “Le jour où mon cousin Gollum est tombé dans la lave, j’ai compris qu’il y avait un marché à saisir. Tenez, prenez ma carte, ça vous donnera un avant-goût !”Vous avancez un pied au-dessus de la lave en fusion, hésitante. Si vous vous plantez, ça va faire mal. Très mal. Comme pour cousin Gollum. Comme on arrache un pansement, vous fermez les yeux et y allez d’un coup sec. Aucune douleur. Rouvrant les yeux, vous constatez que le lave n’est qu’un simple tapis rougeoyant pour vous. Craignant que l’effet ne s’estompe, vous courrez le plus vite possible pour atteindre l’autre rive. Lorsque vous l’atteignez, la carte a disparu de votre main. En contrebas, une vallée s’offre à vos yeux, et dans cette vallée se dressent quatre tours et un donjon, assortis de murailles. Le château de Merlin est en vue.",
+    "item": "carte",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Rejoindre la vallée",
+        "quest": 35,
+        "unique": false
+      },
       {
         "title": "",
         "quest": 0,
@@ -524,10 +653,430 @@
     ]
   },
   {
-    "_id": 30,
+    "_id": 35,
     "title": "",
+    "text":"",
     "image": "",
     "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 36,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 37,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 38,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 39,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 40,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 41,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 42,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 43,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 44,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 45,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 46,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 47,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 48,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 49,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 50,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 51,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 52,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 53,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
       {
         "title": "",
         "quest": 0,

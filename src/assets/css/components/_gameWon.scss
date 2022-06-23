@@ -5,26 +5,34 @@
 .gameWon {
     display: flex;
     padding: 80px;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+   
 
     .containerLeft {
         flex-flow: column nowrap;
-        align-content: center;
+        padding-top: 15%;
+        padding-left: 10%;
+
     }
     .containerRight {
         background: rgba(108, 28, 99, 0.6);
-        border: 2px solid #EDC90E;
+        border: 4px solid #EDC90E;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 30%;
+        // justify-content: center;
+        // align-items: center;
+        width: 38%;
+        height: 89vh;
+        
 
         h1 {
             font-family: 'Cinzel Decorative', cursive;
             text-align: center;
             color: #EDC90E;
-            font-size: 50px;
-            padding-top: 20px;
+            font-size: 68px;
+            padding-top: 15%;
         }
 
         
@@ -35,7 +43,9 @@
              background-color: goldenrod;
              border: none;
              margin: 8%;
-             height: 2px;         
+             height: 2px;
+             margin-top: 5vh;
+             margin-bottom: 10vh;         
             }
     
         
@@ -43,7 +53,7 @@
         p {
             font-family: 'Quicksand', sans-serif;
             text-align: center;
-            padding-left: 20px;
+            padding-left: 19px;
             padding-right: 20px;
             color: #EDC90E;
             font-size: 30px;
