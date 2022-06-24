@@ -31,8 +31,46 @@
         font-size: 4vh; 
         font-family: 'Cinzel Decorative';       
     }
-    .logo{
+
+    .halogo {
         width: 20%;
         height: 20vh;
+        z-index: 5;
+        position: relative;
+
+        .logo{
+            width: 100%;
+        }
+        
+        #halo {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow:
+              0 0 60px 30px #fff,
+              0 0 100px 60px #f0f,
+              0 0 140px 90px #0ff;
+            animation: 2s ease-in .1s infinite alternate irradiate;
+            z-index: -1;
+          }
     }
 }
+
+@keyframes irradiate {
+    from {  
+      box-shadow:
+      0 0 60px 30px #fff,
+      0 0 100px 60px #f0f,
+      0 0 140px 90px #0ff; 
+    }
+    to {
+      box-shadow:
+      0 0 40px 10px #fff,
+      0 0 30px 20px #f0f,
+      0 0 100px 50px #0ff; 
+    }
+  }
+  

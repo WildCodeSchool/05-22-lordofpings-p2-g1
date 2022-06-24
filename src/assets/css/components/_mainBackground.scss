@@ -8,95 +8,120 @@
   z-index: 5;
 }
 
-.elements {
+.elementsMaster {
   @include zposition;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
   top: 0;
-  left: 100px;
   margin: auto;
 }
 
-.backgroundElement {
+.elements {
   @include yposition;
+  height: 100vh;
+  width: 100vw;
 }
 
-#book {
-  top: 20px;
-  left: 1350px;
-  height: 500px;
-  z-index: 6;
-  animation: 3s ease-in-out 10s infinite alternate floating;
-}
-
-#potion {
-  height: 200px;
-  right: -200px;
-  top: 200px;
-  animation: 3s ease-in-out 5s infinite alternate floating3;
-}
-
-#crystalPink {
-  height: 150px;
-  bottom: -450px;
-  right: -350px;
-  animation: 3s ease-in-out 3s infinite alternate floating;
-}
-
-#crystalYellow {
-  height: 150px;
-  right: 250px;
-  bottom: 370px;
-  animation: 3s ease-in-out 5s infinite alternate floating3;
-}
-
-#cauldron {
-  height: 300px;
-  bottom: -530px;
-  right: -500px;
-  animation: 3s ease-in-out 1s infinite alternate floating;
-}
-
-#mirror {
-  height: 200px;
-  right: 70px;
-  top: -120px;
-  animation: 3s ease-in-out .1s infinite alternate floating2;
+.backgroundElement {
+  @include zposition;
 }
 
 #crystalBallAndSupport, #bubble {
   display: none;
 }
 
-#crystalBall {
+#book {
+  top: 30%;
+  left: 90%;
+  transform: translate(-88%, -52%);
+  height: 500px;
+  z-index: 6;
+  animation: 3s ease-in-out infinite alternate floatingBook;
+}
+
+#potion {
+  top: 60%;
+  left: 80%;
+  height: 200px;
+  animation: 3s ease-in-out 5s infinite alternate floating3;
+}
+
+#crystalPink {
+  top: 88%;
+  left: 65%;
   height: 150px;
-  bottom: -150px;
-  right: -550px;
+  animation: 3s ease-in-out 3s infinite alternate floating;
+}
+
+#crystalYellow {
+  top: -5%;
+  left: 40%;
+  height: 150px;
+  animation: 3s ease-in-out 5s infinite alternate floating3;
+}
+
+#cauldron {
+  top: 80%;
+  left: 35%;
+  height: 300px;
+  animation: 3s ease-in-out 1s infinite alternate floating;
+}
+
+#mirror {
+  left: 55%;
+  top: 20%;
+  height: 200px;
+  animation: 3s ease-in-out .1s infinite alternate floating2;
+}
+
+#crystalBall {
+  top: 60%;
+  left: 55%;
+  height: 150px;
   animation: 3s ease-in-out 5s infinite alternate floating3;
 }
 
 #crystalBallSupport {
+  top: 77%;
+  left: 53%;
   height: 50px;
-  bottom: -190px;
-  right: -360px;
   animation: 3s ease-in-out .1s infinite alternate floating2;
 }
 
-#halo {
+#haloYellow {
   position: absolute;
-  top: 150px;
-  left: 790px;
+  top: 30%;
+  left: 90%;
   border-radius: 50%;
-  background-color: #fff;
   box-shadow:
-    0 0 60px 30px #fff,
-    0 0 100px 60px #f0f,
-    0 0 140px 90px #0ff;
-  animation: 2s ease-in .1s infinite alternate irradiate;
+  0 0 60px 30px #fff,
+  0 0 140px 90px rgb(255, 225, 0),
+  0 0 100px 60px rgb(255, 111, 0);
+  z-index: 10;
+  animation: 3s ease-in-out 5s infinite alternate floating3, 3s ease-out infinite alternate irradiateYellow2;
+}
+
+#haloYellow2 {
+  position: absolute;
+  top: 5%;
+  left: 42.5%;
+  border-radius: 50%;
+  box-shadow:
+  0 0 60px 30px #fff,
+  0 0 100px 60px rgb(255, 111, 0),
+  0 0 140px 90px rgb(255, 225, 0);
+  z-index: 10;
+  animation: 3s ease-in-out 10s infinite alternate floating, 3s ease-out infinite alternate irradiateYellow;
 }
 
 .blockStart {
   z-index: 10;
+}
+
+@keyframes floatingBook {
+  from { transform: translate3d(-88%, -52%); }
+  to  { transform: translate3d(-90%, -54%, 20px); }
 }
 
 @keyframes floating {
@@ -114,17 +139,34 @@
   to  { transform: translate3d(5px, -5px, 10px); }
 }
 
-@keyframes irradiate {
+@keyframes irradiateYellow {
   from {  
     box-shadow:
     0 0 60px 30px #fff,
-    0 0 100px 60px #f0f,
-    0 0 140px 90px #0ff; 
+    0 0 100px 60px rgb(255, 111, 0),
+    0 0 140px 90px rgb(255, 225, 0); 
   }
   to {
     box-shadow:
     0 0 40px 10px #fff,
-    0 0 30px 20px #f0f,
-    0 0 100px 50px #0ff; 
+    0 0 30px 20px rgb(255, 111, 0),
+    0 0 100px 50px rgb(255, 225, 0); 
+  }
+}
+
+@keyframes irradiateYellow2 {
+  from {  
+    box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px rgb(255, 225, 0),
+    0 0 140px 90px rgb(255, 111, 0); 
+    opacity: .5;
+  }
+  to {
+    box-shadow:
+    0 0 40px 10px #fff,
+    0 0 30px 20px rgb(255, 225, 0),
+    0 0 100px 50px rgb(255, 111, 0); 
+    opacity: .8;
   }
 }

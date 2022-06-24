@@ -12,7 +12,10 @@ function Home() {
     <>
       <div className='home'>
         <div className='blockStart'>
-          <img className='logo' src={logoMerlin} />
+          <div className='halogo'>
+            <img className='logo' src={logoMerlin} />
+            <div id='halo'></div>
+          </div>
           <div className='title'>
             <h1>Le Déclin</h1>
             <h2>des</h2>
