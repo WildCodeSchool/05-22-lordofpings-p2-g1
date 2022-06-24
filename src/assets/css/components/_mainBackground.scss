@@ -1,0 +1,130 @@
+@mixin zposition {
+  position: absolute;
+  z-index: 5;
+}
+
+@mixin yposition {
+  position: relative;
+  z-index: 5;
+}
+
+.elements {
+  @include zposition;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 100px;
+  margin: auto;
+}
+
+.backgroundElement {
+  @include yposition;
+}
+
+#book {
+  top: 20px;
+  left: 1350px;
+  height: 500px;
+  z-index: 6;
+  animation: 3s ease-in-out 10s infinite alternate floating;
+}
+
+#potion {
+  height: 200px;
+  right: -200px;
+  top: 200px;
+  animation: 3s ease-in-out 5s infinite alternate floating3;
+}
+
+#crystalPink {
+  height: 150px;
+  bottom: -450px;
+  right: -350px;
+  animation: 3s ease-in-out 3s infinite alternate floating;
+}
+
+#crystalYellow {
+  height: 150px;
+  right: 250px;
+  bottom: 370px;
+  animation: 3s ease-in-out 5s infinite alternate floating3;
+}
+
+#cauldron {
+  height: 300px;
+  bottom: -530px;
+  right: -500px;
+  animation: 3s ease-in-out 1s infinite alternate floating;
+}
+
+#mirror {
+  height: 200px;
+  right: 70px;
+  top: -120px;
+  animation: 3s ease-in-out .1s infinite alternate floating2;
+}
+
+#crystalBallAndSupport, #bubble {
+  display: none;
+}
+
+#crystalBall {
+  height: 150px;
+  bottom: -150px;
+  right: -550px;
+  animation: 3s ease-in-out 5s infinite alternate floating3;
+}
+
+#crystalBallSupport {
+  height: 50px;
+  bottom: -190px;
+  right: -360px;
+  animation: 3s ease-in-out .1s infinite alternate floating2;
+}
+
+#halo {
+  position: absolute;
+  top: 150px;
+  left: 790px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px #0ff;
+  animation: 2s ease-in .1s infinite alternate irradiate;
+}
+
+.blockStart {
+  z-index: 10;
+}
+
+@keyframes floating {
+  from { transform: translate3d(0); }
+  to  { transform: translate3d(-5px, -10px, 20px); }
+}
+
+@keyframes floating2 {
+  from { transform: translate3d(0); }
+  to  { transform: translate3d(-10px, 10px, 0); }
+}
+
+@keyframes floating3 {
+  from { transform: translate3d(0); }
+  to  { transform: translate3d(5px, -5px, 10px); }
+}
+
+@keyframes irradiate {
+  from {  
+    box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px #0ff; 
+  }
+  to {
+    box-shadow:
+    0 0 40px 10px #fff,
+    0 0 30px 20px #f0f,
+    0 0 100px 50px #0ff; 
+  }
+}

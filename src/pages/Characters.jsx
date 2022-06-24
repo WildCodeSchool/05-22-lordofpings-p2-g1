@@ -4,6 +4,8 @@ import knight from '../assets/img/heroes/knight.png'
 import { Link } from 'react-router-dom'
 
 function Characters() {
+  document.cookie = 'volume=60'
+  document.cookie = 'volumeToggle=true'
   return (
     <div className='characters'>
       <h1>Choisissez votre héros</h1>
