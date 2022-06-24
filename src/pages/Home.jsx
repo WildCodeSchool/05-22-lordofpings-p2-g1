@@ -1,9 +1,13 @@
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import logoMerlin from '../assets/img/logo_merlin.jpg'
 import BigButton from '../components/BigButton'
 import MainBackground from '../components/MainBackground'
 
 function Home() {
+  const item = localStorage.getItem('hero')
+  const navigate = useNavigate()
+  console.log(item)
+
   return (
     <>
       <div className='home'>
@@ -14,9 +18,13 @@ function Home() {
             <h2>des</h2>
             <h3>Âmes</h3>
           </div>
-          <Link to='/create'>
-            <BigButton text='JOUER' height='100' />
-          </Link>
+          <BigButton
+            text='JOUER'
+            height='100'
+            onclick={() =>
+              item ? navigate('../game') : navigate('../concept')
+            }
+          />
         </div>
       </div>
       <MainBackground />

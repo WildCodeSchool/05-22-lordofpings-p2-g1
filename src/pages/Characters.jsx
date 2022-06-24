@@ -14,7 +14,7 @@ function Characters() {
         {heroes &&
           heroes.map(hero => {
             return (
-              <Link to='/game' key={hero.name}>
+              <Link to='/game' key={hero.name} draggable={false}>
                 <div
                   className='heroesCard'
                   onClick={() =>
@@ -26,6 +26,7 @@ function Characters() {
                       src={hero?.class === 'archer' ? Archer : knight}
                       alt='hero'
                       className='imgHero'
+                      draggable={false}
                     />
                     <div className='profil'>
                       <h2>{hero.name}</h2>
