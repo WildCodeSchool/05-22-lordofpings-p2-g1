@@ -7,7 +7,7 @@
     
     .heroes {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
 
         a{
             text-decoration: none;
@@ -44,10 +44,12 @@
         font-family: 'Jim Nightshade';
         text-align: center;
         color: #F79500;
-        font-size: 3rem;
-        text-shadow: 2px 2px 1px rgb(0, 0, 0);
+        font-size: 4rem;
+        text-shadow: 10px 5px 20px rgb(0, 0, 0);
         position: relative;
-        top: 100px;
+        top: 400px;
+        display: flex;
+        justify-content: center;
     }
 
     .hero {
