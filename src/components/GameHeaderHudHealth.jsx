@@ -21,7 +21,7 @@ const GameHeaderHudHealth = ({ hero }) => {
   return (
     <div className='gameHeaderHudHealth'>
       {life.map((lifePoint, index) => (
-        <img src={lifePoint} key={index} />
+        <img src={lifePoint} key={index} draggable={false} />
       ))}
     </div>
   )

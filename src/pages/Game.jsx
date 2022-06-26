@@ -1,23 +1,29 @@
 import { React, useState, useEffect } from 'react'
+
 import GameOver from '../components/GameOver'
+import GameSkills from '../components/GameSkills'
 import GameStory from '../components/GameStory'
 import GameStoryBattle from '../components/GameStoryBattle'
 import GameTavern from '../components/GameTavern'
-import tavernImg from '../assets/img/background/tavern.svg'
-import quests from '../assets/json/frame.json'
-import forest from '../assets/img/background/forest1.svg'
 import GameWon from '../components/GameWon'
+
+import forest from '../assets/img/background/forest1.svg'
 import gameWonImg from '../assets/img/background/gameWon.svg'
+import tavernImg from '../assets/img/background/tavern.svg'
+import skillsImg from '../assets/img/background/arena.svg'
+
+import quests from '../assets/json/frame.json'
 import Contact from './Contact'
 
 const Game = () => {
-  const [page, setPage] = useState(0) // ID de la page en cours (Sommaire au dessous)
+  const [page, setPage] = useState(1003) // ID de la page en cours (Sommaire au dessous)
   // -1 = Game Launch [Setup]// ID de la quête en cours
   // 0+ = Game Story
   // 1000 = Game Tavern
   // 1001 = Game Over
   // 1002 = Game Won
-  // 1003 = Game [Other]
+  // 1003 = Game Skills
+  // 1004 = Game [Other]
   // 1005 = Contact
   const [quest, setQuest] = useState(
     JSON.stringify(quests[localStorage.getItem('quest')])
@@ -52,6 +58,9 @@ const Game = () => {
       setQuest(undefined)
       setHero(localStorage.removeItem('hero'))
     } else if (page === 1003) {
+      // Game Skills
+      setBg(skillsImg)
+    } else if (page === 1004) {
       // Game [Other]
       setBg()
     } else if (page === 1005) {
@@ -76,7 +85,8 @@ const Game = () => {
         <button onClick={() => setPage(1000)}>Tavern</button>
         <button onClick={() => setPage(1001)}>GameOver</button>
         <button onClick={() => setPage(1002)}>GameWon</button>
-        <button onClick={() => setPage(1003)}>GameBattle</button>
+        <button onClick={() => setPage(1003)}>GameSkills</button>
+        <button onClick={() => setPage(1004)}>GameBattle</button>
         <button onClick={() => setPage(1005)}>Contact</button>
       </div>
 
@@ -89,10 +99,13 @@ const Game = () => {
             setHero={setHeroData}
           />
         )}
-        {page === 1000 && <GameTavern hero={hero} setHero={setHeroData} />}
+        {page === 1000 && (
+          <GameTavern hero={hero} setHero={setHeroData} setPage={setPage} />
+        )}
         {page === 1001 && <GameOver setHero={setHeroData} setPage={setPage} />}
         {page === 1002 && <GameWon setPage={setPage} />}
-        {page === 1003 && <GameStoryBattle />}
+        {page === 1003 && <GameSkills hero={hero} />}
+        {page === 1004 && <GameStoryBattle />}
         {page === 1005 && <Contact />}
 
         <div>
