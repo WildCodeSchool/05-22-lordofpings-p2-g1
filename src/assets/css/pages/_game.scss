@@ -1,13 +1,13 @@
 .gameBackground {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    min-height: 100vh;
-    z-index: -1;
-    filter: blur(10px);
-    background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 100vh;
+  z-index: -1;
+  filter: blur(10px);
+  background-size: cover;
 }
 
 .gameAdmin {
@@ -18,9 +18,21 @@
 }
 
 .game {
-      background-repeat: no-repeat;
-      background-size: contain;
-      aspect-ratio: 16 / 9;
-      max-height: 100vh;
-      margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  aspect-ratio: 16 / 9;
+  max-height: 100vh;
+  margin: auto;
+  
+}
+
+@mixin characters {
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
 }

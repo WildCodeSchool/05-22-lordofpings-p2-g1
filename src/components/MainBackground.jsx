@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import book from '../assets/img/background/mainbg/book.svg'
 import bubble from '../assets/img/background/mainbg/bubble.svg'
 import cauldron from '../assets/img/background/mainbg/cauldron.svg'

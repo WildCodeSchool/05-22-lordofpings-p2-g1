@@ -13,7 +13,7 @@ function Home() {
       <div className='home'>
         <div className='blockStart'>
           <div className='halogo'>
-            <img className='logo' src={logoMerlin} />
+            <img className='logo' src={logoMerlin} draggable={false} />
             <div id='halo'></div>
           </div>
           <div className='title'>

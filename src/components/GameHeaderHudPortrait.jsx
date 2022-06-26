@@ -7,6 +7,7 @@ const GameHeaderHudPortrait = ({ hero }) => {
       <img
         src={hero?.class === 'archer' ? Archer : Knight}
         className='portrait'
+        draggable={false}
       />
     </div>
   )
