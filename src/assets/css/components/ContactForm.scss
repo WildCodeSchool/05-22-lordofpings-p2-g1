@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+
+.grandmaContainer {
+    display: flex;
+    justify-content: flex-end;
+.motherContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 35%;
+    height: 650px;
+    border: solid goldenrod;
+    font-family: 'Cinzel Decorative', cursive;
+    color: goldenrod;
+    margin-top: 2%;
+    background-color: rgba(108, 28, 99, 0.6);}
+
+    hr {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        background-color: goldenrod;
+        border: none;
+        height: 2px;
+        
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .formContainer {
+        margin-top: 10%;
+
+       
+}
+}
