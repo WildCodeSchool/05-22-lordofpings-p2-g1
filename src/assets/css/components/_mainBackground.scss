@@ -1,142 +1,325 @@
-@mixin zposition {
+@mixin aposition {
   position: absolute;
   z-index: 5;
 }
 
-@mixin yposition {
+@mixin rposition {
   position: relative;
   z-index: 5;
 }
 
 .elementsMaster {
-  @include zposition;
+  @include aposition;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
   top: 0;
   margin: auto;
-}
+  
+  .elements {
+    @include rposition;
+    height: 100vh;
+    width: 100vw;
 
-.elements {
-  @include yposition;
-  height: 100vh;
-  width: 100vw;
-}
+    .backgroundElement {
+      @include aposition;
+    }
+    
+    #book {
+      top: 30%;
+      left: 90%;
+      transform: translate(-88%, -52%);
+      height: 500px;
+      z-index: 6;
+      animation: 3s ease-in-out infinite alternate floatingBook;
+    }
 
-.backgroundElement {
-  @include zposition;
-}
+    .bubble {
+      opacity: 0;
+    }
 
-#crystalBallAndSupport, #bubble {
-  display: none;
-}
+    #bubble1 {
+      height: 18px;
+      opacity: .5;
+      left: 30%;
+      top: 45%;
+      animation: 4s linear .2s infinite running bubbleMoveFaded;
+    }
 
-#book {
-  top: 30%;
-  left: 90%;
-  transform: translate(-88%, -52%);
-  height: 500px;
-  z-index: 6;
-  animation: 3s ease-in-out infinite alternate floatingBook;
-}
+    #bubble2 {
+      height: 50px;
+      left: 50%;
+      top: 36%;
+      animation: 4s linear 1s infinite running bubbleMove1;
+    }
 
-#potion {
-  top: 60%;
-  left: 80%;
-  height: 200px;
-  animation: 3s ease-in-out 5s infinite alternate floating3;
-}
+    #bubble3 {
+      height: 30px;
+      left: 25%;
+      top: 65%;
+      animation: 4s linear .5s infinite running bubbleMove;
+    }
 
-#crystalPink {
-  top: 88%;
-  left: 65%;
-  height: 150px;
-  animation: 3s ease-in-out 3s infinite alternate floating;
-}
+    #bubble4 {
+      height: 35px;
+      left: 65%;
+      top: 55%;
+      animation: 4s linear infinite running bubbleMove;
+    }
 
-#crystalYellow {
-  top: -5%;
-  left: 40%;
-  height: 150px;
-  animation: 3s ease-in-out 5s infinite alternate floating3;
-}
+    #bubble5 {
+      height: 10px;
+      left: 20%;
+      top: 50%;
+      animation: 3s linear 2s infinite running bubbleMove1Faded;
+    }
+    
+    #bubble6 {
+      height: 40px;
+      left: 40%;
+      top: 62%;
+      animation: 10s linear 1s infinite running bubbleMove2;
+    }
 
-#cauldron {
-  top: 80%;
-  left: 35%;
-  height: 300px;
-  animation: 3s ease-in-out 1s infinite alternate floating;
-}
+    #bubble7 {
+      height: 30px;
+      left: 50%;
+      top: 60%;
+      animation: 20s linear 1.5s infinite running bubbleMove3;
+    }
 
-#mirror {
-  left: 55%;
-  top: 20%;
-  height: 200px;
-  animation: 3s ease-in-out .1s infinite alternate floating2;
-}
+    #bubble8 {
+      height: 28px;
+      left: 60%;
+      top: 60%;
+      animation: 15s linear 3s infinite running bubbleMove4;
+    }
+    
+    #cauldron {
+      top: 80%;
+      left: 35%;
+      height: 300px;
+      animation: 3s ease-in-out 1s infinite alternate floating;
+    }
 
-#crystalBall {
-  top: 60%;
-  left: 55%;
-  height: 150px;
-  animation: 3s ease-in-out 5s infinite alternate floating3;
-}
+    #cauldronBubbles {
+      position: absolute;
+      bottom: 0;
+      height: 50vh;
+      width: 200px;
+      left: 36%;
+      z-index: 100;
+    }
+    
+    #crystalBall {
+      top: 60%;
+      left: 55%;
+      height: 150px;
+      animation: 3s ease-in-out infinite alternate floating3;
+    }
+    
+    #crystalBallSupport {
+      top: 77%;
+      left: 53%;
+      height: 50px;
+      animation: 3s ease-in-out .1s infinite alternate floating2;
+    }
+    
+    #crystalPink {
+      top: 88%;
+      left: 65%;
+      height: 150px;
+      animation: 3s ease-in-out infinite alternate floating;
+    }
+    
+    #crystalYellow {
+      top: -5%;
+      left: 40%;
+      height: 150px;
+      animation: 3s ease-in-out 5s infinite alternate floating3;
+    }
+    
+    #haloBook {
+      position: absolute;
+      top: 30%;
+      left: 91%;
+      border-radius: 50%;
+      z-index: 10;
+      animation: 3s ease-out infinite alternate irradiateYellow;
+    }
+    
+    #haloCrystal {
+      position: absolute;
+      top: 4%;
+      left: 41.7%;
+      border-radius: 50%;
+      z-index: 10;
+      animation: 3s ease-out infinite alternate irradiateOrange;
+    }
 
-#crystalBallSupport {
-  top: 77%;
-  left: 53%;
-  height: 50px;
-  animation: 3s ease-in-out .1s infinite alternate floating2;
-}
-
-#haloYellow {
-  position: absolute;
-  top: 30%;
-  left: 90%;
-  border-radius: 50%;
-  box-shadow:
-  0 0 60px 30px #fff,
-  0 0 140px 90px rgb(255, 225, 0),
-  0 0 100px 60px rgb(255, 111, 0);
-  z-index: 10;
-  animation: 3s ease-in-out 5s infinite alternate floating3, 3s ease-out infinite alternate irradiateYellow2;
-}
-
-#haloYellow2 {
-  position: absolute;
-  top: 5%;
-  left: 42.5%;
-  border-radius: 50%;
-  box-shadow:
-  0 0 60px 30px #fff,
-  0 0 100px 60px rgb(255, 111, 0),
-  0 0 140px 90px rgb(255, 225, 0);
-  z-index: 10;
-  animation: 3s ease-in-out 10s infinite alternate floating, 3s ease-out infinite alternate irradiateYellow;
+    #haloPotion {
+      position: absolute;
+      top: 70%;
+      left: 90%;
+      border-radius: 50%;
+      z-index: 10;
+      animation: 10s ease-in-out infinite alternate floatingHaloPotion, 5s ease-out infinite alternate irradiateYellowSmall;
+    }
+    
+    #mirror {
+      left: 55%;
+      top: 20%;
+      height: 200px;
+      animation: 3s ease-in-out .1s infinite alternate floating2;
+    }
+    
+    #potion {
+      top: 70%;
+      left: 90%;
+      transform: translate(-85%, -35%);
+      height: 200px;
+      animation: 10s ease-in-out infinite alternate floatingPotion;
+    }
+  }
 }
 
 .blockStart {
   z-index: 10;
 }
 
+@keyframes bubbleMoveFaded {
+  0% {transform: translate(0, 0); opacity: .5}
+  20% {transform: translate(-15%, -20%);}
+  40% {transform: translate(20%, -30%);}
+  60% {transform: translate(-10%, -60%);}
+  80% {transform: translate(20%, -90%);}
+  90% {transform: translate(20%, -100%); opacity: .5;}
+  91% {transform: translate(20%, -100%); opacity: 0;}
+  100% {transform: translate(20%, -100%); opacity: 0;}
+}
+
+@keyframes bubbleMove {
+  0% {transform: translate(0, 0) scale(0); opacity: 1;}
+  10% {transform: translate(0, 0) scale(1); opacity: 1;}
+  20% {transform: translate(-15%, -20%);}
+  40% {transform: translate(20%, -30%);}
+  60% {transform: translate(-10%, -60%);}
+  80% {transform: translate(20%, -90%);}
+  90% {transform: translate(20%, -100%); opacity: 1;}
+  91% {transform: translate(20%, -100%); opacity: 0;}
+  100% {transform: translate(20%, -100%); opacity: 0;}
+}
+
+@keyframes bubbleMove1Faded {
+  0% {transform: translate(0, 120%); opacity: .5}
+  20% {transform: translate(-15%, 50%);}
+  40% {transform: translate(20%, 0);}
+  60% {transform: translate(-10%, -60%);}
+  80% {transform: translate(20%, -90%);}
+  90% {transform: translate(20%, -100%); opacity: .5;}
+  91% {transform: translate(20%, -100%); opacity: 0;}
+  100% {transform: translate(20%, -100%); opacity: 0;}
+}
+
+@keyframes bubbleMove1 {
+  0% {transform: translate(0, 120%) scale(0); opacity: 1}
+  10% {transform: translate(-5%, 80%) scale(1); opacity: 1}
+  20% {transform: translate(-15%, 50%);}
+  40% {transform: translate(20%, 0);}
+  60% {transform: translate(-10%, -60%);}
+  80% {transform: translate(20%, -90%);}
+  90% {transform: translate(20%, -100%); opacity: 1;}
+  91% {transform: translate(20%, -100%); opacity: 0;}
+  100% {transform: translate(20%, -100%); opacity: 0;}
+}
+
+@keyframes bubbleMove2 {
+  0% {transform: translate(0, 0); opacity: 1}
+  20% {transform: translate(150%, -250%);}
+  30% {transform: translate(250%, -320%);}
+  40% {transform: translate(320%, -380%);}
+  50% {transform: translate(400%, -440%);}
+  60% {transform: translate(470%, -380%);}
+  70% {transform: translate(520%, -450%);}
+  80% {transform: translate(600%, -500%);}
+  90% {transform: translate(700%, -440%); opacity: 1;}
+  91% {transform: translate(700%, -440%); opacity: 0;}
+  100% {transform: translate(800%, -550%); opacity: 0;}
+}
+
+@keyframes bubbleMove3 {
+  0% {transform: translate(0, 0); opacity: 1}
+  20% {transform: translate(150px, -250%);}
+  30% {transform: translate(250px, -320%);}
+  40% {transform: translate(320px, -380%);}
+  50% {transform: translate(400px, -440%);}
+  60% {transform: translate(470px, -380%);}
+  70% {transform: translate(520px, -450%);}
+  80% {transform: translate(600px, -500%);}
+  90% {transform: translate(700px, -440%); opacity: 1;}
+  91% {transform: translate(700px, -440%); opacity: 0;}
+  100% {transform: translate(1500px, -550%); opacity: 0;}
+}
+
+@keyframes bubbleMove4 {
+  0% {transform: translate(0, 0); opacity: 1}
+  20% {transform: translate(50px, -250%);}
+  30% {transform: translate(100px, -320%);}
+  40% {transform: translate(160px, -380%);}
+  50% {transform: translate(200px, -440%);}
+  60% {transform: translate(250px, -380%);}
+  70% {transform: translate(310px, -450%);}
+  80% {transform: translate(370px, -500%);}
+  90% {transform: translate(440px, -440%); opacity: 1;}
+  91% {transform: translate(440px, -440%); opacity: 0;}
+  100% {transform: translate(550px, -550%); opacity: 0;}
+}
+
 @keyframes floatingBook {
-  from { transform: translate3d(-88%, -52%); }
-  to  { transform: translate3d(-90%, -54%, 20px); }
+  from { transform: translate(-88%, -52%); }
+  to  { transform: translate(-90%, -54%); }
+}
+
+@keyframes floatingHaloPotion {
+  from { transform: translate(0, 0); }
+  to  { transform: translate(40px, 20px); }
+}
+
+@keyframes floatingPotion {
+  from { transform: translate(-85%, -35%); }
+  to  { transform: translate(-60%, -20%); }
 }
 
 @keyframes floating {
-  from { transform: translate3d(0); }
-  to  { transform: translate3d(-5px, -10px, 20px); }
+  from { transform: translate(0); }
+  to  { transform: translate(-5px, -10px); }
 }
 
 @keyframes floating2 {
-  from { transform: translate3d(0); }
-  to  { transform: translate3d(-10px, 10px, 0); }
+  from { transform: translate(0); }
+  to  { transform: translate(-10px, 10px); }
 }
 
 @keyframes floating3 {
-  from { transform: translate3d(0); }
-  to  { transform: translate3d(5px, -5px, 10px); }
+  from { transform: translate(0); }
+  to  { transform: translate(5px, -5px); }
+}
+
+@keyframes irradiateOrange {
+  from {  
+    box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px rgb(255, 225, 0),
+    0 0 140px 90px rgb(255, 111, 0); 
+    opacity: .5;
+  }
+  to {
+    box-shadow:
+    0 0 40px 10px #fff,
+    0 0 30px 20px rgb(255, 225, 0),
+    0 0 100px 50px rgb(255, 111, 0); 
+    opacity: .8;
+  }
 }
 
 @keyframes irradiateYellow {
@@ -154,19 +337,17 @@
   }
 }
 
-@keyframes irradiateYellow2 {
+@keyframes irradiateYellowSmall {
   from {  
     box-shadow:
     0 0 60px 30px #fff,
-    0 0 100px 60px rgb(255, 225, 0),
-    0 0 140px 90px rgb(255, 111, 0); 
-    opacity: .5;
+    0 0 70px 30px rgb(255, 174, 0),
+    0 0 100px 50px rgb(255, 225, 0); 
   }
   to {
     box-shadow:
     0 0 40px 10px #fff,
-    0 0 30px 20px rgb(255, 225, 0),
-    0 0 100px 50px rgb(255, 111, 0); 
-    opacity: .8;
+    0 0 5px 5px rgb(255, 174, 0),
+    0 0 60px 10px rgb(255, 225, 0); 
   }
 }
