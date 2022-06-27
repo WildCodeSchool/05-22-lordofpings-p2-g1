@@ -17,8 +17,8 @@ function GameOver({ setPage, setHero }) {
         </div>
 
         <div className='containerRight'>
-          <img src={gameover} className='imgGameOver' />
-          <Link to='/'>
+          <img src={gameover} className='imgGameOver' draggable={false} />
+          <Link to='/' draggable={false}>
             {' '}
             <button onClick={() => setPage(-1)}> Restart </button>
           </Link>

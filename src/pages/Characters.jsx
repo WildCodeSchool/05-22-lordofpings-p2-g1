@@ -1,9 +1,14 @@
+import MainBackground from '../components/MainBackground'
+
 import heroes from '../assets/json/heroes.json'
 import Archer from '../assets/img/heroes/archer.png'
 import knight from '../assets/img/heroes/knight.png'
 import { Link } from 'react-router-dom'
 
 function Characters() {
+  document.cookie = 'volume=60'
+  document.cookie = 'volumeToggle=true'
+
   return (
     <div className='characters'>
       <h1>Choisissez votre héros</h1>
@@ -12,7 +17,7 @@ function Characters() {
         {heroes &&
           heroes.map(hero => {
             return (
-              <Link to='/game' key={hero.name}>
+              <Link to='/game' key={hero.name} draggable={false}>
                 <div
                   className='heroesCard'
                   onClick={() =>
@@ -24,6 +29,7 @@ function Characters() {
                       src={hero?.class === 'archer' ? Archer : knight}
                       alt='hero'
                       className='imgHero'
+                      draggable={false}
                     />
                     <div className='profil'>
                       <h2>{hero.name}</h2>
@@ -47,6 +53,7 @@ function Characters() {
             )
           })}
       </div>
+      <MainBackground />
     </div>
   )
 }

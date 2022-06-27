@@ -1,9 +1,25 @@
 .concept{
+    width: 100%;
     box-sizing: border-box;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    justify-content: center;
+    background:no-repeat url(../../img/background/mainbg/bg.svg);
+    background-size: cover;
+    .conceptParchment{
+        width: 100%;
+        z-index: 10;
+    }
+    button {
+        animation: buttonConcept 4s ease-in-out;
+        z-index: 10;
+      }
+}
+
+@keyframes buttonConcept{
+    from {opacity: 0;}
+    88% {opacity: 0;}
+    to {opacity: 1;}
 }

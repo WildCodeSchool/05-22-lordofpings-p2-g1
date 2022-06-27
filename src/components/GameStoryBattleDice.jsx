@@ -24,12 +24,12 @@ const GameStoryBattleDice = () => {
   return (
     <div>
       <div className='rollDice'>
-        <h1> Lance le dé pour attaquer ! </h1>
+        {/* <h1> Lance le dé pour attaquer ! </h1> */}
         <div className='rollDice-container'>
           <Dice face={String(dice1)} rolling={rolling} />
         </div>
         <button onClick={roll} disabled={rolling}>
-          {rolling ? 'En cours...' : 'Lancez'}
+          {rolling ? 'En cours...' : 'Attaquer'}
         </button>
       </div>
     </div>

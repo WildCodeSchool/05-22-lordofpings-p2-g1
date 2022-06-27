@@ -243,11 +243,13 @@
     "buttons": [
       {
         "title": "Dormir pour se reposer.",
+        "item": "carte",
         "quest": 14,
         "unique": false
       },
       {
         "title": "Persévérer et avancer.",
+        "item": "carte",
         "quest": 15,
         "unique": false
       }
@@ -288,13 +290,19 @@
   },
   {
     "_id": 16,
+    "title": "Le château de Merlin (Arrivée au château)",
+    "text":"Merlin a beau être fou, il a tout de même bon goût. Nul doute que les villageois ont travaillé d’arrache-pied pour bâtir les 20% restants du château. En témoignent les magnifiques moulures, les statues finement ouvragées et les vitraux ciselés. Bon c’est bien beau tout ça, mais vous n’êtes pas venu pour acheter, pas vrai ? Alors arrêtez de rêvasser devant ce tas de pierres. Vous vous dites que vous pourriez retourner à la taverne assez facilement maintenant, étant donné que vous vous trouvez à un carrefour et qu’un panneau “Taverne (voie rapide)” est planté là. Si vous aviez su…  Mais après tout, mieux vaut peut-être en finir le plus vite possible avec le vieux frappadingue et ses golems-sandwichs.",
     "battle": true,
-    "title": "Le Château",
     "image": "",
     "buttons": [
       {
-        "title": "Continuer",
+        "title": "Faire un petit tour à la taverne",
         "quest": 1002,
+        "unique": false
+      },
+      {
+        "title": "Entrer dans le château",
+        "quest": 46,
         "unique": false
       }
     ]
@@ -347,22 +355,22 @@
       },
       {
         "title": "Non mais en vrai on n'a qu'à dire Nord-Est",
-        "quest": 0,
+        "quest": 41,
         "unique": false
       },
       {
         "title": "Ou alors l'Ouest",
-        "quest": 0,
+        "quest": 42,
         "unique": false
       },
       {
         "title": "C'est une direction Est-Ouest ?",
-        "quest": 0,
+        "quest": 43,
         "unique": false
       },
       {
         "title": "Au pire on peut sur Sud-Est",
-        "quest": 0,
+        "quest": 44,
         "unique": false
       }
     ]
@@ -456,7 +464,7 @@
       },
       {
         "title": "Proposer votre aide au loup à poil",
-        "quest": 0,
+        "quest": 37,
         "unique": false
       }
     ]
@@ -488,23 +496,29 @@
       },
       {
         "title": "Chercher la sortie le plus vite possible",
-        "quest": 0,
+        "quest": 33,
         "unique": false
       }
     ]
   },
   {
     "_id": 27,
-    "title": "",
+    "title": "Le Gardien des Crystomannaies (Prendre le temps de récupérer des cristaux)",
+    "text": "Vous vous affairez à dégoter des crystomonnaies, vous voyant déjà vivre comme une reine grâce à votre nouvelle fortune. Alors que vous tâtonnez parmi les rangées de cristaux multicolores, vos doigts finissent par se poser sur quelque chose qui n’a plus rien à voir avec la roche, mais qui vous paraît pourtant dur comme pierre.Levant les yeux, vous voyez culminer sur un corps de géant une tête monstrueuse pourvue de grandes défenses. Un sourire menaçant lézarde son visage.“Bonjour, toute petite demoiselle. Alors comme ça on vient miner des crystomonnaies ? Et ce, sans demander l’autorisation au gardien des lieux. À présent, vous allez me donner l’intégralité du contenu de votre bourse.” Il marque une pause, en proie à la réflexion, avant de proposer :“Vous savez quoi ? Je m’ennuie ferme depuis trop longtemps. Alors je vous propose de résoudre une petite énigme, et vous pourrez garder votre vie en plus d’une crystomonnaie.”",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Accepter de lui donner toutes vos richesses",
+        "quest": 28,
         "unique": false
       },
       {
-        "title": "",
+        "title": "Résoudre l’énigme du gardien",
+        "quest": 29,
+        "unique": false
+      },
+      {
+        "title": "Tenter de pousser le gardien contre un gros cristal bien pointu",
         "quest": 0,
         "unique": false
       }
@@ -512,9 +526,299 @@
   },
   {
     "_id": 28,
-    "title": "",
+    "title": "La bourse plutôt que la vie (Accepter de lui donner toutes vos richesses)",
+    "text":"“Merci, c’est bien urbain de votre part.” L’œil avide, le Gardien des Crystomonnaies se jette sur son butin et s’emploie à faire les comptes. C’est le moment de vous barrer. Maintenant. Qu’est-ce que vous attendez ? Décarrez",
     "image": "",
     "buttons": [
+      {
+        "title": "Foutez le camp",
+        "quest": 45,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 29,
+    "title": "Vous vivez pour jouer, à moins que ce ne soit l’inverse (Résoudre l’énigme du gardien)",
+    "text":"“Énoncez votre énigme, qu’on en finisse. Allons, un peu d’entrain, sinon à quoi bon jouer ?” Voyant que vous ne vous dériderez pas, le géant obtempère, un brin vexé. “Si j’écris tous les nombres de 100 à 400, combien de fois ai-je écrit le chiffre 2 ?” “Ha ! Bien joué !” Le Gardien des Crystomonnaie est visiblement satisfait de votre réponse.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "160",
+        "quest": 30,
+        "unique": false
+      },
+      {
+        "title": "200",
+        "quest": 31,
+        "unique": false
+      },
+      {
+        "title": "Cuillère ?",
+        "quest": 31,
+        "unique": false
+      },
+      {
+        "title": "360",
+        "quest": 31,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 30,
+    "title":"Les chiffres, c'est votre truc( Réussite de l'énigme)",
+    "text":"“Ha ! Bien joué !” Le Gardien des Crystomonnaie est visiblement satisfait de votre réponse. “Vous m’avez apporté un peu de distraction, et pour cette raison je vais vous laisser partir. Comme promis, voici une crystomonnaie, faites-en bon usage.” Même s’il avait promis de vous la remettre, la frustration est peinte sur son visage. “La sortie vers la vallée est par là.” En suivant son doigt du regard, vous apercevez un vaste tunnel. En l’empruntant, vous trouvez rapidement la lumière du jour.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Sortir à l’air libre",
+        "quest": 45,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 31,
+    "title": "Vous n'avez jamais été très chiffre(Echec de l'énigme du gardien)",
+    "text":"Vous donnez votre réponse, convaincue d’avoir déjoué l’énigme du gardien. Mais son grognement de frustration vient couper court à vos espoirs. La frustration se transforme rapidement en rage, et un léger tintement tout autour de vous vous fait réaliser la puissance du grondement grandissant du géant. Il semble que vous n’ayez d’autre choix que de vous battre.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Abattre le gardien",
+        "quest": "0 GameStoryBattle",
+        "unique": false
+      },
+      {
+        "title": "Sauf que vous n’avez pas envie de vous battre",
+        "quest": 32,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 32,
+    
+    "title": "Oui alors bon (Sauf que vous n'avez pas envie de vous battre)",
+    "text":"Vous savez comme on dit que “dans la vie, on n’a pas toujours le choix ?”",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Abattre le gardien",
+        "battle":true,
+        "quest": "0 GameStoryBattle",
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 33,
+    "title": "Pas de repos pour les braves (Chercher la sortie le plus vite possible)",
+    "text":"Vous ne vous attardez pas, malgré les richesses potentielles qui vous tendent les bras. C’est dommage parce que les thunes, ça fait pas le bonheur, mais ça fait à minima l’équipement. M’enfin c’est vous qui voyez. Vous finissez par trouver une sortie qui vous ramène à l’air libre. Des vibrations régulières dans le sol, comme les pas d’une créature anormalement lourde, vous font penser que vous avez bien fait de ne pas vous attarder. Une chaleur suffocante vous assaille, et pour cause : vous vous trouvez face à un immense lac de lave. Aucun moyen de le contourner, vous allez devoir traverser. Après considération, vous vous dites qu’il est peut-être possible d’atteindre l’autre rive grâce aux rochers qui émergent du magma ça et là",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Traverser rapidement",
+        "quest": 34,
+        "unique": false
+      },
+      {
+        "title": "Traverser avec prudence",
+        "quest": 35,
+        "unique": false
+      },
+      {
+        "title": "Sauter de rocher en rocher",
+        "quest": 36,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 34,
+    "title": "Karvagma a de l'avenir (Traverser rapidement)",
+    "text": "Vous sortez de votre poche la carte de visite de Karvagma, le vendeur de kits ignifuges révolutionnaires, et vous vous rappelez ses mots : “Le jour où mon cousin Gollum est tombé dans la lave, j’ai compris qu’il y avait un marché à saisir. Tenez, prenez ma carte, ça vous donnera un avant-goût !”Vous avancez un pied au-dessus de la lave en fusion, hésitante. Si vous vous plantez, ça va faire mal. Très mal. Comme pour cousin Gollum. Comme on arrache un pansement, vous fermez les yeux et y allez d’un coup sec. Aucune douleur. Rouvrant les yeux, vous constatez que le lave n’est qu’un simple tapis rougeoyant pour vous. Craignant que l’effet ne s’estompe, vous courrez le plus vite possible pour atteindre l’autre rive. Lorsque vous l’atteignez, la carte a disparu de votre main. En contrebas, une vallée s’offre à vos yeux, et dans cette vallée se dressent quatre tours et un donjon, assortis de murailles. Le château de Merlin est en vue.",
+    "item": "carte",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Rejoindre la vallée",
+        "quest": 16,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 35,
+    "title": "Ça sent le cochon grillé, non ? (Traverser avec prudence)",
+    "text":"Vous vous rappelez la carte de visite de Karvagma et ce qu’il a dit en vous la laissant : “un avant-goût” de ses kits ignifuges. Nichée au creux de votre main, vous sentez qu’elle irradie de pouvoir. Vous vous mettez à genou et avancez un doigt en direction de la lave en fusion, tout en refusant de regarder. Lorsque votre peau touche le magma, vous avez juste l’impression de tâter un gâteau spongieux. Vous vous relevez et avancez prudemment sur le lac de lave, trop incertaine de pouvoir marcher sans crainte. Il est mieux de prendre son temps et d’arriver bien vivante, rien ne presse. Sauf que si. Arrivée à mi-parcours, vous ressentez davantage de chaleur, et le creux de votre main vous chatouille. En ouvrant le poing, vous constatez que la carte de Karvagma se consume pour vous permettre de ne pas être consumée, vous.Il vous reste un petit bout de carte, et 500 mètres de lac de lave en fusion à parcourir. Vous n’y arriverez jamais. Votre voyage se termine ici. Quelle ironie pour quelqu’un qui a toujours détesté la viande trop cuite.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Votre voyage se termine ici.",
+        "quest": "GameOver",
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 36,
+    "title": "L’entraînement paie enfin (Sauter de rocher en rocher)",
+    "text":"Vous vous délestez de quelques babioles qui vous alourdissent inutilement. Le temps de trouver un itinéraire parmi les rochers, vous voilà à sauter et virevolter de monticule en monticule. Vous atterrissez finalement (avec beaucoup de grâce, si je puis me permettre) de l’autre côté du lac. L’opération n’aura pris qu’une dizaine de minutes. Ce serait un record s’il y avait une épreuve sportive de ce type. Mais il n’y en a pas. En contrebas, une vallée s’offre à vos yeux, et dans cette vallée se dressent quatre tours et un donjon, assortis de murailles. Le château de Merlin est en vue.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Rejoindre la vallée",
+        "quest": 16,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 37,
+    "title": "Une aide bienvenue (Proposer votre aide au loup à poil)",
+    "text":"Le loup se détend de manière perceptible. “Vous feriez ça ?” Ses pupilles se dilatent à l’extrême et vous vous rendez compte qu’il est trop choupinoupinet. “Vous m’aideriez à retrouver ma cape rouge ? C’est un chaperon, pour être plus exact. Je vous récompenserai dûment.”",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Bien sûr que vous allez aider ce pauvre loup sans défense",
+        "quest": 38,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 38,
+    "title": "Ça ne doit pas être bien difficile à trouver, un petit chaperon (Bien sûr que vous allez aider ce pauvre loup sans défense)",
+    "text":"“Bien sûr, comment pourrais-je refuser ?” lancez-vous d’une voix un rien mielleuse. Oui, comment vous pourriez refuser ? Il est vraiment trop kiki. Vous fouillez le moins recoin pendant de longues heures. Finalement, épuisée, vous vous asseyez sur un rocher. Qui couine. Vous vous relevez d’un bond. La neige qui couvrait le rocher tombe en morceaux et laisse paraître un magnifique chaperon rouge… portée par une jeune fille terrorisée. “Je vous en prie, aidez-moi. Il veut me dévorer ! Je n’ai pas grand-chose, mais je peux vous donner ma cape, elle vous aidera dans vos périples !” En jetant un regard par-dessus votre épaule, vous constatez que le loup est occupé à retourner le moindre caillou à plusieurs mètres de vous. Il a le dos tourné.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Ramener la fillette au loup, il a promis une récompense.",
+        "quest": 39,
+        "unique": false
+      },
+      {
+        "title": "Aider la fillette à s’enfuir",
+        "quest": 40,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 39,
+    "title": "Il en faut pour tous les goûts (Ramener la fillette au loup, il a promis une récompense)",
+    "text":"Vous saisissez la jeune fille par le bras. Elle se débat, mais vous tenez bon et la ramenez auprès du loup. Le regard de celui-ci n’est plus du tout mignon. “Ah, merci infiniment ! Mais heu… vous savez, seule la cape m’intéresse hein…” Il ment vraiment très mal. Il comprend qu’on ne vous la fait pas, mais aussi que vous vous en fichez éperdument. “Tenez, pour votre aide précieuse…” Il lâche au creux de votre main une petite bourse bien pleine. Vous reprenez votre route vers le nord et vous finissez par tomber sur un chemin de montagne qui serpente vers une vallée où se dressent les tours d’un château.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Descendre dans la vallée",
+        "quest": 16,
+        "item" :"gold 10",
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 40,
+    "title": "La grande évasion (Aider la fillette à s’enfuir)",
+    "text":"“Viens avec moi si tu veux vivre.” Vous tendez la main à la jeune fille, qui ne se fait pas prier pour la saisir. La force de sa poigne témoigne de la terreur intense qui l’habite. Vous profitez que le loup est toujours dos à vous, occupé à réajuster son caleçon en faisant claquer son élastique pour détaler. Bien qu’il s’agissait d’un beau claquement, rien à redire là-dessus, ce n’est pas suffisant pour couvrir votre départ précipité. Le loup se jette à votre poursuite avec une telle vélocité que son caleçon s’envole avec ses louves pin-ups, enfin libres. Le terrain semble obliquer de manière abrupte un peu plus loin, et vous craignez de n’avoir d’autre choix que de vous battre contre le loup à poil (pour de bon, cette fois). Au dernier instant, vous remarquez un chemin sur votre gauche. Vous entendez distinctement le loup s’élancer. Tirant violemment sur le bras de la fillette, vous vous jetez sur le côté. Le loup vous jette un regard médusé tandis qu’il chute le long de la falaise. Après qu’il ait poussé son ultime hurlement rageur, le vent porte à sa suite son caleçon. Qui fait quelques virevoltes avant de se soustraire à votre vue. En vous relevant, vous constatez que le chemin que vous avez trouvé serpente en direction d’une vallée au cœur de laquelle un château dresse fièrement son donjon.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Descendre dans la vallée",
+        "quest": 16,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 41,
+    "title": "Kylian était un bon gamin, et vous le savez (Non mais en vrai on n’a qu’à dire nord-est)",
+    "text":"Parce que Kylian, vous saviez bien dans le fond qu’il était amoureux de vous. Ce jour-là il vous avait offert des fleurs qu’il avait cueillies dans le jardin. D’accord c’était le jardin de votre famille, mais on n’a pas forcément tous les couteaux dans le même tiroir, à 5 ans et demi. Ah oui au fait, vous ne voyez que de la neige dans cette direction. Et donc Kylian, il se retrouve avec le nez de Michael Jackson. Cherchez pas, vous ne connaissez pas. Un troubadour d’une contrée lointaine, aux cavités nasales prodigieusement aérées.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "La ferme",
+        "quest": 18,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 42,
+    "title": "Un passage dans la montagne (Ou alors l’ouest)",
+    "text":"En jetant un regard vers l’ouest, vous remarquez une petite cavité dans laquelle vous pourriez bien vous faufiler.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Un passage sombre et étroit ? Qu’est-ce qui pourrait mal se passer ?",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "Mieux vaut se montrer prudente et chercher une alternative",
+        "quest": 18,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 43,
+    "title": "Non (C’est une direction est-ouest ?)",
+    "text":"Sérieusement ?",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Vous restez où vous êtes, du coup",
+        "quest": 18,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 44,
+    "title": "Pas votre meilleure idée (Au pire on peut tabler sur sud-est)",
+    "text":"Le sud-est, c’est plus ou moins d’où vous venez. De fait, vous n’êtes pas très partante pour vous retaper la pente dans l’autre sens étant donné que cela pourrait vous conduire à une fin plutôt définitive ou à minima vers d’atroces mutilations. Et comme personne ne vous trouvera, ces atroces mutilations vous ramèneront à la première issue envisagée.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "On va plutôt prendre une autre direction.",
+        "quest": 18,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 45,
+    "title": "Un petit havre de paix (Clairière)",
+    "text":"Les oiseaux chantent, le vent caresse les branches d’un bois non loin de là, un petit lapin se fait défoncer la tronche par un ours. Le cadre est idyllique.Vous vous trouvez au milieu d’une petite clairière et vous prenez le temps de marcher tranquillement, pour changer. Les tours du château de Merlin percent le ciel un peu plus loin, au-delà d’une petite colline. Tout-à-coup, vous apercevez de magnifiques salades sauvages. Vous pouvez prendre le temps d’en emporter une au passage.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Cueillir une belle salade",
+        "quest": 16,
+        "item":"salade",
+        "unique": false
+      },
+      {
+        "title": "On s’en fout des légumes, filer directement au château",
+        "quest": 16,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 46,
+    "title": "Entrer dans le château",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
       {
         "title": "",
         "quest": 0,
@@ -528,10 +832,154 @@
     ]
   },
   {
-    "_id": 29,
+    "_id": 47,
     "title": "",
+    "text":"",
     "image": "",
     "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 48,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 49,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 50,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 51,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 52,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 53,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
       {
         "title": "",
         "quest": 0,
