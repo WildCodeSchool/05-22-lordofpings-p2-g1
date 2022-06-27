@@ -17,11 +17,11 @@
 @import "./components/gameSkills";
 
 @import "./components/gameHeader";
+@import "./components/gameHeaderButtons";
 @import "./components/gameHeaderHud";
 @import "./components/gameHeaderHudGold";
 @import "./components/gameHeaderHudHealth";
 @import "./components/gameHeaderHudPortrait";
-@import "./components/gameHeaderSound";
 
 @import "./components/gameStory";
 @import "./components/gameStoryBattle";
@@ -33,6 +33,8 @@
 
 @import "./components/gameWon";
 @import "./components/gameWonButton";
+
+@import "./components/mainBackground";
 
 *, ::before, ::after {
   box-sizing: border-box;

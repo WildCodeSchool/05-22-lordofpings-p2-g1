@@ -1,9 +1,14 @@
+import MainBackground from '../components/MainBackground'
+
 import heroes from '../assets/json/heroes.json'
 import Archer from '../assets/img/heroes/archer.png'
 import knight from '../assets/img/heroes/knight.png'
 import { Link } from 'react-router-dom'
 
 function Characters() {
+  document.cookie = 'volume=60'
+  document.cookie = 'volumeToggle=true'
+
   return (
     <div className='characters'>
       <h1>Choisissez votre héros</h1>
@@ -48,6 +53,7 @@ function Characters() {
             )
           })}
       </div>
+      <MainBackground />
     </div>
   )
 }

@@ -16,7 +16,7 @@ import quests from '../assets/json/frame.json'
 import Contact from './Contact'
 
 const Game = () => {
-  const [page, setPage] = useState(1003) // ID de la page en cours (Sommaire au dessous)
+  const [page, setPage] = useState(0) // ID de la page en cours (Sommaire au dessous)
   // -1 = Game Launch [Setup]// ID de la quête en cours
   // 0+ = Game Story
   // 1000 = Game Tavern

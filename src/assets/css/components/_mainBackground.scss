@@ -1,0 +1,172 @@
+@mixin zposition {
+  position: absolute;
+  z-index: 5;
+}
+
+@mixin yposition {
+  position: relative;
+  z-index: 5;
+}
+
+.elementsMaster {
+  @include zposition;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+  margin: auto;
+}
+
+.elements {
+  @include yposition;
+  height: 100vh;
+  width: 100vw;
+}
+
+.backgroundElement {
+  @include zposition;
+}
+
+#crystalBallAndSupport, #bubble {
+  display: none;
+}
+
+#book {
+  top: 30%;
+  left: 90%;
+  transform: translate(-88%, -52%);
+  height: 500px;
+  z-index: 6;
+  animation: 3s ease-in-out infinite alternate floatingBook;
+}
+
+#potion {
+  top: 60%;
+  left: 80%;
+  height: 200px;
+  animation: 3s ease-in-out 5s infinite alternate floating3;
+}
+
+#crystalPink {
+  top: 88%;
+  left: 65%;
+  height: 150px;
+  animation: 3s ease-in-out 3s infinite alternate floating;
+}
+
+#crystalYellow {
+  top: -5%;
+  left: 40%;
+  height: 150px;
+  animation: 3s ease-in-out 5s infinite alternate floating3;
+}
+
+#cauldron {
+  top: 80%;
+  left: 35%;
+  height: 300px;
+  animation: 3s ease-in-out 1s infinite alternate floating;
+}
+
+#mirror {
+  left: 55%;
+  top: 20%;
+  height: 200px;
+  animation: 3s ease-in-out .1s infinite alternate floating2;
+}
+
+#crystalBall {
+  top: 60%;
+  left: 55%;
+  height: 150px;
+  animation: 3s ease-in-out 5s infinite alternate floating3;
+}
+
+#crystalBallSupport {
+  top: 77%;
+  left: 53%;
+  height: 50px;
+  animation: 3s ease-in-out .1s infinite alternate floating2;
+}
+
+#haloYellow {
+  position: absolute;
+  top: 30%;
+  left: 90%;
+  border-radius: 50%;
+  box-shadow:
+  0 0 60px 30px #fff,
+  0 0 140px 90px rgb(255, 225, 0),
+  0 0 100px 60px rgb(255, 111, 0);
+  z-index: 10;
+  animation: 3s ease-in-out 5s infinite alternate floating3, 3s ease-out infinite alternate irradiateYellow2;
+}
+
+#haloYellow2 {
+  position: absolute;
+  top: 5%;
+  left: 42.5%;
+  border-radius: 50%;
+  box-shadow:
+  0 0 60px 30px #fff,
+  0 0 100px 60px rgb(255, 111, 0),
+  0 0 140px 90px rgb(255, 225, 0);
+  z-index: 10;
+  animation: 3s ease-in-out 10s infinite alternate floating, 3s ease-out infinite alternate irradiateYellow;
+}
+
+.blockStart {
+  z-index: 10;
+}
+
+@keyframes floatingBook {
+  from { transform: translate3d(-88%, -52%); }
+  to  { transform: translate3d(-90%, -54%, 20px); }
+}
+
+@keyframes floating {
+  from { transform: translate3d(0); }
+  to  { transform: translate3d(-5px, -10px, 20px); }
+}
+
+@keyframes floating2 {
+  from { transform: translate3d(0); }
+  to  { transform: translate3d(-10px, 10px, 0); }
+}
+
+@keyframes floating3 {
+  from { transform: translate3d(0); }
+  to  { transform: translate3d(5px, -5px, 10px); }
+}
+
+@keyframes irradiateYellow {
+  from {  
+    box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px rgb(255, 111, 0),
+    0 0 140px 90px rgb(255, 225, 0); 
+  }
+  to {
+    box-shadow:
+    0 0 40px 10px #fff,
+    0 0 30px 20px rgb(255, 111, 0),
+    0 0 100px 50px rgb(255, 225, 0); 
+  }
+}
+
+@keyframes irradiateYellow2 {
+  from {  
+    box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px rgb(255, 225, 0),
+    0 0 140px 90px rgb(255, 111, 0); 
+    opacity: .5;
+  }
+  to {
+    box-shadow:
+    0 0 40px 10px #fff,
+    0 0 30px 20px rgb(255, 225, 0),
+    0 0 100px 50px rgb(255, 111, 0); 
+    opacity: .8;
+  }
+}
