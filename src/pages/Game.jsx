@@ -88,6 +88,7 @@ const Game = () => {
         <button onClick={() => setPage(1003)}>GameSkills</button>
         <button onClick={() => setPage(1004)}>GameBattle</button>
         <button onClick={() => setPage(1005)}>Contact</button>
+        <input onChange={e => setQuest(quests[e.target.value])} />
       </div>
 
       <div className='game' style={{ backgroundImage: bg && `url(${bg})` }}>
