@@ -16,7 +16,7 @@ import quests from '../assets/json/frame.json'
 import Contact from './Contact'
 
 const Game = () => {
-  const [page, setPage] = useState(0) // ID de la page en cours (Sommaire au dessous)
+  const [page, setPage] = useState(localStorage.getItem('quest')) // ID de la page en cours (Sommaire au dessous)
   // -1 = Game Launch [Setup]// ID de la quête en cours
   // 0+ = Game Story
   // 1000 = Game Tavern
@@ -33,10 +33,10 @@ const Game = () => {
   const setHeroData = data => {
     setHero(data)
     localStorage.setItem('hero', JSON.stringify(data))
-    localStorage.setItem('quest', JSON.stringify(page))
   }
 
   useEffect(() => {
+    localStorage.setItem('quest', JSON.stringify(page))
     page < 1000 && setQuest(quests[page])
     page === -1 && setPage(quest)
     if (page < 1000) {
@@ -88,6 +88,7 @@ const Game = () => {
         <button onClick={() => setPage(1003)}>GameSkills</button>
         <button onClick={() => setPage(1004)}>GameBattle</button>
         <button onClick={() => setPage(1005)}>Contact</button>
+        <input onChange={e => setQuest(quests[e.target.value])} />
       </div>
 
       <div className='game' style={{ backgroundImage: bg && `url(${bg})` }}>
