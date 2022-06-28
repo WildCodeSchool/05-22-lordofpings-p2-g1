@@ -24,7 +24,7 @@ const Team = () => {
                 <p>
                   <span>Alignement :</span>Joyeux<br></br>
                   <span>Classe :</span> Barde <br></br>
-                  <span>Citation :</span> “Ça peut se faire en une ligne ”{' '}
+                  <span>Citation :</span> “Ça peut se faire en une ligne ”
                   <br></br>
                   Développeur de Génie
                 </p>
@@ -105,7 +105,7 @@ const Team = () => {
             <div className='face face2'>
               <div className='content'>
                 <p>
-                  <span>Alignement :</span> Tranquille, enfin pas toujours{' '}
+                  <span>Alignement :</span> Tranquille, enfin pas toujours
                   <br></br>
                   <span>Classe :</span> Rôdeur du Nord (Team froid) <br></br>
                   <span>Citation :</span>“ Utilise l’inspecteur ! ”<br></br>
