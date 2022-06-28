@@ -16,7 +16,7 @@ import quests from '../assets/json/frame.json'
 import Contact from './Contact'
 
 const Game = () => {
-  const [page, setPage] = useState(parseInt(localStorage.getItem('quest'))) // ID de la page en cours (Sommaire au dessous)
+  const [page, setPage] = useState(parseInt(localStorage.getItem('page'))) // ID de la page en cours (Sommaire au dessous)
   // -1 = Game Launch [Setup]// ID de la quête en cours
   // 0+ = Game Story
   // 1000 = Game Tavern
@@ -34,11 +34,12 @@ const Game = () => {
     setHero(data)
     localStorage.setItem('hero', JSON.stringify(data))
   }
+
   console.log(quest, page)
   useEffect(() => {
-    localStorage.setItem('quest', JSON.stringify(page))
-    page < 1000 && setQuest(quests[page])
-    page === -1 && setPage(quest)
+    localStorage.setItem('page', page)
+    page < 1000 && (setQuest(quests[page]), localStorage.setItem('quest', page))
+    page === null && setPage(0)
     if (page < 1000) {
       // Game Story
       if (quests[quest]?.image) {
@@ -51,7 +52,9 @@ const Game = () => {
       setBg(tavernImg)
     } else if (page === 1001) {
       // Game Over
-      setBg()
+      setBg(undefined)
+      setQuest(undefined)
+      setHero(localStorage.removeItem('hero'))
     } else if (page === 1002) {
       // Game Won
       setBg(gameWonImg)
@@ -81,17 +84,16 @@ const Game = () => {
 
       <div className='gameAdmin'>
         <b>ADMIN MENU: </b>
-        <button onClick={() => setPage(quest)}>Story</button>
+        <button onClick={() => setPage(localStorage.getItem('quest'))}>
+          Story
+        </button>
         <button onClick={() => setPage(1000)}>Tavern</button>
         <button onClick={() => setPage(1001)}>GameOver</button>
         <button onClick={() => setPage(1002)}>GameWon</button>
         <button onClick={() => setPage(1003)}>GameSkills</button>
         <button onClick={() => setPage(1004)}>GameBattle</button>
         <button onClick={() => setPage(1005)}>Contact</button>
-        <input
-          type={'number'}
-          onChange={e => setQuest(quests[e.target.value])}
-        />
+        <input type={'number'} onChange={e => setPage(e.target.value)} />
       </div>
 
       <div className='game' style={{ backgroundImage: bg && `url(${bg})` }}>

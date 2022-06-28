@@ -4,7 +4,7 @@ const GameHeaderHudGold = ({ hero }) => {
   return (
     <div className='gameHeaderHudGold'>
       <img src={Purse} draggable={false} />
-      <p>{hero.money}</p>
+      <p>{hero?.money}</p>
     </div>
   )
 }
