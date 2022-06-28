@@ -24,7 +24,6 @@ const ContactForm = () => {
             <label className='labels' htmlFor='email'>
               Votre prénom :{' '}
             </label>
-            <br></br>
             <input
               type='text'
               placeholder='Lola Fourth'
@@ -35,7 +34,6 @@ const ContactForm = () => {
             <label className='labels' htmlFor='email'>
               Votre email:{' '}
             </label>
-            <br></br>
             <input
               type='text'
               placeholder='Lola4th@setmail.fr'
@@ -58,7 +56,11 @@ const ContactForm = () => {
           </form>
 
           <br></br>
-          <input type='textarea' placeholder='Votre message ici !' />
+          <input
+            className='textMessage'
+            type='textarea'
+            placeholder='Votre message ici !'
+          />
           <br></br>
           <button onSubmit={handleSubmit}> Lancer son parchemin </button>
         </div>
