@@ -6,7 +6,6 @@ import MainBackground from '../components/MainBackground'
 function Home() {
   const item = localStorage.getItem('hero')
   const navigate = useNavigate()
-  console.log(item)
 
   return (
     <>
