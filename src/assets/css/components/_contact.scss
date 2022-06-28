@@ -1,10 +1,13 @@
-
+a {
+    text-decoration: none;
+    
     .returnButton {
         display: flex;
         justify-content: center;
         align-content: center;
         width: 30%;
         font-family: 'Cinzel Decorative', cursive;
+        text-decoration: none;
         color: goldenrod;
         font-style: bold;
         font-size: 16px;
@@ -13,4 +16,6 @@
         border-radius: 25px;
         border-color: goldenrod;
         cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+        text-decoration: none;
         }
+    }

@@ -21,38 +21,45 @@ const ContactForm = () => {
         <hr></hr>
         <div className='formContainer'>
           <form onSubmit={handleSubmit}>
-            <label className='labels' htmlFor='email'>
-              Votre prénom :{' '}
-            </label>
-            <input
-              type='text'
-              placeholder='Lola Fourth'
-              value={ClientName}
-              onChange={e => setClientName(e.target.value)}
-            />
+            <div className='section1'>
+              <label className='labels' htmlFor='email'>
+                Votre prénom :{' '}
+              </label>
+              <input
+                type='text'
+                placeholder='Lola Fourth'
+                value={ClientName}
+                onChange={e => setClientName(e.target.value)}
+              />
+            </div>
             <br></br>
-            <label className='labels' htmlFor='email'>
-              Votre email:{' '}
-            </label>
-            <input
-              type='text'
-              placeholder='Lola4th@setmail.fr'
-              value={email}
-              onChange={e => setEmail(e.target.value)}
-            />
+
+            <div className='section2'>
+              <label className='labels' htmlFor='email'>
+                Votre email:{' '}
+              </label>
+              <input
+                type='text'
+                placeholder='Lola4th@setmail.fr'
+                value={email}
+                onChange={e => setEmail(e.target.value)}
+              />
+            </div>
             <br></br>
-            <label className='labels' htmlFor='selection'>
-              Choisissez à qui vous souhaitez parler ! :
-            </label>
-            <select>
-              <option value='Romain'>Romain</option>
-              <option value='Remi'>Rémi</option>
-              <option value='Alexandra'>Alexandra</option>
-              <option value='Laure'>Laure</option>
-              <option value='Jérémy'>Jérémy</option>
-              <option value='Flora'>Flora</option>
-              <option value='Vincent'>Vincent</option>
-            </select>
+            <div className='section3'>
+              <label className='labels' htmlFor='selection'>
+                Vous souhaitez parler à :
+              </label>
+              <select>
+                <option value='Romain'>Romain</option>
+                <option value='Remi'>Rémi</option>
+                <option value='Alexandra'>Alexandra</option>
+                <option value='Laure'>Laure</option>
+                <option value='Jérémy'>Jérémy</option>
+                <option value='Flora'>Flora</option>
+                <option value='Vincent'>Vincent</option>
+              </select>
+            </div>
           </form>
 
           <br></br>
