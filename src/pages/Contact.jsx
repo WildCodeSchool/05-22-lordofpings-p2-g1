@@ -9,7 +9,7 @@ const Contact = () => {
       <ContactForm />
 
       <Link to='/'>
-        <button>Retourner à la page principale</button>
+        <button className='returnButton'>Retourner à la page principale</button>
       </Link>
     </div>
   )
