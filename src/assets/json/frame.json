@@ -3,8 +3,8 @@
     "_id": 0,
     "title": "Le départ de Camelot",
     "battle": false,
-    "text": "Vous marchez depuis quelques heures déjà. Lorsque vous vous êtes mise en route pour le fief de Merlin, vous aviez déjà entendu les histoires. La petite ville ne serait qu’une énième plaisanterie d’un esprit tombant irrémédiablement en décrépitude. L’enchanteur royal n’est plus que l’ombre de lui-même depuis près de 20 ans maintenant. Il terrorise aujourd’hui des villageois avec des golems de pierre, caché dans son château. Lorsque vous avez vu le décret royal à la taverne du “Rotiwok”, vous avez été quelque peu interloqué par la formulation : “Le Roi Arthur ordonne la saisie du grimoire de Merlin, utilisé pour invoquer les “Témoins de Merlin”, des golems de pierre. Sera attribuée la récompense de 1 000 pièces d’or à…” C’est à partir de là que votre cerveau n’en avait plus grand-chose à foutre.",
-    "image": "",
+    "text": "Vous marchez depuis quelques heures déjà. Lorsque vous vous êtes mise en route pour le fief de Merlin, vous aviez déjà entendu les histoires. La petite ville ne serait qu’une énième plaisanterie d’un esprit tombant irrémédiablement en décrépitude. L’enchanteur royal n’est plus que l’ombre de lui-même depuis près de 20 ans maintenant. Il terrorise aujourd’hui des villageois avec des golems de pierre, caché dans son château. Lorsque vous avez vu le décret royal à la taverne du “Rotiwok”, vous avez été quelque peu interloqué par la formulation : “Le Roi Arthur ordonne la saisie du grimoire de Merlin, utilisé pour invoquer les “Témoins de Merlin”, des golems de pierre. Sera attribuée la récompense de 1 000 pièces d’or à…” C’est à partir de là que votre cerveau n’en avait plus grand-chose à foutre.", 
+    "image": "assets/img/background/story/forest1.svg",
     "buttons": [
       {
         "title": "Poursuivre votre route",
@@ -18,7 +18,7 @@
     "title": "Les Témoins de Merlin",
     "battle": false,
     "text": "Lorsque vous passez le panneau indiquant “Fookin Foolths”, des golems se précipitent vers vous. Les fameux “Témoins de Merlin” en pierre et en… pierre. De prime abord effrayée, vous réalisez rapidement qu’ils n’en veulent qu’à vos oreilles : ils ne cessent de réclamer de votre temps pour vous entretenir de “la grandeur du seigneur Merlin”. Vous n’avez droit à aucun répit jusqu’à atteindre la taverne. Pire, vous constatez que les golems commencent à diversifier leurs activités en proposant des ventes de bocaux et autres babioles - vous remarquez notamment une étrange pyramide en fer, très étirée en hauteur, qu’un golem particulièrement enthousiaste vous agite sous le nez en articulant “Touréphel”.",
-    "image": "",
+    "image": "assets/img/background/story/city1.svg",
     "buttons": [
       {
         "title": "Pousser la porte de la taverne",
@@ -32,7 +32,7 @@
     "title": "La Taverne de Fookin Foolths ",
     "battle": false,
     "text": "L’endroit est chaleureux. Peut-être est-ce la lourde porte qui s’est refermée sur les sollicitations incessantes des golems, mais vous vous sentez profondément apaisée. Le feu dans l’âtre et la vague odeur de cochon grillé ainsi que… oui… celle de la bonne bière… vous êtes ici en lieu sûr. La taverne est peu peuplée - il n’y a que vous pour vous pointer à 17h et espérer trouver tout le monde à l’apéro. Ce n’est pas une critique. Mais franchement vous pourriez penser à freiner. Le tavernier essuie des verres derrière le comptoir, cependant qu’un vieil homme se cure le nez dans un coin. Tous les yeux sont posés sur vous.",
-    "image": "",
+    "image": "assets/img/background/tavern.svg",
     "buttons": [
       {
         "title": "Parler au tavernier",
@@ -51,7 +51,7 @@
     "title": "Borduk la cuillère",
     "battle": false,
     "text": "“Bonjour à vous, cuillère !”",
-    "image": "",
+    "image": "assets/img/background/story/tavern1.svg",
     "buttons": [
       {
         "title": "Pardon ?",
@@ -65,7 +65,7 @@
     "title": "Pardon ?",
     "battle": false,
     "text": "“Je veux dire, bonjour à vous, aventurière. On m’appelle Borduk la cuillère. Rapport au fait que je dis tout le temps cuillère. C’est pas de mon fait, notez bien. Je suis tombé sur la tête quand j’étais petit, et depuis je répète cuillère à tout bout de champ, c’est plus fort que moi.” Un long silence s’installe durant lequel Borduk semble se concentrer avec beaucoup d’application. Ses joues s’empourprent, son front se plisse, son visage tout entier se renfrogne. Un râle monte dans sa gorge tandis qu’une larme se forme au coin de son œil. “Cuillère.”",
-    "image": "",
+    "image": "assets/img/background/story/tavern1.svg",
     "buttons": [
       {
         "title": "Demander comment se rendre au château de Merlin",
@@ -79,7 +79,7 @@
     "battle": false,
     "title": "Demander comment se rendre au château de Merlin",
     "text": "Le visage du tavernier s’éclaire.“Vous êtes venu nous débarrasser de ces fichus golems ? Dieu soit cuillère ! Le château de Merlin se trouve au sud. Vous pourrez vous y rendre par la forêt des Troncs Sonneurs ou par le Mont Kuyerh. C’est le vrai nom ça, c’est pas mon tic de langage. La forêt est plus hospitalière que les monts enneigés, même si l’on raconte qu’on peut y faire d’étranges rencontres. Le Mont Kuyerh est un peu cuillère - pardon, dangereux -, mais vous pourrez peut-être passer plus rapidement ",
-    "image": "",
+    "image": "assets/img/background/story/tavern1.svg",
     "buttons": [
       {
         "title": "Remercier Borduk et sortir",
@@ -312,21 +312,11 @@
     "battle": false,
     "title": "Demander plus d'infos à l'autre glandu",
     "text": "Vous vous approchez de l’explorateur des cavités nasales. Après vous être présentée autour d’une bière, l’homme a accepté de vous expliquer comment tout a commencé. Après avoir apporté sa contribution ultime à Arthur - une potion favorisant la repousse des poils -, ce dernier lui a demandé de rassembler son nécessaire d’alchimie et sa plante en pot et de “dégager fissa” Aussi fou qu’il se sentait floué, Merlin s’est alors isolé à une centaine de kilomètres de Camelot - avec son nécessaire d’alchimie et sa plante en pot. Un bégonia si vous voulez tout savoir. Malheureusement, il avait égaré quelques années auparavant son sort de construction de château. À moins qu’il n’ait jamais existé. Pas impossible, ça.",
-    "image": "",
+    "image": "assets/img/background/story/tavern2.svg",
     "buttons": [
       {
         "title": "Boire une autre gorgée",
-        "quest": 2,
-        "unique": false
-      },
-      {
-        "title": "Encore une petite lampée pour la route",
-        "quest": 2,
-        "unique": false
-      },
-      {
-        "title": "Finissez votre bière",
-        "quest": 2,
+        "quest": 47,
         "unique": false
       }
     ]
@@ -833,46 +823,26 @@
   },
   {
     "_id": 47,
-    "title": "",
-    "text":"",
-    "image": "",
+    "title": "L’autre glandu. (Boire une autre gorgée)",
+    "text":"Il a donc utilisé un sort d’édification primaire - qui permet d’ériger un bâtiment à 80% - et fait placarder des affiches à travers tout le royaume, promettant moult richesses à tous les bras forts qui finiraient sa place forte. Toutefois, il oublia de mentionner que la récompense promise dépendait de la transformation alchimique du plomb en or. Vous vous doutez bien de ce qu’il en est à ce niveau-là. Les bâtisseurs floués ont décidé de rester jusqu’à ce que Merlin daigne leur payer ce qui leur est dû et ont ainsi fondé une petite ville à quelques kilomètres du château. Le druide a souhaité montrer sa bonne volonté : il a reconnu la ville en lui donnant le nom de Fookin Foolths.",
+    "image": "assets/img/background/story/tavern2.svg",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Encore une petite lampée pour la route",
+        "quest": 48,
         "unique": false
       }
     ]
   },
   {
     "_id": 48,
-    "title": "",
-    "text":"",
-    "image": "",
+    "title": "L’autre glandu (Encore une petite lampée pour la route)",
+    "text":"Une fois rentré à son château, il a ourdi un plan machiavélique et relativement inhumain afin de se débarrasser de ses ouailles impudentes : faisant appel au plan tellurique, il a lancé une invocation… un peu au hasard, il faut le reconnaître. De manière inexplicable, le sort a fonctionné et Fookin Foolths se retrouve à présent envahi de golems de pierre. D’abord effrayés, les habitants de la petite bourgade ont rapidement compris que les créatures ne représentaient aucun danger à proprement parler. Seulement, ils ne cessent de frapper aux portes, répétant inlassablement cette phrase : “avez-vous quelques minutes à m’accorder pour parler de la grandeur de notre seigneur Merlin ?”. Il suffit qu’une fenêtre reste ouverte, qu’un paysan aille aux champs, bref il suffit de la moindre opportunité pour qu’un golem déroule son laïus. “Voilà, vous savez tout” conclut votre interlocuteur. ",
+    "image": "assets/img/background/story/tavern2.svg",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Finissez votre bière",
+        "quest": 2,
         "unique": false
       }
     ]

@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import Parchment from '../components/GameStoryParchment'
 import BigButton from '../components/BigButton'
+import MainBackground from '../components/MainBackground'
 import { useState, useEffect } from 'react'
 
 const Concept = () => {
@@ -19,22 +20,26 @@ const Concept = () => {
   useEffect(() => (para === false ? setText(rules) : undefined), [para])
 
   return (
-    <div className='concept'>
-      <div className='conceptParchment'>
-        <Parchment
-          quest={text}
-          animation={animation}
-          setAnimation={setAnimation}
+    <>
+      <div className='concept'>
+        <div className='conceptParchment'>
+          <Parchment
+            quest={text}
+            animation={animation}
+            setAnimation={setAnimation}
+          />
+        </div>
+        <BigButton
+          onclick={() =>
+            animation === false &&
+            (para ? setPara(!para) : navigate('../create'))
+          }
+          text='Continuer'
+          height='100'
         />
       </div>
-      <BigButton
-        onclick={() =>
-          animation === false && (para ? setPara(!para) : navigate('../create'))
-        }
-        text='Continuer'
-        height='100'
-      />
-    </div>
+      <MainBackground />
+    </>
   )
 }
 

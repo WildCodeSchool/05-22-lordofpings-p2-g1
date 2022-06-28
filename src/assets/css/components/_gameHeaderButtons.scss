@@ -1,22 +1,36 @@
-.gameHeaderSound {
+@mixin gameHeaderButtons {
     width: 30px;
-    height: 50px;
-    margin-right: 30px;
+    height: 30px;
+    cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+}
+
+.gameHeaderMenu {
+    @include gameHeaderButtons;
+    float: right;
+    margin-left: 10px;
+}
+
+.gameHeaderSound {
+    @include gameHeaderButtons;
     display: flex;
     gap: 5px;
     
     .soundOnOff, .volumeEmpty, .volumeFull {
-        cursor: url('../../img/ui/knight-cursor-select.png'), auto;
         width: 30px;
     }
 
     .volumeEmpty, .volumeFull {
         opacity: 0;
+        display: none;
     }
 }
 
 .gameHeaderSound:hover {
     animation: .5s ease-in-out slidein forwards;
+
+    .volumeEmpty, .volumeFull {
+        display: block;
+    }
 
     #soundIcon0 {
         animation: .5s ease-in-out .1s sliderpop forwards;

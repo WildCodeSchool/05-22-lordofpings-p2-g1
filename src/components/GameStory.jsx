@@ -5,7 +5,6 @@ import { useState } from 'react'
 
 const GameStory = ({ quest, setPage, hero }) => {
   const [animation, setAnimation] = useState(true)
-
   return (
     <>
       <GameHeader hero={hero} />
