@@ -34,8 +34,6 @@ const Game = () => {
     setHero(data)
     localStorage.setItem('hero', JSON.stringify(data))
   }
-
-  console.log(quest, page)
   useEffect(() => {
     localStorage.setItem('page', page)
     page < 1000 && (setQuest(quests[page]), localStorage.setItem('quest', page))
