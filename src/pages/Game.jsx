@@ -90,7 +90,7 @@ const Game = () => {
         <button onClick={() => setPage(1005)}>Contact</button>
         <input
           type={'number'}
-          onChange={e => setQuest(quests[e.target.value])}
+          onChange={e => setPage(parseInt(e.target.value))}
         />
       </div>
 

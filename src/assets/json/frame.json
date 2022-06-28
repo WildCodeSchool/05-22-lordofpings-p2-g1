@@ -297,7 +297,7 @@
     "buttons": [
       {
         "title": "Faire un petit tour à la taverne",
-        "quest": 1002,
+        "quest": 1000,
         "unique": false
       },
       {
