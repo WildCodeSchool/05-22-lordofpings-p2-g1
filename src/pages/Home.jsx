@@ -28,8 +28,6 @@ function Home() {
             }
           />
         </div>
-        <BigButton text='JOUER' height='100' />
-        onclick={() => (item ? navigate('../game') : navigate('../create'))}
       </div>
       <MainBackground />
     </>
