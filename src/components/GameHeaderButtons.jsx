@@ -71,7 +71,6 @@ const GameHeaderButtons = () => {
           alt={isSound ? 'Sound: activated' : 'Sound: deactivated'}
           onClick={handleSound}
         />
-        {console.log(volume)}
         {checkVolume.map((volumePoint, index) =>
           volumePoint ? (
             <img

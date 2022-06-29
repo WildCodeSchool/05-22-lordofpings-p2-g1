@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom'
 function Characters() {
   document.cookie = 'volume=60'
   document.cookie = 'volumeToggle=true'
+  localStorage.setItem('quest', JSON.stringify(0))
+  localStorage.setItem('page', JSON.stringify(0))
 
   return (
     <div className='characters'>
