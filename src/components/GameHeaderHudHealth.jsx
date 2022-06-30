@@ -1,18 +1,19 @@
 import { useState, useEffect } from 'react'
 
-import Heart from '../assets/img/ui/hud/heart.svg'
-import BrokenHeart from '../assets/img/ui/hud/broken-heart.svg'
+import heart from '../assets/img/ui/hud/heart.svg'
+import brokenHeart from '../assets/img/ui/hud/broken-heart.svg'
 
 const GameHeaderHudHealth = ({ hero }) => {
   const [life, setLife] = useState([hero?.heal])
-
+  // console.log('hudhealth', hero)
   useEffect(() => {
+    // console.log('hero', hero)
     const result = []
     for (let i = 0; i < hero?.maxHeal; i++) {
       if (i < hero.heal) {
-        result.push(Heart)
+        result.push(heart)
       } else {
-        result.push(BrokenHeart)
+        result.push(brokenHeart)
       }
     }
     setLife(result)

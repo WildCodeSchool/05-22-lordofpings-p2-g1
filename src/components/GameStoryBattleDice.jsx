@@ -1,24 +1,47 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Dice from './Dice'
 
-const GameStoryBattleDice = () => {
-  const [state, setState] = useState({
-    dice1: 1,
+const GameStoryBattleDice = ({
+  hero,
+  setHero,
+  setPage,
+  quest,
+  setShowButton
+}) => {
+  const [result, setResult] = useState({
+    dice: null,
     rolling: false
   })
+  useEffect(() => {
+    const winOrDie = () => {
+      if (hero.heal > 1) {
+        // let heroData = hero
+        let heart = hero.heal
+        if (result.dice == 1) {
+          heart -= 2
+        } else if (result.dice < 4) {
+          heart -= 1
+        } else {
+          setShowButton(true)
+        }
+        setHero({ ...hero, heal: heart })
+      } else {
+        setPage(1001)
+      }
+    }
 
-  const { dice1, rolling } = state
+    result.dice && winOrDie()
+  }, [result])
+
+  const { dice, rolling } = result
 
   const roll = () => {
     const newDice = Math.floor(Math.random() * 6) + 1
-    setState({
-      dice1: newDice,
-      rolling: true
-    })
 
-    setTimeout(() => {
-      setState(prevState => ({ ...prevState, rolling: false }))
-    }, 1000)
+    setResult({
+      dice: newDice,
+      rolling: false
+    })
   }
 
   return (
@@ -26,7 +49,7 @@ const GameStoryBattleDice = () => {
       <div className='rollDice'>
         {/* <h1> Lance le dé pour attaquer ! </h1> */}
         <div className='rollDice-container'>
-          <Dice face={String(dice1)} rolling={rolling} />
+          <Dice face={result.dice} rolling={rolling} />
         </div>
         <button onClick={roll} disabled={rolling}>
           {rolling ? 'En cours...' : 'Attaquer'}
