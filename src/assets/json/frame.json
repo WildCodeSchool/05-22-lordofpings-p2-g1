@@ -150,7 +150,7 @@
     "buttons": [
       {
         "title": "Leurs demander s'ils pensent que leurs mamans seraient fières d'eux",
-        "quest": 0,
+        "quest": 52,
         "unique": true
       },
       {
@@ -160,7 +160,7 @@
       },
       {
         "title": "Ecraser leurs sales petites tronches de glands contre des chênes",
-        "quest": 0,
+        "quest":  "iD GameBattle",
         "unique": true
       }
     ]
@@ -170,6 +170,7 @@
     "battle": false,
     "title": "Le temps de la disette",
     "text": "“Je me disais bien que vous aviez besoin d’aide !” Un sourire presque édenté fend le visage du grand type. Ses deux acolytes restent quant à eux impassibles. Chacun garde la main sur le pommeau de son épée. Juste au cas où. “C’est par là !” lâche capitaine Tête de Gland en faisant un pas de côté pour vous montrer la suite du chemin que vous suiviez déjà. Vous les dépassez, d’ores et déjà habitée par le regret de ne pas les avoir maravés.",
+    "item": "gold = 0",
     "image": "",
     "buttons": [
       {
@@ -183,11 +184,16 @@
     "_id": 10,
     "battle": true,
     "title": "La porte des étoles (Accepter de payer leur tribut)",
-    "text": "Franchement vous auriez dû les maraver. Une bonne petite torgnole, ça fait toujours du bien. Ce n’est pas pour vous influencer, mais du coup maintenant vous ne pouvez même plus vous payer des pâtes au beurre. Heureusement, vous vous rappelez qu’il vous reste de quoi vous faire un cassoulet de minuit chez vous au besoin.Tandis que vous ruminez, vous déviez de votre trajectoire sans même vous en rendre compte. Soudain, vous réalisez que vous vous tenez face à une sorte d’immense portail. Sur son pourtour sont enroulées des étoffes soyeuses. Aux branches des arbres alentour sont suspendus de longues bandes de tissu. Votre pied trébuche sur une tablette de pierre gravée posée au milieu des herbes folles.“Je suis un tissu tricoté à partir de gros mythos, que suis-je ?” ",
+    "text": "Franchement vous auriez dû les maraver. Une bonne petite torgnole, ça fait toujours du bien. Ce n’est pas pour vous influencer, mais du coup maintenant vous ne pouvez même plus vous payer des pâtes au beurre. Heureusement, vous vous rappelez qu’il vous reste de quoi vous faire un cassoulet de minuit chez vous au besoin.Tandis que vous ruminez, vous déviez de votre trajectoire sans même vous en rendre compte. Soudain, vous réalisez que vous vous tenez face à une sorte d’immense portail. Sur son pourtour sont enroulées des étoffes soyeuses. Aux branches des arbres alentour sont suspendus de longues bandes de tissu. Votre pied trébuche sur une tablette de pierre gravée posée au milieu des herbes folles. “Je suis un tissu tricoté à partir de gros mythos, que suis-je ?” ",
     "buttons": [
       {
-        "title": "Résoudre l'énigme",
+        "title": "un tissu de mensonges",
         "quest": 11,
+        "unique": false
+      },
+      {
+        "title": "Des salades",
+        "quest": 51,
         "unique": false
       }
     ]
@@ -196,16 +202,12 @@
     "_id": 11,
     "battle": false,
     "title": "Un portail",
+    "text": "Le portail souvre. Ça à l'air si duvetteux... Vous vous enveloppez dans la douceur du portail.",
     "image": "",
     "buttons": [
       {
-        "title": "Entrée",
-        "quest": 2,
-        "unique": false
-      },
-      {
-        "title": "Retourner à la taverne",
-        "quest": 1000,
+        "title": "Le portail vous emporte.",
+        "quest": 50,
         "unique": false
       }
     ]
@@ -224,12 +226,12 @@
       },
       {
         "title": "Un cerf qui parle ? C’est mort : fuyez vers une grotte que vous avez repérée.",
-        "quest": 0,
+        "quest": 53,
         "unique": false
       },
       {
         "title": "Continuer tranquillement en ignorant le cerf. Vous imaginez clairement des choses.",
-        "quest": 0,
+        "quest": 54,
         "unique": false
       }
     ]
@@ -269,7 +271,7 @@
       },
       {
         "title": "Donner une leçon aux Rel'Ours",
-        "quest": 0,
+        "quest": "iD GameBattle",
         "unique": false
       }
     ]
@@ -432,11 +434,6 @@
         "title": "Revenir sur vos pas",
         "quest": 18,
         "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
       }
     ]
   },
@@ -509,7 +506,7 @@
       },
       {
         "title": "Tenter de pousser le gardien contre un gros cristal bien pointu",
-        "quest": 0,
+        "quest": "iD GameBattle",
         "unique": false
       }
     ]
@@ -576,7 +573,7 @@
     "buttons": [
       {
         "title": "Abattre le gardien",
-        "quest": "0 GameStoryBattle",
+        "quest": "GameBattle",
         "unique": false
       },
       {
@@ -596,7 +593,7 @@
       {
         "title": "Abattre le gardien",
         "battle":true,
-        "quest": "0 GameStoryBattle",
+        "quest": "iD GameBattle",
         "unique": false
       }
     ]
@@ -646,7 +643,7 @@
     "buttons": [
       {
         "title": "Votre voyage se termine ici.",
-        "quest": "GameOver",
+        "quest": 1001,
         "unique": false
       }
     ]
@@ -743,7 +740,7 @@
     "buttons": [
       {
         "title": "Un passage sombre et étroit ? Qu’est-ce qui pourrait mal se passer ?",
-        "quest": 0,
+        "quest": 26,
         "unique": false
       },
       {
@@ -800,17 +797,17 @@
   },
   {
     "_id": 46,
-    "title": "Entrer dans le château",
-    "text":"",
+    "title": "Le départ de Monsieur LeCoq",
+    "text":"Alors que vous approchez des immenses portes du château, celles-ci s’ouvrent dans un grincement retentissant. Un homme vêtu d’une redingote et d’un chapeau élégant apparaît. Un détail notable le concernant : il a des pattes de poulet. À votre approche, il lève les yeux. “Je suppose que - cot cot ! - vous venez pour monsieur. (Il s’écarte) Ne vous faites pas prier.” Constatant que vous restez plantée là à fixer ses membres inférieurs, il ajoute : “Je suis monsieur LeCoq - cot cot ! - et je servais monsieur Merlin en qualité de majordome - cot cot !. Il s’ennuyait aujourd’hui, il a donc décidé de “réconcilier” - cot cot ! - mon image et mon nom. Comme vous le voyez, son sort a raté. Du moins en partie - cot cot ! C’était la goutte d’eau, je rentre en France.”",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Cot cot",
+        "quest": 58,
         "unique": false
       },
       {
-        "title": "",
+        "title": "Pousser la porte du château",
         "quest": 0,
         "unique": false
       },
@@ -841,83 +838,486 @@
     "image": "assets/img/background/story/tavern2.svg",
     "buttons": [
       {
-        "title": "Finissez votre bière",
-        "quest": 2,
+        "title": "Finissez votre bière et parler au tavernier",
+        "quest": 3,
+        "unique": false
+      },
+      {
+        "title": "Finissez votre bière et sortir",
+        "quest": 6,
         "unique": false
       }
     ]
   },
   {
     "_id": 49,
-    "title": "",
-    "text":"",
+    "title": "Une petite cueillette au clair de lune (Cueillir quelques champignons)",
+    "text":"C’est vrai que vous n’avez que ça à glander, de cueillir des champignons sous la pleine lune dans une forêt qui fait de la musique. Mais personne ne vous juge. Déjà parce que vous êtes toute seule, et ensuite parce que c’est vrai qu’ils sont magnifiques ces champignons. Ça fera une omelette incroyable, ou un poison létal. Mieux vaudrait vous en assurer avant de choisir l’une ou l’autre option",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Enfourner votre récolte dans votre besace",
+        "quest": 7,
+        "item": "champignon",
         "unique": false
       }
     ]
   },
   {
     "_id": 50,
-    "title": "",
-    "text":"",
+    "title": "Retour au village",
+    "text":"La froideur de la nuit vous galce les os. Seules quelques torches éclairent ça et là les habitations du village. À quelques kilomètres vers l’est, vous voyez le Mont Kuyerh s’élever fièrement contre le firmament. Droit devant vous, au sud, la forêt des Troncs Sonneurs sommeille au-delà du village. Il est temps de choisir votre route : des voix se rapprochent, et elles veulent vous vendre des encyclopédies d’histoire.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Passer par la forêt des Troncs Sonneurs",
+        "quest": 7,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
+        "title": "Gravir le Mont Kuyerh",
+        "quest": 18,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
+        "title": "Retouner à la taverne",
+        "quest": 1000,
         "unique": false
       }
     ]
   },
   {
     "_id": 51,
-    "title": "",
-    "text":"",
+    "title": "Des salades ",
+    "text":"Le portail s'ouvre. Ça a l’air si humide… Et ça sent le choux, mais vous avancé dans portail.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Un petit havre de paix (Clairière)",
+        "quest": 45,
         "unique": false
       }
     ]
   },
   {
     "_id": 52,
+    "title": "Leur demander s’ils pensent que leurs mamans seraient fières d’eux",
+    "text":"Sérieux ?  Vous voulez vraiment faire ça ? Allez on est gentils, on va faire comme si vous n’aviez rien dit.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Accepter de payer leur tribut ",
+        "quest": 9,
+        "unique": false
+      },
+      {
+        "title": "Écraser leurs sales petites tronches de glands contre des chênes (baston)",
+        "quest":  "iD GameBattle",
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 53,
+    "title": "En sécurité ",
+    "text":"Vous détalez en direction de la grotte sans regarder en arrière et donc sans voir le regard d’incompréhension que vous jette le cerf rougeoyant. Ce n’est qu’après avoir couru environ 500 mètres à l’intérieur du tunnel que vous vous arrêtez pour reprendre votre souffle. Désormais, vous ne pouvez que continuer. Vous marchez durant un long moment avant de finalement percevoir de l’air frais, très frais même.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Sortir au grand air",
+        "quest": 18,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 54,
+    "title": "Les cerfs qui parlent, ça n’existe pas",
+    "text":"Allons, approchez ! N’ayez pas peur !” Les mots continuent de s’imposer à vous pendant plusieurs minutes, avant de finalement cesser pour de bon sur un “Tant pis pour vous !” vexé. Vous êtes fière de votre résilience face à cette faiblesse passagère de l’esprit.  Vos jambes vous portent pendant quelques heures encore avant que la fatigue ne vous envahisse. Vous songez à un feu, votre couchette, et surtout au sommeil…",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Dormir pour se reposer.",
+        "quest": 14,
+        "unique": false
+      },
+      {
+        "title": "Persévérer et avancer.",
+        "quest": 15,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 55,
+    "title": "Brochette de géant",
+    "text":"Entre les jambes du gardien, vous remarquez un énorme cristal très pointu à quelques mètres derrière lui. Vous prétextez vouloir résoudre son énigme, le laissant plonger dans ses réflexions pour vous en trouver une. C’est à ce moment que vous faites appel à toutes vos forces et poussez le géant d’un coup sec. Pris par surprise, il ne s’attendait pas à ce qu’une si petite créature ait tant de force -, il vacille, parvient presque à reprendre son équilibre, mais trébuche et s’étend de tout son long. Un bruit humide et dégoûtant accompagne sa chute. Un pieu immense, magnifique et - il faut bien le dire -, franchement dégueu en même temps, orne la poitrine du Gardien des Crystomonnaies. Vous vous dépêchez de le fouiller et trouvez deux crystomonnaies, puis vous décampez en vitesse : vous ne savez pas quelles autres créatures peuvent hanter ces lieux.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Sortir de la caverne de cristal",
+        "quest": 45,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 56,
+    "title": "Un problème modèle géant",
+    "text":"L’énorme poing du gardien s’abat sur vous. Vous avez à peine le temps de bondir en arrière. Reprenant vos appuis, vous dégainez votre arme, prête à trucider ce nouvel obstacle à votre quête. ",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": "GameBattle",
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 57,
+    "title": "Le géant terrassé",
+    "text":"Vous frappez un coup, puis deux, sans toutefois faire mouche. Votre adversaire vous repousse d’un simple revers de la main. Le mur que vous percutez vide l’air de vos poumons. Alors que le gardien s’approche, vous percevez les vibrations du sol dans vos mains et vos genoux à chacun de ses pas. Vous êtes toujours à quatre pattes, haletante, lorsqu’il vous saisit. À la dernière seconde, vous attrapez votre arme et tandis que le géant vous soulève, votre lame accompagne le mouvement. Vous n’avez qu’à tendre les bras et elle s’enfonce dans le menton du gardien sans résistance, appuyée par la force de celui-ci. Il vous tient face à lui, le regard médusé, votre arme plantée en travers de son crâne. Vous tombez avec lui à la renverse. Vous vous dépêchez de le fouiller et trouvez deux crystomonnaies, puis vous décampez en vitesse : vous ne savez pas quelles autres créatures peuvent hanter ces lieux.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Sortir de la caverne de cristal",
+        "quest": 45,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 58,
+    "title": "Vous n’avez pas honte ?",
+    "text":"C’est très vilain de se moquer. Moi je ne vous fais pas de remarque sur votre visage étrangement asymétrique.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Pardon ?",
+        "quest": 59,
+        "unique": false
+      },
+      {
+        "title": "Pardon",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 59,
+    "title": "Vous avez bien lu",
+    "text":"Oui oui",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Je suis désolée",
+        "quest": 61,
+        "unique": false
+      },
+      {
+        "title": "Cot cot",
+        "quest": 60,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 60,
+    "title": "Vous l’avez bien cherché (Cot cot)",
+    "text":"Ah c'est comme ça. Non seulement votre tronche manque de cohérence, mais vos muscles ont visiblement fondu. À force d'écumer les tavernes au lieu de tabasser des gobelins, voilà ce qui arrive. Et vous avez du bide. Si. Je fais ce que je veux, je suis le narrateur.Cette mauvaise hygiène de vie a forcément eu des conséquences sur vos performances d'aventurière.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Je l'ai bien cherché.",
+        "quest": 61,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 61,
+    "title": "La grande classe (Pousser la porte du château)",
+    "text":"Derrière la porte, tout n’est que boiseries ouvragées et dorures précieuses. Le grand hall du château de Merlin en met plein la vue, il faut le reconnaître. Le genre de lieu très rare que priserait sans aucun doute Stephan De La Placette. En mettant de côté le rouleau de papier toilette qui traîne dans un coin.Vous voyez qui c’est, Stephan De La Placette, pas vrai ? Mais siiii. C’est ce mercenaire du logis qui vous trouve le bien introuvable ! Enfin bref, rien que le hall lui taperait dans l’œil à coup sûr.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Je m'en fou",
+        "quest": 62,
+        "unique": false
+      },
+      {
+        "title": "Vraiment je m'en tape",
+        "quest": 62,
+        "unique": false
+      },
+      {
+        "title": "Rien à secouer",
+        "quest": 62,
+        "unique": false
+      },
+      {
+        "title": "Rien à secouer",
+        "quest": 62,
+        "unique": false
+      }
+    ]
+  },{
+    "_id": 62,
+    "title": "Débrouillez-vous (Hall du château)",
+    "text":"Rustre. Vous ne faites aucun effort. Puisque c’est comme ça moi non plus :Y’a deux portes à gauche, deux portes à droite, et un escalier qui monte à l’étage au milieu.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Prendre les escaliers",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "Première porte à gauche",
+        "quest": 63,
+        "unique": false
+      },
+      {
+        "title": "Première porte à droite",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "Deuxième porte à droite",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 63,
+    "title": "La porte aux trois portes (Première porte à gauche)",
+    "text":"Lorsque vous passez la porte, vous êtes immédiatement confrontée… à trois autres portes. Chacune d’entre elles porte une inscription gravée dans le bois.Vous pouvez choisir entre “La mort”, “La vie” ou… “quelque chose entre les deux”. Vous qui n’avez jamais aimé faire des choix, vous voilà gâtée.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "La mort",
+        "quest": 64,
+        "unique": false
+      },
+      {
+        "title": "Quelque chose entre les deux",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "La vie",
+        "quest": 68,
+        "unique": false
+      },
+      {
+        "title": "Retourner dans le hall",
+        "quest": 62,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 64,
+    "title": " La mort (“La mort”)",
+    "text":"À l’instant où vous ouvrez la porte, votre sang ne fait qu’un tour.Devant vous se tient une immense silhouette encapuchonnée. Dans sa main squelettique, une faux à sa mesure qui ne sert clairement pas à faucher les blés. Enfin vous pourriez faucher les blés avec hein, c’est juste que là ça n’a pas l’air d’être l’objectif.La capuche se redresse dans votre direction. Vous ne parvenez pas à percer les ténèbres qui y ont élu domicile. Pourtant une voix en émane : “Oui ? Vous aviez rendez-vous ?” La silhouette sort un épais grimoire et, après l’avoir ouvert, fait courir un doigt décharné sur ses pages. Le bruit, semblable à celui d’une craie qui crisse sur un tableau, est insupportable. “Je suis désolé, je ne vous trouve pas dans mon registre. Ma secrétaire vous a contacté pour prendre rendez-vous ? Quelle incapable ! “Embauche Corrine, elle est exemplaire !” qu’ils disaient…”",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Refermer la porte",
+        "quest": 63,
+        "unique": false
+      },
+      {
+        "title": "Continuer",
+        "quest": 65,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 65,
+    "title": "La Mort arrive",
+    "text":"La silhouette continue de parcourir son grimoire quand soudain son doigt s’arrête. La capuche s’approche de la page jaunie. “Ah, attendez… Je vois quelque chose ici.” Vous remarquez que des traits se dessinent à l’endroit désigné. “Peut-être que Corrine va conserver son job et sa vie aujourd’hui, finalement !” Le rire qui s’échappe de la capuche vous évoque le verre pilé.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Refermer la porte",
+        "quest": 63,
+        "unique": false
+      },
+      {
+        "title": "Continuer",
+        "quest": 66,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 66,
+    "title": "Ha bah vous êtes mort",
+    "text":"Oui… voilà qui est mieux. C’est fou ça, je ne savais même pas que mon grimoire pouvait faire ça. Nous avons finalement bien rendez-vous ! Là-dessus, sans même que vous ayez le temps de comprendre ce qui se passe et pourtant, vous avez quand même eu largement le temps, la faux s’abat sur vous.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Le Paradis ?",
+        "quest": 1001,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 67,
+    "title": "Quelque chose entre les deux (“Quelque chose entre les deux”)",
+    "text":"Vous entrez dans la pièce avec assurance, prête à affronter tous les dangers. Une personne est assise dans le fond de la pièce. Il s’agit d’un homme élégant et bien vêtu, au physique pour le moins avantageux. Lorsqu’il se rend compte de votre présence, il se lève avec empressement.“Mes hommages, madame…” Il s’approche de vous, mais une lueur dans ses yeux vous fait instinctivement reculer. Surtout, vous avez remarqué le teint blafard de sa peau, qui vous rappelle celle d’un mort. Comme s’il lisait dans vos pensées, l’homme s’arrête net dans son élan et reprend : “Je suis Edward Cullen, et je suis mort. Oui alors je sais que ça surprend, mais je préfère le dire d’emblée. Pfiou, et ben ça nous enlève un poids, hein ? Petit détail également : je ne suis pas QUE mort, à l’évidence, et je suis d’une catégorie plutôt connue : les vampires. Mais ne sortez pas votre plus beau pieu tout de suite ! Je suis un vampire végétarien.” Devant votre mine médusée, il poursuit : “Oui, voyez-vous. Mon clan a décidé que tuer des gens, c’est mal. Donc on ne les mange plus. Non, nous on préfère les légumes. D’ailleurs, j’ai si faim… vous n’auriez pas un petit quelque chose ?” Vous sentez clairement qu’il a envie de vous bouffer, quand même. “Allons, je vois bien que je vous fais peur, je ne vais donc pas vous importuner plus longtemps, et vous allez voir que je suis parfaitement clean. Vous pouvez vous retourner et vous en aller, je ne ferai rien.” Au moment où il finit sa phrase, ses yeux se voilent l’espace d’un court instant. ",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Lui lancer de la légumineuse dans un coin de la pièce (requiert salade/champignons)",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "Aucune chance que vous lui fassiez confiance, c’est le moment de lui casser les canines.",
+        "quest": 0,
+        "unique": false,
+        "battle": true
+      },
+      {
+        "title": "S’il dit qu’il préfère la verdure, c’est qu’il préfère la verdure. Sortez.",
+        "quest": 0,
+        "unique": false,
+        "battle": true
+      }
+    ]
+  },
+  {
+    "_id": 68,
+    "title": "La vie (“La vie”)",
+    "text":"La pièce que vous découvrez est sobre, mais décorée avec goût. De grandes fenêtres laissent pénétrer la lumière du jour. Tout semble disposé pour attirer votre regard au centre de la salle, où trône une fiole en verre emplie d’un liquide rouge. “Oh ça, ça sent soit l’alcool, soit la potion de vie !”Vous vous approchez précipitamment, déjà heureuse de votre prise, mais lorsque vous posez vos doigts gantés sur l’opercule délicat, une voix retentit : “Hé là ! Bas les pattes !” Vous reculez, prise de court. Il n’y a personne d’autre que vous dans la pièce. “Je ne suis pas une potion facile ! Si vous voulez m’avoir rien que pour vous, il va vous falloir faire les choses en bonne et due forme.” “Ah, donc ce n’est pas de l’alcool…” Sérieusement, c’est ça qui vous vient à l’esprit ?",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Lui susurrer qu’elle est la plus belle potion que cette terre ait porté",
+        "quest": 73,
+        "unique": false
+      },
+      {
+        "title": "Lui promettre de l’emmener voir le monde",
+        "quest": 69,
+        "unique": false
+      },
+      {
+        "title": "Draguer une potion ? Et puis quoi encore ? L’embarquer de force",
+        "quest": 74,
+        "unique": false,
+        "battle": true
+      }
+    ]
+  },
+  {
+    "_id": 69,
+    "title": "Le bout du monde (Lui promettre de l’emmener voir le monde)",
+    "text":"Et vous m’emmèneriez ooooùùùùùùù ?",
+    "image": "",
+    "buttons": [
+      {
+        "title": "À Venise",
+        "quest": 70,
+        "unique": false
+      },
+      {
+        "title": "Dans la Creuse",
+        "quest": 72,
+        "unique": false
+      },
+      {
+        "title": "Hors de cette pièce, c’est déjà pas mal",
+        "quest": 72,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 70,
+    "title": "Une ville romantique, bon choix (À Venise)",
+    "text":"Et on y ferait quoooiiiiiiii ?",
+    "image": "",
+    "buttons": [
+      {
+        "title": "On se promènerait en gondole, rien que toi et moi",
+        "quest": 71,
+        "unique": false
+      },
+      {
+        "title": "Bon vas-y c’est chiant",
+        "quest": 72,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 71,
+    "title": "Vous, vous savez comment parler à une potion (Réussite potion de vie)",
+    "text":"La petite potion glousse à chacune de vos phrases, elle n’a d’yeux que pour vous. Enfin si elle avait des yeux, ils vous dévoreraient. “Emmenez-moi dans vos aventures, beauté !” Vous la saisissez délicatement et la fixez tout aussi soigneusement à votre ceinture. “Mais calmez vos ardeurs, moi, on ne me boit pas dès le premier soir !” ",
+    "item":"potion",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Sortir",
+        "quest": 63,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 72,
+    "title": "échec",
+    "text":"Vous ne m'intéressez pas, désolée je mérite bien mieux que vous. Vous devinez la mine renfrognée de la potion, vu qu'elle n'a pas de visage. “Vous feriez mieux de partir, j'attends quelqu'un.” Elle n'attend personne. Elle attend juste de vous voir décarrer.",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Sortir",
+        "quest": 63,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 73,
+    "title": "Love me tender",
+    "text":"Vous vous approchez doucement, cherchez désespérément l’oreille de votre future conquête avant de vous rappeler que… eh bien… que c’est une potion, quoi. Vous vous armez de votre plus belle voix et vous murmurez doucement à la petite potion : “Tu sais, ma belle, jamais je n’avais posé les yeux sur pareille…” La potion vous interrompt. Elle a la voix de quelqu’un qui se pince le nez. “Oh mais c’est quoi cette haleine de chacal ? Vous avez une brosse à dent dans votre trousseau d’aventurier ?” Oui. “Vous avez mangé un rat mort ou quoi ?”  Oui. Aussi. “Allez, houste ! Très peu pour moi ! Je suis une potion de vie, pas un bain de bouche ! Je ne peux rien pour une haleine de ses morts !”",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Mais je…",
+        "quest": 72,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 74,
+    "title": "L’embarquer de force",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Réussite",
+        "quest": 63,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 75,
     "title": "",
     "text":"",
     "image": "",
@@ -940,7 +1340,766 @@
     ]
   },
   {
-    "_id": 53,
+    "_id": 76,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 77,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 78,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 79,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 80,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 81,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 82,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 83,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 84,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 85,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 86,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 87,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 88,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 89,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 90,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 92,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 93,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 94,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 95,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 96,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 97,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 98,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 99,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 100,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 101,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 102,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 103,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 104,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 105,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 106,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 107,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 108,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 109,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 110,
     "title": "",
     "text":"",
     "image": "",
@@ -962,4 +2121,5 @@
       }
     ]
   }
+
 ]
