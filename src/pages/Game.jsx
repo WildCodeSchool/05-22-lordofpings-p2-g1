@@ -44,8 +44,8 @@ const Game = () => {
     page === -1 && setPage(localStorage.getItem('quest'))
     if (page < 1000) {
       // Game Story
-      if (quests[quest]?.image) {
-        setBg(quests[quest].image)
+      if (quest?.image) {
+        setBg(quest.image)
       } else {
         setBg(forest)
       }
@@ -75,7 +75,7 @@ const Game = () => {
       // Game Launch [Setup]
       setBg()
     }
-  }, [page])
+  }, [page, quest])
 
   return (
     <>

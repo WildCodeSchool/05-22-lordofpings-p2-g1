@@ -10,6 +10,21 @@
     background-size: cover;
     .conceptParchment{
         width: 100%;
+        .parchmentLeft {
+            margin-right: -60px;
+        }
+        .parchmentRight {
+            margin-left: -60px;
+        }
+        .gameStoryParchment {
+            max-width: 1300px;
+        }
+        .text {
+            height: 550px;
+        }
+        img {
+            height: 650px;
+        }
         z-index: 10;
     }
     button {
