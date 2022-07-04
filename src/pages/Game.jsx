@@ -34,6 +34,11 @@ const Game = () => {
     setHero(data)
     localStorage.setItem('hero', JSON.stringify(data))
   }
+
+  const [sound, setSound] = useState()
+  const [volume, setVolume] = useState(0.1)
+  const [muted, setMuted] = useState(false)
+
   useEffect(() => {
     localStorage.setItem('page', page)
     page < 1000 && (setQuest(quests[page]), localStorage.setItem('quest', page))
@@ -75,6 +80,14 @@ const Game = () => {
 
   return (
     <>
+      <ReactAudioPlayer
+        src={sound}
+        volume={volume}
+        // muted={muted}
+        autoPlay={true}
+        loop
+        controls
+      />
       <div
         className='gameBackground'
         style={{ backgroundImage: `url(${bg})` }}
