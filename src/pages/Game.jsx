@@ -113,7 +113,6 @@ const Game = () => {
         {page === 1001 && <GameOver setHero={setHeroData} setPage={setPage} />}
         {page === 1002 && <GameWon setPage={setPage} />}
         {page === 1003 && <GameSkills hero={hero} setPage={setPage} />}
-        {page === 1004 && <GameStoryBattle />}
         {page === 1005 && <Contact />}
 
         <div>
