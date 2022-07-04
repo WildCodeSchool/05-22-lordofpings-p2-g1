@@ -1,11 +1,21 @@
+.containerContact {
+    display: flex;
+    justify-content: space-between;
+    
+    .grandmaContainer {
+       margin-top: 5%;
+    }
+}
+
 a {
     text-decoration: none;
-    
+    display: flex;
+    justify-content: left;
+    padding-top: 2%;
+
     .returnButton {
-        display: flex;
-        justify-content: center;
-        align-content: center;
         width: 30%;
+        height: 60px;
         font-family: 'Cinzel Decorative', cursive;
         text-decoration: none;
         color: goldenrod;
@@ -18,4 +28,6 @@ a {
         cursor: url('../../img/ui/knight-cursor-select.png'), auto;
         text-decoration: none;
         }
-    }
+
+
+}
