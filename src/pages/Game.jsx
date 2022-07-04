@@ -3,7 +3,6 @@ import { React, useState, useEffect } from 'react'
 import GameOver from '../components/GameOver'
 import GameSkills from '../components/GameSkills'
 import GameStory from '../components/GameStory'
-import GameStoryBattle from '../components/GameStoryBattle'
 import GameTavern from '../components/GameTavern'
 import GameWon from '../components/GameWon'
 
