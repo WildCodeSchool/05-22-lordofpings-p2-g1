@@ -15,9 +15,11 @@
   bottom: 0;
   right: 0;
   padding: 10px 50px;
+  z-index: 10000;
 }
 
 .game {
+  position: relative;
   background-repeat: no-repeat;
   background-size: contain;
   aspect-ratio: 16 / 9;
@@ -31,6 +33,7 @@
   background-repeat: no-repeat;
   position: relative;
   cursor: pointer;
+  float: left;
 
   &:hover {
     filter: brightness(0.9);

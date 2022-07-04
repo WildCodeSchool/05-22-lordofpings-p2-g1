@@ -17,20 +17,20 @@ const GameSkillsTarget = ({ setGame }) => {
   useEffect(() => {
     console.log('useEffect [targetSpeed]', targetSpeed)
     setTargetCount(targetCount + 1)
-    console.log()
-    targetToggle && targetScore > 0 && console.log('loose')
     let interval = setInterval(() => {
       setTargetTop(Math.floor(Math.random() * 90) + 1)
       setTargetLeft(Math.floor(Math.random() * 90) + 1)
       setTargetToggle(true)
+
       setTimeout(() => {
         console.log('yolo')
         if (targetToggle && targetScore > 0) {
-          console.log('loose')
+          console.log('lose')
           setTargetScore(targetScore - 1)
         } else {
           if (targetSpeed == 100) {
             console.log('finish', targetToggle)
+            setTargetScore(targetScore - 1)
             setTargetToggle(false)
             clearInterval(interval)
           } else {
@@ -39,11 +39,7 @@ const GameSkillsTarget = ({ setGame }) => {
             targetSpeed > 100 && setTargetSpeed(targetSpeed - 100)
           }
         }
-        console.log(
-          `targetToggle: ${targetToggle}\n` +
-            `targetSpeed: ${targetSpeed}\n` +
-            `targetScore: ${targetScore}`
-        )
+        console.log({ targetToggle, targetSpeed, targetScore })
       }, targetSpeed)
     }, targetSpeed)
 

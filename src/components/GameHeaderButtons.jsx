@@ -51,6 +51,7 @@ const GameHeaderButtons = () => {
       }
     }
     setCheckVolume(result)
+    return () => volume === 0 && window.location.reload(true)
   }, [volume])
 
   const handleSound = () => {

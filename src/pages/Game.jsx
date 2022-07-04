@@ -95,8 +95,7 @@ const Game = () => {
         volume={volume}
         // muted={muted}
         autoPlay={true}
-        loop
-        controls
+        loop={true}
       />
       <div
         className='gameBackground'
@@ -137,7 +136,7 @@ const Game = () => {
         <div>
           <a
             style={{ margin: 0, textAlign: 'center', lineHeight: '40px' }}
-            href={'https://fr.freepik.com'}
+            href={'https://fr.freepik.com/auteur/upklyak'}
           >
             Illustré par upklyak - fr.freepik.com
           </a>

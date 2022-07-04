@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import GameHeader from './GameHeader'
 import GameTavernShop from './GameTavernShop'
 
-const GameTavern = ({ hero, setPage }) => {
+const GameTavern = ({ hero, setHero, setPage }) => {
   // 0 = No menu
   // 1 = Quest
   // 2 = Shop
@@ -23,7 +23,9 @@ const GameTavern = ({ hero, setPage }) => {
       <div className='idiot' onClick={() => setMenu(2)} />
 
       {/*<GameTavernQuest /> */}
-      {menu === 2 && <GameTavernShop setMenu={setMenu} />}
+      {menu === 2 && (
+        <GameTavernShop setMenu={setMenu} hero={hero} setHero={setHero} />
+      )}
     </div>
   )
 }

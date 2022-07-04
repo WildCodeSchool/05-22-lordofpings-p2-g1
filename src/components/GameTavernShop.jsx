@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import BigButton from './BigButton'
 import Items from '../assets/json/items.json'
 
-const GameTavernShop = ({ setMenu }) => {
+const GameTavernShop = ({ setMenu, hero, setHero }) => {
   const [articles, setArticles] = useState([])
 
   useEffect(() => {
@@ -15,6 +15,22 @@ const GameTavernShop = ({ setMenu }) => {
     }
     setArticles(result)
   }, [])
+
+  const buyItem = article => {
+    console.log({ article, hero })
+    if (hero.money >= article.shop.buyPrice) {
+      setHero({
+        ...hero,
+        money: hero.money - article.shop.buyPrice,
+        inventory: [...hero.inventory.weapons, article]
+      })
+      setMenu(0)
+
+      console.log({ hero })
+    }
+    console.log('hero: ', hero)
+  }
+
   return (
     <div className='gameTavernShop'>
       <div className='gameTavernShopArticles'>
@@ -23,7 +39,7 @@ const GameTavernShop = ({ setMenu }) => {
             <h1>{article.name}</h1>
             <img src={article.image} alt={article.name} draggable={false} />
             {console.log(article.image)}
-            <span>{article.shop.buyPrice}</span>
+            <a onClick={() => buyItem(article)}>{article.shop.buyPrice}</a>
           </div>
         ))}
       </div>

@@ -5,6 +5,7 @@ import GameSkillsTarget from './GameSkillsTarget'
 
 const GameSkills = ({ hero, setPage }) => {
   const [game, setGame] = useState(0)
+
   return (
     <div className='gameSkills'>
       <GameHeader hero={hero} />
