@@ -1,13 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Dice from './Dice'
 
-const GameStoryBattleDice = ({
-  hero,
-  setHero,
-  setPage,
-  quest,
-  setShowButton
-}) => {
+const GameStoryBattleDice = ({ hero, setHero, setPage, setShowButton }) => {
   const [result, setResult] = useState({
     dice: null,
     rolling: false

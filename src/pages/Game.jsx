@@ -1,4 +1,5 @@
 import { React, useState, useEffect } from 'react'
+import ReactAudioPlayer from 'react-audio-player'
 
 import GameOver from '../components/GameOver'
 import GameSkills from '../components/GameSkills'
@@ -30,37 +31,51 @@ const Game = () => {
   )
   const [bg, setBg] = useState(0)
   const [hero, setHero] = useState(JSON.parse(localStorage.getItem('hero')))
+
   const setHeroData = data => {
     setHero(data)
     localStorage.setItem('hero', JSON.stringify(data))
   }
+
+  const [sound, setSound] = useState()
+  const [volume, setVolume] = useState(0.1)
+  const [muted, setMuted] = useState(false)
+
   useEffect(() => {
     localStorage.setItem('page', page)
-    page < 1000 && (setQuest(quests[page]), localStorage.setItem('quest', page))
+    page < 1000 &&
+      page > -1 &&
+      (setQuest(quests[page]), localStorage.setItem('quest', page))
     page === null && setPage(0)
+    page === -1 && setPage(localStorage.getItem('quest'))
     if (page < 1000) {
       // Game Story
       if (quest?.image) {
         setBg(quest.image)
+        setSound('https://www.mboxdrive.com/story-celtic-fantasy.mp3')
       } else {
         setBg(forest)
       }
     } else if (page === 1000) {
       // Game Tavern
       setBg(tavernImg)
+      setSound('https://www.mboxdrive.com/tavern-music.mp3')
     } else if (page === 1001) {
       // Game Over
       setBg(undefined)
       setQuest(undefined)
       setHero(localStorage.removeItem('hero'))
+      setSound('https://www.mboxdrive.com/game-over-epic-battle.mp3')
     } else if (page === 1002) {
       // Game Won
       setBg(gameWonImg)
       setQuest(undefined)
       setHero(localStorage.removeItem('hero'))
+      setSound('https://www.mboxdrive.com/game-won-village-consort.mp3')
     } else if (page === 1003) {
       // Game Skills
       setBg(skillsImg)
+      setSound('https://www.mboxdrive.com/game-skills-suspens-fight.mp3')
     } else if (page === 1004) {
       // Game [Other]
       setBg()
@@ -75,6 +90,14 @@ const Game = () => {
 
   return (
     <>
+      <ReactAudioPlayer
+        src={sound}
+        volume={volume}
+        // muted={muted}
+        autoPlay={true}
+        loop
+        controls
+      />
       <div
         className='gameBackground'
         style={{ backgroundImage: `url(${bg})` }}
@@ -108,8 +131,7 @@ const Game = () => {
         )}
         {page === 1001 && <GameOver setHero={setHeroData} setPage={setPage} />}
         {page === 1002 && <GameWon setPage={setPage} />}
-        {page === 1003 && <GameSkills hero={hero} />}
-
+        {page === 1003 && <GameSkills hero={hero} setPage={setPage} />}
         {page === 1005 && <Contact />}
 
         <div>
