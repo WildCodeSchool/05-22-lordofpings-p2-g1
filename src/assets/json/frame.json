@@ -100,7 +100,7 @@
   {
     "_id": 6,
     "title": "Départ pour le château du vioc",
-    "image": "",
+    "image": "assets/img/background/story/cityNight1.svg",
     "text": "La fraîcheur de la nuit naissante vous caresse les joues. Seules quelques torches éclairent ça et là les habitations du village. À quelques kilomètres vers l’est, vous voyez le Mont Kuyerh s’élever fièrement contre le firmament. Droit devant vous, au sud, la forêt des Troncs Sonneurs sommeille au-delà du village. Il est temps de choisir votre route : des voix se rapprochent, et elles veulent vous vendre des encyclopédies d’histoire.",
     "buttons": [
       {
@@ -126,11 +126,11 @@
   {
     "_id": 7,
     "title": "La forêt des Troncs Sonneurs",
-    "image": "",
+    "image": "assets/img/background/story/forest4.svg",
     "text": "À mesure que vous approchez de la forêt, un murmure grandit jusqu’à devenir une étrange petite musique, comme jamais vous n’en avez entendu auparavant. Parmi les Troncs Sonneurs qui dessinent l’orée de la forêt, vous voyez deux chemins se dessiner. L’un trace à travers les arbres un passage clairsemé ; l’autre se montre plus sombre, même si vous croyez apercevoir une faible lueur rougeâtre plus loin dans cette direction. Tandis que vous réfléchissez, vous remarquez de magnifiques champignons à proximité. Vous salivez rien qu’à les regarder.",
     "buttons": [
       {
-        "title": "Dans la lunaire, nul ne saurait me surprendre",
+        "title": "Dans la lumière lunaire, nul ne saurait me surprendre",
         "battle":false,
         "quest": 8,
         "unique": false
@@ -152,7 +152,7 @@
   {
     "_id": 8,
     "title": "Balade au clair de lune",
-    "image": "",
+    "image": "assets/img/background/story/forest5.svg",
     "text": " Un peu froussarde sur ce coup (si, avouez, sinon vous auriez pris le chemin sombre), vous vous sentez rassurée sur le sentier bien éclairé qui s’étend devant vous. C’est alors qu’entre deux sonneries des Troncs cernant le chemin, vous percevez un craquement. Le temps que vous tourniez la tête, 3 hommes vous barrent la route.“Bien le bonsoir ! lance le plus grand. Vous m’avez l’air perdue, laissez-nous vous indiquer le chemin. On se contentera de ce que vous avez en compensation.” Vous connaissez le chemin. Ils le savent. Ils s’en tamponnent. Ce n’était pas une proposition.",
     "buttons": [
       {
@@ -171,7 +171,7 @@
       {
         "title": "Ecraser leurs sales petites tronches de glands contre des chênes",
         "battle":true,
-        "quest": 15,
+        "quest": 179,
         "unique": true
       }
     ]
@@ -180,7 +180,7 @@
     "_id": 9,
     "title": "Le temps de la disette",
     "text": "“Je me disais bien que vous aviez besoin d’aide !” Un sourire presque édenté fend le visage du grand type. Ses deux acolytes restent quant à eux impassibles. Chacun garde la main sur le pommeau de son épée. Juste au cas où. “C’est par là !” lâche capitaine Tête de Gland en faisant un pas de côté pour vous montrer la suite du chemin que vous suiviez déjà. Vous les dépassez, d’ores et déjà habitée par le regret de ne pas les avoir maravés.",
-    "image": "",
+    "image": "assets/img/background/story/forest5.svg",
     "buttons": [
       {
         "title": "Laisser ces pourritures derrière vous",
@@ -194,6 +194,7 @@
     "_id": 10,
     "title": "La porte des étoles (Accepter de payer leur tribut)",
     "text": "Franchement vous auriez dû les maraver. Une bonne petite torgnole, ça fait toujours du bien. Ce n’est pas pour vous influencer, mais du coup maintenant vous ne pouvez même plus vous payer des pâtes au beurre. Heureusement, vous vous rappelez qu’il vous reste de quoi vous faire un cassoulet de minuit chez vous au besoin.Tandis que vous ruminez, vous déviez de votre trajectoire sans même vous en rendre compte. Soudain, vous réalisez que vous vous tenez face à une sorte d’immense portail. Sur son pourtour sont enroulées des étoffes soyeuses. Aux branches des arbres alentour sont suspendus de longues bandes de tissu. Votre pied trébuche sur une tablette de pierre gravée posée au milieu des herbes folles. “Je suis un tissu tricoté à partir de gros mythos, que suis-je ?” ",
+    "image": "assets/img/background/story/forest5.svg",
     "buttons": [
       {
         "title": "un tissu de mensonges",
@@ -211,7 +212,7 @@
     "_id": 11,
     "title": "Un portail",
     "text": "Le portail souvre. Ça à l'air si duvetteux... Vous vous enveloppez dans la douceur du portail.",
-    "image": "",
+    "image": "assets/img/background/story/gate1.svg",
     "buttons": [
       {
         "title": "Le portail vous emporte.",
@@ -285,7 +286,7 @@
       {
         "title": "Donner une leçon aux Rel'Ours",
         "battle": true,
-        "quest": 16,
+        "quest": 181,
         "unique": false
       }
     ]
@@ -535,8 +536,7 @@
       },
       {
         "title": "Tenter de pousser le gardien contre un gros cristal bien pointu",
-        "battle":true,
-        "quest": 55,
+        "quest": 56,
         "unique": false
       }
     ]
@@ -609,7 +609,7 @@
       {
         "title": "Abattre le gardien",
         "battle": true,
-        "quest": 55,
+        "quest": 183,
         "unique": false
       },
       {
@@ -629,7 +629,7 @@
       {
         "title": "Abattre le gardien",
         "battle":true,
-        "quest": 55,
+        "quest": 183,
         "unique": false
       }
     ]
@@ -950,7 +950,7 @@
     "_id": 51,
     "title": "Des salades ",
     "text":"Le portail s'ouvre. Ça a l’air si humide… Et ça sent le choux, mais vous avancé dans portail.",
-    "image": "",
+    "image": "assets/img/background/story/lievre1.svg",
     "buttons": [
       {
         "title": "Un petit havre de paix (Clairière)",
@@ -975,7 +975,7 @@
       {
         "title": "Écraser leurs sales petites tronches de glands contre des chênes (baston)",
         "battle":true,
-        "quest": 15,
+        "quest": 180,
         "unique": false
       }
     ]
@@ -1037,7 +1037,7 @@
       {
         "title": "Le géant terrassé",
         "battle":true,
-        "quest": 57,
+        "quest": 182,
         "unique": false
       }
     ]
@@ -1739,6 +1739,29 @@
     ]
   },
   {
+    "_id": 91,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
     "_id": 92,
     "title": "",
     "text":"",
@@ -2174,6 +2197,1684 @@
         "unique": false
       }
     ]
+  },
+  {
+    "_id": 111,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 112,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 113,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 114,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 115,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 116,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 117,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 118,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 119,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 120,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 121,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 122,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 123,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 124,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 125,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 126,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 127,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 128,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 129,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 130,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 131,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 132,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 133,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 134,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 135,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 136,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 137,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 138,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 139,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 140,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 141,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 142,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 143,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 144,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 145,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 146,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 147,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 148,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 149,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 150,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 151,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 152,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 153,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 154,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 155,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 156,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 157,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 158,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 159,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 160,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 161,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 162,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 163,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 164,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 165,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 166,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 167,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 168,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 169,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 170,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 171,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 172,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 173,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 174,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 175,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 176,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 177,
+    "title": "Retour à la terre (Victoire brigands)",
+    "text":"Plus c’est grand, plus c’est con, comme on dit. Le plus grand fait mine de vous dissuader de passer à l’attaquer alors que vous êtes déjà sur lui. S’il avait levé son arme, il s’en serait peut-être sorti. Mais non, il est grand (et con, du coup).Sa tête vole et rebondit sur la poitrine de son collègue, qui hurle de terreur et s’enfuit. Le dernier lâche un juron à l’intention de ce dernier, puis revient à vous. Il se lance à une vitesse qui vous surprend, considérant sa corpulence, ce qui suffit à vous prendre de court. Un poing rageur s’écrase sur votre visage, et vous vous retrouvez à terre. Vous avez tout juste le temps de rouler sur le côté pour éviter son épée, qui vient se planter dans le sol. Heureusement, vous réagissez rapidement et lui plantez votre lame entre les côtes. Il s’effondre dans un râle.Après avoir repris votre souffle, vous vous relevez et reprenez votre chemin en laissant leurs corps aux loups. Vous marchez pendant plusieurs heures, ruminant votre combat.Soudain, vous réalisez que vous vous tenez face à une sorte d’immense portail. Sur son pourtour sont enroulées des étoffes soyeuses. Aux branches des arbres alentour sont suspendus de longues bandes de tissu.Votre pied trébuche sur une tablette de pierre gravée posée au milieu des herbes folles.“Je suis un tissu tricoté à partir de gros mythos, que suis-je ?”",
+    "image": "assets/img/background/story/forest5.svg",
+    "buttons": [
+      {
+        "title": "Un tissu de mensonges",
+        "quest": 11,
+        "unique": false
+      },
+      {
+        "title": "Des salades",
+        "quest": 51,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 178,
+    "battle": true,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Accepter votre mort sanglante",
+        "quest": 1001,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 179,
+    "battle": true,
+    "title": "C’est l’heure du du-du-du-duel",
+    "text":"“Merci, mais la proposition ne m’intéresse guère.” Par ces mots, vous avez scellé votre destin. Enfin surtout le leur. Mais eux ils croient que vous avez scellé le votre, de destin. Alors qu’en fait non, ils sont bêtes, c’est eux qui vont mourir. Peut-être. Ils sont trois quand même.Avant qu’ils aient eu le temps de réagir, vous vous jetez sur le plus grand, qui vous a alpagué, l’arme au poing.",
+    "image": "assets/img/background/story/arena.svg",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 177,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 180,
+    "battle": true,
+    "title": "",
+    "text":"",
+    "image": "assets/img/background/story/arena.svg",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 16,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 181,
+    "battle": true,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 57,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 182,
+    "battle": true,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 55,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 183,
+    "battle": true,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 63,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 184,
+    "battle": true,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 185,
+    "battle": true,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 186,
+    "battle": true,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 187,
+    "battle": true,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 188,
+    "battle": true,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 189,
+    "battle": true,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 0,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 190,
+    "title": "",
+    "text":"",
+    "image": "",
+    "buttons": [
+      {
+        "title": "Poursuivre l'histoire",
+        "quest": 0,
+        "unique": false
+      }
+    ]
   }
+
 
 ]
