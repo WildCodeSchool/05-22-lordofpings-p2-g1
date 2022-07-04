@@ -13,7 +13,7 @@ const GameHeaderHud = ({ hero }) => {
           <GameHeaderHudGold hero={hero} />
         </div>
       </div>
-      <GameHeaderHudInventory />
+      <GameHeaderHudInventory hero={hero} />
     </div>
   )
 }
