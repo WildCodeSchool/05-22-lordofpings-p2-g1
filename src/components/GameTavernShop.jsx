@@ -22,6 +22,7 @@ const GameTavernShop = ({ setMenu }) => {
           <div key={index} className={`gameTavernShopBox bg-${index}`}>
             <h1>{article.name}</h1>
             <img src={article.image} alt={article.name} draggable={false} />
+            {console.log(article.image)}
             <span>{article.shop.buyPrice}</span>
           </div>
         ))}

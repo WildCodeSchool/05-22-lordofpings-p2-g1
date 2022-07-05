@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import GameHeader from './GameHeader'
 import GameTavernShop from './GameTavernShop'
 
@@ -9,6 +9,11 @@ const GameTavern = ({ hero, setPage }) => {
   // 3 = Mini Games
   const [menu, setMenu] = useState(0)
 
+  useEffect(() => {
+    menu === 1 && setPage(-1)
+    menu === 3 && setPage(1003)
+  }, [menu])
+
   return (
     <div className='gameTavern'>
       <GameHeader hero={hero} />
@@ -16,9 +21,9 @@ const GameTavern = ({ hero, setPage }) => {
       <div className='barman' onClick={() => setMenu(1)} />
       <div className='knife' onClick={() => setMenu(0)} />
       <div className='idiot' onClick={() => setMenu(2)} />
-      {/* {menu === 1 && <GameTavernQuest /> */}
+
+      {/*<GameTavernQuest /> */}
       {menu === 2 && <GameTavernShop setMenu={setMenu} />}
-      {menu === 3 && setPage(1003)}
     </div>
   )
 }
