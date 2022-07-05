@@ -17,14 +17,23 @@ function Home() {
           </div>
           <div className='title'>
             <h1>Le Déclin</h1>
-            <h2>des</h2>
-            <h3>Âmes</h3>
+            <h1>des</h1>
+            <h1>Âmes</h1>
           </div>
           <BigButton
             text='JOUER'
             height='100'
             onclick={() =>
               item ? navigate('../game') : navigate('../concept')
+            }
+          />
+        </div>
+        <div className='contactButton'>
+          <BigButton
+            text='CONTACT'
+            height='100'
+            onclick={() =>
+              item ? navigate('../contact') : navigate('../contact')
             }
           />
         </div>
