@@ -2,7 +2,15 @@ import { useEffect, useState } from 'react'
 import GameHeader from './GameHeader'
 import GameTavernShop from './GameTavernShop'
 
-const GameTavern = ({ hero, setHero, setPage }) => {
+const GameTavern = ({
+  hero,
+  setHero,
+  setPage,
+  isPlayedYolo,
+  music,
+  volume,
+  setVolume
+}) => {
   // 0 = No menu
   // 1 = Quest
   // 2 = Shop
@@ -16,7 +24,13 @@ const GameTavern = ({ hero, setHero, setPage }) => {
 
   return (
     <div className='gameTavern'>
-      <GameHeader hero={hero} />
+      <GameHeader
+        hero={hero}
+        music={music}
+        isPlayedYolo={isPlayedYolo}
+        volume={volume}
+        setVolume={setVolume}
+      />
       <div className='target' onClick={() => setMenu(3)} />
       <div className='barman' onClick={() => setMenu(1)} />
       <div className='knife' onClick={() => setMenu(0)} />

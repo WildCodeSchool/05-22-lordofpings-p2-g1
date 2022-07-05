@@ -28,14 +28,10 @@
     "maxHeal": 5,
     "money": 100,
     "equipped": {
-      "weapons": [
-        1
-      ]
+      "weapons": []
     },
     "inventory": {
-      "weapons": [
-        1
-      ],
+      "weapons": [],
       "items": {}
     },
     "skills": {

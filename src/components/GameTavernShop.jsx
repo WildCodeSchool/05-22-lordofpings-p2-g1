@@ -9,9 +9,8 @@ const GameTavernShop = ({ setMenu, hero, setHero }) => {
     let result = []
     for (let i = 0; i < 3; i++) {
       const random = arr => Math.floor(Math.random() * arr.length)
-      const c = 0 // class of hero
-      const a = 1 // random(Items)
-      result.push(a === 0 ? Items[0][random(Items[a])][c][i] : Items[1][c][i])
+      const c = hero.class === 'knight' ? 0 : 1 // class of hero
+      result.push(Items[0][c][random(Items[0][c])])
     }
     setArticles(result)
   }, [])
