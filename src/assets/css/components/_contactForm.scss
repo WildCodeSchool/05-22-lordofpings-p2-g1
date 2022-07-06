@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
 
+
 .grandmaContainer {
     cursor: url('../../img/ui/knight-cursor-select.png'), auto;
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
+    margin-top: 7%;
+    width: 30%;
+    height: 350px;
     
 
 
@@ -15,6 +19,7 @@
         align-items: center;
         flex-flow: column nowrap;
         border: solid goldenrod;
+        border-radius: 20px;
         font-family: 'Cinzel Decorative', cursive;
         color: goldenrod;
         background-color: rgba(108, 28, 99, 0.6);}
@@ -76,7 +81,7 @@
                 justify-content: center;
                 align-items: center;
                 margin-top: 50px;
-                margin-left: 45px;
+                margin-left: 40px;
                 margin-bottom: 50px;
                 height: 9vh;
                 font-family: 'Cinzel Decorative', cursive;
@@ -91,3 +96,30 @@
                 cursor: url('../../img/ui/knight-cursor-select.png'), auto;
                     }
 }}
+
+    .returntamère {
+        text-decoration: none;
+         display: flex;
+         justify-content:center;
+         align-items: center;
+         margin-top: 10%;
+         margin-left: 5%;
+    }
+    
+        button.returnButton {
+            width: 90%;
+            height: 60px;
+            font-family: 'Cinzel Decorative', cursive;
+             text-decoration: none;
+            color: goldenrod;
+            font-style: bold;
+            font-size: 16px;
+             background-color: #6C1C63;
+            border-style: solid;
+            border-radius: 25px;
+            border-color: goldenrod;
+            cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+            text-decoration: none;
+            
+        }    
+    

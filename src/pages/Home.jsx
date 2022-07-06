@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import logoMerlin from '../assets/img/logo_merlin.jpg'
 import BigButton from '../components/BigButton'
 import MainBackground from '../components/MainBackground'
-import letterBoard from '../assets/img/ui/hud/letterBoard.svg'
+// import letterBoard from '../assets/img/ui/hud/letterBoard.svg'
 
 function Home() {
   const item = localStorage.getItem('hero')

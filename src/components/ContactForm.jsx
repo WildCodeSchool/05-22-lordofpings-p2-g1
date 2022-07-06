@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 const ContactForm = () => {
   const handleSubmit = e => {
@@ -71,6 +72,13 @@ const ContactForm = () => {
           <br></br>
           <button onSubmit={handleSubmit}> Lancer son parchemin </button>
         </div>
+      </div>
+      <div className='returntamère'>
+        <Link to='/'>
+          <button className='returnButton'>
+            Retourner à la page principale
+          </button>
+        </Link>
       </div>
     </div>
   )

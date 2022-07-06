@@ -4,6 +4,7 @@
     height: 100vh;
     text-align: center;
     margin-right: 80px;
+    margin-top: 3%;
   
   
   .wrapper {
@@ -25,10 +26,10 @@
     box-shadow: -1px 15px 30px -12px black;
     z-index: 9999;
     border-radius: 41px;
-    height: calc(100vh - 144px);
+    height: calc(100vh - 280px);
 
     .interiorCard{
-        height: calc(100% - 360px);
+        height: calc(100% - 400px);
         overflow-y: scroll;
         padding-top: 20px;
         margin-bottom: 10px;

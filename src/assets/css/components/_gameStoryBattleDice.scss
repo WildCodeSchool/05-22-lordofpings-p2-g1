@@ -11,17 +11,16 @@
     flex-flow: column nowrap;
     background-image: url(../../img/ui/verticalPlate.svg);
     background-repeat: no-repeat;
-    background-position-x: 95%;
+    background-position-x: 05%;
     background-position-y: 50%;
     background-size: 200px;
     right: 5%;
-    bottom: 35%;
+    bottom: 15%;
     gap: 20px;
     z-index: 10;
 
     
     .rollDice-container {
-        // padding-right: 3%;
         padding-bottom: 3.5%;
         padding-top: 5%;
 

@@ -2,7 +2,6 @@
 
 .home { 
     display: flex;
-    justify-content: space-between;
     background: no-repeat url(../../img/background/mainbg/bg.svg);
     background-size: contain;
     aspect-ratio: 16 / 9;
@@ -12,14 +11,6 @@
     a {
       margin: auto 0;
     }
-
-    // .contactButton {
-    //   margin-top: 1%;
-    //   height: 100px;
-    //   width: 100px;
-    //   top:0;
-    //   right: 0;
-    // }
 
     .blockStart {
         width: 40%;
@@ -31,18 +22,17 @@
         background: #5D349270;
         opacity: 90%;
     }
-   
-    .title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: #F79500;
-        font-size: 34px; 
-        font-family: 'Cinzel Decorative';
-        margin-top: 40px; 
-        margin-bottom: 70px;   
-    }
 
+    .title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #F79500;
+  font-size: 34px; 
+  font-family: 'Cinzel Decorative';
+  margin-top: 40px; 
+  margin-bottom: 70px;   
+}
     .halogo {
         width: 30%;
         height: 20vh;
@@ -67,15 +57,9 @@
             animation: 2s ease-in .1s infinite alternate irradiate;
             z-index: -1;
           }
-    }
-
-// .contactButton {
-//   display: flex;
-//   height: 100px;
-//   width: 100px;
-//   padding-top: 20px;
-// }    
+    } 
 }
+
 
 
 @keyframes irradiate {
