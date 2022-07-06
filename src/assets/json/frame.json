@@ -251,7 +251,7 @@
   {
     "_id": 13,
     "battle": false,
-    "item":1,
+    "item":2,
     "title": "La chance de votre vie (Saisissez la chance de votre vie)",
     "text": "“Bonjour, je suis Karvagma, l’un des 4 grands cerfs spirituels. Et aujourd’hui, c’est votre jour de chance mon amie : pendant 24h, je vous offre une remise de 75% sur les kits ignifuges Karvagma. Pas d’entourloupe ! Le jour où mon cousin Gollum est tombé dans la lave, j’ai compris qu’il y avait un marché à saisir. Tenez, prenez ma carte, ça vous donnera un avant-goût !” Là-dessus, Karvagma, CEO spirituel de Karvagma Inc. disparaît dans une volute de fumée. À sa place, vous voyez une carte de visite aussi rougeoyante que lui, au nom de sa start-up.",
     "image": "assets/img/background/story/forest6.svg",
@@ -543,6 +543,7 @@
   },
   {
     "_id": 28,
+    "money": 0,
     "title": "La bourse plutôt que la vie (Accepter de lui donner toutes vos richesses)",
     "text":"“Merci, c’est bien urbain de votre part.” L’œil avide, le Gardien des Crystomonnaies se jette sur son butin et s’emploie à faire les comptes. C’est le moment de vous barrer. Maintenant. Qu’est-ce que vous attendez ? Décarrez",
     "image": "assets/img/background/story/cave2.svg",
@@ -741,6 +742,7 @@
   },
   {
     "_id": 39,
+    "money": 10,
     "title": "Il en faut pour tous les goûts (Ramener la fillette au loup, il a promis une récompense)",
     "text":"Vous saisissez la jeune fille par le bras. Elle se débat, mais vous tenez bon et la ramenez auprès du loup. Le regard de celui-ci n’est plus du tout mignon. “Ah, merci infiniment ! Mais heu… vous savez, seule la cape m’intéresse hein…” Il ment vraiment très mal. Il comprend qu’on ne vous la fait pas, mais aussi que vous vous en fichez éperdument. “Tenez, pour votre aide précieuse…” Il lâche au creux de votre main une petite bourse bien pleine. Vous reprenez votre route vers le nord et vous finissez par tomber sur un chemin de montagne qui serpente vers une vallée où se dressent les tours d’un château.",
     "image": "assets/img/background/story/mountainWolf1.svg",
@@ -748,7 +750,6 @@
       {
         "title": "Descendre dans la vallée",
         "battle":false,
-        "money": 10,
         "quest": 16,
         "unique": false
       }
@@ -839,8 +840,7 @@
       {
         "title": "Cueillir une belle salade",
         "battle":false,
-        "quest": 16,
-        "item":"salade",
+        "quest": 170,
         "unique": false
       },
       {
@@ -907,7 +907,7 @@
   },
   {
     "_id": 49,
-    "item": 2,
+    "item": 3,
     "title": "Une petite cueillette au clair de lune (Cueillir quelques champignons)",
     "text":"C’est vrai que vous n’avez que ça à glander, de cueillir des champignons sous la pleine lune dans une forêt qui fait de la musique. Mais personne ne vous juge. Déjà parce que vous êtes toute seule, et ensuite parce que c’est vrai qu’ils sont magnifiques ces champignons. Ça fera une omelette incroyable, ou un poison létal. Mieux vaudrait vous en assurer avant de choisir l’une ou l’autre option",
     "image": "",
@@ -1278,7 +1278,14 @@
       {
         "title": "Lui lancer de la légumineuse dans un coin de la pièce (requiert salade/champignons)",
         "battle":false,
-        "item": "salade",
+        "item": 3,
+        "quest": 89,
+        "unique": false
+      },
+      {
+        "title": "Lui lancer de la légumineuse dans un coin de la pièce (requiert salade/champignons)",
+        "battle":false,
+        "item": 4,
         "quest": 89,
         "unique": false
       },
@@ -1374,7 +1381,7 @@
     "_id": 71,
     "title": "Vous, vous savez comment parler à une potion (Réussite potion de vie)",
     "text":"La petite potion glousse à chacune de vos phrases, elle n’a d’yeux que pour vous. Enfin si elle avait des yeux, ils vous dévoreraient. “Emmenez-moi dans vos aventures, beauté !” Vous la saisissez délicatement et la fixez tout aussi soigneusement à votre ceinture. “Mais calmez vos ardeurs, moi, on ne me boit pas dès le premier soir !” ",
-    "item":"potion",
+    "item":1,
     "image": "",
     "buttons": [
       {
@@ -1506,6 +1513,7 @@
   },
   {
     "_id": 78,
+    "heal": 1,
     "title": "Un cru du trottoir",
     "text":"Vous vous précipitez, au cas où quelqu’un surgirait - de… nulle part ? - pour vous piquer l’idée (personne d’autre n’aurait eu cette idée, vous avez déjà pensé à vous faire aider ?). Vos genoux produisent un son humide lorsqu’ils rencontrent le sol. Vous approchez votre visage du nectar et vous mettez à lapper farouchement. C’était plutôt une bonne idée après tout : le vin se révèle excellent. Ce mélange de grands crus donne lieu à une espèce de maxi best of gustatif que vous jalouseraient les plus fins connaisseurs. Vous en êtes à votre troisième lampée quand vous ressentez une vive douleur au niveau de votre langue. Dans votre hâte, vous avez oublié que si la vinasse a arrosé le sol, c’est parce que les bouteilles se sont brisées. Finalement, c’était vraiment une idée de merde.",
     "image": "",
@@ -1514,7 +1522,6 @@
         "title": "Aîe ",
         "battle":false,
         "quest": 76,
-        "heal": "-1",
         "unique": false
       }
     ]
@@ -1583,6 +1590,7 @@
   {
     "_id": 82,
     "title": "Le salon de la patate",
+    "item": 7,
     "text":"Vous vous frayez un chemin à travers les hommages à la patate. Une poupée-patate, un fauteuil-patate, une fourchette-patate, une patate (bah oui), une guitare - c’est vrai qu’en fait ça ressemble un peu à une patate -, et quantité d’autres objets façonnés sur le modèle du saint féculent. Au fin fond de la pièce, entre un vase-patate et un balai-patate, vous trouvez finalement quelque chose d’utile : sur un piédestal-patate assorti d’un coussin-patate repose un marteau-patate. En vous approchant, vous lisez son nom sur un écriteau “Le pourfendeur des fées au cul lent lors de la grande bataille de Brocéliande en 453 : Patator”. Vous empoignez le marteau. Une sensation de puissance vous envahit malgré la légèreté de l’arme.",
     "image": "",
     "buttons": [
@@ -1896,6 +1904,7 @@
   {
     "_id": 100,
     "title": "Fantômes au rabais",
+    "item" : 5,
     "text":"Cette pièce est plongée dans les ténèbres, mais vous parvenez tout de même à discerner des formes qui brillent d’une aura bleutée. L’une d’elles se rapproche de vous. Elle esquisse des mouvements circulaires et vous entendez distinctement une voix : “OOuuuuuhhh !” C’est supposé vous faire peur, vous percevez bien l’intention, mais l’exécution n’y est pas. Le fait que la forme se mange un porte-manteau au passage n’aide en rien à renforcer la crédibilité de sa démarche, pas plus que le “aïe” qui interrompt brièvement son hululement. Arrivée à votre niveau, cette forme se révèle être un grand drap blanc flottant dans les airs. Voyant qu’il ne vous fera pas lâcher ne serait-ce qu’un sanglot, il désespère. “Oh allez quoi… franchement à part le porte-manteau c’était pas si mal ! Accepteriez-vous de répondre à un questionnaire sur mes performances pour m’aider à m’améliorer ?” Vous n’avez pas super envie de répondre à un questionnaire, évidemment. Vous avez plutôt envie de savoir ce qui se trame dans cette pièce. “Nous sommes tous les fantômes ratés que Merlin à invoqués. Nul d’entre nous ne souhaite terroriser les gens du villages, ce n’est pas notre vocation, mais ça môssieur Merlin ne veut pas l’entendre et préfère nous qualifier de “gros nuls”. Moi par exemple, je raconte d’excellentes blagues, j’ai toujours voulu monter un one ghost show.” En jetant un œil autour de vous, vous constater la présence d’une dizaine de draps fantomatiques. Et aucun ne vous fait peur. Tout à coup, vous sentez quelque chose contre votre jambe. “Lui on l’appelle Monsieur Propre, parce qu’il passe son temps à tout essuyer. Visiblement vous traînez pas mal de crasse, il a l’air d’être concentré sur vous. Vous ne pourrez plus vous en dépêtrer. Vous voulez entendre une blague ?” ",
     "image": "",
     "buttons": [
@@ -1937,13 +1946,13 @@
   {
     "_id": 102,
     "title": "Le tapis du bonheur",
+    "heal": 1,
     "text":"C’est le meilleur tapis sur lequel vous avez piqué un somme (oui, il y en a eu plusieurs). Vous vous enfoncez dans sa matière duveteuse avec un plaisir certain. Le paradis molletonné vous enveloppe tout entière et vous voilà à rêver, vous qui ne rêvez jamais. Au creux de votre esprit, vous revivez les moments d’intense bonheur de votre existence : le jour où vous avez découvert la raclette, celui où vous avez décidé de sortir des carcans et de vivre la vie d’aventurière. Voilà c’est tout. En même temps, il est question de moments de bonheur “intense”, ce n’est pas tous les jours non plus. Quoi qu’il en soit, vous sortez de cette sieste (à contrecœur) revigorée.",
     "image": "",
     "buttons": [
       {
         "title": "Je t’aime, tapis",
-        "health": true,
-        "quest": 0,
+        "quest": 101,
         "unique": false
       }
     ]
@@ -1956,7 +1965,7 @@
     "buttons": [
       {
         "title": "Ça sent la puissance, le garder",
-        "quest": 0,
+        "quest": 169,
         "unique": false
       },
       {
@@ -1974,6 +1983,7 @@
     "buttons": [
       {
         "title": "Essuyer le miroir crasseux ",
+        "item": 5,
         "quest": 105,
         "unique": false
       },
@@ -2100,6 +2110,7 @@
     "buttons": [
       {
         "title": "Dégainer le Canard de l'Apocalypse",
+        "item": 6,
         "quest": 112,
         "unique": false
       },
@@ -2144,6 +2155,7 @@
     "buttons": [
       {
         "title": "Attaquer avec votre Canard de l'Apocalypse",
+        "item": 6,
         "quest": 112,
         "unique": false
       },
@@ -3360,46 +3372,28 @@
   },
   {
     "_id": 169,
-    "title": "",
-    "text":"",
+    "title": "Ça sent la puissance, le garder",
+    "item": 6,
+    "text":"Vous fourrez le Canard de l'Apocalypse dans votre sac. Il fait un coin coin pas net",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Continuer l'exploration du château",
+        "quest": 101,
         "unique": false
       }
     ]
   },
   {
     "_id": 170,
-    "title": "",
-    "text":"",
-    "image": "",
+    "title": "Cueillir une belle salade",
+    "item": 4,
+    "text":"Vous cueilliez une magnifique salade ",
+    "image": "assets/img/background/story/lievre1.svg",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Reprendre la route du château",
+        "quest": 16,
         "unique": false
       }
     ]
