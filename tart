@@ -1,0 +1,33 @@
+[1mdiff --cc src/assets/css/pages/_game.scss[m
+[1mindex 078f65d,973aa23..0000000[m
+[1m--- a/src/assets/css/pages/_game.scss[m
+[1m+++ b/src/assets/css/pages/_game.scss[m
+[1mdiff --cc src/components/GameHeader.jsx[m
+[1mindex 4e276eb,4596605..0000000[m
+[1m--- a/src/components/GameHeader.jsx[m
+[1m+++ b/src/components/GameHeader.jsx[m
+[36m@@@ -1,12 -1,17 +1,18 @@@[m
+  import GameHeaderHud from './GameHeaderHud'[m
+[31m -import GameHeaderSound from './GameHeaderButtons'[m
+[32m +import GameHeaderButtons from './GameHeaderButtons'[m
+  [m
+[31m- const GameHeader = ({ hero }) => {[m
+[32m+ const GameHeader = ({ hero, music, isPlayedYolo, volume, setVolume }) => {[m
+    return ([m
+      <div className='gameHeader'>[m
+        <GameHeaderHud hero={hero} />[m
+  [m
+[32m +      <GameHeaderButtons />[m
+[32m+       <GameHeaderSound[m
+[32m+         music={music}[m
+[32m+         isPlayedYolo={isPlayedYolo}[m
+[32m+         volume={volume}[m
+[32m+         setVolume={setVolume}[m
+[32m+       />[m
+      </div>[m
+    )[m
+  }[m
+[1mdiff --cc src/pages/Game.jsx[m
+[1mindex cbeb960,b204d19..0000000[m
+[1m--- a/src/pages/Game.jsx[m
+[1m+++ b/src/pages/Game.jsx[m

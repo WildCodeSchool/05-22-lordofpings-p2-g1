@@ -5,7 +5,6 @@ const GameHeader = ({ hero, music, isPlayedYolo, volume, setVolume }) => {
   return (
     <div className='gameHeader'>
       <GameHeaderHud hero={hero} />
-
       <GameHeaderButtons
         music={music}
         isPlayedYolo={isPlayedYolo}
