@@ -5,20 +5,29 @@ import GameStoryBattle from './GameStoryBattle'
 import { useState } from 'react'
 import { useEffect } from 'react'
 
-const GameStory = ({ quest, setPage, hero, setHero }) => {
+const GameStory = ({
+  quest,
+  setPage,
+  hero,
+  setHero,
+  music,
+  isPlayedYolo,
+  volume,
+  setVolume
+}) => {
   const [animation, setAnimation] = useState(true)
   const [showButton, setShowButton] = useState(false)
 
-  useEffect(
-    () =>
-      // console.log('battletamere', !quest.battle, quest) ||
-      setShowButton(!quest.battle),
-    [quest]
-  )
-  // console.log(showButton)
+  useEffect(() => setShowButton(!quest.battle), [quest])
   return (
     <>
-      <GameHeader hero={hero} />
+      <GameHeader
+        hero={hero}
+        music={music}
+        isPlayedYolo={isPlayedYolo}
+        volume={volume}
+        setVolume={setVolume}
+      />
       <div className='gameStory'>
         <Parchment
           quest={quest}
@@ -34,7 +43,7 @@ const GameStory = ({ quest, setPage, hero, setHero }) => {
           />
         )}
 
-        {quest.battle && (
+        {quest?.battle && (
           <GameStoryBattle
             hero={hero}
             setHero={setHero}
