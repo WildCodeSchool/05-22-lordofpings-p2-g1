@@ -55,7 +55,7 @@ const Game = () => {
   const music = useRef(null)
 
   const [sound, setSound] = useState()
-  console.log(parseFloat(getCookie('volume')))
+  // console.log(parseFloat(getCookie('volume')))
   const [volume, setVolume] = useState(parseInt(getCookie('volume')))
   // const [muted, setMuted] = useState(false)
   const [isPlayedYolo, setIsPlayedYolo] = useState(false)

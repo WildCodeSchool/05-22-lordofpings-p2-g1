@@ -16,7 +16,7 @@ const GameTavernShop = ({ setMenu, hero, setHero }) => {
   }, [])
 
   const buyItem = article => {
-    console.log({ article, hero })
+    // console.log({ article, hero })
     if (hero.money >= article.shop.buyPrice) {
       setHero({
         ...hero,
@@ -25,9 +25,9 @@ const GameTavernShop = ({ setMenu, hero, setHero }) => {
       })
       setMenu(0)
 
-      console.log({ hero })
+      // console.log({ hero })
     }
-    console.log('hero: ', hero)
+    // console.log('hero: ', hero)
   }
 
   return (
@@ -37,7 +37,7 @@ const GameTavernShop = ({ setMenu, hero, setHero }) => {
           <div key={index} className={`gameTavernShopBox bg-${index}`}>
             <h1>{article.name}</h1>
             <img src={article.image} alt={article.name} draggable={false} />
-            {console.log(article.image)}
+            {/* {console.log(article.image)} */}
             <a onClick={() => buyItem(article)}>{article.shop.buyPrice}</a>
           </div>
         ))}

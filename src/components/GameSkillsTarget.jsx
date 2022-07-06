@@ -8,14 +8,14 @@ const GameSkillsTarget = ({ setGame }) => {
   const [targetScore, setTargetScore] = useState(0)
   const [targetCount, setTargetCount] = useState(0)
 
-  useEffect(() => console.log('test'), [targetToggle])
+  // useEffect(() => console.log('test'), [targetToggle])
 
   const clicked = () => {
     setTargetToggle(false)
     setTargetScore(targetScore + 1)
   }
   useEffect(() => {
-    console.log('useEffect [targetSpeed]', targetSpeed)
+    //console.log('useEffect [targetSpeed]', targetSpeed)
     setTargetCount(targetCount + 1)
     let interval = setInterval(() => {
       setTargetTop(Math.floor(Math.random() * 90) + 1)
@@ -23,23 +23,23 @@ const GameSkillsTarget = ({ setGame }) => {
       setTargetToggle(true)
 
       setTimeout(() => {
-        console.log('yolo')
+        //console.log('yolo')
         if (targetToggle && targetScore > 0) {
-          console.log('lose')
+          //console.log('lose')
           setTargetScore(targetScore - 1)
         } else {
           if (targetSpeed == 100) {
-            console.log('finish', targetToggle)
+            //console.log('finish', targetToggle)
             setTargetScore(targetScore - 1)
             setTargetToggle(false)
             clearInterval(interval)
           } else {
-            console.log('win', targetToggle)
+            //console.log('win', targetToggle)
             setTargetScore(targetScore + 1)
             targetSpeed > 100 && setTargetSpeed(targetSpeed - 100)
           }
         }
-        console.log({ targetToggle, targetSpeed, targetScore })
+        //console.log({ targetToggle, targetSpeed, targetScore })
       }, targetSpeed)
     }, targetSpeed)
 
