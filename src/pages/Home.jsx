@@ -1,7 +1,8 @@
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import logoMerlin from '../assets/img/logo_merlin.jpg'
 import BigButton from '../components/BigButton'
 import MainBackground from '../components/MainBackground'
+import letterBoard from '../assets/img/ui/hud/letterBoard.svg'
 
 function Home() {
   const item = localStorage.getItem('hero')
@@ -27,16 +28,11 @@ function Home() {
               item ? navigate('../game') : navigate('../concept')
             }
           />
-          <BigButton
-            text='CONTACT'
-            height='100'
-            onclick={() =>
-              item ? navigate('../contact') : navigate('../contact')
-            }
-          />
+          <Link className='contactButton ' to='/contact'>
+            <img src={letterBoard} alt='Contact Button' />
+          </Link>
         </div>
       </div>
-      <div className='contactButton'></div>
       <MainBackground />
     </>
   )
