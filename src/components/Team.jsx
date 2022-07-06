@@ -70,20 +70,22 @@ const CardsPerso = () => {
   }
 
   return (
-    <div className='slide-container'>
+    <div className='teamContact'>
       <Slider {...settings}>
         <div className='wrapper'>
           <div className='clash-card'>
             <div className='clash-card__image clash-card__image--bg'>
               <img src={Vincent} alt='avatar' />
             </div>
-            <div className='clash-card__level clash-card__class'>Barde</div>
-            <div className='clash-card__unit-name'>Vincent</div>
-            <div className='titles1'>Développeur de Génie</div>
-            <div className='clash-card__unit-description'>
-              Curieux, flemmard né, sauf si le sujet l’intéresse. Aime titrer.
-              Est fan de développement, c’est ainsi qu’il a été nommé le
-              OneLiner.
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Barde</div>
+              <div className='clash-card__unit-name'>Vincent</div>
+              <div className='titles'>Développeur de Génie</div>
+              <div className='clash-card__unit-description'>
+                Curieux, flemmard né, sauf si le sujet l’intéresse. Aime titrer.
+                Est fan de développement, c’est ainsi qu’il a été nommé le
+                OneLiner.
+              </div>
             </div>
             <button className='socialmedia1'></button>
             <button className='socialmedia2'></button>
@@ -95,15 +97,17 @@ const CardsPerso = () => {
             <div className='clash-card__image clash-card__image--bg'>
               <img src={Flora} alt='avatar' />
             </div>
-            <div className='clash-card__level clash-card__class'>Druide</div>
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Druide</div>
 
-            <div className='clash-card__unit-name'>Flora</div>
-            <div className='titles2'>
-              Développeuse ascendante formatrice en neuroatypie depuis 2020{' '}
-            </div>
-            <div className='clash-card__unit-description'>
-              “Sait cuisiner, parler de troubles mentaux sans jugement, et
-              parfois code entre-temps” / “Une développeuse cheloue”
+              <div className='clash-card__unit-name'>Flora</div>
+              <div className='titles'>
+                Développeuse ascendante formatrice en neuroatypie depuis 2020{' '}
+              </div>
+              <div className='clash-card__unit-description'>
+                “Sait cuisiner, parler de troubles mentaux sans jugement, et
+                parfois code entre-temps” / “Une développeuse cheloue”
+              </div>
             </div>
             <button className='socialmedia1'></button>
             <a
@@ -120,14 +124,16 @@ const CardsPerso = () => {
             <div className='clash-card__image clash-card__image--bg'>
               <img src={Jeremy} alt='avatar' />
             </div>
-            <div className='clash-card__level clash-card__class'>Rôdeur</div>
-            <div className='clash-card__unit-name'>Jérémy</div>
-            <div className='titles3'>
-              Développeur, ancien caviste et fan de pleins de trucs
-            </div>
-            <div className='clash-card__unit-description'>
-              “Je tente des trucs sur css, si ça ne marche pas je recommence et
-              si vraiment ça ne marche pas j'appelle Vincent.”
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Rôdeur</div>
+              <div className='clash-card__unit-name'>Jérémy</div>
+              <div className='titles'>
+                Développeur, ancien caviste et fan de pleins de trucs
+              </div>
+              <div className='clash-card__unit-description'>
+                “Je tente des trucs sur css, si ça ne marche pas je recommence
+                et si vraiment ça ne marche pas j'appelle Vincent.”
+              </div>
             </div>
             <button className='socialmedia1'></button>
             <button className='socialmedia2'></button>
@@ -139,15 +145,17 @@ const CardsPerso = () => {
             <div className='clash-card__image clash-card__image--bg'>
               <img src={Laure} alt='avatar' />
             </div>
-            <div className='clash-card__level clash-card__class'>Rôdeuse</div>
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Rôdeuse</div>
 
-            <div className='clash-card__unit-name'>Laure</div>
-            <div className='titles4'>
-              Développeuse-ancienne technicienne d’assistance logiciel{' '}
-            </div>
-            <div className='clash-card__unit-description'>
-              “ Geek à ses heures perdues - binge watcheuse <br></br>“ une série
-              entraîne une autre série…" "
+              <div className='clash-card__unit-name'>Laure</div>
+              <div className='titles'>
+                Développeuse-ancienne technicienne d’assistance logiciel{' '}
+              </div>
+              <div className='clash-card__unit-description'>
+                “ Geek à ses heures perdues - binge watcheuse <br></br>“ une
+                série entraîne une autre série…" "
+              </div>
             </div>
             <button className='socialmedia1'></button>
             <button className='socialmedia2'></button>
@@ -159,12 +167,14 @@ const CardsPerso = () => {
             <div className='clash-card__image clash-card__image--bg'>
               <img src={Remi} alt='avatar' />
             </div>
-            <div className='clash-card__level clash-card__class'>Druide</div>
-            <div className='clash-card__unit-name'>Rémi</div>
-            <div className='titles5'>Cyclo-développeur</div>
-            <div className='clash-card__unit-description'>
-              “ Déraille souvent pour mieux pédaler. <br></br>Arrive à ses fins
-              même si je dois y passer par quatre chemins.”
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Druide</div>
+              <div className='clash-card__unit-name'>Rémi</div>
+              <div className='titles'>Cyclo-développeur</div>
+              <div className='clash-card__unit-description'>
+                “ Déraille souvent pour mieux pédaler. <br></br>Arrive à ses
+                fins même si je dois y passer par quatre chemins.”
+              </div>
             </div>
             <button className='socialmedia1'></button>
             <button className='socialmedia2'></button>
@@ -176,15 +186,17 @@ const CardsPerso = () => {
             <div className='clash-card__image clash-card__image--bg'>
               <img src={Alex} alt='avatar' />
             </div>
-            <div className='clash-card__level clash-card__class'>Paladin</div>
-            <div className='clash-card__unit-name'>Alexandra</div>
-            <div className='titles6'>
-              Couteau suisse / Développeuse / Conteuse / Artisane / Rôliste
-              /Grand Maître du Jeu / En quête du Saint UI / UX
-            </div>
-            <div className='clash-card__unit-description'>
-              “ Un besoin de connaissance extrême, jamais sans un de mes
-              carnets. Bisounours dans l’âme. Git add câlin.”
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Paladin</div>
+              <div className='clash-card__unit-name'>Alexandra</div>
+              <div className='titles'>
+                Couteau suisse / Développeuse / Conteuse / Artisane / Rôliste
+                /Grand Maître du Jeu / En quête du Saint UI / UX
+              </div>
+              <div className='clash-card__unit-description'>
+                “ Un besoin de connaissance extrême, jamais sans un de mes
+                carnets. Bisounours dans l’âme. Git add câlin.”
+              </div>
             </div>
             <button className='socialmedia1'></button>
             <button className='socialmedia2'></button>
@@ -196,23 +208,29 @@ const CardsPerso = () => {
             <div className='clash-card__image clash-card__image--bg'>
               <img src={Romain} alt='avatar' />
             </div>
-            <div className='clash-card__level clash-card__class'>Mage</div>
-            <div className='clash-card__unit-name'>Romain</div>
-            <div className='titles7'>
-              Développeur, <span style={sizefont0}>scénariste</span>,
-              <span style={sizefont1}> seigneur des Dragons</span>,
-              <span style={sizefont2}> lieutenant des Orques d’Arhg’baad,</span>
-              <span style={sizefont3}>Top Chef 2020,</span>{' '}
-              <span style={sizefont4}>Grand Maître de l’Ordre du Big Mac,</span>
-              <span style={sizefont5}>
-                {' '}
-                Membre Honoraire de la Congrégation du Vignoble,
-              </span>
-              <span style={sizefont6}> Cultiste de Cthulhu du mois </span>
-            </div>
-            <div className='clash-card__unit-description'>
-              “J'écris des trucs, je fais un git push et <br></br>je regarde le
-              monde sombrer dans les flammes.”
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Mage</div>
+              <div className='clash-card__unit-name'>Romain</div>
+              <div className='titles'>
+                Développeur, <span style={sizefont0}>scénariste</span>,
+                <span style={sizefont1}> seigneur des Dragons</span>,
+                <span style={sizefont2}>
+                  {' '}
+                  lieutenant des Orques d’Arhg’baad,
+                </span>
+                <span style={sizefont3}>Top Chef 2020,</span>
+                <span style={sizefont4}>
+                  Grand Maître de l’Ordre du Big Mac,
+                </span>
+                <span style={sizefont5}>
+                  Membre Honoraire de la Congrégation du Vignoble,
+                </span>
+                <span style={sizefont6}> Cultiste de Cthulhu du mois </span>
+              </div>
+              <div className='clash-card__unit-description'>
+                “J'écris des trucs, je fais un git push et <br></br>je regarde
+                le monde sombrer dans les flammes.”
+              </div>
             </div>
             <button className='socialmedia1'></button>
             <button className='socialmedia2'></button>
