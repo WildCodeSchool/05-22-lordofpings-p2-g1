@@ -3,7 +3,7 @@
     "_id": 0,
     "title": "Le départ de Camelot",
     "battle": false,
-    "text": "Vous marchez depuis quelques heures déjà. Lorsque vous vous êtes mise en route pour le fief de Merlin, vous aviez déjà entendu les histoires. La petite ville ne serait qu’une énième plaisanterie d’un esprit tombant irrémédiablement en décrépitude. L’enchanteur royal n’est plus que l’ombre de lui-même depuis près de 20 ans maintenant. Il terrorise aujourd’hui des villageois avec des golems de pierre, caché dans son château. Lorsque vous avez vu le décret royal à la taverne du “Rotiwok”, vous avez été quelque peu interloqué par la formulation : “Le Roi Arthur ordonne la saisie du grimoire de Merlin, utilisé pour invoquer les “Témoins de Merlin”, des golems de pierre. Sera attribuée la récompense de 1 000 pièces d’or à…” C’est à partir de là que votre cerveau n’en avait plus grand-chose à foutre.", 
+    "text": "Vous marchez depuis quelques heures déjà. Lorsque vous vous êtes mise en route pour le fief de Merlin, vous aviez déjà entendu les histoires. La petite ville ne serait qu’une énième plaisanterie d’un esprit tombant irrémédiablement en décrépitude. L’enchanteur royal n’est plus que l’ombre de lui-même depuis près de 20 ans maintenant. Il terrorise aujourd’hui des villageois avec des golems de pierre, caché dans son château. Lorsque vous avez vu le décret royal à la taverne du “Rotiwok”, vous avez été quelque peu interloqué par la formulation : “Le Roi Arthur ordonne la saisie du grimoire de Merlin, utilisé pour invoquer les “Témoins de Merlin”, des golems de pierre provoquant le dépérissement des âmes des villageois. Sera attribuée la récompense de 1 000 pièces d’or à…” C’est à partir de là que votre cerveau n’en avait plus grand-chose à foutre.", 
     "image": "assets/img/background/story/forest1.svg",
     "sound":"assets/audio/foret1.mp3",
     "buttons": [
@@ -80,7 +80,7 @@
   {
     "_id": 5,
     "title": "Demander comment se rendre au château de Merlin",
-    "text": "Le visage du tavernier s’éclaire.“Vous êtes venu nous débarrasser de ces fichus golems ? Dieu soit cuillère ! Le château de Merlin se trouve au sud. Vous pourrez vous y rendre par la forêt des Troncs Sonneurs ou par le Mont Kuyerh. C’est le vrai nom ça, c’est pas mon tic de langage. La forêt est plus hospitalière que les monts enneigés, même si l’on raconte qu’on peut y faire d’étranges rencontres. Le Mont Kuyerh est un peu cuillère - pardon, dangereux -, mais vous pourrez peut-être passer plus rapidement ",
+    "text": "Le visage du tavernier s’éclaire. “Vous êtes venu nous débarrasser de ces fichus golems ? Dieu soit cuillère ! Le vieux fou veut nous punir de ne pas avoir fini son château : il nous a maudits et ronge depuis nos cuillères - nos âmes. Seulement, sa cruauté est sans borne : il le fait à travers des golems de pierre, que vous avez dû croiser. Chaque nouvelle interpellation de leur part grignote l’âme de qui l’entend. Bientôt, nous ne serons plus que des coquilles vides. Le château de Merlin se trouve au sud. Vous pourrez vous y rendre par la forêt des Troncs Sonneurs ou par le Mont Kuyerh. C’est le vrai nom ça, c’est pas mon tic de langage. La forêt est plus hospitalière que les monts enneigés, même si l’on raconte qu’on peut y faire d’étranges rencontres. Le Mont Kuyerh est un peu cuillère - pardon, dangereux -, mais vous pourrez peut-être passer plus rapidement. ",
     "image": "assets/img/background/story/tavern1.svg",
     "buttons": [
       {
@@ -638,7 +638,7 @@
     "_id": 33,
     "title": "Pas de repos pour les braves (Chercher la sortie le plus vite possible)",
     "text":"Vous ne vous attardez pas, malgré les richesses potentielles qui vous tendent les bras. C’est dommage parce que les thunes, ça fait pas le bonheur, mais ça fait à minima l’équipement. M’enfin c’est vous qui voyez. Vous finissez par trouver une sortie qui vous ramène à l’air libre. Des vibrations régulières dans le sol, comme les pas d’une créature anormalement lourde, vous font penser que vous avez bien fait de ne pas vous attarder. Une chaleur suffocante vous assaille, et pour cause : vous vous trouvez face à un immense lac de lave. Aucun moyen de le contourner, vous allez devoir traverser. Après considération, vous vous dites qu’il est peut-être possible d’atteindre l’autre rive grâce aux rochers qui émergent du magma ça et là",
-    "image": "",
+    "image": "assets/img/background/story/cave4.svg",
     "buttons": [
       {
         "title": "Traverser rapidement",
@@ -667,7 +667,7 @@
     "title": "Karvagma a de l'avenir (Traverser rapidement)",
     "text": "Vous sortez de votre poche la carte de visite de Karvagma, le vendeur de kits ignifuges révolutionnaires, et vous vous rappelez ses mots : “Le jour où mon cousin Gollum est tombé dans la lave, j’ai compris qu’il y avait un marché à saisir. Tenez, prenez ma carte, ça vous donnera un avant-goût !”Vous avancez un pied au-dessus de la lave en fusion, hésitante. Si vous vous plantez, ça va faire mal. Très mal. Comme pour cousin Gollum. Comme on arrache un pansement, vous fermez les yeux et y allez d’un coup sec. Aucune douleur. Rouvrant les yeux, vous constatez que le lave n’est qu’un simple tapis rougeoyant pour vous. Craignant que l’effet ne s’estompe, vous courrez le plus vite possible pour atteindre l’autre rive. Lorsque vous l’atteignez, la carte a disparu de votre main. En contrebas, une vallée s’offre à vos yeux, et dans cette vallée se dressent quatre tours et un donjon, assortis de murailles. Le château de Merlin est en vue.",
     "item": "carte",
-    "image": "",
+    "image": "assets/img/background/story/cave4.svg",
     "buttons": [
       {
         "title": "Rejoindre la vallée",
@@ -681,7 +681,7 @@
     "_id": 35,
     "title": "Ça sent le cochon grillé, non ? (Traverser avec prudence)",
     "text":"Vous vous rappelez la carte de visite de Karvagma et ce qu’il a dit en vous la laissant : “un avant-goût” de ses kits ignifuges. Nichée au creux de votre main, vous sentez qu’elle irradie de pouvoir. Vous vous mettez à genou et avancez un doigt en direction de la lave en fusion, tout en refusant de regarder. Lorsque votre peau touche le magma, vous avez juste l’impression de tâter un gâteau spongieux. Vous vous relevez et avancez prudemment sur le lac de lave, trop incertaine de pouvoir marcher sans crainte. Il est mieux de prendre son temps et d’arriver bien vivante, rien ne presse. Sauf que si. Arrivée à mi-parcours, vous ressentez davantage de chaleur, et le creux de votre main vous chatouille. En ouvrant le poing, vous constatez que la carte de Karvagma se consume pour vous permettre de ne pas être consumée, vous.Il vous reste un petit bout de carte, et 500 mètres de lac de lave en fusion à parcourir. Vous n’y arriverez jamais. Votre voyage se termine ici. Quelle ironie pour quelqu’un qui a toujours détesté la viande trop cuite.",
-    "image": "",
+    "image": "assets/img/background/story/cave4.svg",
     "buttons": [
       {
         "title": "Votre voyage se termine ici.",
@@ -695,7 +695,7 @@
     "_id": 36,
     "title": "L’entraînement paie enfin (Sauter de rocher en rocher)",
     "text":"Vous vous délestez de quelques babioles qui vous alourdissent inutilement. Le temps de trouver un itinéraire parmi les rochers, vous voilà à sauter et virevolter de monticule en monticule. Vous atterrissez finalement (avec beaucoup de grâce, si je puis me permettre) de l’autre côté du lac. L’opération n’aura pris qu’une dizaine de minutes. Ce serait un record s’il y avait une épreuve sportive de ce type. Mais il n’y en a pas. En contrebas, une vallée s’offre à vos yeux, et dans cette vallée se dressent quatre tours et un donjon, assortis de murailles. Le château de Merlin est en vue.",
-    "image": "",
+    "image": "assets/img/background/story/cave4.svg",
     "buttons": [
       {
         "title": "Rejoindre la vallée",
@@ -855,7 +855,7 @@
     "_id": 46,
     "title": "Le départ de Monsieur LeCoq",
     "text":"Alors que vous approchez des immenses portes du château, celles-ci s’ouvrent dans un grincement retentissant. Un homme vêtu d’une redingote et d’un chapeau élégant apparaît. Un détail notable le concernant : il a des pattes de poulet. À votre approche, il lève les yeux. “Je suppose que - cot cot ! - vous venez pour monsieur. (Il s’écarte) Ne vous faites pas prier.” Constatant que vous restez plantée là à fixer ses membres inférieurs, il ajoute : “Je suis monsieur LeCoq - cot cot ! - et je servais monsieur Merlin en qualité de majordome - cot cot !. Il s’ennuyait aujourd’hui, il a donc décidé de “réconcilier” - cot cot ! - mon image et mon nom. Comme vous le voyez, son sort a raté. Du moins en partie - cot cot ! C’était la goutte d’eau, je rentre en France.”",
-    "image": "",
+    "image": "assets/img/background/story/mainDoor.svg",
     "buttons": [
       {
         "title": "Cot cot",
@@ -950,7 +950,7 @@
   {
     "_id": 51,
     "title": "Des salades ",
-    "text":"Le portail s'ouvre. Ça a l’air si humide… Et ça sent le choux, mais vous avancé dans portail.",
+    "text":"Le portail s'ouvre. Ça a l’air si humide… Et ça sent le choux, mais vous avancé dans le portail.",
     "image": "assets/img/background/story/gate1.svg",
     "buttons": [
       {
@@ -1018,7 +1018,7 @@
   {
     "_id": 55,
     "title": "Brochette de géant",
-    "text":"Entre les jambes du gardien, vous remarquez un énorme cristal très pointu à quelques mètres derrière lui. Vous prétextez vouloir résoudre son énigme, le laissant plonger dans ses réflexions pour vous en trouver une. C’est à ce moment que vous faites appel à toutes vos forces et poussez le géant d’un coup sec. Pris par surprise, il ne s’attendait pas à ce qu’une si petite créature ait tant de force -, il vacille, parvient presque à reprendre son équilibre, mais trébuche et s’étend de tout son long. Un bruit humide et dégoûtant accompagne sa chute. Un pieu immense, magnifique et - il faut bien le dire -, franchement dégueu en même temps, orne la poitrine du Gardien des Crystomonnaies. Vous vous dépêchez de le fouiller et trouvez deux crystomonnaies, puis vous décampez en vitesse : vous ne savez pas quelles autres créatures peuvent hanter ces lieux.",
+    "text":"Pris par surprise, il ne s’attendait pas à ce qu’une si petite créature ait tant de force -, il vacille, parvient presque à reprendre son équilibre, mais trébuche et s’étend de tout son long. Un bruit humide et dégoûtant accompagne sa chute. Un pieu immense, magnifique et - il faut bien le dire -, franchement dégueu en même temps, orne la poitrine du Gardien des Crystomonnaies. Vous vous dépêchez de le fouiller et trouvez deux crystomonnaies, puis vous décampez en vitesse : vous ne savez pas quelles autres créatures peuvent hanter ces lieux.",
     "image": "assets/img/background/story/cave2.svg",
     "sound":"assets/audio/foret1.mp3",
     "buttons": [
@@ -1047,7 +1047,7 @@
   {
     "_id": 57,
     "title": "Le géant terrassé",
-    "text":"Vous frappez un coup, puis deux, sans toutefois faire mouche. Votre adversaire vous repousse d’un simple revers de la main. Le mur que vous percutez vide l’air de vos poumons. Alors que le gardien s’approche, vous percevez les vibrations du sol dans vos mains et vos genoux à chacun de ses pas. Vous êtes toujours à quatre pattes, haletante, lorsqu’il vous saisit. À la dernière seconde, vous attrapez votre arme et tandis que le géant vous soulève, votre lame accompagne le mouvement. Vous n’avez qu’à tendre les bras et elle s’enfonce dans le menton du gardien sans résistance, appuyée par la force de celui-ci. Il vous tient face à lui, le regard médusé, votre arme plantée en travers de son crâne. Vous tombez avec lui à la renverse. Vous vous dépêchez de le fouiller et trouvez deux crystomonnaies, puis vous décampez en vitesse : vous ne savez pas quelles autres créatures peuvent hanter ces lieux.",
+    "text":"À la dernière seconde, vous attrapez votre arme et tandis que le géant vous soulève, votre lame accompagne le mouvement. Vous n’avez qu’à tendre les bras et elle s’enfonce dans le menton du gardien sans résistance, appuyée par la force de celui-ci. Vous frappez un coup, puis deux, sans toutefois faire mouche. Votre adversaire vous repousse d’un simple revers de la main. Le mur que vous percutez vide l’air de vos poumons. Alors que le gardien s’approche, vous percevez les vibrations du sol dans vos mains et vos genoux à chacun de ses pas. Vous êtes toujours à quatre pattes, haletante, lorsqu’il vous saisit. À la dernière seconde, vous attrapez votre arme et tandis que le géant vous soulève, votre lame accompagne le mouvement. Vous n’avez qu’à tendre les bras et elle s’enfonce dans le menton du gardien sans résistance, appuyée par la force de celui-ci. Il vous tient face à lui, le regard médusé, votre arme plantée en travers de son crâne. Vous tombez avec lui à la renverse. Vous vous dépêchez de le fouiller et trouvez deux crystomonnaies, puis vous décampez en vitesse : vous ne savez pas quelles autres créatures peuvent hanter ces lieux.",
     "image": "assets/img/background/story/cave2.svg",
     "sound":"assets/audio/foret1.mp3",
     "buttons": [
@@ -1063,7 +1063,7 @@
     "_id": 58,
     "title": "Vous n’avez pas honte ?",
     "text":"C’est très vilain de se moquer. Moi je ne vous fais pas de remarque sur votre visage étrangement asymétrique.",
-    "image": "",
+    "image": "assets/img/background/story/mainDoor.svg",
     "buttons": [
       {
         "title": "Pardon ?",
@@ -1083,7 +1083,7 @@
     "_id": 59,
     "title": "Vous avez bien lu",
     "text":"Oui oui",
-    "image": "",
+    "image": "assets/img/background/story/mainDoor.svg",
     "buttons": [
       {
         "title": "Je suis désolée",
@@ -1103,7 +1103,7 @@
     "_id": 60,
     "title": "Vous l’avez bien cherché (Cot cot)",
     "text":"Ah c'est comme ça. Non seulement votre tronche manque de cohérence, mais vos muscles ont visiblement fondu. À force d'écumer les tavernes au lieu de tabasser des gobelins, voilà ce qui arrive. Et vous avez du bide. Si. Je fais ce que je veux, je suis le narrateur.Cette mauvaise hygiène de vie a forcément eu des conséquences sur vos performances d'aventurière.",
-    "image": "",
+    "image": "assets/img/background/story/mainDoor.svg",
     "buttons": [
       {
         "title": "Je l'ai bien cherché.",
@@ -1117,7 +1117,7 @@
     "_id": 61,
     "title": "La grande classe (Pousser la porte du château)",
     "text":"Derrière la porte, tout n’est que boiseries ouvragées et dorures précieuses. Le grand hall du château de Merlin en met plein la vue, il faut le reconnaître. Le genre de lieu très rare que priserait sans aucun doute Stephan De La Placette. En mettant de côté le rouleau de papier toilette qui traîne dans un coin.Vous voyez qui c’est, Stephan De La Placette, pas vrai ? Mais siiii. C’est ce mercenaire du logis qui vous trouve le bien introuvable ! Enfin bref, rien que le hall lui taperait dans l’œil à coup sûr.",
-    "image": "",
+    "image": "assets/img/background/story/hallCastle.svg",
     "buttons": [
       {
         "title": "Je m'en fou",
@@ -1148,7 +1148,7 @@
     "_id": 62,
     "title": "Débrouillez-vous (Hall du château)",
     "text":"Rustre. Vous ne faites aucun effort. Puisque c’est comme ça moi non plus :Y’a deux portes à gauche, deux portes à droite, et un escalier qui monte à l’étage au milieu.",
-    "image": "",
+    "image": "assets/img/background/story/hallCastle.svg",
     "buttons": [
       {
         "title": "Prendre les escaliers",
@@ -1278,12 +1278,13 @@
       {
         "title": "Lui lancer de la légumineuse dans un coin de la pièce (requiert salade/champignons)",
         "battle":false,
-        "quest": 63,
+        "item": "salade",
+        "quest": 89,
         "unique": false
       },
       {
         "title": "Aucune chance que vous lui fassiez confiance, c’est le moment de lui casser les canines.",
-        "quest": 63,
+        "quest": 183,
         "battle": true,
         "unique": false
         
@@ -1291,7 +1292,7 @@
       {
         "title": "S’il dit qu’il préfère la verdure, c’est qu’il préfère la verdure. Sortez.",
         "battle": true,
-        "quest": 63,
+        "quest": 179,
         "unique": false
       }
     ]
@@ -2125,7 +2126,7 @@
   {
     "_id": 113,
     "title": "Fermeture du grimoire (Bataille contre Merlin - Réussite)",
-    "text":"Merlin raille votre petite manœuvre : “Ha ! Vous comptez éteindre l’essence même du feu stellaire avec un seau d’eau ? Pauvre sotte !” En entrant en contact avec “l’essence même du feu stellaire” (il se la pète de ouf ce Merlin quand même), l’eau se transforme en vapeur. Et c’est l’effet recherché. Le vieux magicien ne vous voit plus à présent, tandis que vous le repérez grâce à la pointe de son chapeau. L’air est expulsé de ses poumons lorsque vous lui enfoncez votre lame dans la poitrine. Alors que ses yeux se voilent, l’environnement autour de vous se brouille. Lorsqu’il se stabilise de nouveau, vous êtes dans la nature, au milieu d’un vaste espace ouvert. C’est là que Merlin commence à.. changer.",
+    "text":"Merlin raille votre petite manœuvre : “Ha ! Vous comptez éteindre l’essence même du feu stellaire avec un seau d’eau ? Pauvre sotte !” En entrant en contact avec “l’essence même du feu stellaire” (il se la pète de ouf ce Merlin quand même), l’eau se transforme en vapeur. Et c’est l’effet recherché. Le vieux magicien ne vous voit plus à présent, tandis que vous le repérez grâce à la pointe de son chapeau.L’air est expulsé de ses poumons lorsque vous lui enfoncez votre lame dans la poitrine. Alors que ses yeux se voilent, l’environnement autour de vous se brouille. Lorsqu’il se stabilise de nouveau, vous êtes à l’extérieur du château. C’est là que Merlin commence à.. changer. ",
     "image": "",
     "buttons": [
       {
@@ -2138,7 +2139,7 @@
   {
     "_id": 114,
     "title": "Un dragon, évidemment (Ah)",
-    "text":"Les membres du magicien se désarticulent. Les contorsions mutilent son corps, qui se convulse tout en se couvrant de tumeurs hideuses. Elles grossissent jusqu’à elles-mêmes engendrer de nouvelles grosseurs… Peu à peu, vous réalisez que Merlin adopte une nouvelle forme, celle d’un dragon monstrueux et menaçant. La transformation achevée, il crache une gerbe de flammes qui embrase les cieux, puis vous regarde de ses yeux perçants avant de hurler… et ça fait pouic. Genre son cri, c’est *pouiiiiiic*. Vous sentez un fou rire monter, mais vous le réprimez en vous concentrant sur l’idée qu’être ridicule ne l’empêche en aucun cas de vous dévorer. Mais quand même… *pouiiiiiic*.",
+    "text":"Les membres du magicien se désarticulent. Les contorsions mutilent son corps, qui se convulse tout en se couvrant de tumeurs hideuses. Elles grossissent jusqu’à elles-mêmes engendrer de nouvelles grosseurs… Peu à peu, vous réalisez que Merlin adopte une nouvelle forme, celle d’un dragon monstrueux et menaçant. La transformation achevée, il crache une gerbe de flammes qui embrase le château, puis vous regarde de ses yeux perçants avant de hurler… et ça fait pouic. Genre son cri, c’est *pouiiiiiic*. Vous sentez un fou rire monter, mais vous le réprimez en vous concentrant sur l’idée qu’être ridicule ne l’empêche en aucun cas de vous dévorer. Mais quand même… *pouiiiiiic*.",
     "image": "",
     "buttons": [
       {
@@ -3407,7 +3408,7 @@
     "_id": 171,
     "title": "La valse des esprits (Ouvrir les portes)",
     "text":"Vous découvrez une salle de bal opulente. La salle est entièrement vide, mais des instruments sont posés sur une petite estrade et malgré l’absence de musiciens, vous entendez une valse entraînante. C’est en arrivant au milieu de la salle que vous réalisez que vous êtes entourée d’esprits qui virevoltent dans les airs. La peur qui commence à vous gagner s’évanouit lorsque vous réalisez qu’ils ne remarquent même pas votre présence. La danse des esprits vous hypnotise. Vous passez probablement plusieurs heures, obnubilée par le ballet éthéré. Alors, la musique se fait plus discrète, et vous entendez les esprits murmurer à l’unisson dans votre tête : “méfiez-vous des canards…” Vous voilà seule au milieu du silence.",
-    "image": "",
+    "image": "assets/img/background/story/hallGhost1.svg",
     "buttons": [
       {
         "title": "Retourner dans le hall",
@@ -3420,7 +3421,7 @@
     "_id": 172,
     "title": "La montée des marches (Prendre les escaliers)",
     "text":"Vous grimpez des marches recouvertes d’un superbe tissu moumoute. Arrivée en haut, seul un couloir s’offre à vous. Au bout de celui-ci, une double porte magnifique ponctue le chemin.",
-    "image": "",
+    "image": "assets/img/background/story/door1.svg",
     "buttons": [
       {
         "title": "Ouvrir les portes",
@@ -3491,7 +3492,7 @@
       },
       {
         "title": "La porte à l’autre bout du couloir",
-        "quest": 176,
+        "quest": 62,
         "unique": false
       }
     ]
@@ -3517,14 +3518,14 @@
   },
   {
     "_id": 178,
-    "battle": true,
-    "title": "S’il dit qu’il préfère la verdure, c’est qu’il préfère la verdure. Sortez.",
-    "text":"",
+    "battle": false,
+    "title": "C’est un vampire",
+    "text":"C’est beau une confiance si aveugle, si ingénue. C’est beau et en même temps c’est totalement inconscient. Dès l’instant où vous lui tournez le dos, Edward Cullen cède à ses instincts et vous plante ses crocs dans la jugulaire. La prochaine fois, quand un vampire vous dira qu’il préfère la salade, vous ne vous laisserez pas avoir. Attendez, vous êtes morte, il n’y aura pas de prochaine fois.",
     "image": "",
     "sound":"assets/audio/skills1.mp3",
     "buttons": [
       {
-        "title": "Accepter votre mort sanglante",
+        "title": "Ma foi dans les vampires est sérieusement ébranlée",
         "quest": 1001,
         "unique": false
       }
@@ -3548,14 +3549,14 @@
   {
     "_id": 180,
     "battle": true,
-    "title": "Baston avec les ours",
-    "text":"",
+    "title": "Repousser les Rel’Ours",
+    "text":"Vous attrapez votre arme en toute hâte et fendez l’air à plusieurs reprises pour effrayer vos adversaires peloteurs. Cela fonctionne brièvement grâce à l’effet de surprise, mais les Rel’Ours, c’est persévérant.",
     "image": "assets/img/background/story/arena.svg",
     "sound":"assets/audio/skills1.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
-        "quest": 16,
+        "quest": 185,
         "unique": false
       }
     ]
@@ -3564,8 +3565,8 @@
     "_id": 181,
     "battle": true,
     "title": "Le géant terrassé ",
-    "text":"Vous frappez un coup, puis deux, sans toutefois faire mouche. Votre adversaire vous repousse d’un simple revers de la main. Le mur que vous percutez vide l’air de vos poumons. Alors que le gardien s’approche, vous percevez les vibrations du sol dans vos mains et vos genoux à chacun de ses pas. Vous êtes toujours à quatre pattes, haletante, lorsqu’il vous saisit. À la dernière seconde, vous attrapez votre arme et tandis que le géant vous soulève, votre lame accompagne le mouvement. Vous n’avez qu’à tendre les bras et elle s’enfonce dans le menton du gardien sans résistance, appuyée par la force de celui-ci.",
-    "image": "assets/img/background/story/cave2.svg",
+    "text":"Vous frappez un coup, puis deux, sans toutefois faire mouche. Votre adversaire vous repousse d’un simple revers de la main. Le mur que vous percutez vide l’air de vos poumons. Alors que le gardien s’approche, vous percevez les vibrations du sol dans vos mains et vos genoux à chacun de ses pas. Vous êtes toujours à quatre pattes, haletante, lorsqu’il vous saisit. ",
+    "image": "assets/img/background/story/arena.svg",
     "sound":"assets/audio/skills1.mp3",
     "buttons": [
       {
@@ -3579,8 +3580,8 @@
     "_id": 182,
     "battle": true,
     "title": "Brochette de géant",
-    "text":"Entre les jambes du gardien, vous remarquez un énorme cristal très pointu à quelques mètres derrière lui. Vous prétextez vouloir résoudre son énigme, le laissant plonger dans ses réflexions pour vous en trouver une. C’est à ce moment que vous faites appel à toutes vos forces et poussez le géant d’un coup sec. Pris par surprise - il ne s’attendait pas à ce qu’une si petite créature ait tant de force -, il vacille, parvient presque à reprendre son équilibre, mais trébuche et s’étend de tout son long.",
-    "image": "assets/img/background/story/cave2.svg",
+    "text":"Entre les jambes du gardien, vous remarquez un énorme cristal très pointu à quelques mètres derrière lui. Vous prétextez vouloir résoudre son énigme, le laissant plonger dans ses réflexions pour vous en trouver une. C’est à ce moment que vous faites appel à toutes vos forces et poussez le géant d’un coup sec. ",
+    "image": "assets/img/background/story/arena.svg",
     "sound":"assets/audio/skills1.mp3",
     "buttons": [
       {
@@ -3593,10 +3594,25 @@
   {
     "_id": 183,
     "battle": true,
-    "title": "Aucune chance que vous lui fassiez confiance",
-    "text":"",
-    "image": "",
+    "title": "C’est l’heure du pieu",
+    "text":"C’est un vampire. Vous n’avez pas vraiment besoin d’une incitation supplémentaire pour le tuer. Enfin le retuer. Vu qu’il est déjà mort, techniquement. “Mais puisque je vous dis que je suis végé…” Il n’a pas le temps de finir sa phrase puisque votre poing s’écrase contre sa jolie petite frimousse bien peignée. C’est alors que Cullen semble beaucoup moins enclin au végétarisme. Une lueur rouge envahit ses yeux, ses canines deviennent plus saillantes et sa peau… sa peau brille ? Oui, sa peau brille. Edward devient une boule à facettes quand il est énervé. Pas commun ça.",
+    "image": "assets/img/background/story/arena.svg",
     "sound":"assets/audio/skills1.mp3",
+    "buttons": [
+      {
+        "title": "La mort du disco avant l’heure",
+        "quest": 184,
+        "unique": false
+      }
+    ]
+  },
+  {
+    "_id": 184,
+    "battle": false,
+    "title": "",
+    "text":"Vous êtes d’abord aveuglée par la lumière qui émane du vampire, ce qui lui donne l’occasion de vous asséner un coup de griffe qui vous lacère le bras. Votre arme tombe à terre. Edward sent que c’est son moment et vous saute dessus. Vous roulez à terre juste à temps, récupérant votre lame au passage. Pendant ce temps, le vampire plante ses dents dans la porte. Bien aiguisées ces dents. Un peu trop pour son propre bien apparemment. Un balayage net vient découper la tête d’Edward, ce qui interrompt immédiatement la soirée disco. Non pas que vous sachiez ce qu’est le disco. Le monde n’est pas encore prêt pour ça. Il n’est déjà pas prêt pour les vampires végétariens.",
+    "image": "",
+    "sound":"assets/audio/foret1.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3606,29 +3622,16 @@
     ]
   },
   {
-    "_id": 184,
-    "battle": true,
-    "title": "",
-    "text":"",
-    "image": "",
-    "buttons": [
-      {
-        "title": "Poursuivre l'histoire",
-        "quest": 0,
-        "unique": false
-      }
-    ]
-  },
-  {
     "_id": 185,
-    "battle": true,
-    "title": "",
-    "text":"",
-    "image": "",
+    "battle": false,
+    "title": "Bas les pattes",
+    "text":"La pattes en avant, les Rel’Ours grognent après que vous les ayez repoussés. Surtout, des griffes sont apparues au bout des pattes en question, et ça ça vous déplaît pas mal. Déjà qu’ils sont venus vous emmerder alors que vous étiez bien tranquille… C’est le moment pour une leçon champêtre. Le pommeau de votre arme s’écrase contre les noix des Rel’Ours les uns après les autres, vous sentez même une brindille craquer. L’adversaire concerné tombe immédiatement dans les pommes et vous en profiter pour l’achever. Ses compères voient leurs pattes tomber à leurs pieds après une attaque circulaire particulièrement efficace de votre part. Ils s’enfuient immédiatement dans la forêt en hurlant à la mort, qu’ils rencontreront très bientôt à force de se vider de leur sang.",
+    "image": "assets/img/background/story/forest7.svg",
+    "sound":"assets/audio/foret1.mp3",
     "buttons": [
       {
-        "title": "Poursuivre l'histoire",
-        "quest": 0,
+        "title": "Enfin la paix",
+        "quest": 45,
         "unique": false
       }
     ]
