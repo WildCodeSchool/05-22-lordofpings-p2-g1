@@ -1,12 +1,16 @@
 import GameHeaderHud from './GameHeaderHud'
 import GameHeaderButtons from './GameHeaderButtons'
 
-const GameHeader = ({ hero }) => {
+const GameHeader = ({ hero, music, isPlayedYolo, volume, setVolume }) => {
   return (
     <div className='gameHeader'>
       <GameHeaderHud hero={hero} />
-
-      <GameHeaderButtons />
+      <GameHeaderButtons
+        music={music}
+        isPlayedYolo={isPlayedYolo}
+        volume={volume}
+        setVolume={setVolume}
+      />
     </div>
   )
 }

@@ -1,10 +1,9 @@
-import { React, useState, useEffect } from 'react'
-
+import { React, useState, useEffect, useRef } from 'react'
+import ReactAudioPlayer from 'react-audio-player'
 
 import GameOver from '../components/GameOver'
 import GameSkills from '../components/GameSkills'
 import GameStory from '../components/GameStory'
-import GameStoryBattle from '../components/GameStoryBattle'
 import GameTavern from '../components/GameTavern'
 import GameWon from '../components/GameWon'
 
@@ -27,7 +26,7 @@ const Game = () => {
   // 1004 = Game [Other]
   // 1005 = Contact
   const [quest, setQuest] = useState(
-    JSON.stringify(quests[localStorage.getItem('quest')])
+    JSON.stringify(quests[localStorage.getItem('quest')] || quests[0])
   )
   const [bg, setBg] = useState(0)
   const [hero, setHero] = useState(JSON.parse(localStorage.getItem('hero')))
@@ -37,11 +36,31 @@ const Game = () => {
     localStorage.setItem('hero', JSON.stringify(data))
   }
 
-  const [sound, setSound] = useState()
-  const [volume, setVolume] = useState(0.1)
-  const [muted, setMuted] = useState(false)
+  const getCookie = cname => {
+    let name = cname + '='
+    let decodedCookie = decodeURIComponent(document.cookie)
+    let ca = decodedCookie.split(';')
+    for (let i = 0; i < ca.length; i++) {
+      let c = ca[i]
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1)
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length)
+      }
+    }
+    return ''
+  }
 
+  const music = useRef(null)
+
+  const [sound, setSound] = useState()
+  // console.log(parseFloat(getCookie('volume')))
+  const [volume, setVolume] = useState(parseInt(getCookie('volume')))
+  // const [muted, setMuted] = useState(false)
+  const [isPlayedYolo, setIsPlayedYolo] = useState(false)
   useEffect(() => {
+    setIsPlayedYolo(false)
     localStorage.setItem('page', page)
     page < 1000 &&
       page > -1 &&
@@ -52,14 +71,14 @@ const Game = () => {
       // Game Story
       if (quest?.image) {
         setBg(quest.image)
-        setSound('https://www.mboxdrive.com/story-celtic-fantasy.mp3')
+        setSound('assets/audio/foret1.mp3')
       } else {
         setBg(forest)
       }
     } else if (page === 1000) {
       // Game Tavern
       setBg(tavernImg)
-      setSound('https://www.mboxdrive.com/tavern-music.mp3')
+      setSound('assets/audio/tavern.mp3')
     } else if (page === 1001) {
       // Game Over
       setBg(undefined)
@@ -75,7 +94,7 @@ const Game = () => {
     } else if (page === 1003) {
       // Game Skills
       setBg(skillsImg)
-      setSound('https://www.mboxdrive.com/game-skills-suspens-fight.mp3')
+      setSound('assets/audio/skills1.mp3')
     } else if (page === 1004) {
       // Game [Other]
       setBg()
@@ -87,10 +106,15 @@ const Game = () => {
       setBg()
     }
   }, [page, quest])
-
   return (
     <>
-
+      <ReactAudioPlayer
+        src={sound}
+        volume={volume / 100}
+        loop={true}
+        ref={music}
+        onLoadedMetadata={() => setIsPlayedYolo(true)}
+      />
       <div
         className='gameBackground'
         style={{ backgroundImage: `url(${bg})` }}
@@ -117,20 +141,41 @@ const Game = () => {
             setPage={setPage}
             hero={hero}
             setHero={setHeroData}
+            music={music}
+            isPlayedYolo={isPlayedYolo}
+            volume={volume}
+            setVolume={setVolume}
           />
         )}
         {page === 1000 && (
-          <GameTavern hero={hero} setHero={setHeroData} setPage={setPage} />
+          <GameTavern
+            hero={hero}
+            setHero={setHeroData}
+            setPage={setPage}
+            music={music}
+            isPlayedYolo={isPlayedYolo}
+            volume={volume}
+            setVolume={setVolume}
+          />
         )}
         {page === 1001 && <GameOver setHero={setHeroData} setPage={setPage} />}
         {page === 1002 && <GameWon setPage={setPage} />}
-        {page === 1003 && <GameSkills hero={hero} setPage={setPage} />}
+        {page === 1003 && (
+          <GameSkills
+            hero={hero}
+            setPage={setPage}
+            music={music}
+            isPlayedYolo={isPlayedYolo}
+            volume={volume}
+            setVolume={setVolume}
+          />
+        )}
         {page === 1005 && <Contact />}
 
         <div>
           <a
             style={{ margin: 0, textAlign: 'center', lineHeight: '40px' }}
-            href={'https://fr.freepik.com'}
+            href={'https://fr.freepik.com/auteur/upklyak'}
           >
             Illustré par upklyak - fr.freepik.com
           </a>
