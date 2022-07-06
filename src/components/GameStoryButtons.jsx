@@ -14,7 +14,7 @@ const GameStoryButtons = ({ quest, setPage, animation }) => {
             key={index}
             onclick={() => setPage(button.quest)}
             text={button.title}
-            height='75'
+            height='85'
           />
         ))}
     </div>

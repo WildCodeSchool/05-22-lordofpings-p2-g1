@@ -27,8 +27,6 @@ function Home() {
               item ? navigate('../game') : navigate('../concept')
             }
           />
-        </div>
-        <div className='contactButton'>
           <BigButton
             text='CONTACT'
             height='100'
@@ -38,6 +36,7 @@ function Home() {
           />
         </div>
       </div>
+      <div className='contactButton'></div>
       <MainBackground />
     </>
   )
