@@ -6,18 +6,13 @@
     "maxHeal": 4,
     "money": 100,
     "equipped": {
-      "armor": {
-        "helmet": 1,
-        "chest": 1
-      },
-      "weapons": {
-        "bow": 1
-      }
+      "weapons": [
+        1
+      ]
     },
     "inventory": {
-      "armors": {},
-      "weapons": {},
-      "items": {}
+      "weapons": [],
+      "items": []
     },
     "skills": {
       "agility": 50,
@@ -33,19 +28,10 @@
     "maxHeal": 5,
     "money": 100,
     "equipped": {
-      "armor": {
-        "helmet": 4,
-        "chest": 4
-      },
-      "weapons": {
-        "sword": 1
-      }
+      "weapons": []
     },
     "inventory": {
-      "armors": {},
-      "weapons": {
-        "axe": 1
-      },
+      "weapons": [],
       "items": {}
     },
     "skills": {
