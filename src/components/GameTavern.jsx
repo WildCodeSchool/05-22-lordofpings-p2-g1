@@ -9,7 +9,8 @@ const GameTavern = ({
   isPlayedYolo,
   music,
   volume,
-  setVolume
+  setVolume,
+  setStart
 }) => {
   // 0 = No menu
   // 1 = Quest
@@ -30,6 +31,7 @@ const GameTavern = ({
         isPlayedYolo={isPlayedYolo}
         volume={volume}
         setVolume={setVolume}
+        setStart={setStart}
       />
       <div className='target' onClick={() => setMenu(3)} />
       <div className='barman' onClick={() => setMenu(1)} />

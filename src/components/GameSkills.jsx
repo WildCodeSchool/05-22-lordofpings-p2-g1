@@ -9,7 +9,8 @@ const GameSkills = ({
   music,
   isPlayedYolo,
   volume,
-  setVolume
+  setVolume,
+  setStart
 }) => {
   const [game, setGame] = useState(0)
 
