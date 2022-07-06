@@ -8,7 +8,6 @@
     "buttons": [
       {
         "title": "Poursuivre votre route",
-        "battle":false,
         "quest": 1,
         "unique": false
       }
@@ -16,13 +15,13 @@
   },
   {
     "_id": 1,
+    "battle":false,
     "title": "Les Témoins de Merlin",
     "text": "Lorsque vous passez le panneau indiquant “Fookin Foolths”, des golems se précipitent vers vous. Les fameux “Témoins de Merlin” en pierre et en… pierre. De prime abord effrayée, vous réalisez rapidement qu’ils n’en veulent qu’à vos oreilles : ils ne cessent de réclamer de votre temps pour vous entretenir de “la grandeur du seigneur Merlin”. Vous n’avez droit à aucun répit jusqu’à atteindre la taverne. Pire, vous constatez que les golems commencent à diversifier leurs activités en proposant des ventes de bocaux et autres babioles - vous remarquez notamment une étrange pyramide en fer, très étirée en hauteur, qu’un golem particulièrement enthousiaste vous agite sous le nez en articulant “Touréphel”.",
     "image": "assets/img/background/story/city1.svg",
     "buttons": [
       {
         "title": "Pousser la porte de la taverne",
-        "battle":false,
         "quest": 2,
         "unique": false
       }
@@ -45,7 +44,7 @@
         "title": "Demander plus d'infos à l'autre glandu",
         "battle":false,
         "quest": 17,
-        "unique": false
+        "unique": true
       }
     ]
   },
@@ -93,7 +92,7 @@
         "title": "Remercier Borduk et cuillière",
         "battle":false,
         "quest": 2,
-        "unique": false
+        "unique": true
       }
     ]
   },
@@ -218,7 +217,7 @@
         "title": "Le portail vous emporte.",
         "battle":false,
         "quest": 50,
-        "unique": false
+        "unique": true
       }
     ]
   },
@@ -251,6 +250,7 @@
   {
     "_id": 13,
     "battle": false,
+    "item":1,
     "title": "La chance de votre vie (Saisissez la chance de votre vie)",
     "text": "“Bonjour, je suis Karvagma, l’un des 4 grands cerfs spirituels. Et aujourd’hui, c’est votre jour de chance mon amie : pendant 24h, je vous offre une remise de 75% sur les kits ignifuges Karvagma. Pas d’entourloupe ! Le jour où mon cousin Gollum est tombé dans la lave, j’ai compris qu’il y avait un marché à saisir. Tenez, prenez ma carte, ça vous donnera un avant-goût !” Là-dessus, Karvagma, CEO spirituel de Karvagma Inc. disparaît dans une volute de fumée. À sa place, vous voyez une carte de visite aussi rougeoyante que lui, au nom de sa start-up.",
     "image": "",
@@ -258,14 +258,12 @@
       {
         "title": "Dormir pour se reposer.",
         "battle":false,
-        "item": "carte",
         "quest": 14,
         "unique": false
       },
       {
         "title": "Persévérer et avancer.",
         "battle":false,
-        "item": "carte",
         "quest": 15,
         "unique": false
       }
@@ -286,8 +284,8 @@
       {
         "title": "Donner une leçon aux Rel'Ours",
         "battle": true,
-        "quest": 181,
-        "unique": false
+        "quest": 180,
+        "unique": true
       }
     ]
   },
@@ -1037,7 +1035,7 @@
       {
         "title": "Le géant terrassé",
         "battle":true,
-        "quest": 182,
+        "quest": 181,
         "unique": false
       }
     ]
@@ -1150,7 +1148,7 @@
       {
         "title": "Prendre les escaliers",
         "battle":false,
-        "quest": 0,
+        "quest": 172,
         "unique": false
       },
       {
@@ -1168,13 +1166,13 @@
       {
         "title": "Première porte à droite",
         "battle":false,
-        "quest": 0,
+        "quest": 80,
         "unique": false
       },
       {
         "title": "Deuxième porte à droite",
         "battle":false,
-        "quest": 0,
+        "quest": 99,
         "unique": false
       }
     ]
@@ -1315,7 +1313,7 @@
       },
       {
         "title": "Draguer une potion ? Et puis quoi encore ? L’embarquer de force",
-        "battle": true,
+        "battle": false,
         "quest": 74,
         "unique": false
       }
@@ -1543,9 +1541,9 @@
         "unique": false
       },
       {
-        "title": "Une forme omniprésente",
+        "title": "La porte qui est bizarre, elle est pas palpable",
         "battle":false,
-        "quest": 81,
+        "quest": 100,
         "unique": false
       },
       {
@@ -1587,7 +1585,7 @@
         "title": "Louée soit la patate",
         "battle":false,
         "weapons":{"patator":true},
-        "quest": 80,
+        "quest": 176,
         "unique": false
       }
       
@@ -1608,13 +1606,13 @@
       {
         "title": "Interroger les golems pour savoir où est Merlin",
         "battle":false,
-        "quest": 0,
+        "quest": 174,
         "unique": false
       },
       {
         "title": "Prendre un livre et s'asseoir",
         "battle":false,
-        "quest": 0,
+        "quest": 90,
         "unique": false
       }
     ]
@@ -1648,7 +1646,7 @@
       {
         "title": "Vous excuser platement et sortir",
         "battle":false,
-        "quest": 80,
+        "quest": 176,
         "unique": false
       },
       {
@@ -1696,7 +1694,12 @@
       {
         "title": "Merci… je crois",
         "battle":false,
-        "quest": 80,
+        "quest": 176,
+        "unique": false
+      },{
+        "title": "Interroger les golems de où se trouve Merlin",
+        "battle":false,
+        "quest": 175,
         "unique": false
       }
     ]
@@ -1717,22 +1720,22 @@
   },
   {
     "_id": 90,
-    "title": "",
-    "text":"",
+    "title": "Comme vous êtes studieuse (Prendre un livre et s’asseoir)",
+    "text":"“Je suis très intriguée par votre combat et je souhaite moi aussi m’instruire, me permettrez-vous de parcourir votre bibliothèque ?” Vous êtes tellement polie que vous vous surprenez vous-même. Sans doute est-ce l’effet de la pièce ou de la puissante aura d’érudition qui émane de ces golems à lunette. Le golem qui vous fait face sourit en tout cas jusqu’à ses oreilles en pierre. “Bien entendu, allez-y ! Au fait, moi c’est Jimmy, enchanté.”  Vous le dépassez pour aller fouiller la bibliothèque, parce que vous êtes toujours cette aventurière un peu rustre dans le fond. Après avoir parcouru quelques étagères, vous retenez trois titres qui vous paraissent intéressants. ",
     "image": "",
     "buttons": [
       {
-        "title": "",
+        "title": "La lutte des classes",
+        "quest": 91,
+        "unique": false
+      },
+      {
+        "title": "La collection des objets en forme de patate : plus qu'un vocation, un art de vivre",
         "quest": 0,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
+        "title": "Où trouver Merlin pour les Nuls",
         "quest": 0,
         "unique": false
       }
@@ -1740,275 +1743,201 @@
   },
   {
     "_id": 91,
-    "title": "",
-    "text":"",
+    "title": "La lutte des classes (“La lutte des classes”)",
+    "text":"Écrit par un certain Carlos Abalérich, la lutte des classes est un gros pavé qui postule que chaque individu habite dans une salle de classe. C’est philosophique, cherchez pas. Certains ont des craies pour écrire au tableau, d’autres ont des chiffonnettes pour l’essuyer. D’autres encore possèdent une chaise ou une table. Abalérich explique que ce n’est qu’en acceptant de tous se réunir dans une seule salle de classe et de mettre en commun tables, chaises, craies, chiffonnettes et tableaux que l’on pourra former l’école de l’humanité et tous s’élever vers une conscience supérieure, apte à prendre la place des grands reptiliens. Ou quelque chose du genre. Tout ceci arrivera le jour où chacun prendra conscience d’être seul dans sa salle de classe. Ce jour, ce sera celui de la Grande Sonnerie. Une question demeure cependant : qui deviendra alors le Grand Monarque, le Christ Cosmique qui guidera la salle de classe de l’humanité vers les étoiles ?",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Ce sera moi",
+        "quest": 92,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Qui, en effet ?",
+        "quest": 93,
         "unique": false
       }
     ]
   },
   {
     "_id": 92,
-    "title": "",
-    "text":"",
+    "title": "Allons bon (Ce sera moi)",
+    "text":"Ne soyez pas ridicule.Vous rangez le livre.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Interroger les golems pour savoir où est Merlin",
+        "quest": 173,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Retourner dans le couloir",
+        "quest": 176,
         "unique": false
       }
     ]
   },
   {
     "_id": 93,
-    "title": "",
-    "text":"",
+    "title": "Super (Qui, en effet ?)",
+    "text":"Merci d’apporter votre inestimable contribution au débat.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Interroger les golems pour savoir où est Merlin",
+        "quest": 173,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Retourner dans le couloir",
+        "quest": 176,
         "unique": false
       }
     ]
   },
   {
     "_id": 94,
-    "title": "",
-    "text":"",
+    "title": "La collection des objets en forme de patate : plus qu’une vocation, un art de vivre (“La collection des objets en forme de patate : plus qu’une vocation, un art de vivre”)",
+    "text":"Le livre présente des gravures magnifiques représentant divers objets en forme de patate. Elles servent à illustrer un propos selon lequel la forme de la patate peut se retrouver en permanence dans notre quotidien : dans un nuage, dans une table, dans un cadre, etc. La “Congrégation de la Sainte Patate” a pour vocation de réunir un maximum de manifestations de cette forme en particulier. Il est question de tout une hygiène de vie basée sur le divin féculent : vous trouvez divers passages expliquant comment “dormir comme une patate” ou comment “éplucher une patate sans la faire souffrir” - car les patates sont destinées à être mangées par ses adorateurs pour qu’ils puissent absorber leur puissance. Vous trouvez plusieurs références à des artefacts mythiques, dont une puissante arme appelée “Patator”. Vous trouvez aussi beaucoup, beaucoup d’ennui entre les pages de cet étonnant bouquin. Vous refermez le tome épais et le remettez à sa place avant de vous diriger vers la sortie.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Loué soit le patate",
+        "quest": 176,
         "unique": false
       }
     ]
   },
   {
     "_id": 95,
-    "title": "",
-    "text":"",
+    "title": "Où trouver Merlin pour les Nuls (“Où trouver Merlin pour les Nuls”)",
+    "text":" Le tome est bien épais, et vous vous employez à le lire avec application, vu que c’est justement pour trouver Merlin que vous êtes là. Le hasard des fois c’est fou, non ? Franchement, quelles étaient les chances pour que vous trouviez précisément ce bouquin, alors qu’il répond précisément à votre question ? C’est dingue, quand même. Moi en tout cas je trouve ça dingue. Dès les premières lignes, le livre vous accroche en vous recommandant de “bien rester jusqu’à la fin” pour ne pas louper l’annonce de l’endroit où se trouve Merlin. Vous êtes un peu dubitative quand vous abordez le passage sur la reproduction chez les sangsues de rivière, et plus encore quand vous arrivez à celui qui explique comment monter un meuble sans effort, mais vous tenez bon. Arrivée à la page 531, vous découvrez, médusée, qu’il n’y a plus de texte. Pendant au moins 500 pages, facile. Lorsque vous tombez sur la dernière, vous y trouvez la ligne suivante : “Ha ! Parce que vous avez vraiment cru que vous me trouveriez comme ça ?” Vous refermez le livre avec rage. Une légère odeur de savon remonte et vient vous chatouiller les narines. Vous vous dirigez vers la sortie. ",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Au moins je sais monter un meuble sans effort, maintenant",
+        "quest": 176,
         "unique": false
       }
     ]
   },
   {
     "_id": 96,
-    "title": "",
-    "text":"",
+    "title": "C’est l’histoire d’un mec…",
+    "text":"Qu'est-ce qui fait toin toin ? Un tanard.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Encore !",
+        "quest": 97,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Allez j’y vais mo",
+        "quest": 176,
         "unique": false
       }
     ]
   },
   {
     "_id": 97,
-    "title": "",
-    "text":"",
+    "title": "C’est l’histoire d’un mec… encore…",
+    "text":"Qu'est-ce qui est vert avec une cape ? Un concombre qui imite Super Tomate.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Encore !",
+        "quest": 98,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Allez j’y vais moi",
+        "quest": 176,
         "unique": false
       }
     ]
   },
   {
     "_id": 98,
-    "title": "",
-    "text":"",
+    "title": "Badum tss",
+    "text":"Deux œufs discutent : – Pourquoi t’es tout vert et aussi poilu ?  – Parce que j’suis un kiwi, connard",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Cette fois je me casse",
+        "quest": 176,
         "unique": false
       }
     ]
   },
   {
     "_id": 99,
-    "title": "",
-    "text":"",
+    "title": "Le dressing",
+    "text":"L’endroit est un peu moins reluisant que le hall du château, mais vous lui trouvez néanmoins un certain charme. Après considération, vous estimez qu’il doit s’agir d’un dressing. Vous y trouvez une bonne cinquantaine de robes de magicien, toutes semblables. Une autre porte face à vous mène vers la chambre à coucher. Et ça vous le savez parce qu’il y a un lit gravé dessus.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Chambre à coucher",
+        "quest": 101,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Retourner dans le hall",
+        "quest": 62,
         "unique": false
       }
     ]
   },
   {
     "_id": 100,
-    "title": "",
-    "text":"",
+    "title": "Fantômes au rabais",
+    "text":"Cette pièce est plongée dans les ténèbres, mais vous parvenez tout de même à discerner des formes qui brillent d’une aura bleutée. L’une d’elles se rapproche de vous. Elle esquisse des mouvements circulaires et vous entendez distinctement une voix : “OOuuuuuhhh !” C’est supposé vous faire peur, vous percevez bien l’intention, mais l’exécution n’y est pas. Le fait que la forme se mange un porte-manteau au passage n’aide en rien à renforcer la crédibilité de sa démarche, pas plus que le “aïe” qui interrompt brièvement son hululement. Arrivée à votre niveau, cette forme se révèle être un grand drap blanc flottant dans les airs. Voyant qu’il ne vous fera pas lâcher ne serait-ce qu’un sanglot, il désespère. “Oh allez quoi… franchement à part le porte-manteau c’était pas si mal ! Accepteriez-vous de répondre à un questionnaire sur mes performances pour m’aider à m’améliorer ?” Vous n’avez pas super envie de répondre à un questionnaire, évidemment. Vous avez plutôt envie de savoir ce qui se trame dans cette pièce. “Nous sommes tous les fantômes ratés que Merlin à invoqués. Nul d’entre nous ne souhaite terroriser les gens du villages, ce n’est pas notre vocation, mais ça môssieur Merlin ne veut pas l’entendre et préfère nous qualifier de “gros nuls”. Moi par exemple, je raconte d’excellentes blagues, j’ai toujours voulu monter un one ghost show.” En jetant un œil autour de vous, vous constater la présence d’une dizaine de draps fantomatiques. Et aucun ne vous fait peur. Tout à coup, vous sentez quelque chose contre votre jambe. “Lui on l’appelle Monsieur Propre, parce qu’il passe son temps à tout essuyer. Visiblement vous traînez pas mal de crasse, il a l’air d’être concentré sur vous. Vous ne pourrez plus vous en dépêtrer. Vous voulez entendre une blague ?” ",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Évidemment, j’adore l’humour",
+        "quest": 96,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Je n’ai pas que ça à faire",
+        "quest": 97,
         "unique": false
       }
     ]
   },
   {
     "_id": 101,
-    "title": "",
-    "text":"",
+    "title": "Le repos de la guerrière",
+    "text":"Bingo ! Il s’agit bien d’une chambre à coucher et… non, relevez-vous. Décollez de ce matelas immédiatement… Vous vous réveillez après deux heures d’une sieste que certains pourraient estimer méritée. D’autres non. Je ne vous file pas les proportions, mais la majorité est écrasante. Maintenant que vous prenez le temps de regarder autour de vous, vous constatez que la chambre est plutôt modeste (mais tout de même spacieuse). Seuls quelques meubles peuplent la pièce. Une porte assortie d’un petit miroir vous renvoie votre image sur votre droite. Mais que sentez-vous sous vos pieds ? C’est si moelleux que vous le sentez à travers vos bottes… En baissant les yeux vous découvrez un tapis d’au moins 5 centimètres d’épaisseur, et vos bottes s’enfoncent doucement dedans. Cela vous fait l’effet d’un petit nid douillet dans lequel vous avez envie de vous lover pour profiter d’une petite extension de sieste. ",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Dormir sur le tapis",
+        "quest": 102,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
+        "title": "Fouiller les meubles",
+        "quest": 103,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
+        "title": "Ouvrir la porte au miroir",
+        "quest": 104,
         "unique": false
       }
     ]
   },
   {
     "_id": 102,
-    "title": "",
-    "text":"",
+    "title": "Le tapis du bonheur",
+    "text":"C’est le meilleur tapis sur lequel vous avez piqué un somme (oui, il y en a eu plusieurs). Vous vous enfoncez dans sa matière duveteuse avec un plaisir certain. Le paradis molletonné vous enveloppe tout entière et vous voilà à rêver, vous qui ne rêvez jamais. Au creux de votre esprit, vous revivez les moments d’intense bonheur de votre existence : le jour où vous avez découvert la raclette, celui où vous avez décidé de sortir des carcans et de vivre la vie d’aventurière. Voilà c’est tout. En même temps, il est question de moments de bonheur “intense”, ce n’est pas tous les jours non plus. Quoi qu’il en soit, vous sortez de cette sieste (à contrecœur) revigorée.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
+        "title": "Je t’aime, tapis",
+        "health": true,
         "quest": 0,
         "unique": false
       }
@@ -2016,191 +1945,151 @@
   },
   {
     "_id": 103,
-    "title": "",
-    "text":"",
+    "title": "Les trésors du magicien",
+    "text":"Vous ouvrez et videz les trois meubles qui habillent la pièce. Vous ne pouviez pas vous contenter de regarder, non. Il fallait que vous les vidiez. Évidemment. Dans le foutoir que vous avez créé, vous trouvez un assortiment de petits objets - tous ont la forme d’une patate -, plusieurs bouquins dont un renfermant un exemplaire de “Démones chaudes”, un petit livret essentiellement graphique présentant des gravures pour le moins osées. Il y a aussi des petites statuettes décoratives, en plusieurs morceaux maintenant grâce à vous, et… un jouet imitant les traits d’un canard jaune, composé d’une matière étonnante, à la fois souple et solide. En le retournant, vous pouvez lire “CANARD DE L’APOCALYPSE” sous ses fesses.",
     "image": "",
     "buttons": [
       {
-        "title": "",
+        "title": "Ça sent la puissance, le garder",
         "quest": 0,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Apocalypse ? Très peu pour moi",
+        "quest": 101,
         "unique": false
       }
     ]
   },
   {
     "_id": 104,
-    "title": "",
-    "text":"",
+    "title": "La salle des miroirs",
+    "text":"Vous vous multipliez dès l’instant où vous franchissez le seuil de la porte. Votre image en tout cas. Vous vous trouvez au milieu d’une pièce octogonale où chaque mur est un miroir. Tous sans exception vous renvoie un reflet déformé : vous êtes tour à tour grosse, à l’envers, un poulet… (oui). Celui qui vous fait face est différent, cependant : il est maculé de crasse, mais entre les tâches vous croyez discerner un reflet en tout point fidèle à la réalité.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Essuyer le miroir crasseux ",
+        "quest": 105,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Essuyer le miroir crasseux ",
+        "quest": 106,
         "unique": false
       }
     ]
   },
   {
     "_id": 105,
-    "title": "",
-    "text":"",
+    "title": "L’ami qui essuie",
+    "text":"Au moment où vous tendez le bras pour essuyer le miroir, Monsieur Propre, le fantôme ménager qui n’a pas lâché votre jambe depuis la salle des fantômes ratés, jaillit pour se jeter à l’assaut de la surface pas si réfléchissante. Il se met à parcourir le miroir de long en large en se tortillant dans tous les sens. Peu à peu la crasse disparaît pour laisser place à votre reflet parfait. Lorsque la dernière once d’impureté disparaît, Monsieur Propre est quant à lui devenu totalement noir. Il effectue une dernière virevolte dans les airs avant de retomber dans vos bras, inerte. Il s’est tué à la tâche. Littéralement. Humour. Rigolez maintenant.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Entrer dans le miroir",
+        "quest": 110,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
+        "title": "Ressusciter Monsieur Propre avec le Canard de l’Apocalypse",
+        "quest": 108,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
+        "title": "J’aurais tout aussi bien pu nettoyer moi-même",
+        "quest": 107,
         "unique": false
       }
     ]
   },
   {
     "_id": 106,
-    "title": "",
-    "text":"",
+    "title": "Pas les bons outils",
+    "text":"Vous vous affairez à frictionner le miroir, mais rien n’y fait : il reste invariablement noirci par la crasse. Votre manche, par contre, est dégueulasse. Encore un truc qui ne partira pas avec une simple lessive. Ceci dit vous avez l’habitude des tâches difficiles, notamment à cause du sang de vos victimes. Tandis que vous divaguez au sujet de votre prochaine tournée de lessive, vous avez la sensation de vous endormir et de vous réveiller en un éclair. Vous voyez flou, mais une chose est sûre : vous n’êtes plus dans la salle des miroirs.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Plisser les yeux",
+        "quest": 100,
         "unique": false
       }
     ]
   },
   {
     "_id": 107,
-    "title": "",
-    "text":"",
+    "title": "Vous vous surestimez",
+    "text":"Vous êtes une de ces rares personnes qui a le don inouï de laisser une pièce plus sale après l’avoir nettoyée. Donc non. Juste pour que ça soit dit : cracher dans ses mains et frotter deux-trois trucs avec votre pouce pendant que vous dégueulassez tout avec vos bottes, ce n’est pas stratégique.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Je suis un génie incompris",
+        "quest": 109,
         "unique": false
       }
     ]
   },
   {
     "_id": 108,
-    "title": "",
-    "text":"",
+    "title": "Nécromancien du dimanche",
+    "text":"Hors de question que Monsieur Propre rende l’âme… encore. Vous vous rappelez cet objet mystique trouvé dans la chambre de Merlin… le Canard de l’Apocalypse. Vous vous souvenez de la puissance qui semblait en émaner, presque palpable. Avec un tel nom, il doit être possible d’accéder au pouvoir du chaos pour ramener la vie. Vous sortez le canard de votre besace et vous le collez au drap inerte de Monsieur Propre. Rien ne se passe. C’est balo, ils ne fournissent pas de manuel avec les Canards de l’Apocalypse apparemment. Vous êtes au milieu d’une pièce qui vous renvoie une myriade de reflets de vous en train de frotter un canard jaune contre un drap. Vous commencez à vous sentir ridicule. Vous avez raison.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "J’aurai tout essayé…",
+        "quest": 109,
         "unique": false
       }
     ]
   },
   {
     "_id": 109,
-    "title": "",
-    "text":"",
+    "title": "Continuer ou ressusciter",
+    "text":"Vous remarquez que la surface du miroir désormais propre tremblotte un peu, comme parcourue de vaguelettes. Vous pourriez presque jurer qu’il s’agit d’un miroir d’eau. Monsieur Propre a vraiment fait du beau travail pour l’ultime mission de son existence.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Entrer dans le miroir",
+        "quest": 110,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Ressusciter Monsieur Propre avec le Canard de l’Apocalypse",
+        "quest": 108,
         "unique": false
       }
     ]
   },
   {
     "_id": 110,
-    "title": "",
-    "text":"",
+    "title": "La poudre de Merlinpinpin",
+    "text":"Vous approchez du miroir, tendez la main pour le toucher et dès l’instant où vos doigts entrent en contact avec la surface liquide, vous êtes happée vers un nouveau lieu. Vous y trouver une baignoire luxueuse posée sur un carrelage exquis. Derrière un paravent, à droite de la baignoire, vous discernez une silhouette. Un chapeau pointu dépasse. “Merlin, il est temps que votre folie s’arrête !” Dans sa surprise, le magicien fait tomber le paravent et vous le découvrez la robe ouverte sur un caleçon pour le moins original. Des canards s’y ébattent, joyeux. Vous voyez leurs ailes se mouvoir. Ils jouent ensemble. C’est fou ce qu’on peut faire avec de la magie, de la folie et du temps. Ce qui est moins mignon, c’est le pif de Merlin, recouvert d’une poudre blanche. Le vieux a visiblement le nez qui traîne dans le saladier, ce qui ne doit pas aider sa condition mentale. Derrière lui, vous remarquez une table sur laquelle trônent des dunes de la même couleur opaline. “Je l’ai inventée, elle est à moi ! Si vous voulez ma Poudre de Merlinpinpin, il faudra me passer sur le corps ! Ou alors me payer excessivement cher.” Ça doit pouvoir se revendre sans problème. Une raison de plus de mettre ce fou hors d’état de nuire.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Pour la thune !",
+        "quest": 111,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
+        "title": "Pour la gloire !",
+        "quest": 111,
         "unique": false
       },
       {
-        "title": "",
-        "quest": 0,
+        "title": "Pour les villageois !",
+        "quest": 111,
+        "unique": false
+      },
+      {
+        "title": "Pour Arthur !",
+        "quest": 111,
         "unique": false
       }
     ]
   },
   {
     "_id": 111,
-    "title": "",
+    "title": "Pacifier le vioc",
     "text":"",
     "image": "",
     "buttons": [
@@ -3593,7 +3482,7 @@
   },
   {
     "_id": 172,
-    "title": "",
+    "title": "La montée des marches (Prendre les escaliers)",
     "text":"",
     "image": "",
     "buttons": [
@@ -3616,36 +3505,26 @@
   },
   {
     "_id": 173,
-    "title": "",
-    "text":"",
+    "title": "De précieux informateurs",
+    "text":"Passionnée par vos découvertes, vous vous entretenez longuement avec Jimmy, le golem qui vous a accueilli lorsque vous êtes entrée. Vous refaites plusieurs fois le monde et faites la connaissance de tous les golems réfractaires : Jimmy bien sûr, mais aussi Pimmy, Rimmy, Yimmy et Eymmi. Vous plaisantez à de nombreuses reprises sur le fait qu’il est beaucoup trop facile de confondre Jimmy avec Gimmy, alors même qu’ils ne sont clairement pas faits de la même pierre. Lorsqu’ils apprennent la raison de votre venue en ces lieux, ils vous révèlent tout ce qu’ils savent : Merlin a une nouvelle lubie chaque jour, et aujourd’hui ce sont les odeurs et la crasse qui l’obsèdent. Aux dernières nouvelles, le magicien déchu se trouverait dans sa salle de bains à récurer tout ce qu’il trouve. Vous quittez les golems après les avoir tous enlacés sans exception et promettez de revenir les voir pour parler philosophie.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
-        "unique": false
-      },
-      {
-        "title": "",
-        "quest": 0,
+        "title": "Sortir",
+        "quest": 176,
         "unique": false
       }
     ]
   },
   {
     "_id": 174,
-    "title": "",
-    "text":"",
+    "title": "Rustre",
+    "text":"La mine du golem s’assombrit. “Je vous parle de Timmy qui a donné sa vie pour notre cause, et tout ce que vous trouvez à faire, c’est m’interroger ?” C’est vrai que vous auriez pu faire preuve d’un peu de tact. Ceci étant dit, vous n’êtes pas vraiment venu pour tailler le bout de gras, à la base. “Vous feriez mieux de partir, avant qu’on s’énerve avec les autres.” Il y a vraiment beaucoup de golems dans la pièce. Tirez-vous.",
     "image": "",
     "buttons": [
       {
-        "title": "",
-        "quest": 0,
+        "title": "Sortir",
+        "quest": 176,
         "unique": false
       }
     ]
@@ -3653,24 +3532,39 @@
   {
     "_id": 175,
     "title": "",
-    "text":"",
+    "text":"“Je ne peux pas vraiment vous dire où se trouve Merlin. Chaque jour le vieux fou a une nouvelle lubie. Tout ce que je peux vous révéler, c’est qu’aujourd’hui il semble particulièrement porté sur les odeurs et la crasse. Timmy nous l’a révélé juste avant de tomber comme une pierre.” Vous vous dites que ça ne doit pas trop lui changer, à Timmy, avant de réaliser que ce n’est pas franchement le sujet. Vous remerciez le golem pour son aide et vous retournez pour quitter la bibliothèque.",
     "image": "",
     "buttons": [
       {
-        "title": "Poursuivre l'histoire",
-        "quest": 0,
+        "title": "Sortir",
+        "quest": 176,
         "unique": false
       }
     ]
   },
   {
     "_id": 176,
-    "title": "",
-    "text":"",
+    "title": "Vous êtes en pétard",
+    "text":"Vous avez le choix entre une porte sculptée représentant une multitude de visages, une autre affublée du seul cadre de tout ce foutu couloir (il représente une forme ovale un peu indistincte). Il y a aussi celle qui semble impalpable. Vous pouvez aussi revenir en arrière, si vous arrêtez de vous plaindre deux secondes.",
     "image": "",
     "buttons": [
       {
-        "title": "Poursuivre l'histoire",
+        "title": "La porte aux multiples visage",
+        "quest": 83,
+        "unique": false
+      },
+      {
+        "title": "La porte qui est bizarre, elle est pas palpable",
+        "quest": 0,
+        "unique": false
+      },
+      {
+        "title": "La porte avec un cadre",
+        "quest": 81,
+        "unique": false
+      },
+      {
+        "title": "La porte à l’autre bout du couloir",
         "quest": 0,
         "unique": false
       }
@@ -3697,7 +3591,7 @@
   {
     "_id": 178,
     "battle": true,
-    "title": "",
+    "title": "S’il dit qu’il préfère la verdure, c’est qu’il préfère la verdure. Sortez.",
     "text":"",
     "image": "",
     "buttons": [
@@ -3725,7 +3619,7 @@
   {
     "_id": 180,
     "battle": true,
-    "title": "",
+    "title": "Baston avec les ours",
     "text":"",
     "image": "assets/img/background/story/arena.svg",
     "buttons": [
@@ -3739,8 +3633,8 @@
   {
     "_id": 181,
     "battle": true,
-    "title": "",
-    "text":"",
+    "title": "Le géant terrassé ",
+    "text":"Vous frappez un coup, puis deux, sans toutefois faire mouche. Votre adversaire vous repousse d’un simple revers de la main. Le mur que vous percutez vide l’air de vos poumons. Alors que le gardien s’approche, vous percevez les vibrations du sol dans vos mains et vos genoux à chacun de ses pas. Vous êtes toujours à quatre pattes, haletante, lorsqu’il vous saisit. À la dernière seconde, vous attrapez votre arme et tandis que le géant vous soulève, votre lame accompagne le mouvement. Vous n’avez qu’à tendre les bras et elle s’enfonce dans le menton du gardien sans résistance, appuyée par la force de celui-ci.",
     "image": "",
     "buttons": [
       {
@@ -3753,8 +3647,8 @@
   {
     "_id": 182,
     "battle": true,
-    "title": "",
-    "text":"",
+    "title": "Brochette de géant",
+    "text":"Entre les jambes du gardien, vous remarquez un énorme cristal très pointu à quelques mètres derrière lui. Vous prétextez vouloir résoudre son énigme, le laissant plonger dans ses réflexions pour vous en trouver une. C’est à ce moment que vous faites appel à toutes vos forces et poussez le géant d’un coup sec. Pris par surprise - il ne s’attendait pas à ce qu’une si petite créature ait tant de force -, il vacille, parvient presque à reprendre son équilibre, mais trébuche et s’étend de tout son long.",
     "image": "",
     "buttons": [
       {
