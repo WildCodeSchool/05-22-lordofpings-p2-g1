@@ -60,7 +60,7 @@ const Game = () => {
   // const [muted, setMuted] = useState(false)
   const [isPlayedYolo, setIsPlayedYolo] = useState(false)
   useEffect(() => {
-    setIsPlayedYolo(false)
+    // setIsPlayedYolo(false)
     localStorage.setItem('page', page)
     page < 1000 &&
       page > -1 &&
