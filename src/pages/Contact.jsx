@@ -4,7 +4,7 @@ import ContactForm from '../components/ContactForm'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='Background'>
       <Team />
       <ContactForm />
 
