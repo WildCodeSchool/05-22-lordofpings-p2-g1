@@ -2,6 +2,7 @@
 
 .home { 
     display: flex;
+    justify-content: space-between;
     background: no-repeat url(../../img/background/mainbg/bg.svg);
     background-size: contain;
     aspect-ratio: 16 / 9;
@@ -12,9 +13,16 @@
       margin: auto 0;
     }
 
+    // .contactButton {
+    //   margin-top: 1%;
+    //   height: 100px;
+    //   width: 100px;
+    //   top:0;
+    //   right: 0;
+    // }
 
     .blockStart {
-        width: 700px;
+        width: 40%;
         margin: 50px 90px;
         border: 2px solid #F79500;
         display: flex;
@@ -61,12 +69,12 @@
           }
     }
 
-.contactButton {
-  display: flex;
-  height: 100px;
-  width: 100px;
-  padding-top: 20px;
-}    
+// .contactButton {
+//   display: flex;
+//   height: 100px;
+//   width: 100px;
+//   padding-top: 20px;
+// }    
 }
 
 

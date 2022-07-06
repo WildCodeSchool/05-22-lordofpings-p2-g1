@@ -86,7 +86,7 @@ const GameHeaderButtons = ({ music, isPlayedYolo, volume, setVolume }) => {
   return (
     <div className='gameHeaderButtons'>
       <Link className='gameHeaderMenu' to='/contact'>
-        <img src={letterBoard} alt='Contact button' />
+        <img className='contactButton' src={letterBoard} alt='Contact button' />
       </Link>
       <Link className='gameHeaderMenu' to='/'>
         <img src={menuButton} alt='Menu button' />

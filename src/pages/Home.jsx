@@ -1,4 +1,4 @@
-import { useNavigate, Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import logoMerlin from '../assets/img/logo_merlin.jpg'
 import BigButton from '../components/BigButton'
 import MainBackground from '../components/MainBackground'
@@ -17,9 +17,11 @@ function Home() {
             <div id='halo'></div>
           </div>
           <div className='title'>
-            <h1>Le Déclin</h1>
-            <h1>des</h1>
-            <h1>Âmes</h1>
+            <h1>
+              Le Déclin <br />
+              des <br />
+              Âmes
+            </h1>
           </div>
           <BigButton
             text='JOUER'
@@ -28,10 +30,16 @@ function Home() {
               item ? navigate('../game') : navigate('../concept')
             }
           />
-          <Link className='contactButton ' to='/contact'>
-            <img src={letterBoard} alt='Contact Button' />
-          </Link>
         </div>
+        {/* <div className='contactButton'>
+          <Link to='/contact'>
+            <img
+              className='contactImage'
+              src={letterBoard}
+              alt='Contact Button'
+            />
+          </Link>
+        </div> */}
       </div>
       <MainBackground />
     </>
