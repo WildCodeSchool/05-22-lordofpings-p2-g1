@@ -71,14 +71,14 @@ const Game = () => {
       // Game Story
       if (quest?.image) {
         setBg(quest.image)
-        setSound('https://www.mboxdrive.com/story-celtic-fantasy.mp3')
+        setSound('assets/audio/foret1.mp3')
       } else {
         setBg(forest)
       }
     } else if (page === 1000) {
       // Game Tavern
       setBg(tavernImg)
-      setSound('https://www.mboxdrive.com/tavern-music.mp3')
+      setSound('assets/audio/tavern.mp3')
     } else if (page === 1001) {
       // Game Over
       setBg(undefined)
@@ -94,7 +94,7 @@ const Game = () => {
     } else if (page === 1003) {
       // Game Skills
       setBg(skillsImg)
-      setSound('https://www.mboxdrive.com/game-skills-suspens-fight.mp3')
+      setSound('assets/audio/skills1.mp3')
     } else if (page === 1004) {
       // Game [Other]
       setBg()
@@ -111,7 +111,6 @@ const Game = () => {
       <ReactAudioPlayer
         src={sound}
         volume={volume / 100}
-        // muted={muted}
         loop={true}
         ref={music}
         onLoadedMetadata={() => setIsPlayedYolo(true)}

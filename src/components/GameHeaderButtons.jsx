@@ -37,9 +37,13 @@ const GameHeaderButtons = ({ music, isPlayedYolo, volume, setVolume }) => {
       play()
     } else {
       setIsSound(false)
-      // music?.current.audioEl.current.pause()
     }
   }, [soundState, isPlayedYolo])
+
+  useEffect(() => {
+    getCookie('volumeToggle') === 'false' &&
+      music?.current.audioEl.current.pause()
+  }, [isSound])
 
   console.log(
     { isSound, volume, music, isPlayedYolo },
@@ -48,6 +52,8 @@ const GameHeaderButtons = ({ music, isPlayedYolo, volume, setVolume }) => {
   const play = () => {
     isPlayedYolo && (music?.current.audioEl.current.play(), setIsSound(true))
   }
+
+  console.log(console)
 
   useEffect(() => {
     //soundOn icon when volume changes
