@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Background{
     background-image: url(../../img/background/contactbg/2203_w022_n001_566b_p15_566.jpg);
     background-size: 100%;
@@ -9,22 +10,38 @@
 
 a {
     text-decoration: none;
+=======
+.containerContact {
+    display: flex;
+    justify-content: space-between;
+>>>>>>> dev
     
-    .returnButton {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        width: 30%;
-        font-family: 'Cinzel Decorative', cursive;
-        text-decoration: none;
-        color: goldenrod;
-        font-style: bold;
-        font-size: 16px;
-        background-color: #6C1C63;
-        border-style: solid;
-        border-radius: 25px;
-        border-color: goldenrod;
-        cursor: url('../../img/ui/knight-cursor-select.png'), auto;
-        text-decoration: none;
-        }
+    .grandmaContainer {
+       margin-top: 5%;
     }
+}
+
+// a {
+//     text-decoration: none;
+//     display: flex;
+//     justify-content: left;
+//     padding-top: 2%;
+
+//     .returnButton {
+//         width: 30%;
+//         height: 60px;
+//         font-family: 'Cinzel Decorative', cursive;
+//         text-decoration: none;
+//         color: goldenrod;
+//         font-style: bold;
+//         font-size: 16px;
+//         background-color: #6C1C63;
+//         border-style: solid;
+//         border-radius: 25px;
+//         border-color: goldenrod;
+//         cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+//         text-decoration: none;
+//         }
+
+
+// }

@@ -2,6 +2,15 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+  position: relative;
+
+  > button {
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+  }
 
   .gladiator {
     background-image: url('../../img/background/gladiator.svg');
@@ -26,7 +35,8 @@
     width: 100%;
     height: 100%;
     z-index: 1000;
-    position: relative;
+    position: absolute;
+    top: 0;
     
     .target {
       background-image: url('../../img/props/target.svg');

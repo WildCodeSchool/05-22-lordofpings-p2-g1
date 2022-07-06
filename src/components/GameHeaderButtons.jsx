@@ -7,7 +7,7 @@ import soundOff from '../assets/img/ui/volume/sound-off.svg'
 import soundOn from '../assets/img/ui/volume/sound-on.svg'
 import menuButton from '../assets/img/ui/menuButton.svg'
 
-const GameHeaderButtons = () => {
+const GameHeaderButtons = ({ music, isPlayedYolo, volume, setVolume }) => {
   const getCookie = cname => {
     let name = cname + '='
     let decodedCookie = decodeURIComponent(document.cookie)
@@ -24,24 +24,44 @@ const GameHeaderButtons = () => {
     return ''
   }
 
-  const [isSound, setIsSound] = useState(getCookie('volumeToggle'))
-  const [volume, setVolume] = useState(getCookie('volume'))
+  const [isSound, setIsSound] = useState(false)
+  const [soundState, setSoundState] = useState(false)
   const [checkVolume, setCheckVolume] = useState([])
 
   useEffect(() => {
-    setVolume(getCookie('volume'))
-    setIsSound(getCookie('volumeToggle'))
-  }, [])
+    if (
+      isPlayedYolo &&
+      music?.current.audioEl.current.isConnected &&
+      getCookie('volumeToggle') === 'true'
+    ) {
+      play()
+    } else {
+      setIsSound(false)
+    }
+  }, [soundState, isPlayedYolo])
+
+  useEffect(() => {
+    getCookie('volumeToggle') === 'false' &&
+      music?.current.audioEl.current.pause()
+  }, [isSound])
+
+  console.log(
+    { isSound, volume, music, isPlayedYolo },
+    getCookie('volumeToggle')
+  )
+  const play = () => {
+    isPlayedYolo && (music?.current.audioEl.current.play(), setIsSound(true))
+  }
 
   useEffect(() => {
     //soundOn icon when volume changes
     if (volume > 0) {
-      setIsSound(true)
       document.cookie = 'volume=' + volume
     }
     //handle display of sound icons depending on where the user clicks
     const result = []
     let volumeValue = 0
+    // isPlayedYolo && setIsSound(true)
     for (let i = 0; i < 5; i++) {
       volumeValue += 20
       if (volume >= volumeValue) {
@@ -51,12 +71,15 @@ const GameHeaderButtons = () => {
       }
     }
     setCheckVolume(result)
+    document.cookie = 'volumeToggle=true'
+    setSoundState(!soundState)
   }, [volume])
 
   const handleSound = () => {
-    setIsSound(!isSound)
-    setVolume(isSound ? 0 : getCookie('volume'))
-    document.cookie = 'volumeToggle=' + !isSound
+    getCookie('volumeToggle') === 'true'
+      ? (document.cookie = 'volumeToggle=false')
+      : (document.cookie = 'volumeToggle=true')
+    setSoundState(!soundState)
   }
 
   return (
@@ -72,7 +95,7 @@ const GameHeaderButtons = () => {
           onClick={handleSound}
         />
         {checkVolume.map((volumePoint, index) =>
-          volumePoint ? (
+          isSound && volumePoint ? (
             <img
               className='volumeFull'
               src={fullIcon}

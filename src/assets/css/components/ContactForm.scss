@@ -3,8 +3,12 @@
 
 .grandmaContainer {
     display: flex;
-    justify-content: flex-end;
     cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: 650px;
 
 
     .motherContainer {
@@ -12,7 +16,6 @@
         justify-content: center;
         align-items: center;
         flex-flow: column nowrap;
-        width: 26%;
         height: 650px;
         border: solid goldenrod;
         font-family: 'Cinzel Decorative', cursive;
