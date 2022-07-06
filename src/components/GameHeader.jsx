@@ -1,12 +1,12 @@
 import GameHeaderHud from './GameHeaderHud'
-import GameHeaderSound from './GameHeaderButtons'
+import GameHeaderButtons from './GameHeaderButtons'
 
 const GameHeader = ({ hero }) => {
   return (
     <div className='gameHeader'>
       <GameHeaderHud hero={hero} />
 
-      <GameHeaderSound />
+      <GameHeaderButtons />
     </div>
   )
 }

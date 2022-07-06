@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from 'react'
-import ReactAudioPlayer from 'react-audio-player'
+
 
 import GameOver from '../components/GameOver'
 import GameSkills from '../components/GameSkills'
@@ -90,14 +90,7 @@ const Game = () => {
 
   return (
     <>
-      <ReactAudioPlayer
-        src={sound}
-        volume={volume}
-        // muted={muted}
-        autoPlay={true}
-        loop
-        controls
-      />
+
       <div
         className='gameBackground'
         style={{ backgroundImage: `url(${bg})` }}
