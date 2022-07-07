@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;900&family=Press+Start+2P&display=swap');
+
+.page404-container-global {
+    height:100vh;
+    background: #2E1A46;
+    padding:40px;
+    .page404-container{
+        height:90vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: rgba(66, 35, 106, 0.4);
+        border: 3px solid #EDC90E;
+        padding:40px;
+    }
+    .leftSide{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        text-align: center;
+        color: #F79500;
+        font-size: 5vh; 
+        font-family: 'Cinzel Decorative'; 
+        gap: 5vh;
+    }
+    
+    .rightSide{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        justify-content: center 
+    }
+    
+    .title{
+        font-size: 20vh;     
+    }
+    .line{
+        width: 70vh;
+        border-color: #F79500;
+    }
+}
