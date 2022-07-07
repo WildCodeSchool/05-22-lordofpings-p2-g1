@@ -20,7 +20,7 @@ const GameStory = ({
   const [showButton, setShowButton] = useState(false)
 
   useEffect(() => {
-    setShowButton(!quest.battle)
+    setShowButton(!quest?.battle)
     if (
       quest?.item &&
       !hero.inventory.map(obj => obj.id).includes(quest.item)
@@ -30,27 +30,33 @@ const GameStory = ({
         inventory: [...hero.inventory, items[1][quest.item - 1]]
       })
     }
-    if (quest?.money && localStorage.getItem('locked').includes(quest._id)) {
-      if (quest.money === 0) {
-        setHero({
-          ...hero,
-          money: 0
-        })
-      } else {
-        setHero({
-          ...hero,
-          money: hero.money + quest.money
-        })
+    if (!localStorage.getItem(quest._id)) {
+      if (quest?.money !== undefined) {
+        localStorage.setItem(quest._id, true)
+
+        if (quest.money === 0) {
+          setHero({
+            ...hero,
+            money: 0
+          })
+        } else {
+          setHero({
+            ...hero,
+            money: hero.money + quest.money
+          })
+        }
       }
-    }
-    if (quest?.heal && localStorage.getItem('locked').includes(quest._id)) {
-      if (hero.heal + quest.heal > 0) {
-        setHero({
-          ...hero,
-          heal: hero.heal + quest.heal
-        })
-      } else {
-        setPage(1001)
+      if (quest?.heal !== undefined) {
+        localStorage.setItem(quest._id, true)
+
+        if (hero.heal + quest.heal > 0) {
+          setHero({
+            ...hero,
+            heal: hero.heal - quest.heal
+          })
+        } else {
+          setPage(1001)
+        }
       }
     }
   }, [quest])
