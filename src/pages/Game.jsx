@@ -69,12 +69,8 @@ const Game = () => {
     page === -1 && setPage(localStorage.getItem('quest'))
     if (page < 1000) {
       // Game Story
-      if (quest?.image) {
-        setBg(quest.image)
-        setSound('assets/audio/foret1.mp3')
-      } else {
-        setBg(forest)
-      }
+      quest?.image ? setBg(quest.image) : setBg(forest)
+      quest?.sound ? setSound(quest.image) : setSound('assets/audio/foret1.mp3')
     } else if (page === 1000) {
       // Game Tavern
       setBg(tavernImg)
