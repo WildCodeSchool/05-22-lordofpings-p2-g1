@@ -524,7 +524,7 @@
         "title": "Accepter de lui donner toutes vos richesses",
         "battle": false,
         "money": 0,
-        "item": 1,
+        "item": " ",
         "quest": 28,
         "unique": false
       },

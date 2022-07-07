@@ -3,19 +3,16 @@ import BigButton from './BigButton'
 
 const GameStoryButtons = ({ quest, setPage, animation, hero }) => {
   const [unique, setUnique] = useState(localStorage.getItem('unique') || [])
-  console.log(unique)
 
   const nextQuest = btn => {
     if (btn?.unique) {
       setUnique([...unique, btn.title])
-      console.log(unique)
       localStorage.setItem('unique', [...unique, [btn.title]])
     }
     setPage(btn.quest)
   }
   return (
     <div className='gameStoryButtons' animation={animation.toString()}>
-      {console.log({ hero })}
       {quest &&
         !animation &&
         quest.buttons
