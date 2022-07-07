@@ -11,17 +11,16 @@ const GameStoryButtons = ({ quest, setPage, animation, hero }) => {
     }
     setPage(btn.quest)
   }
+  console.log(unique)
   return (
     <div className='gameStoryButtons' animation={animation.toString()}>
       {quest &&
         !animation &&
         quest.buttons
-          // .filter(
-          //   btn =>
-          //     hero?.inventory?.items.map(obj => obj.id).includes(btn?.item) ||
-          //     !btn?.item
-          // )
-          // .filter(btn => !unique.includes(btn?.title))
+          .filter(
+            btn => hero?.inventory.items.includes(btn?.item) || !btn?.item
+          )
+          .filter(btn => !unique.includes(btn?.title))
           .map((btn, i) => (
             <BigButton
               key={i}
