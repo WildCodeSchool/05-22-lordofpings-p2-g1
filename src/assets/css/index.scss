@@ -39,12 +39,14 @@
 @import "./components/mainBackground";
 
 @import "./components/contact";
-@import "./components/ContactForm.scss";
+@import "./components/contactForm.scss";
 @import "./components/teamContact";
 
 *, ::before, ::after {
   box-sizing: border-box;
   margin: 0;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 body {

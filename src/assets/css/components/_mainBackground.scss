@@ -20,7 +20,7 @@
     @include rposition;
     height: 100vh;
     width: 100vw;
-
+    
     .backgroundElement {
       @include aposition;
     }
@@ -33,11 +33,11 @@
       z-index: 6;
       animation: 3s ease-in-out infinite alternate floatingBook;
     }
-
+    
     .bubble {
       opacity: 0;
     }
-
+    
     #bubble1 {
       height: 18px;
       left: 30%;
@@ -187,7 +187,7 @@
 }
 
 @keyframes bubbleMoveFaded {
-  0% {transform: translate(0, 0); opacity: .5}
+  0% {transform: translate(0, 0); opacity: .5;}
   20% {transform: translate(-15%, -20%);}
   40% {transform: translate(20%, -30%);}
   60% {transform: translate(-10%, -60%);}
