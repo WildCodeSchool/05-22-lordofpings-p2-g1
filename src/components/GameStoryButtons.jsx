@@ -16,13 +16,12 @@ const GameStoryButtons = ({ quest, setPage, animation, hero }) => {
       {quest &&
         !animation &&
         quest.buttons
-          .filter(
-            btn =>
-              herogp
-              .inventory.map(obj => obj.id).includes(btn?.item) ||
-              !btn?.item
-          )
-          .filter(btn => !unique.includes(btn?.title))
+          // .filter(
+          //   btn =>
+          //     hero?.inventory?.items.map(obj => obj.id).includes(btn?.item) ||
+          //     !btn?.item
+          // )
+          // .filter(btn => !unique.includes(btn?.title))
           .map((btn, i) => (
             <BigButton
               key={i}

@@ -22,6 +22,48 @@
   .backpackContent {
     background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(236,167,105,1) 20%, rgba(236,167,105,1) 80%, rgba(215,99,110,1) 100%);
     animation: .5s linear openBackpack forwards;
+    display: flex;
+    align-items: center;
+
+    .imgContainer {
+      position: relative;
+      width: 50px;
+      height: 110px;
+      z-index: 200;
+      
+      .invImg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 40px;
+        max-height: 35px;
+        animation: .5s linear .1s itemShow forwards;
+        opacity: 0;
+      }
+
+      .itemDesc {
+        position: absolute;
+        bottom: 0;
+        z-index: 200000000000000000;
+        padding: 5px;
+        text-align: center;
+        font-size: .9rem;
+        background: whitesmoke;
+        border: solid #ffcdab;
+        white-space: nowrap;
+        opacity: 0;
+      }
+
+      &:hover {
+        transform: scale(1.2)
+      }
+    }
+
+    .imgContainer:hover > .itemDesc {
+      opacity: 1;
+      // animation: 3s ease-in-out alternate descReflect;
+    }
   }
 
   .inventoryParchmentRight {
@@ -33,10 +75,29 @@
 
 @keyframes openBackpack {
   from { width: 0; height: 50px; }
-  to { width: 300px; height: 50px; border: 1px solid #ffcdab; }
+  to { height: 50px; border: 1px solid #ffcdab; }
 }
 
 @keyframes closeBackpack {
-  from { width: 300px; height: 50px; border: 1px solid #ffcdab; }
+  from { height: 50px; border: 1px solid #ffcdab; }
   to { width: 0; height: 50px; }
+}
+
+// @keyframes descReflect {
+//   0% {background: linear-gradient(90deg, rgba(236,167,105,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
+//   10% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(236,167,105,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
+//   20% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(236,167,105,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
+//   30% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(236,167,105,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
+//   40% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(236,167,105,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
+//   50% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(236,167,105,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
+//   60% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(236,167,105,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
+//   70% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(236,167,105,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
+//   80% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(236,167,105,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
+//   90% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(236,167,105,1) 90%, rgba(215,99,110,1) 100%)}
+//   100% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(236,167,105,1) 100%)}
+// }
+
+@keyframes itemShow {
+  from {opacity: 0}
+  to {opacity: 1}
 }
