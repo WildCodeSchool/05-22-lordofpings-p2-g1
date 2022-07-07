@@ -20,6 +20,7 @@
     "title": "Les Témoins de Merlin",
     "text": "Lorsque vous passez le panneau indiquant “Fookin Foolths”, des golems se précipitent vers vous. Les fameux “Témoins de Merlin” en pierre et en… pierre. De prime abord effrayée, vous réalisez rapidement qu’ils n’en veulent qu’à vos oreilles : ils ne cessent de réclamer de votre temps pour vous entretenir de “la grandeur du seigneur Merlin”. Vous n’avez droit à aucun répit jusqu’à atteindre la taverne. Pire, vous constatez que les golems commencent à diversifier leurs activités en proposant des ventes de bocaux et autres babioles - vous remarquez notamment une étrange pyramide en fer, très étirée en hauteur, qu’un golem particulièrement enthousiaste vous agite sous le nez en articulant “Touréphel”.",
     "image": "assets/img/background/story/city1.svg",
+    "sound": "assets/audio/village.mp3",
     "buttons": [
       {
         "title": "Pousser la porte de la taverne",
@@ -34,16 +35,15 @@
     "battle": false,
     "text": "L’endroit est chaleureux. Peut-être est-ce la lourde porte qui s’est refermée sur les sollicitations incessantes des golems, mais vous vous sentez profondément apaisée. Le feu dans l’âtre et la vague odeur de cochon grillé ainsi que… oui… celle de la bonne bière… vous êtes ici en lieu sûr. La taverne est peu peuplée - il n’y a que vous pour vous pointer à 17h et espérer trouver tout le monde à l’apéro. Ce n’est pas une critique. Mais franchement vous pourriez penser à freiner. Le tavernier essuie des verres derrière le comptoir, cependant qu’un vieil homme se cure le nez dans un coin. Tous les yeux sont posés sur vous.",
     "image": "assets/img/background/tavern.svg",
+    "sound": "assets/audio/tavern.mp3",
     "buttons": [
       {
         "title": "Parler au tavernier",
-        "battle": false,
         "quest": 3,
         "unique": false
       },
       {
         "title": "Demander plus d'infos à l'autre glandu",
-        "battle": false,
         "quest": 17,
         "unique": true
       }
@@ -57,7 +57,6 @@
     "buttons": [
       {
         "title": "Pardon ?",
-        "battle": false,
         "quest": 4,
         "unique": false
       }
@@ -68,10 +67,10 @@
     "title": "Pardon ?",
     "text": "“Je veux dire, bonjour à vous, aventurière. On m’appelle Borduk la cuillère. Rapport au fait que je dis tout le temps cuillère. C’est pas de mon fait, notez bien. Je suis tombé sur la tête quand j’étais petit, et depuis je répète cuillère à tout bout de champ, c’est plus fort que moi.” Un long silence s’installe durant lequel Borduk semble se concentrer avec beaucoup d’application. Ses joues s’empourprent, son front se plisse, son visage tout entier se renfrogne. Un râle monte dans sa gorge tandis qu’une larme se forme au coin de son œil. “Cuillère.”",
     "image": "assets/img/background/story/tavern1.svg",
+    "sound": "assets/audio/tavern.mp3",
     "buttons": [
       {
         "title": "Demander comment se rendre au château de Merlin",
-        "battle": false,
         "quest": 5,
         "unique": false
       }
@@ -85,13 +84,11 @@
     "buttons": [
       {
         "title": "Remercier Borduk et sortir",
-        "battle": false,
         "quest": 6,
         "unique": false
       },
       {
         "title": "Remercier Borduk et cuillière",
-        "battle": false,
         "quest": 2,
         "unique": true
       }
@@ -102,22 +99,20 @@
     "title": "Départ pour le château du vioc",
     "image": "assets/img/background/story/cityNight1.svg",
     "text": "La fraîcheur de la nuit naissante vous caresse les joues. Seules quelques torches éclairent ça et là les habitations du village. À quelques kilomètres vers l’est, vous voyez le Mont Kuyerh s’élever fièrement contre le firmament. Droit devant vous, au sud, la forêt des Troncs Sonneurs sommeille au-delà du village. Il est temps de choisir votre route : des voix se rapprochent, et elles veulent vous vendre des encyclopédies d’histoire.",
+    "sound": "assets/audio/city.mp3",
     "buttons": [
       {
         "title": "Passer par la forêt des Troncs Sonneurs",
-        "battle": false,
         "quest": 7,
         "unique": false
       },
       {
         "title": "Gravir le Mont Kuyerh",
-        "battle": false,
         "quest": 18,
         "unique": false
       },
       {
         "title": "Retourner à la taverne",
-        "battle": false,
         "quest": 1000,
         "unique": false
       }
@@ -126,26 +121,24 @@
   {
     "_id": 7,
     "title": "La forêt des Troncs Sonneurs",
-    "image": "assets/img/background/story/forest4.svg",
     "text": "À mesure que vous approchez de la forêt, un murmure grandit jusqu’à devenir une étrange petite musique, comme jamais vous n’en avez entendu auparavant. Parmi les Troncs Sonneurs qui dessinent l’orée de la forêt, vous voyez deux chemins se dessiner. L’un trace à travers les arbres un passage clairsemé ; l’autre se montre plus sombre, même si vous croyez apercevoir une faible lueur rougeâtre plus loin dans cette direction. Tandis que vous réfléchissez, vous remarquez de magnifiques champignons à proximité. Vous salivez rien qu’à les regarder.",
+    "image": "assets/img/background/story/forest4.svg",
+    "sound": "assets/audio/forest.mp3",
     "buttons": [
       {
         "title": "Dans la lumière lunaire, nul ne saurait me surprendre",
-        "battle": false,
         "quest": 8,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Dans les ombres, personne ne me verra avancer",
-        "battle": false,
         "quest": 12,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Cueillir quelques champignons",
-        "battle": false,
         "quest": 49,
-        "unique": false
+        "unique": true
       }
     ]
   },
@@ -157,20 +150,16 @@
     "buttons": [
       {
         "title": "Leurs demander s'ils pensent que leurs mamans seraient fières d'eux",
-        "battle": false,
         "quest": 52,
         "unique": true
       },
       {
         "title": "Accepter de payer leur tribut",
-        "battle": false,
-        "money": 0,
         "quest": 9,
         "unique": true
       },
       {
         "title": "Ecraser leurs sales petites tronches de glands contre des chênes",
-        "battle": true,
         "quest": 179,
         "unique": true
       }
@@ -179,12 +168,12 @@
   {
     "_id": 9,
     "title": "Le temps de la disette",
+    "money": 0,
     "text": "“Je me disais bien que vous aviez besoin d’aide !” Un sourire presque édenté fend le visage du grand type. Ses deux acolytes restent quant à eux impassibles. Chacun garde la main sur le pommeau de son épée. Juste au cas où. “C’est par là !” lâche capitaine Tête de Gland en faisant un pas de côté pour vous montrer la suite du chemin que vous suiviez déjà. Vous les dépassez, d’ores et déjà habitée par le regret de ne pas les avoir maravés.",
     "image": "assets/img/background/story/forest5.svg",
     "buttons": [
       {
         "title": "Laisser ces pourritures derrière vous",
-        "battle": false,
         "quest": 10,
         "unique": false
       }
@@ -216,7 +205,6 @@
     "buttons": [
       {
         "title": "Le portail vous emporte.",
-        "battle": false,
         "quest": 50,
         "unique": true
       }
@@ -225,24 +213,21 @@
   {
     "_id": 12,
     "title": "Une rencontre inattendue",
-    "text": "À mesure que vous avancez à travers la végétation dense, la lueur rouge se fait de plus en plus nette, d’autant que la lumière de la lune peine à percer la frondaison. Vous manquez de vous vautrer à plusieurs reprises, mais c’est vous qui avez voulu vous la péter en prenant le chemin sombre. La lueur rouge se transforme finalement en un magnifique cerf flamboyant. La créature note votre présence. Elle fait un petit mouvement de la tête qui ressemble à s’y méprendre à un hochement. Dans votre tête, des mots se forment : “Approchez jeune aventurière, approchez ! Ne ratez pas la chance de votre vie !”",
+    "text": "À mesure que vous avancez à travers la végétation dense, la lueur bleutée se fait de plus en plus nette, d’autant que la lumière de la lune peine à percer la frondaison. Vous manquez de vous vautrer à plusieurs reprises, mais c’est vous qui avez voulu vous la péter en prenant le chemin sombre. La lueur rouge se transforme finalement en un magnifique cerf flamboyant. La créature note votre présence. Elle fait un petit mouvement de la tête qui ressemble à s’y méprendre à un hochement. Dans votre tête, des mots se forment : “Approchez jeune aventurière, approchez ! Ne ratez pas la chance de votre vie !”",
     "image": "assets/img/background/story/forest6.svg",
     "buttons": [
       {
         "title": "Saisissez la chance de votre vie",
-        "battle": false,
         "quest": 13,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Un cerf qui parle ? C’est mort : fuyez vers une grotte que vous avez repérée.",
-        "battle": false,
         "quest": 53,
         "unique": false
       },
       {
         "title": "Continuer tranquillement en ignorant le cerf. Vous imaginez clairement des choses.",
-        "battle": false,
         "quest": 54,
         "unique": false
       }
@@ -258,13 +243,11 @@
     "buttons": [
       {
         "title": "Dormir pour se reposer.",
-        "battle": false,
         "quest": 14,
         "unique": false
       },
       {
         "title": "Persévérer et avancer.",
-        "battle": false,
         "quest": 15,
         "unique": false
       }
@@ -278,13 +261,11 @@
     "buttons": [
       {
         "title": "Fuir vers des contrées plus sûres",
-        "battle": false,
         "quest": 16,
         "unique": false
       },
       {
         "title": "Donner une leçon aux Rel'Ours",
-        "battle": true,
         "quest": 180,
         "unique": true
       }
@@ -298,7 +279,6 @@
     "buttons": [
       {
         "title": "Vous avancer vers le Château",
-        "battle": false,
         "quest": 16,
         "unique": false
       }
@@ -309,17 +289,15 @@
     "title": "Le château de Merlin (Arrivée au château)",
     "text": "Merlin a beau être fou, il a tout de même bon goût. Nul doute que les villageois ont travaillé d’arrache-pied pour bâtir les 20% restants du château. En témoignent les magnifiques moulures, les statues finement ouvragées et les vitraux ciselés. Bon c’est bien beau tout ça, mais vous n’êtes pas venu pour acheter, pas vrai ? Alors arrêtez de rêvasser devant ce tas de pierres. Vous vous dites que vous pourriez retourner à la taverne assez facilement maintenant, étant donné que vous vous trouvez à un carrefour et qu’un panneau “Taverne (voie rapide)” est planté là. Si vous aviez su…  Mais après tout, mieux vaut peut-être en finir le plus vite possible avec le vieux frappadingue et ses golems-sandwichs.",
     "image": "assets/img/background/story/castle3.svg",
-    "sound": "assets/audio/foret1.mp3",
+    "sound": "assets/audio/grassland.mp3",
     "buttons": [
       {
         "title": "Faire un petit tour à la taverne",
-        "battle": false,
         "quest": 1000,
         "unique": false
       },
       {
         "title": "Entrer dans le château",
-        "battle": false,
         "quest": 46,
         "unique": false
       }
@@ -333,7 +311,6 @@
     "buttons": [
       {
         "title": "Boire une autre gorgée",
-        "battle": false,
         "quest": 47,
         "unique": false
       }
@@ -344,48 +321,42 @@
     "title": "Gravir le Mont Kuyerh",
     "text": "Vous voilà sur les pentes immaculées du Mont Kuyerh, et celles-ci se révèlent plutôt inhospitalières.La rencontre du firmament et du manteau opalin vous donne néamoins de la force, tandis que le calme absolu qui règne sur ces hauteurs laisse libre cours à un vague à l'âme. Vous vous sentez bien seule, là au milieu de nulle part. Vous l'avez toujours été. Enfant, vous n'étiez pas vraiment ce qu'on peut appeler sociable. Le nez du petit Kylian s'en rappelle encore. Certes il avait un nom peu enviable, mais cela vous obligeait-il à le martyriser pour autant ?  ",
     "image": "assets/img/background/story/mountain3.svg",
+    "sound": "assets/audio/forest.mp3",
     "buttons": [
       {
         "title": "Jeter un oeil vers le Nord-Ouest",
-        "battle": false,
         "quest": 19,
-        "unique": false
+        "unique": true
       },
       {
         "title": "L'Est vous semble être la meilleure option",
-        "battle": false,
         "quest": 20,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Le Nord c'est bien aussi",
-        "battle": false,
         "quest": 24,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Non mais en vrai on n'a qu'à dire Nord-Est",
-        "battle": false,
         "quest": 41,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Ou alors l'Ouest",
-        "battle": false,
         "quest": 42,
-        "unique": false
+        "unique": true
       },
       {
         "title": "C'est une direction Est-Ouest ?",
-        "battle": false,
         "quest": 43,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Au pire on peut sur Sud-Est",
-        "battle": false,
         "quest": 44,
-        "unique": false
+        "unique": true
       }
     ]
   },
@@ -397,7 +368,6 @@
     "buttons": [
       {
         "title": "Ah bah oui, je me disais bien aussi",
-        "battle": false,
         "quest": 18,
         "unique": false
       }
@@ -411,7 +381,6 @@
     "buttons": [
       {
         "title": "Regarder de plus près",
-        "battle": false,
         "quest": 21,
         "unique": false
       }
@@ -425,7 +394,6 @@
     "buttons": [
       {
         "title": "Observer plus attentivement",
-        "battle": false,
         "quest": 22,
         "unique": false
       }
@@ -439,7 +407,6 @@
     "buttons": [
       {
         "title": "Sûr ?",
-        "battle": false,
         "quest": 23,
         "unique": false
       }
@@ -453,7 +420,6 @@
     "buttons": [
       {
         "title": "Revenir sur vos pas",
-        "battle": false,
         "quest": 18,
         "unique": false
       }
@@ -467,13 +433,11 @@
     "buttons": [
       {
         "title": "Vous enfuir par une grotte à proximité",
-        "battle": false,
         "quest": 25,
         "unique": false
       },
       {
         "title": "Proposer votre aide au loup à poil",
-        "battle": false,
         "quest": 37,
         "unique": false
       }
@@ -488,7 +452,6 @@
     "buttons": [
       {
         "title": "Explorer la grotte",
-        "battle": false,
         "quest": 26,
         "unique": false
       }
@@ -502,13 +465,11 @@
     "buttons": [
       {
         "title": "Prendre le temps de récupérer des cristaux",
-        "battle": false,
         "quest": 27,
         "unique": false
       },
       {
         "title": "Chercher la sortie le plus vite possible",
-        "battle": false,
         "quest": 33,
         "unique": false
       }
@@ -522,15 +483,11 @@
     "buttons": [
       {
         "title": "Accepter de lui donner toutes vos richesses",
-        "battle": false,
-        "money": 0,
-        "item": 1,
         "quest": 28,
         "unique": false
       },
       {
         "title": "Résoudre l’énigme du gardien",
-        "battle": false,
         "quest": 29,
         "unique": false
       },
@@ -543,14 +500,13 @@
   },
   {
     "_id": 28,
-    "money": 0,
+    "money":  0,
     "title": "La bourse plutôt que la vie (Accepter de lui donner toutes vos richesses)",
     "text": "“Merci, c’est bien urbain de votre part.” L’œil avide, le Gardien des Crystomonnaies se jette sur son butin et s’emploie à faire les comptes. C’est le moment de vous barrer. Maintenant. Qu’est-ce que vous attendez ? Décarrez",
     "image": "assets/img/background/story/cave2.svg",
     "buttons": [
       {
         "title": "Foutez le camp",
-        "battle": false,
         "quest": 45,
         "unique": false
       }
@@ -564,25 +520,21 @@
     "buttons": [
       {
         "title": "160",
-        "battle": false,
         "quest": 30,
         "unique": false
       },
       {
         "title": "200",
-        "battle": false,
         "quest": 31,
         "unique": false
       },
       {
         "title": "Cuillère ?",
-        "battle": false,
         "quest": 31,
         "unique": false
       },
       {
         "title": "360",
-        "battle": false,
         "quest": 31,
         "unique": false
       }
@@ -609,13 +561,11 @@
     "buttons": [
       {
         "title": "Abattre le gardien",
-        "battle": true,
         "quest": 183,
         "unique": false
       },
       {
         "title": "Sauf que vous n’avez pas envie de vous battre",
-        "battle": false,
         "quest": 32,
         "unique": false
       }
@@ -629,7 +579,6 @@
     "buttons": [
       {
         "title": "Abattre le gardien",
-        "battle": true,
         "quest": 183,
         "unique": false
       }
@@ -643,21 +592,18 @@
     "buttons": [
       {
         "title": "Traverser rapidement",
-        "battle": false,
         "quest": 34,
         "unique": false,
         "item": 2
       },
       {
         "title": "Traverser avec prudence",
-        "battle": false,
         "quest": 35,
         "unique": false,
         "item": 2
       },
       {
         "title": "Sauter de rocher en rocher",
-        "battle": false,
         "quest": 36,
         "unique": false
       }
@@ -672,7 +618,6 @@
     "buttons": [
       {
         "title": "Rejoindre la vallée",
-        "battle": false,
         "quest": 16,
         "unique": false
       }
@@ -686,7 +631,6 @@
     "buttons": [
       {
         "title": "Votre voyage se termine ici.",
-        "battle": false,
         "quest": 1001,
         "unique": false
       }
@@ -700,7 +644,6 @@
     "buttons": [
       {
         "title": "Rejoindre la vallée",
-        "battle": false,
         "quest": 16,
         "unique": false
       }
@@ -714,7 +657,6 @@
     "buttons": [
       {
         "title": "Bien sûr que vous allez aider ce pauvre loup sans défense",
-        "battle": false,
         "quest": 38,
         "unique": false
       }
@@ -728,13 +670,11 @@
     "buttons": [
       {
         "title": "Ramener la fillette au loup, il a promis une récompense.",
-        "battle": false,
         "quest": 39,
         "unique": false
       },
       {
         "title": "Aider la fillette à s’enfuir",
-        "battle": false,
         "quest": 40,
         "unique": false
       }
@@ -749,7 +689,6 @@
     "buttons": [
       {
         "title": "Descendre dans la vallée",
-        "battle": false,
         "quest": 16,
         "unique": false
       }
@@ -763,7 +702,6 @@
     "buttons": [
       {
         "title": "Descendre dans la vallée",
-        "battle": false,
         "quest": 16,
         "unique": false
       }
@@ -777,7 +715,6 @@
     "buttons": [
       {
         "title": "La ferme",
-        "battle": false,
         "quest": 18,
         "unique": false
       }
@@ -786,18 +723,16 @@
   {
     "_id": 42,
     "title": "Un passage dans la montagne (Ou alors l’ouest)",
-    "text": "En jetant un regard vers l’ouest, vous remarquez une petite cavité dans laquelle vous pourriez bien vous faufiler.",
-    "image": "",
+    "text":"En jetant un regard vers l’ouest, vous remarquez une petite cavité dans laquelle vous pourriez bien vous faufiler.",
+    "image": "assets/img/background/story/mountain3.svg",
     "buttons": [
       {
         "title": "Un passage sombre et étroit ? Qu’est-ce qui pourrait mal se passer ?",
-        "battle": false,
         "quest": 26,
         "unique": false
       },
       {
         "title": "Mieux vaut se montrer prudente et chercher une alternative",
-        "battle": false,
         "quest": 18,
         "unique": false
       }
@@ -811,7 +746,6 @@
     "buttons": [
       {
         "title": "Vous restez où vous êtes, du coup",
-        "battle": false,
         "quest": 18,
         "unique": false
       }
@@ -820,12 +754,11 @@
   {
     "_id": 44,
     "title": "Pas votre meilleure idée (Au pire on peut tabler sur sud-est)",
-    "text": "Le sud-est, c’est plus ou moins d’où vous venez. De fait, vous n’êtes pas très partante pour vous retaper la pente dans l’autre sens étant donné que cela pourrait vous conduire à une fin plutôt définitive ou à minima vers d’atroces mutilations. Et comme personne ne vous trouvera, ces atroces mutilations vous ramèneront à la première issue envisagée.",
-    "image": "",
+    "text":"Le sud-est, c’est plus ou moins d’où vous venez. De fait, vous n’êtes pas très partante pour vous retaper la pente dans l’autre sens étant donné que cela pourrait vous conduire à une fin plutôt définitive ou à minima vers d’atroces mutilations. Et comme personne ne vous trouvera, ces atroces mutilations vous ramèneront à la première issue envisagée.",
+    "image": "assets/img/background/story/mountain3.svg",
     "buttons": [
       {
         "title": "On va plutôt prendre une autre direction.",
-        "battle": false,
         "quest": 18,
         "unique": false
       }
@@ -839,13 +772,11 @@
     "buttons": [
       {
         "title": "Cueillir une belle salade",
-        "battle": false,
         "quest": 170,
-        "unique": false
+        "unique": true
       },
       {
         "title": "On s’en fout des légumes, filer directement au château",
-        "battle": false,
         "quest": 16,
         "unique": false
       }
@@ -859,13 +790,11 @@
     "buttons": [
       {
         "title": "Cot cot",
-        "battle": false,
         "quest": 58,
         "unique": false
       },
       {
         "title": "Pousser la porte du château",
-        "battle": false,
         "quest": 61,
         "unique": false
       }
@@ -879,7 +808,6 @@
     "buttons": [
       {
         "title": "Encore une petite lampée pour la route",
-        "battle": false,
         "quest": 48,
         "unique": false
       }
@@ -893,13 +821,11 @@
     "buttons": [
       {
         "title": "Finissez votre bière et parler au tavernier",
-        "battle": false,
         "quest": 3,
         "unique": false
       },
       {
         "title": "Finissez votre bière et sortir",
-        "battle": false,
         "quest": 6,
         "unique": false
       }
@@ -909,14 +835,12 @@
     "_id": 49,
     "item": 3,
     "title": "Une petite cueillette au clair de lune (Cueillir quelques champignons)",
-    "text": "C’est vrai que vous n’avez que ça à glander, de cueillir des champignons sous la pleine lune dans une forêt qui fait de la musique. Mais personne ne vous juge. Déjà parce que vous êtes toute seule, et ensuite parce que c’est vrai qu’ils sont magnifiques ces champignons. Ça fera une omelette incroyable, ou un poison létal. Mieux vaudrait vous en assurer avant de choisir l’une ou l’autre option",
-    "image": "",
+    "text":"C’est vrai que vous n’avez que ça à glander, de cueillir des champignons sous la pleine lune dans une forêt qui fait de la musique. Mais personne ne vous juge. Déjà parce que vous êtes toute seule, et ensuite parce que c’est vrai qu’ils sont magnifiques ces champignons. Ça fera une omelette incroyable, ou un poison létal. Mieux vaudrait vous en assurer avant de choisir l’une ou l’autre option",
+    "image": "assets/img/background/story/lake2.svg",
     "buttons": [
       {
         "title": "Enfourner votre récolte dans votre besace",
-        "battle": false,
         "quest": 7,
-        "item": "champignon",
         "unique": false
       }
     ]
@@ -924,24 +848,21 @@
   {
     "_id": 50,
     "title": "Retour au village",
-    "text": "La froideur de la nuit vous galce les os. Seules quelques torches éclairent ça et là les habitations du village. À quelques kilomètres vers l’est, vous voyez le Mont Kuyerh s’élever fièrement contre le firmament. Droit devant vous, au sud, la forêt des Troncs Sonneurs sommeille au-delà du village. Il est temps de choisir votre route : des voix se rapprochent, et elles veulent vous vendre des encyclopédies d’histoire.",
-    "image": "",
+    "text":"La froideur de la nuit vous glace les os. Seules quelques torches éclairent ça et là les habitations du village. À quelques kilomètres vers l’est, vous voyez le Mont Kuyerh s’élever fièrement contre le firmament. Droit devant vous, au sud, la forêt des Troncs Sonneurs sommeille au-delà du village. Il est temps de choisir votre route : des voix se rapprochent, et elles veulent vous vendre des encyclopédies d’histoire.",
+    "image": "assets/img/background/story/cityNight1.svg",
     "buttons": [
       {
         "title": "Passer par la forêt des Troncs Sonneurs",
-        "battle": false,
         "quest": 7,
         "unique": false
       },
       {
         "title": "Gravir le Mont Kuyerh",
-        "battle": false,
         "quest": 18,
         "unique": false
       },
       {
         "title": "Retouner à la taverne",
-        "battle": false,
         "quest": 1000,
         "unique": false
       }
@@ -955,7 +876,6 @@
     "buttons": [
       {
         "title": "Un petit havre de paix (Clairière)",
-        "battle": false,
         "quest": 45,
         "unique": false
       }
@@ -964,18 +884,16 @@
   {
     "_id": 52,
     "title": "Leur demander s’ils pensent que leurs mamans seraient fières d’eux",
-    "text": "Sérieux ?  Vous voulez vraiment faire ça ? Allez on est gentils, on va faire comme si vous n’aviez rien dit.",
-    "image": "",
+    "text":"Sérieux ?  Vous voulez vraiment faire ça ? Allez on est gentils, on va faire comme si vous n’aviez rien dit.",
+    "image": "assets/img/background/story/forest4.svg",
     "buttons": [
       {
         "title": "Accepter de payer leur tribut ",
-        "battle": false,
         "quest": 9,
         "unique": false
       },
       {
         "title": "Écraser leurs sales petites tronches de glands contre des chênes (baston)",
-        "battle": true,
         "quest": 180,
         "unique": false
       }
@@ -984,12 +902,11 @@
   {
     "_id": 53,
     "title": "En sécurité ",
-    "text": "Vous détalez en direction de la grotte sans regarder en arrière et donc sans voir le regard d’incompréhension que vous jette le cerf rougeoyant. Ce n’est qu’après avoir couru environ 500 mètres à l’intérieur du tunnel que vous vous arrêtez pour reprendre votre souffle. Désormais, vous ne pouvez que continuer. Vous marchez durant un long moment avant de finalement percevoir de l’air frais, très frais même.",
-    "image": "",
+    "text":"Vous détalez en direction de la grotte sans regarder en arrière et donc sans voir le regard d’incompréhension que vous jette le cerf rougeoyant. Ce n’est qu’après avoir couru environ 500 mètres à l’intérieur du tunnel que vous vous arrêtez pour reprendre votre souffle. Désormais, vous ne pouvez que continuer. Vous marchez durant un long moment avant de finalement percevoir de l’air frais, très frais même.",
+    "image": "assets/img/background/story/cave3.svg",
     "buttons": [
       {
         "title": "Sortir au grand air",
-        "battle": false,
         "quest": 18,
         "unique": false
       }
@@ -998,18 +915,16 @@
   {
     "_id": 54,
     "title": "Les cerfs qui parlent, ça n’existe pas",
-    "text": "Allons, approchez ! N’ayez pas peur !” Les mots continuent de s’imposer à vous pendant plusieurs minutes, avant de finalement cesser pour de bon sur un “Tant pis pour vous !” vexé. Vous êtes fière de votre résilience face à cette faiblesse passagère de l’esprit.  Vos jambes vous portent pendant quelques heures encore avant que la fatigue ne vous envahisse. Vous songez à un feu, votre couchette, et surtout au sommeil…",
-    "image": "",
+    "text":"Allons, approchez ! N’ayez pas peur !” Les mots continuent de s’imposer à vous pendant plusieurs minutes, avant de finalement cesser pour de bon sur un “Tant pis pour vous !” vexé. Vous êtes fière de votre résilience face à cette faiblesse passagère de l’esprit.  Vos jambes vous portent pendant quelques heures encore avant que la fatigue ne vous envahisse. Vous songez à un feu, votre couchette, et surtout au sommeil…",
+    "image": "assets/img/background/story/forest7.svg",
     "buttons": [
       {
         "title": "Dormir pour se reposer.",
-        "battle": false,
         "quest": 14,
         "unique": false
       },
       {
         "title": "Persévérer et avancer.",
-        "battle": false,
         "quest": 15,
         "unique": false
       }
@@ -1024,7 +939,6 @@
     "buttons": [
       {
         "title": "Sortir de la caverne de cristal",
-        "battle": false,
         "quest": 45,
         "unique": false
       }
@@ -1038,7 +952,6 @@
     "buttons": [
       {
         "title": "Le géant terrassé",
-        "battle": true,
         "quest": 181,
         "unique": false
       }
@@ -1053,7 +966,6 @@
     "buttons": [
       {
         "title": "Sortir de la caverne de cristal",
-        "battle": false,
         "quest": 45,
         "unique": false
       }
@@ -1067,13 +979,11 @@
     "buttons": [
       {
         "title": "Pardon ?",
-        "battle": false,
         "quest": 59,
         "unique": false
       },
       {
         "title": "Pardon",
-        "battle": false,
         "quest": 61,
         "unique": false
       }
@@ -1087,13 +997,11 @@
     "buttons": [
       {
         "title": "Je suis désolée",
-        "battle": false,
         "quest": 61,
         "unique": false
       },
       {
         "title": "Cot cot",
-        "battle": false,
         "quest": 60,
         "unique": false
       }
@@ -1107,7 +1015,6 @@
     "buttons": [
       {
         "title": "Je l'ai bien cherché.",
-        "battle": false,
         "quest": 61,
         "unique": false
       }
@@ -1121,25 +1028,21 @@
     "buttons": [
       {
         "title": "Je m'en fou",
-        "battle": false,
         "quest": 62,
         "unique": false
       },
       {
         "title": "Vraiment je m'en tape",
-        "battle": false,
         "quest": 62,
         "unique": false
       },
       {
         "title": "Rien à secouer",
-        "battle": false,
         "quest": 62,
         "unique": false
       },
       {
         "title": "Rien à secouer",
-        "battle": false,
         "quest": 62,
         "unique": false
       }
@@ -1153,31 +1056,26 @@
     "buttons": [
       {
         "title": "Prendre les escaliers",
-        "battle": false,
         "quest": 172,
         "unique": false
       },
       {
         "title": "Première porte à gauche",
-        "battle": false,
         "quest": 63,
         "unique": false
       },
       {
         "title": "Deuxième porte à gauche",
-        "battle": false,
-        "quest": 76,
+        "quest": 76 ,
         "unique": false
       },
       {
         "title": "Première porte à droite",
-        "battle": false,
         "quest": 80,
         "unique": false
       },
       {
         "title": "Deuxième porte à droite",
-        "battle": false,
         "quest": 99,
         "unique": false
       }
@@ -1186,31 +1084,28 @@
   {
     "_id": 63,
     "title": "La porte aux trois portes (Première porte à gauche)",
-    "text": "Lorsque vous passez la porte, vous êtes immédiatement confrontée… à trois autres portes. Chacune d’entre elles porte une inscription gravée dans le bois.Vous pouvez choisir entre “La mort”, “La vie” ou… “quelque chose entre les deux”. Vous qui n’avez jamais aimé faire des choix, vous voilà gâtée.",
-    "image": "",
-    "sound": "assets/audio/foret1.mp3",
+    "text":"Lorsque vous passez la porte, vous êtes immédiatement confrontée… à trois autres portes. Chacune d’entre elles porte une inscription gravée dans le bois.Vous pouvez choisir entre “La mort”, “La vie” ou… “quelque chose entre les deux”. Vous qui n’avez jamais aimé faire des choix, vous voilà gâtée.",
+    "image": "assets/img/background/story/3doors.svg",
+    "sound":"assets/audio/foret1.mp3",
     "buttons": [
       {
         "title": "La mort",
-        "battle": false,
         "quest": 64,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Quelque chose entre les deux",
         "battle": false,
         "quest": 67,
-        "unique": false
+        "unique": true
       },
       {
         "title": "La vie",
-        "battle": false,
         "quest": 68,
         "unique": false
       },
       {
         "title": "Retourner dans le hall",
-        "battle": false,
         "quest": 62,
         "unique": false
       }
@@ -1219,18 +1114,16 @@
   {
     "_id": 64,
     "title": " La mort (“La mort”)",
-    "text": "À l’instant où vous ouvrez la porte, votre sang ne fait qu’un tour.Devant vous se tient une immense silhouette encapuchonnée. Dans sa main squelettique, une faux à sa mesure qui ne sert clairement pas à faucher les blés. Enfin vous pourriez faucher les blés avec hein, c’est juste que là ça n’a pas l’air d’être l’objectif.La capuche se redresse dans votre direction. Vous ne parvenez pas à percer les ténèbres qui y ont élu domicile. Pourtant une voix en émane : “Oui ? Vous aviez rendez-vous ?” La silhouette sort un épais grimoire et, après l’avoir ouvert, fait courir un doigt décharné sur ses pages. Le bruit, semblable à celui d’une craie qui crisse sur un tableau, est insupportable. “Je suis désolé, je ne vous trouve pas dans mon registre. Ma secrétaire vous a contacté pour prendre rendez-vous ? Quelle incapable ! “Embauche Corrine, elle est exemplaire !” qu’ils disaient…”",
-    "image": "",
+    "text":"À l’instant où vous ouvrez la porte, votre sang ne fait qu’un tour.Devant vous se tient une immense silhouette encapuchonnée. Dans sa main squelettique, une faux à sa mesure qui ne sert clairement pas à faucher les blés. Enfin vous pourriez faucher les blés avec hein, c’est juste que là ça n’a pas l’air d’être l’objectif.La capuche se redresse dans votre direction. Vous ne parvenez pas à percer les ténèbres qui y ont élu domicile. Pourtant une voix en émane : “Oui ? Vous aviez rendez-vous ?” La silhouette sort un épais grimoire et, après l’avoir ouvert, fait courir un doigt décharné sur ses pages. Le bruit, semblable à celui d’une craie qui crisse sur un tableau, est insupportable. “Je suis désolé, je ne vous trouve pas dans mon registre. Ma secrétaire vous a contacté pour prendre rendez-vous ? Quelle incapable ! “Embauche Corrine, elle est exemplaire !” qu’ils disaient…”",
+    "image": "assets/img/background/story/death1.svg",
     "buttons": [
       {
         "title": "Refermer la porte",
-        "battle": false,
         "quest": 63,
         "unique": false
       },
       {
         "title": "Continuer",
-        "battle": false,
         "quest": 65,
         "unique": false
       }
@@ -1239,8 +1132,8 @@
   {
     "_id": 65,
     "title": "La Mort arrive",
-    "text": "La silhouette continue de parcourir son grimoire quand soudain son doigt s’arrête. La capuche s’approche de la page jaunie. “Ah, attendez… Je vois quelque chose ici.” Vous remarquez que des traits se dessinent à l’endroit désigné. “Peut-être que Corrine va conserver son job et sa vie aujourd’hui, finalement !” Le rire qui s’échappe de la capuche vous évoque le verre pilé.",
-    "image": "",
+    "text":"La silhouette continue de parcourir son grimoire quand soudain son doigt s’arrête. La capuche s’approche de la page jaunie. “Ah, attendez… Je vois quelque chose ici.” Vous remarquez que des traits se dessinent à l’endroit désigné. “Peut-être que Corrine va conserver son job et sa vie aujourd’hui, finalement !” Le rire qui s’échappe de la capuche vous évoque le verre pilé.",
+    "image": "assets/img/background/story/3doors.svg",
     "buttons": [
       {
         "title": "Refermer la porte",
@@ -1259,8 +1152,8 @@
   {
     "_id": 66,
     "title": "Ha bah vous êtes mort",
-    "text": "Oui… voilà qui est mieux. C’est fou ça, je ne savais même pas que mon grimoire pouvait faire ça. Nous avons finalement bien rendez-vous ! Là-dessus, sans même que vous ayez le temps de comprendre ce qui se passe et pourtant, vous avez quand même eu largement le temps, la faux s’abat sur vous.",
-    "image": "",
+    "text":"Oui… voilà qui est mieux. C’est fou ça, je ne savais même pas que mon grimoire pouvait faire ça. Nous avons finalement bien rendez-vous ! Là-dessus, sans même que vous ayez le temps de comprendre ce qui se passe et pourtant, vous avez quand même eu largement le temps, la faux s’abat sur vous.",
+    "image": "assets/img/background/story/death1.svg",
     "buttons": [
       {
         "title": "Le Paradis ?",
@@ -1273,19 +1166,17 @@
   {
     "_id": 67,
     "title": "Quelque chose entre les deux (“Quelque chose entre les deux”)",
-    "text": "Vous entrez dans la pièce avec assurance, prête à affronter tous les dangers. Une personne est assise dans le fond de la pièce. Il s’agit d’un homme élégant et bien vêtu, au physique pour le moins avantageux. Lorsqu’il se rend compte de votre présence, il se lève avec empressement.“Mes hommages, madame…” Il s’approche de vous, mais une lueur dans ses yeux vous fait instinctivement reculer. Surtout, vous avez remarqué le teint blafard de sa peau, qui vous rappelle celle d’un mort. Comme s’il lisait dans vos pensées, l’homme s’arrête net dans son élan et reprend : “Je suis Edward Cullen, et je suis mort. Oui alors je sais que ça surprend, mais je préfère le dire d’emblée. Pfiou, et ben ça nous enlève un poids, hein ? Petit détail également : je ne suis pas QUE mort, à l’évidence, et je suis d’une catégorie plutôt connue : les vampires. Mais ne sortez pas votre plus beau pieu tout de suite ! Je suis un vampire végétarien.” Devant votre mine médusée, il poursuit : “Oui, voyez-vous. Mon clan a décidé que tuer des gens, c’est mal. Donc on ne les mange plus. Non, nous on préfère les légumes. D’ailleurs, j’ai si faim… vous n’auriez pas un petit quelque chose ?” Vous sentez clairement qu’il a envie de vous bouffer, quand même. “Allons, je vois bien que je vous fais peur, je ne vais donc pas vous importuner plus longtemps, et vous allez voir que je suis parfaitement clean. Vous pouvez vous retourner et vous en aller, je ne ferai rien.” Au moment où il finit sa phrase, ses yeux se voilent l’espace d’un court instant. ",
-    "image": "",
+    "text":"Vous entrez dans la pièce avec assurance, prête à affronter tous les dangers. Une personne est assise dans le fond de la pièce. Il s’agit d’un homme élégant et bien vêtu, au physique pour le moins avantageux. Lorsqu’il se rend compte de votre présence, il se lève avec empressement.“Mes hommages, madame…” Il s’approche de vous, mais une lueur dans ses yeux vous fait instinctivement reculer. Surtout, vous avez remarqué le teint blafard de sa peau, qui vous rappelle celle d’un mort. Comme s’il lisait dans vos pensées, l’homme s’arrête net dans son élan et reprend : “Je suis Edward Cullen, et je suis mort. Oui alors je sais que ça surprend, mais je préfère le dire d’emblée. Pfiou, et ben ça nous enlève un poids, hein ? Petit détail également : je ne suis pas QUE mort, à l’évidence, et je suis d’une catégorie plutôt connue : les vampires. Mais ne sortez pas votre plus beau pieu tout de suite ! Je suis un vampire végétarien.” Devant votre mine médusée, il poursuit : “Oui, voyez-vous. Mon clan a décidé que tuer des gens, c’est mal. Donc on ne les mange plus. Non, nous on préfère les légumes. D’ailleurs, j’ai si faim… vous n’auriez pas un petit quelque chose ?” Vous sentez clairement qu’il a envie de vous bouffer, quand même. “Allons, je vois bien que je vous fais peur, je ne vais donc pas vous importuner plus longtemps, et vous allez voir que je suis parfaitement clean. Vous pouvez vous retourner et vous en aller, je ne ferai rien.” Au moment où il finit sa phrase, ses yeux se voilent l’espace d’un court instant. ",
+    "image": "assets/img/background/story/vampire1.svg",
     "buttons": [
       {
         "title": "Lui lancer de la légumineuse dans un coin de la pièce (requiert salade/champignons)",
-        "battle": false,
         "item": 3,
         "quest": 89,
         "unique": false
       },
       {
         "title": "Lui lancer de la légumineuse dans un coin de la pièce (requiert salade/champignons)",
-        "battle": false,
         "item": 4,
         "quest": 89,
         "unique": false
@@ -1293,12 +1184,10 @@
       {
         "title": "Aucune chance que vous lui fassiez confiance, c’est le moment de lui casser les canines.",
         "quest": 183,
-        "battle": true,
         "unique": false
       },
       {
         "title": "S’il dit qu’il préfère la verdure, c’est qu’il préfère la verdure. Sortez.",
-        "battle": true,
         "quest": 179,
         "unique": false
       }
@@ -1307,34 +1196,32 @@
   {
     "_id": 68,
     "title": "La vie (“La vie”)",
-    "text": "La pièce que vous découvrez est sobre, mais décorée avec goût. De grandes fenêtres laissent pénétrer la lumière du jour. Tout semble disposé pour attirer votre regard au centre de la salle, où trône une fiole en verre emplie d’un liquide rouge. “Oh ça, ça sent soit l’alcool, soit la potion de vie !”Vous vous approchez précipitamment, déjà heureuse de votre prise, mais lorsque vous posez vos doigts gantés sur l’opercule délicat, une voix retentit : “Hé là ! Bas les pattes !” Vous reculez, prise de court. Il n’y a personne d’autre que vous dans la pièce. “Je ne suis pas une potion facile ! Si vous voulez m’avoir rien que pour vous, il va vous falloir faire les choses en bonne et due forme.” “Ah, donc ce n’est pas de l’alcool…” Sérieusement, c’est ça qui vous vient à l’esprit ?",
-    "image": "",
+    "text":"La pièce que vous découvrez est sobre, mais décorée avec goût. De grandes fenêtres laissent pénétrer la lumière du jour. Tout semble disposé pour attirer votre regard au centre de la salle, où trône une fiole en verre emplie d’un liquide rouge. “Oh ça, ça sent soit l’alcool, soit la potion de vie !”Vous vous approchez précipitamment, déjà heureuse de votre prise, mais lorsque vous posez vos doigts gantés sur l’opercule délicat, une voix retentit : “Hé là ! Bas les pattes !” Vous reculez, prise de court. Il n’y a personne d’autre que vous dans la pièce. “Je ne suis pas une potion facile ! Si vous voulez m’avoir rien que pour vous, il va vous falloir faire les choses en bonne et due forme.” “Ah, donc ce n’est pas de l’alcool…” Sérieusement, c’est ça qui vous vient à l’esprit ?",
+    "image": "assets/img/background/story/glassFlask1.svg",
     "buttons": [
       {
         "title": "Lui susurrer qu’elle est la plus belle potion que cette terre ait porté",
-        "battle": false,
         "quest": 73,
-        "unique": false
+        "unique": true
+        
       },
       {
         "title": "Lui promettre de l’emmener voir le monde",
-        "battle": false,
         "quest": 69,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Draguer une potion ? Et puis quoi encore ? L’embarquer de force",
-        "battle": false,
         "quest": 74,
-        "unique": false
+        "unique": true
       }
     ]
   },
   {
     "_id": 69,
     "title": "Le bout du monde (Lui promettre de l’emmener voir le monde)",
-    "text": "Et vous m’emmèneriez ooooùùùùùùù ?",
-    "image": "",
+    "text":"Et vous m’emmèneriez ooooùùùùùùù ?",
+    "image": "assets/img/background/story/glassFlask1.svg",
     "buttons": [
       {
         "title": "À Venise",
@@ -1359,8 +1246,8 @@
   {
     "_id": 70,
     "title": "Une ville romantique, bon choix (À Venise)",
-    "text": "Et on y ferait quoooiiiiiiii ?",
-    "image": "",
+    "text":"Et on y ferait quoooiiiiiiii ?",
+    "image": "assets/img/background/story/glassFlask1.svg",
     "buttons": [
       {
         "title": "On se promènerait en gondole, rien que toi et moi",
@@ -1379,9 +1266,9 @@
   {
     "_id": 71,
     "title": "Vous, vous savez comment parler à une potion (Réussite potion de vie)",
-    "text": "La petite potion glousse à chacune de vos phrases, elle n’a d’yeux que pour vous. Enfin si elle avait des yeux, ils vous dévoreraient. “Emmenez-moi dans vos aventures, beauté !” Vous la saisissez délicatement et la fixez tout aussi soigneusement à votre ceinture. “Mais calmez vos ardeurs, moi, on ne me boit pas dès le premier soir !” ",
-    "item": 1,
-    "image": "",
+    "text":"La petite potion glousse à chacune de vos phrases, elle n’a d’yeux que pour vous. Enfin si elle avait des yeux, ils vous dévoreraient. “Emmenez-moi dans vos aventures, beauté !” Vous la saisissez délicatement et la fixez tout aussi soigneusement à votre ceinture. “Mais calmez vos ardeurs, moi, on ne me boit pas dès le premier soir !” ",
+    "item":1,
+    "image": "assets/img/background/story/glassFlask1.svg",
     "buttons": [
       {
         "title": "Sortir",
@@ -1394,8 +1281,8 @@
   {
     "_id": 72,
     "title": "échec",
-    "text": "Vous ne m'intéressez pas, désolée je mérite bien mieux que vous. Vous devinez la mine renfrognée de la potion, vu qu'elle n'a pas de visage. “Vous feriez mieux de partir, j'attends quelqu'un.” Elle n'attend personne. Elle attend juste de vous voir décarrer.",
-    "image": "",
+    "text":"Vous ne m'intéressez pas, désolée je mérite bien mieux que vous. Vous devinez la mine renfrognée de la potion, vu qu'elle n'a pas de visage. “Vous feriez mieux de partir, j'attends quelqu'un.” Elle n'attend personne. Elle attend juste de vous voir décarrer.",
+    "image": "assets/img/background/story/glassFlask1.svg",
     "buttons": [
       {
         "title": "Sortir",
@@ -1408,12 +1295,11 @@
   {
     "_id": 73,
     "title": "Love me tender",
-    "text": "Vous vous approchez doucement, cherchez désespérément l’oreille de votre future conquête avant de vous rappeler que… eh bien… que c’est une potion, quoi. Vous vous armez de votre plus belle voix et vous murmurez doucement à la petite potion : “Tu sais, ma belle, jamais je n’avais posé les yeux sur pareille…” La potion vous interrompt. Elle a la voix de quelqu’un qui se pince le nez. “Oh mais c’est quoi cette haleine de chacal ? Vous avez une brosse à dent dans votre trousseau d’aventurier ?” Oui. “Vous avez mangé un rat mort ou quoi ?”  Oui. Aussi. “Allez, houste ! Très peu pour moi ! Je suis une potion de vie, pas un bain de bouche ! Je ne peux rien pour une haleine de ses morts !”",
-    "image": "",
+    "text":"Vous vous approchez doucement, cherchez désespérément l’oreille de votre future conquête avant de vous rappeler que… eh bien… que c’est une potion, quoi. Vous vous armez de votre plus belle voix et vous murmurez doucement à la petite potion : “Tu sais, ma belle, jamais je n’avais posé les yeux sur pareille…” La potion vous interrompt. Elle a la voix de quelqu’un qui se pince le nez. “Oh mais c’est quoi cette haleine de chacal ? Vous avez une brosse à dent dans votre trousseau d’aventurier ?” Oui. “Vous avez mangé un rat mort ou quoi ?”  Oui. Aussi. “Allez, houste ! Très peu pour moi ! Je suis une potion de vie, pas un bain de bouche ! Je ne peux rien pour une haleine de ses morts !”",
+    "image": "assets/img/background/story/glassFlask1.svg",
     "buttons": [
       {
         "title": "Mais je…",
-        "battle": false,
         "quest": 72,
         "unique": false
       }
@@ -1422,44 +1308,38 @@
   {
     "_id": 74,
     "title": "L’embarquer de force",
-    "text": "Après réflexion intense de deux secondes cinq, vous décidez que vous n’en avez rien à foutre, de “faire les choses en bonne et due forme”. Vous attrapez la potion nonchalamment… et elle reste bien fixée à la table. Vous y allez à deux mains, malgré les protestations de plus en plus féroces de ladite potion. La sueur perle sur votre front, vous avez vraiment envie de cette potion dites donc. Vous êtes à priori certaine qu’il n’existe que cette potion au monde. “Puisque vous me voulez tant, alors prenez-moi !” Vous tombez à la renverse, haletante, la potion dans vos mains. Le liquide vermillon brunit puis prend une teinte abyssale. Vous voulez lâcher votre prise, mais vous n’y parvenez pas. “Toi qui me voulais tant, donne-moi tes lèvres à présent !”",
-    "image": "",
+    "text":"Après réflexion intense de deux secondes cinq, vous décidez que vous n’en avez rien à foutre, de “faire les choses en bonne et due forme”. Vous attrapez la potion nonchalamment… et elle reste bien fixée à la table. Vous y allez à deux mains, malgré les protestations de plus en plus féroces de ladite potion. La sueur perle sur votre front, vous avez vraiment envie de cette potion dites donc. Vous êtes à priori certaine qu’il n’existe que cette potion au monde. “Puisque vous me voulez tant, alors prenez-moi !” Vous tombez à la renverse, haletante, la potion dans vos mains. Le liquide vermillon brunit puis prend une teinte abyssale. Vous voulez lâcher votre prise, mais vous n’y parvenez pas. “Toi qui me voulais tant, donne-moi tes lèvres à présent !”",
+    "image": "assets/img/background/story/glassFlask1.svg",
     "buttons": [
       {
         "title": "Je savais qu’elle me voulait",
-        "battle": false,
-        "quest": 75,
-        "unique": false
+        "quest": 75 ,
+        "unique": true
       }
     ]
   },
   {
     "_id": 75,
     "title": "La potion de votre vie",
-    "text": "Votre échine se glace tandis que vous retirez le bouchon de cristal de la potion. Une puissante odeur marécageuse vous monte aux narines et manque de vous faire défaillir. Néanmoins, ce parfum vous enivre. Il vous invite, et ce n’est pas le genre d’invitation que l’on refuse. La potion est tout à vous maintenant. Vous l’avez ardemment désirée, et désormais plus rien d’autre ne compte. Une voix très lointaine, probablement la partie de vous qui est encore consciente, hurle de la lâcher et de partir en courant, mais pourquoi ? Maintenant qu’on vous donne sur un plateau ce qui clairement vous revenait, vous n’allez pas vous en priver, pas vrai ?",
-    "image": "",
+    "text":"Votre échine se glace tandis que vous retirez le bouchon de cristal de la potion. Une puissante odeur marécageuse vous monte aux narines et manque de vous faire défaillir. Néanmoins, ce parfum vous enivre. Il vous invite, et ce n’est pas le genre d’invitation que l’on refuse. La potion est tout à vous maintenant. Vous l’avez ardemment désirée, et désormais plus rien d’autre ne compte. Une voix très lointaine, probablement la partie de vous qui est encore consciente, hurle de la lâcher et de partir en courant, mais pourquoi ? Maintenant qu’on vous donne sur un plateau ce qui clairement vous revenait, vous n’allez pas vous en priver, pas vrai ?",
+    "image": "assets/img/background/story/glassFlask1.svg",
     "buttons": [
       {
         "title": "Boire la potion",
-        "battle": false,
         "quest": 1001,
         "unique": false
       },
       {
         "title": "Boire la potion",
-        "battle": false,
+        "quest": 1001,
+        "unique": false
+      },{
+        "title": "Boire la potion",
         "quest": 1001,
         "unique": false
       },
       {
         "title": "Boire la potion",
-        "battle": false,
-        "quest": 1001,
-        "unique": false
-      },
-      {
-        "title": "Boire la potion",
-        "battle": false,
         "quest": 1001,
         "unique": false
       }
@@ -1468,24 +1348,21 @@
   {
     "_id": 76,
     "title": "Apéro",
-    "text": "Jackpot ! Enfin, c’est ce que vous croyez au début. Derrière la porte se trouve un escalier menant à une vaste cave… vide. Forcément il fallait que ça tombe sur vous. Le jour où vous vous pointez dans la caverne aux merveilles, quelqu’un a siphonné toutes les merveilles. Attendez… non. C’est même pire que ça : dans la pénombre vous remarquez que les étagères sont renversées. Les précieuses bouteilles sont éventrées et ont répandu leur contenu sur le sol.",
-    "image": "",
+    "text":"Jackpot ! Enfin, c’est ce que vous croyez au début. Derrière la porte se trouve un escalier menant à une vaste cave… vide. Forcément il fallait que ça tombe sur vous. Le jour où vous vous pointez dans la caverne aux merveilles, quelqu’un a siphonné toutes les merveilles. Attendez… non. C’est même pire que ça : dans la pénombre vous remarquez que les étagères sont renversées. Les précieuses bouteilles sont éventrées et ont répandu leur contenu sur le sol.",
+    "image": "assets/img/background/story/wine1.svg",
     "buttons": [
       {
         "title": "Lécher le sol",
-        "battle": false,
         "quest": 77,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Regarder ce que vous pouvez trouver",
-        "battle": false,
         "quest": 79,
         "unique": false
       },
       {
         "title": "Retourner dans le hall",
-        "battle": false,
         "quest": 62,
         "unique": false
       }
@@ -1494,33 +1371,30 @@
   {
     "_id": 77,
     "title": "Ivrogne",
-    "text": "Allons, vous valez mieux que ça !",
-    "image": "",
+    "text":"Allons, vous valez mieux que ça !",
+    "image": "assets/img/background/story/wine1.svg",
     "buttons": [
       {
         "title": "C’est vrai",
-        "battle": false,
         "quest": 76,
         "unique": false
       },
       {
         "title": "J’ai déjà vendu ma dignité pour de la Villageoise",
-        "battle": false,
         "quest": 78,
-        "unique": false
+        "unique": true
       }
     ]
   },
   {
     "_id": 78,
-    "heal": 1,
+    "heal": -1,
     "title": "Un cru du trottoir",
-    "text": "Vous vous précipitez, au cas où quelqu’un surgirait - de… nulle part ? - pour vous piquer l’idée (personne d’autre n’aurait eu cette idée, vous avez déjà pensé à vous faire aider ?). Vos genoux produisent un son humide lorsqu’ils rencontrent le sol. Vous approchez votre visage du nectar et vous mettez à lapper farouchement. C’était plutôt une bonne idée après tout : le vin se révèle excellent. Ce mélange de grands crus donne lieu à une espèce de maxi best of gustatif que vous jalouseraient les plus fins connaisseurs. Vous en êtes à votre troisième lampée quand vous ressentez une vive douleur au niveau de votre langue. Dans votre hâte, vous avez oublié que si la vinasse a arrosé le sol, c’est parce que les bouteilles se sont brisées. Finalement, c’était vraiment une idée de merde.",
-    "image": "",
+    "text":"Vous vous précipitez, au cas où quelqu’un surgirait - de… nulle part ? - pour vous piquer l’idée (personne d’autre n’aurait eu cette idée, vous avez déjà pensé à vous faire aider ?). Vos genoux produisent un son humide lorsqu’ils rencontrent le sol. Vous approchez votre visage du nectar et vous mettez à lapper farouchement. C’était plutôt une bonne idée après tout : le vin se révèle excellent. Ce mélange de grands crus donne lieu à une espèce de maxi best of gustatif que vous jalouseraient les plus fins connaisseurs. Vous en êtes à votre troisième lampée quand vous ressentez une vive douleur au niveau de votre langue. Dans votre hâte, vous avez oublié que si la vinasse a arrosé le sol, c’est parce que les bouteilles se sont brisées. Finalement, c’était vraiment une idée de merde.",
+    "image": "assets/img/background/story/wine1.svg",
     "buttons": [
       {
         "title": "Aîe ",
-        "battle": false,
         "quest": 76,
         "unique": false
       }
@@ -1529,12 +1403,11 @@
   {
     "_id": 79,
     "title": "Un capharnaüm sans nom",
-    "text": "Votre petit cœur se serre un peu plus à chacun de vos pas qui écrase ce qui fut sans aucun doute de l’excellent vin. Le lieu est faiblement éclairé par quelques torches mourantes, et vous finissez par trouver un recoin où des bouteilles ont été épargnées. Vos doigts avides se referment sur elles, mais vous constatez rapidement que toutes sans exception sont asséchées. Apparemment, quelqu'un dans le coin aime l'alcool encore plus que vous. Et ce n'est pas peu dire. Sur une petite table à proximité, vous remarquez de vieux grimoires, tous illisibles parce que tachés de vin (forcément), et de petites feuilles souples. Celles-ci se révèlent très douces au toucher et ne portent aucune écriture. Après quelques minutes d’inspection minutieuse, vous en êtes sûre : il s’agit de papier toilette.",
-    "image": "",
+    "text":"Votre petit cœur se serre un peu plus à chacun de vos pas qui écrase ce qui fut sans aucun doute de l’excellent vin. Le lieu est faiblement éclairé par quelques torches mourantes, et vous finissez par trouver un recoin où des bouteilles ont été épargnées. Vos doigts avides se referment sur elles, mais vous constatez rapidement que toutes sans exception sont asséchées. Apparemment, quelqu'un dans le coin aime l'alcool encore plus que vous. Et ce n'est pas peu dire. Sur une petite table à proximité, vous remarquez de vieux grimoires, tous illisibles parce que tachés de vin (forcément), et de petites feuilles souples. Celles-ci se révèlent très douces au toucher et ne portent aucune écriture. Après quelques minutes d’inspection minutieuse, vous en êtes sûre : il s’agit de papier toilette.",
+    "image": "assets/img/background/story/wine1.svg",
     "buttons": [
       {
         "title": "Revenir sur vos pas",
-        "battle": false,
         "quest": 76,
         "unique": false
       }
@@ -1543,30 +1416,26 @@
   {
     "_id": 80,
     "title": "Un si long couloir",
-    "text": "Vous traversez un long couloir. Très long. En plus, il n’y a même pas de tableau pour décorer. Si vous deviez faire un classement des couloirs les plus nuls que vous avez parcourus dans votre vie, celui-ci serait le premier. Facile. Au bout d’un moment, vous êtes saisie d’une peur quasi panique : et si ce couloir n’avait pas de fin ? Si vous restiez piégée dans ce boyau d’ennui mortel jusqu’à la fin de vos jours. C’est lorsque vous allez succomber à l’angoisse que vous arrivez au niveau de trois portes. Vous soufflez un bon coup : vous voilà sauvée. En même temps, vous auriez toujours pu faire demi-tour. C’est un couloir. Il a bien fallu que vous y entriez. Non mais moi je dis ça comme ça. Faut pas le prendre de cette façon. Ben si, je vois bien que vous êtes fâchée là. Faites pas genre. Allez on dit que vous reconnaissez être en pétard et on passe à autre chose. Vous avez le choix entre une porte sculptée représentant une multitude de visages, une autre affublée du seul cadre de tout ce foutu couloir (il représente une forme ovale un peu indistincte). Il y a aussi celle qui semble impalpable. Vous pouvez aussi revenir en arrière, si vous arrêtez de vous plaindre deux secondes. ",
-    "image": "",
+    "text":"Vous traversez un long couloir. Très long. En plus, il n’y a même pas de tableau pour décorer. Si vous deviez faire un classement des couloirs les plus nuls que vous avez parcourus dans votre vie, celui-ci serait le premier. Facile. Au bout d’un moment, vous êtes saisie d’une peur quasi panique : et si ce couloir n’avait pas de fin ? Si vous restiez piégée dans ce boyau d’ennui mortel jusqu’à la fin de vos jours. C’est lorsque vous allez succomber à l’angoisse que vous arrivez au niveau de trois portes. Vous soufflez un bon coup : vous voilà sauvée. En même temps, vous auriez toujours pu faire demi-tour. C’est un couloir. Il a bien fallu que vous y entriez. Non mais moi je dis ça comme ça. Faut pas le prendre de cette façon. Ben si, je vois bien que vous êtes fâchée là. Faites pas genre. Allez on dit que vous reconnaissez être en pétard et on passe à autre chose. Vous avez le choix entre une porte sculptée représentant une multitude de visages, une autre affublée du seul cadre de tout ce foutu couloir (il représente une forme ovale un peu indistincte). Il y a aussi celle qui semble impalpable. Vous pouvez aussi revenir en arrière, si vous arrêtez de vous plaindre deux secondes. ",
+    "image": "assets/img/background/story/4doors.svg",
     "buttons": [
       {
         "title": "La porte aux multiples visages",
-        "battle": false,
         "quest": 83,
         "unique": false
       },
       {
         "title": "La porte qui est bizarre, elle est pas palpable",
-        "battle": false,
         "quest": 100,
-        "unique": false
+        "unique": true
       },
       {
         "title": "La porte avec un cadre",
-        "battle": false,
         "quest": 81,
-        "unique": false
+        "unique": true
       },
       {
         "title": "La porte à l'autre bout du couloir",
-        "battle": false,
         "quest": 176,
         "unique": false
       }
@@ -1575,14 +1444,13 @@
   {
     "_id": 81,
     "title": "Une forme omniprésente",
-    "text": "C’est sûr, cette forme vaguement ovale vous dit quelque chose. Une fois la porte ouverte, vous êtes face à une ribambelle d’objets ayant tous cette silhouette. Alors vous réalisez : cette forme est omniprésente dans l’univers, vous l’avez toujours su au fond de vous. Cette forme, c’est celle de la patate. Merlin doit étudier ce phénomène, car tous les objets encombrant la pièce ont cette forme. Ça, ou alors il collectionne juste les objets en forme de patate. Faudrait pas oublier qu’il a vrillé, le vioc.",
-    "image": "",
+    "text":"C’est sûr, cette forme vaguement ovale vous dit quelque chose. Une fois la porte ouverte, vous êtes face à une ribambelle d’objets ayant tous cette silhouette. Alors vous réalisez : cette forme est omniprésente dans l’univers, vous l’avez toujours su au fond de vous. Cette forme, c’est celle de la patate. Merlin doit étudier ce phénomène, car tous les objets encombrant la pièce ont cette forme. Ça, ou alors il collectionne juste les objets en forme de patate. Faudrait pas oublier qu’il a vrillé, le vioc.",
+    "image": "assets/img/background/story/potatoeDoor.svg",
     "buttons": [
       {
         "title": "Jeter un œil aux artefacts-patates",
-        "battle": false,
         "quest": 82,
-        "unique": false
+        "unique": true
       }
     ]
   },
@@ -1590,15 +1458,11 @@
     "_id": 82,
     "title": "Le salon de la patate",
     "item": 7,
-    "text": "Vous vous frayez un chemin à travers les hommages à la patate. Une poupée-patate, un fauteuil-patate, une fourchette-patate, une patate (bah oui), une guitare - c’est vrai qu’en fait ça ressemble un peu à une patate -, et quantité d’autres objets façonnés sur le modèle du saint féculent. Au fin fond de la pièce, entre un vase-patate et un balai-patate, vous trouvez finalement quelque chose d’utile : sur un piédestal-patate assorti d’un coussin-patate repose un marteau-patate. En vous approchant, vous lisez son nom sur un écriteau “Le pourfendeur des fées au cul lent lors de la grande bataille de Brocéliande en 453 : Patator”. Vous empoignez le marteau. Une sensation de puissance vous envahit malgré la légèreté de l’arme.",
-    "image": "",
+    "text":"Vous vous frayez un chemin à travers les hommages à la patate. Une poupée-patate, un fauteuil-patate, une fourchette-patate, une patate (bah oui), une guitare - c’est vrai qu’en fait ça ressemble un peu à une patate -, et quantité d’autres objets façonnés sur le modèle du saint féculent. Au fin fond de la pièce, entre un vase-patate et un balai-patate, vous trouvez finalement quelque chose d’utile : sur un piédestal-patate assorti d’un coussin-patate repose un marteau-patate. En vous approchant, vous lisez son nom sur un écriteau “Le pourfendeur des fées au cul lent lors de la grande bataille de Brocéliande en 453 : Patator”. Vous empoignez le marteau. Une sensation de puissance vous envahit malgré la légèreté de l’arme.",
+    "image": "assets/img/background/story/potatoeLivingRoom.svg",
     "buttons": [
       {
         "title": "Louée soit la patate",
-        "battle": false,
-        "weapons": {
-          "patator": true
-        },
         "quest": 176,
         "unique": false
       }
@@ -1607,24 +1471,21 @@
   {
     "_id": 83,
     "title": "L’élite des golems",
-    "text": "À votre grande surprise, l’endroit est bondé. Vous vous trouvez dans une grande bibliothèque où de nombreux golems à lunettes lisent avec application. Ce qui est plus étonnant encore que cette scène, c’est qu’aucun ne se jette sur vous pour vous rebattre les oreilles avec la grandeur de Merlin. Remarquant votre présence, l’un d’eux décolle le nez de son bouquin et s’approche de vous en mettant ses lunettes de côté. “Bienvenue aventurière, ravi de vous accueillir dans notre QG syndical. Nous sommes de fiers golems se battant pour faire valoir nos droits auprès de Merlin. Nous lui avons envoyé plusieurs négociateurs avec des revendications salariales et de temps de travail. Jusqu’ici il ne s’est pas montré très enclin à la conversation, pas vrai Timmy ?” Il caresse un petit caillou posé sur un meuble à sa gauche. Visiblement la négociation de Timmy s’est révélée infructueuse.",
-    "image": "",
+    "text":"À votre grande surprise, l’endroit est bondé. Vous vous trouvez dans une grande bibliothèque où de nombreux golems à lunettes lisent avec application. Ce qui est plus étonnant encore que cette scène, c’est qu’aucun ne se jette sur vous pour vous rebattre les oreilles avec la grandeur de Merlin. Remarquant votre présence, l’un d’eux décolle le nez de son bouquin et s’approche de vous en mettant ses lunettes de côté. “Bienvenue aventurière, ravi de vous accueillir dans notre QG syndical. Nous sommes de fiers golems se battant pour faire valoir nos droits auprès de Merlin. Nous lui avons envoyé plusieurs négociateurs avec des revendications salariales et de temps de travail. Jusqu’ici il ne s’est pas montré très enclin à la conversation, pas vrai Timmy ?” Il caresse un petit caillou posé sur un meuble à sa gauche. Visiblement la négociation de Timmy s’est révélée infructueuse.",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Discuter du mouvement syndical",
-        "battle": false,
         "quest": 84,
         "unique": false
       },
       {
         "title": "Interroger les golems pour savoir où est Merlin",
-        "battle": false,
         "quest": 174,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Prendre un livre et s'asseoir",
-        "battle": false,
         "quest": 90,
         "unique": false
       }
@@ -1633,18 +1494,16 @@
   {
     "_id": 84,
     "title": "La Confédération Golémique du Travail",
-    "text": "Trop heureux de trouver un potentiel partisan, le golem ne se fait pas prier pour vous détailler par le menu les tenants et les aboutissants de son mouvement syndical. “Nous sommes la CGT - ou Confédération Golémique du Travail, scande-t-il en se frappant la poitrine dans un “poc” retentissant. Notre but est de défendre les honnêtes golems qui entretiennent l’image de Merlin.”",
-    "image": "",
+    "text":"Trop heureux de trouver un potentiel partisan, le golem ne se fait pas prier pour vous détailler par le menu les tenants et les aboutissants de son mouvement syndical. “Nous sommes la CGT - ou Confédération Golémique du Travail, scande-t-il en se frappant la poitrine dans un “poc” retentissant. Notre but est de défendre les honnêtes golems qui entretiennent l’image de Merlin.”",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Lui faire remarquer qu’ils produisent surtout l’effet inverse",
-        "battle": false,
         "quest": 85,
         "unique": false
       },
       {
         "title": "Mais c’est très intéressant ça, dites donc",
-        "battle": false,
         "quest": 88,
         "unique": false
       }
@@ -1653,18 +1512,16 @@
   {
     "_id": 85,
     "title": "Représentant du patronat",
-    "text": "Le visage de votre interlocuteur se renfrogne dans un bruit de crissement de pierres. “C’est lui qui vous envoie, n’est-ce pas ? Vous êtes là pour nous réprimander, vous aussi ! On ne fait pas assez bien notre travail pour vous ! Allez, dégagez le plancher avant que je m’assoie sur votre visage.” Cette proposition n’a rien de scabreux : vu son poids, s’il s’assoit sur votre visage le menhir, c’en est fini de votre jolie petite gueule d’amour.",
-    "image": "",
+    "text":"Le visage de votre interlocuteur se renfrogne dans un bruit de crissement de pierres. “C’est lui qui vous envoie, n’est-ce pas ? Vous êtes là pour nous réprimander, vous aussi ! On ne fait pas assez bien notre travail pour vous ! Allez, dégagez le plancher avant que je m’assoie sur votre visage.” Cette proposition n’a rien de scabreux : vu son poids, s’il s’assoit sur votre visage le menhir, c’en est fini de votre jolie petite gueule d’amour.",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Vous excuser platement et sortir",
-        "battle": false,
         "quest": 176,
         "unique": false
       },
       {
         "title": "En voilà une proposition alléchante…",
-        "battle": false,
         "quest": 86,
         "unique": false
       }
@@ -1672,13 +1529,12 @@
   },
   {
     "_id": 86,
-    "title": "",
-    "text": "Ah vraiment ? Et du coup qu’est-ce que vous n’avez pas compris dans le paragraphe précédent ? Non parce qu’à moins d’avoir un délire érotico-suicidaire, là ça veut dire que vous êtes tellement en chien (sur des golems de pierre, pas sexy pour un sou qui plus est) que vous êtes prête à vous faire écrabouiller le visage, probablement avant d’avoir ressenti une once de plaisir.",
-    "image": "",
+    "title": "On vous juge, là",
+    "text":"Ah vraiment ? Et du coup qu’est-ce que vous n’avez pas compris dans le paragraphe précédent ? Non parce qu’à moins d’avoir un délire érotico-suicidaire, là ça veut dire que vous êtes tellement en chien (sur des golems de pierre, pas sexy pour un sou qui plus est) que vous êtes prête à vous faire écrabouiller le visage, probablement avant d’avoir ressenti une once de plaisir.",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "On vous juge, là",
-        "battle": false,
         "quest": 87,
         "unique": false
       }
@@ -1687,12 +1543,11 @@
   {
     "_id": 87,
     "title": "Lol, non (Revenir en arrière)",
-    "text": "Vous avez cliqué, faut assumer vos délires pervers maintenant. Bon, ben quand faut y aller… Les golems s’approchent de vous. Ils se lèvent en abandonnant leurs lectures, leur démarche est menaçante, mais vous vous la trouvez sensuelle, parce que vous êtes TARÉE. Les mains du premier golem se referment sur vous avant que vous ayez le temps de dire “je suis une tordue” et vous plaquent à terre. Vous ressentez une chaleur au creux de vos hanches… SÉRIEUSEMENT ?! Pendant que le puissant menhir vous maintient au sol, ses collègues syndicalistes se grimpent dessus (arrêtez tout de suite vos pensées cheloues) pour former un mur… qui tombe sur vous sans préliminaire. Alors, vous avez kiffé ? Ce n’est pas comme si vous pouviez répondre, puisque vous avez à présent la consistance d’une pâte à crêpes.",
-    "image": "",
+    "text":"Vous avez cliqué, faut assumer vos délires pervers maintenant. Bon, ben quand faut y aller… Les golems s’approchent de vous. Ils se lèvent en abandonnant leurs lectures, leur démarche est menaçante, mais vous vous la trouvez sensuelle, parce que vous êtes TARÉE. Les mains du premier golem se referment sur vous avant que vous ayez le temps de dire “je suis une tordue” et vous plaquent à terre. Vous ressentez une chaleur au creux de vos hanches… SÉRIEUSEMENT ?! Pendant que le puissant menhir vous maintient au sol, ses collègues syndicalistes se grimpent dessus (arrêtez tout de suite vos pensées cheloues) pour former un mur… qui tombe sur vous sans préliminaire. Alors, vous avez kiffé ? Ce n’est pas comme si vous pouviez répondre, puisque vous avez à présent la consistance d’une pâte à crêpes.",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Accueillir la mort avec plaisir",
-        "battle": false,
         "quest": 1001,
         "unique": false
       }
@@ -1701,18 +1556,16 @@
   {
     "_id": 88,
     "title": "Et ce n’est pas tout",
-    "text": "Visiblement ravi de votre enthousiasme, il poursuit : “Nous souhaitons augmenter nos salaires afin qu’ils reflètent notre investissement réel sur le terrain. D’autant que plus les jours passent, plus nous avons de missions à remplir. Pas plus tard qu’hier, Merlin nous a sommés de vendre 5 calendriers “Les 12 mois de Merlin Taquin” par jour. Et bien sûr nous ne touchons rien là-dessus.” Vous le questionnez bien évidemment sur “Les 12 mois de Merlin Taquin”. “Oh, il s’agit d’un calendrier tout ce qu’il y a de plus classique, agrémenté de gravures de très grande qualité de notre seigneur Merlin dans des positions lascives et débarrassé de sa robe de magicien, à part son chapeau. Tenez, j’en ai un là justement !” Vous regretterez pour toujours d’avoir vu “Les 12 mois de Merlin Taquin”.",
-    "image": "",
+    "text":"Visiblement ravi de votre enthousiasme, il poursuit : “Nous souhaitons augmenter nos salaires afin qu’ils reflètent notre investissement réel sur le terrain. D’autant que plus les jours passent, plus nous avons de missions à remplir. Pas plus tard qu’hier, Merlin nous a sommés de vendre 5 calendriers “Les 12 mois de Merlin Taquin” par jour. Et bien sûr nous ne touchons rien là-dessus.” Vous le questionnez bien évidemment sur “Les 12 mois de Merlin Taquin”. “Oh, il s’agit d’un calendrier tout ce qu’il y a de plus classique, agrémenté de gravures de très grande qualité de notre seigneur Merlin dans des positions lascives et débarrassé de sa robe de magicien, à part son chapeau. Tenez, j’en ai un là justement !” Vous regretterez pour toujours d’avoir vu “Les 12 mois de Merlin Taquin”.",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Merci… je crois",
-        "battle": false,
         "quest": 176,
         "unique": false
       },
       {
         "title": "Interroger les golems de où se trouve Merlin",
-        "battle": false,
         "quest": 175,
         "unique": false
       }
@@ -1721,12 +1574,11 @@
   {
     "_id": 89,
     "title": "On devait se foutre de lui à l’école des vampires",
-    "text": "Cullen suit son repas végétarien des yeux. Il n’a pas le temps d'atterrir que le vampire se jette dessus. Heureusement que vous n’étiez pas un légume. Cela dit, si vous étiez un légume, vous ne seriez pas là de toute façon. D’ailleurs, si vous deviez vous réincarner en légume, vous choisiriez quoi ? Moi je vous vois bien en courgette. De mon côté, je me suis toujours dit que je serais une tomate du tonnerre. Au milieu des bruits secs et cassants de la végétation qu’on arrache, vous en profitez pour vous retourner et laisser derrière vous ce vampire qui a quelque peu perdu de sa superbe. Vous savez, au fond, que vous auriez préféré qu’il soit de la vieille école.",
-    "image": "",
+    "text":"Cullen suit son repas végétarien des yeux. Il n’a pas le temps d'atterrir que le vampire se jette dessus. Heureusement que vous n’étiez pas un légume. Cela dit, si vous étiez un légume, vous ne seriez pas là de toute façon. D’ailleurs, si vous deviez vous réincarner en légume, vous choisiriez quoi ? Moi je vous vois bien en courgette. De mon côté, je me suis toujours dit que je serais une tomate du tonnerre. Au milieu des bruits secs et cassants de la végétation qu’on arrache, vous en profitez pour vous retourner et laisser derrière vous ce vampire qui a quelque peu perdu de sa superbe. Vous savez, au fond, que vous auriez préféré qu’il soit de la vieille école.",
+    "image": "assets/img/background/story/vampire1.svg",
     "buttons": [
       {
         "title": "Sortir",
-        "battle": false,
         "quest": 63,
         "unique": false
       }
@@ -1735,8 +1587,8 @@
   {
     "_id": 90,
     "title": "Comme vous êtes studieuse (Prendre un livre et s’asseoir)",
-    "text": "“Je suis très intriguée par votre combat et je souhaite moi aussi m’instruire, me permettrez-vous de parcourir votre bibliothèque ?” Vous êtes tellement polie que vous vous surprenez vous-même. Sans doute est-ce l’effet de la pièce ou de la puissante aura d’érudition qui émane de ces golems à lunette. Le golem qui vous fait face sourit en tout cas jusqu’à ses oreilles en pierre. “Bien entendu, allez-y ! Au fait, moi c’est Jimmy, enchanté.”  Vous le dépassez pour aller fouiller la bibliothèque, parce que vous êtes toujours cette aventurière un peu rustre dans le fond. Après avoir parcouru quelques étagères, vous retenez trois titres qui vous paraissent intéressants. ",
-    "image": "",
+    "text":"“Je suis très intriguée par votre combat et je souhaite moi aussi m’instruire, me permettrez-vous de parcourir votre bibliothèque ?” Vous êtes tellement polie que vous vous surprenez vous-même. Sans doute est-ce l’effet de la pièce ou de la puissante aura d’érudition qui émane de ces golems à lunette. Le golem qui vous fait face sourit en tout cas jusqu’à ses oreilles en pierre. “Bien entendu, allez-y ! Au fait, moi c’est Jimmy, enchanté.”  Vous le dépassez pour aller fouiller la bibliothèque, parce que vous êtes toujours cette aventurière un peu rustre dans le fond. Après avoir parcouru quelques étagères, vous retenez trois titres qui vous paraissent intéressants. ",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "La lutte des classes",
@@ -1746,20 +1598,20 @@
       {
         "title": "La collection des objets en forme de patate : plus qu'un vocation, un art de vivre",
         "quest": 94,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Où trouver Merlin pour les Nuls",
         "quest": 95,
-        "unique": false
+        "unique": true
       }
     ]
   },
   {
     "_id": 91,
     "title": "La lutte des classes (“La lutte des classes”)",
-    "text": "Écrit par un certain Carlos Abalérich, la lutte des classes est un gros pavé qui postule que chaque individu habite dans une salle de classe. C’est philosophique, cherchez pas. Certains ont des craies pour écrire au tableau, d’autres ont des chiffonnettes pour l’essuyer. D’autres encore possèdent une chaise ou une table. Abalérich explique que ce n’est qu’en acceptant de tous se réunir dans une seule salle de classe et de mettre en commun tables, chaises, craies, chiffonnettes et tableaux que l’on pourra former l’école de l’humanité et tous s’élever vers une conscience supérieure, apte à prendre la place des grands reptiliens. Ou quelque chose du genre. Tout ceci arrivera le jour où chacun prendra conscience d’être seul dans sa salle de classe. Ce jour, ce sera celui de la Grande Sonnerie. Une question demeure cependant : qui deviendra alors le Grand Monarque, le Christ Cosmique qui guidera la salle de classe de l’humanité vers les étoiles ?",
-    "image": "",
+    "text":"Écrit par un certain Carlos Abalérich, la lutte des classes est un gros pavé qui postule que chaque individu habite dans une salle de classe. C’est philosophique, cherchez pas. Certains ont des craies pour écrire au tableau, d’autres ont des chiffonnettes pour l’essuyer. D’autres encore possèdent une chaise ou une table. Abalérich explique que ce n’est qu’en acceptant de tous se réunir dans une seule salle de classe et de mettre en commun tables, chaises, craies, chiffonnettes et tableaux que l’on pourra former l’école de l’humanité et tous s’élever vers une conscience supérieure, apte à prendre la place des grands reptiliens. Ou quelque chose du genre. Tout ceci arrivera le jour où chacun prendra conscience d’être seul dans sa salle de classe. Ce jour, ce sera celui de la Grande Sonnerie. Une question demeure cependant : qui deviendra alors le Grand Monarque, le Christ Cosmique qui guidera la salle de classe de l’humanité vers les étoiles ?",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Ce sera moi",
@@ -1776,8 +1628,8 @@
   {
     "_id": 92,
     "title": "Allons bon (Ce sera moi)",
-    "text": "Ne soyez pas ridicule.Vous rangez le livre.",
-    "image": "",
+    "text":"Ne soyez pas ridicule.Vous rangez le livre.",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Interroger les golems pour savoir où est Merlin",
@@ -1794,8 +1646,8 @@
   {
     "_id": 93,
     "title": "Super (Qui, en effet ?)",
-    "text": "Merci d’apporter votre inestimable contribution au débat.",
-    "image": "",
+    "text":"Merci d’apporter votre inestimable contribution au débat.",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Interroger les golems pour savoir où est Merlin",
@@ -1812,8 +1664,8 @@
   {
     "_id": 94,
     "title": "La collection des objets en forme de patate : plus qu’une vocation, un art de vivre (“La collection des objets en forme de patate : plus qu’une vocation, un art de vivre”)",
-    "text": "Le livre présente des gravures magnifiques représentant divers objets en forme de patate. Elles servent à illustrer un propos selon lequel la forme de la patate peut se retrouver en permanence dans notre quotidien : dans un nuage, dans une table, dans un cadre, etc. La “Congrégation de la Sainte Patate” a pour vocation de réunir un maximum de manifestations de cette forme en particulier. Il est question de tout une hygiène de vie basée sur le divin féculent : vous trouvez divers passages expliquant comment “dormir comme une patate” ou comment “éplucher une patate sans la faire souffrir” - car les patates sont destinées à être mangées par ses adorateurs pour qu’ils puissent absorber leur puissance. Vous trouvez plusieurs références à des artefacts mythiques, dont une puissante arme appelée “Patator”. Vous trouvez aussi beaucoup, beaucoup d’ennui entre les pages de cet étonnant bouquin. Vous refermez le tome épais et le remettez à sa place avant de vous diriger vers la sortie.",
-    "image": "",
+    "text":"Le livre présente des gravures magnifiques représentant divers objets en forme de patate. Elles servent à illustrer un propos selon lequel la forme de la patate peut se retrouver en permanence dans notre quotidien : dans un nuage, dans une table, dans un cadre, etc. La “Congrégation de la Sainte Patate” a pour vocation de réunir un maximum de manifestations de cette forme en particulier. Il est question de tout une hygiène de vie basée sur le divin féculent : vous trouvez divers passages expliquant comment “dormir comme une patate” ou comment “éplucher une patate sans la faire souffrir” - car les patates sont destinées à être mangées par ses adorateurs pour qu’ils puissent absorber leur puissance. Vous trouvez plusieurs références à des artefacts mythiques, dont une puissante arme appelée “Patator”. Vous trouvez aussi beaucoup, beaucoup d’ennui entre les pages de cet étonnant bouquin. Vous refermez le tome épais et le remettez à sa place avant de vous diriger vers la sortie.",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Loué soit le patate",
@@ -1825,8 +1677,8 @@
   {
     "_id": 95,
     "title": "Où trouver Merlin pour les Nuls (“Où trouver Merlin pour les Nuls”)",
-    "text": " Le tome est bien épais, et vous vous employez à le lire avec application, vu que c’est justement pour trouver Merlin que vous êtes là. Le hasard des fois c’est fou, non ? Franchement, quelles étaient les chances pour que vous trouviez précisément ce bouquin, alors qu’il répond précisément à votre question ? C’est dingue, quand même. Moi en tout cas je trouve ça dingue. Dès les premières lignes, le livre vous accroche en vous recommandant de “bien rester jusqu’à la fin” pour ne pas louper l’annonce de l’endroit où se trouve Merlin. Vous êtes un peu dubitative quand vous abordez le passage sur la reproduction chez les sangsues de rivière, et plus encore quand vous arrivez à celui qui explique comment monter un meuble sans effort, mais vous tenez bon. Arrivée à la page 531, vous découvrez, médusée, qu’il n’y a plus de texte. Pendant au moins 500 pages, facile. Lorsque vous tombez sur la dernière, vous y trouvez la ligne suivante : “Ha ! Parce que vous avez vraiment cru que vous me trouveriez comme ça ?” Vous refermez le livre avec rage. Une légère odeur de savon remonte et vient vous chatouiller les narines. Vous vous dirigez vers la sortie. ",
-    "image": "",
+    "text":" Le tome est bien épais, et vous vous employez à le lire avec application, vu que c’est justement pour trouver Merlin que vous êtes là. Le hasard des fois c’est fou, non ? Franchement, quelles étaient les chances pour que vous trouviez précisément ce bouquin, alors qu’il répond précisément à votre question ? C’est dingue, quand même. Moi en tout cas je trouve ça dingue. Dès les premières lignes, le livre vous accroche en vous recommandant de “bien rester jusqu’à la fin” pour ne pas louper l’annonce de l’endroit où se trouve Merlin. Vous êtes un peu dubitative quand vous abordez le passage sur la reproduction chez les sangsues de rivière, et plus encore quand vous arrivez à celui qui explique comment monter un meuble sans effort, mais vous tenez bon. Arrivée à la page 531, vous découvrez, médusée, qu’il n’y a plus de texte. Pendant au moins 500 pages, facile. Lorsque vous tombez sur la dernière, vous y trouvez la ligne suivante : “Ha ! Parce que vous avez vraiment cru que vous me trouveriez comme ça ?” Vous refermez le livre avec rage. Une légère odeur de savon remonte et vient vous chatouiller les narines. Vous vous dirigez vers la sortie. ",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Au moins je sais monter un meuble sans effort, maintenant",
@@ -1838,8 +1690,8 @@
   {
     "_id": 96,
     "title": "C’est l’histoire d’un mec…",
-    "text": "Qu'est-ce qui fait toin toin ? Un tanard.",
-    "image": "",
+    "text":"Qu'est-ce qui fait toin toin ? Un tanard.",
+    "image": "assets/img/background/story/darkness1.svg",
     "buttons": [
       {
         "title": "Encore !",
@@ -1856,8 +1708,8 @@
   {
     "_id": 97,
     "title": "C’est l’histoire d’un mec… encore…",
-    "text": "Qu'est-ce qui est vert avec une cape ? Un concombre qui imite Super Tomate.",
-    "image": "",
+    "text":"Qu'est-ce qui est vert avec une cape ? Un concombre qui imite Super Tomate.",
+    "image": "assets/img/background/story/darkness1.svg",
     "buttons": [
       {
         "title": "Encore !",
@@ -1874,8 +1726,8 @@
   {
     "_id": 98,
     "title": "Badum tss",
-    "text": "Deux œufs discutent : – Pourquoi t’es tout vert et aussi poilu ?  – Parce que j’suis un kiwi, connard",
-    "image": "",
+    "text":"Deux œufs discutent : – Pourquoi t’es tout vert et aussi poilu ?  – Parce que j’suis un kiwi, connard",
+    "image": "assets/img/background/story/darkness1.svg",
     "buttons": [
       {
         "title": "Cette fois je me casse",
@@ -1887,8 +1739,8 @@
   {
     "_id": 99,
     "title": "Le dressing",
-    "text": "L’endroit est un peu moins reluisant que le hall du château, mais vous lui trouvez néanmoins un certain charme. Après considération, vous estimez qu’il doit s’agir d’un dressing. Vous y trouvez une bonne cinquantaine de robes de magicien, toutes semblables. Une autre porte face à vous mène vers la chambre à coucher. Et ça vous le savez parce qu’il y a un lit gravé dessus.",
-    "image": "",
+    "text":"L’endroit est un peu moins reluisant que le hall du château, mais vous lui trouvez néanmoins un certain charme. Après considération, vous estimez qu’il doit s’agir d’un dressing. Vous y trouvez une bonne cinquantaine de robes de magicien, toutes semblables. Une autre porte face à vous mène vers la chambre à coucher. Et ça vous le savez parce qu’il y a un lit gravé dessus.",
+    "image": "assets/img/background/story/dressing.svg",
     "buttons": [
       {
         "title": "Chambre à coucher",
@@ -1905,9 +1757,9 @@
   {
     "_id": 100,
     "title": "Fantômes au rabais",
-    "item": 5,
-    "text": "Cette pièce est plongée dans les ténèbres, mais vous parvenez tout de même à discerner des formes qui brillent d’une aura bleutée. L’une d’elles se rapproche de vous. Elle esquisse des mouvements circulaires et vous entendez distinctement une voix : “OOuuuuuhhh !” C’est supposé vous faire peur, vous percevez bien l’intention, mais l’exécution n’y est pas. Le fait que la forme se mange un porte-manteau au passage n’aide en rien à renforcer la crédibilité de sa démarche, pas plus que le “aïe” qui interrompt brièvement son hululement. Arrivée à votre niveau, cette forme se révèle être un grand drap blanc flottant dans les airs. Voyant qu’il ne vous fera pas lâcher ne serait-ce qu’un sanglot, il désespère. “Oh allez quoi… franchement à part le porte-manteau c’était pas si mal ! Accepteriez-vous de répondre à un questionnaire sur mes performances pour m’aider à m’améliorer ?” Vous n’avez pas super envie de répondre à un questionnaire, évidemment. Vous avez plutôt envie de savoir ce qui se trame dans cette pièce. “Nous sommes tous les fantômes ratés que Merlin à invoqués. Nul d’entre nous ne souhaite terroriser les gens du villages, ce n’est pas notre vocation, mais ça môssieur Merlin ne veut pas l’entendre et préfère nous qualifier de “gros nuls”. Moi par exemple, je raconte d’excellentes blagues, j’ai toujours voulu monter un one ghost show.” En jetant un œil autour de vous, vous constater la présence d’une dizaine de draps fantomatiques. Et aucun ne vous fait peur. Tout à coup, vous sentez quelque chose contre votre jambe. “Lui on l’appelle Monsieur Propre, parce qu’il passe son temps à tout essuyer. Visiblement vous traînez pas mal de crasse, il a l’air d’être concentré sur vous. Vous ne pourrez plus vous en dépêtrer. Vous voulez entendre une blague ?” ",
-    "image": "",
+    "item" : 5,
+    "text":"Cette pièce est plongée dans les ténèbres, mais vous parvenez tout de même à discerner des formes qui brillent d’une aura bleutée. L’une d’elles se rapproche de vous. Elle esquisse des mouvements circulaires et vous entendez distinctement une voix : “OOuuuuuhhh !” C’est supposé vous faire peur, vous percevez bien l’intention, mais l’exécution n’y est pas. Le fait que la forme se mange un porte-manteau au passage n’aide en rien à renforcer la crédibilité de sa démarche, pas plus que le “aïe” qui interrompt brièvement son hululement. Arrivée à votre niveau, cette forme se révèle être un grand drap blanc flottant dans les airs. Voyant qu’il ne vous fera pas lâcher ne serait-ce qu’un sanglot, il désespère. “Oh allez quoi… franchement à part le porte-manteau c’était pas si mal ! Accepteriez-vous de répondre à un questionnaire sur mes performances pour m’aider à m’améliorer ?” Vous n’avez pas super envie de répondre à un questionnaire, évidemment. Vous avez plutôt envie de savoir ce qui se trame dans cette pièce. “Nous sommes tous les fantômes ratés que Merlin à invoqués. Nul d’entre nous ne souhaite terroriser les gens du villages, ce n’est pas notre vocation, mais ça môssieur Merlin ne veut pas l’entendre et préfère nous qualifier de “gros nuls”. Moi par exemple, je raconte d’excellentes blagues, j’ai toujours voulu monter un one ghost show.” En jetant un œil autour de vous, vous constater la présence d’une dizaine de draps fantomatiques. Et aucun ne vous fait peur. Tout à coup, vous sentez quelque chose contre votre jambe. “Lui on l’appelle Monsieur Propre, parce qu’il passe son temps à tout essuyer. Visiblement vous traînez pas mal de crasse, il a l’air d’être concentré sur vous. Vous ne pourrez plus vous en dépêtrer. Vous voulez entendre une blague ?” ",
+    "image": "assets/img/background/story/darkness1.svg",
     "buttons": [
       {
         "title": "Évidemment, j’adore l’humour",
@@ -1924,18 +1776,18 @@
   {
     "_id": 101,
     "title": "Le repos de la guerrière",
-    "text": "Bingo ! Il s’agit bien d’une chambre à coucher et… non, relevez-vous. Décollez de ce matelas immédiatement… Vous vous réveillez après deux heures d’une sieste que certains pourraient estimer méritée. D’autres non. Je ne vous file pas les proportions, mais la majorité est écrasante. Maintenant que vous prenez le temps de regarder autour de vous, vous constatez que la chambre est plutôt modeste (mais tout de même spacieuse). Seuls quelques meubles peuplent la pièce. Une porte assortie d’un petit miroir vous renvoie votre image sur votre droite. Mais que sentez-vous sous vos pieds ? C’est si moelleux que vous le sentez à travers vos bottes… En baissant les yeux vous découvrez un tapis d’au moins 5 centimètres d’épaisseur, et vos bottes s’enfoncent doucement dedans. Cela vous fait l’effet d’un petit nid douillet dans lequel vous avez envie de vous lover pour profiter d’une petite extension de sieste. ",
-    "image": "",
+    "text":"Bingo ! Il s’agit bien d’une chambre à coucher et… non, relevez-vous. Décollez de ce matelas immédiatement… Vous vous réveillez après deux heures d’une sieste que certains pourraient estimer méritée. D’autres non. Je ne vous file pas les proportions, mais la majorité est écrasante. Maintenant que vous prenez le temps de regarder autour de vous, vous constatez que la chambre est plutôt modeste (mais tout de même spacieuse). Seuls quelques meubles peuplent la pièce. Une porte assortie d’un petit miroir vous renvoie votre image sur votre droite. Mais que sentez-vous sous vos pieds ? C’est si moelleux que vous le sentez à travers vos bottes… En baissant les yeux vous découvrez un tapis d’au moins 5 centimètres d’épaisseur, et vos bottes s’enfoncent doucement dedans. Cela vous fait l’effet d’un petit nid douillet dans lequel vous avez envie de vous lover pour profiter d’une petite extension de sieste. ",
+    "image": "assets/img/background/story/bedroom1.svg",
     "buttons": [
       {
         "title": "Dormir sur le tapis",
         "quest": 102,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Fouiller les meubles",
         "quest": 103,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Ouvrir la porte au miroir",
@@ -1948,8 +1800,8 @@
     "_id": 102,
     "title": "Le tapis du bonheur",
     "heal": 1,
-    "text": "C’est le meilleur tapis sur lequel vous avez piqué un somme (oui, il y en a eu plusieurs). Vous vous enfoncez dans sa matière duveteuse avec un plaisir certain. Le paradis molletonné vous enveloppe tout entière et vous voilà à rêver, vous qui ne rêvez jamais. Au creux de votre esprit, vous revivez les moments d’intense bonheur de votre existence : le jour où vous avez découvert la raclette, celui où vous avez décidé de sortir des carcans et de vivre la vie d’aventurière. Voilà c’est tout. En même temps, il est question de moments de bonheur “intense”, ce n’est pas tous les jours non plus. Quoi qu’il en soit, vous sortez de cette sieste (à contrecœur) revigorée.",
-    "image": "",
+    "text":"C’est le meilleur tapis sur lequel vous avez piqué un somme (oui, il y en a eu plusieurs). Vous vous enfoncez dans sa matière duveteuse avec un plaisir certain. Le paradis molletonné vous enveloppe tout entière et vous voilà à rêver, vous qui ne rêvez jamais. Au creux de votre esprit, vous revivez les moments d’intense bonheur de votre existence : le jour où vous avez découvert la raclette, celui où vous avez décidé de sortir des carcans et de vivre la vie d’aventurière. Voilà c’est tout. En même temps, il est question de moments de bonheur “intense”, ce n’est pas tous les jours non plus. Quoi qu’il en soit, vous sortez de cette sieste (à contrecœur) revigorée.",
+    "image": "assets/img/background/story/bedroom1.svg",
     "buttons": [
       {
         "title": "Je t’aime, tapis",
@@ -1961,8 +1813,8 @@
   {
     "_id": 103,
     "title": "Les trésors du magicien",
-    "text": "Vous ouvrez et videz les trois meubles qui habillent la pièce. Vous ne pouviez pas vous contenter de regarder, non. Il fallait que vous les vidiez. Évidemment. Dans le foutoir que vous avez créé, vous trouvez un assortiment de petits objets - tous ont la forme d’une patate -, plusieurs bouquins dont un renfermant un exemplaire de “Démones chaudes”, un petit livret essentiellement graphique présentant des gravures pour le moins osées. Il y a aussi des petites statuettes décoratives, en plusieurs morceaux maintenant grâce à vous, et… un jouet imitant les traits d’un canard jaune, composé d’une matière étonnante, à la fois souple et solide. En le retournant, vous pouvez lire “CANARD DE L’APOCALYPSE” sous ses fesses.",
-    "image": "",
+    "text":"Vous ouvrez et videz les trois meubles qui habillent la pièce. Vous ne pouviez pas vous contenter de regarder, non. Il fallait que vous les vidiez. Évidemment. Dans le foutoir que vous avez créé, vous trouvez un assortiment de petits objets - tous ont la forme d’une patate -, plusieurs bouquins dont un renfermant un exemplaire de “Démones chaudes”, un petit livret essentiellement graphique présentant des gravures pour le moins osées. Il y a aussi des petites statuettes décoratives, en plusieurs morceaux maintenant grâce à vous, et… un jouet imitant les traits d’un canard jaune, composé d’une matière étonnante, à la fois souple et solide. En le retournant, vous pouvez lire “CANARD DE L’APOCALYPSE” sous ses fesses.",
+    "image": "assets/img/background/story/bedroom1.svg",
     "buttons": [
       {
         "title": "Ça sent la puissance, le garder",
@@ -2108,6 +1960,7 @@
     "title": "Pacifier le vioc",
     "text": "Merlin invoque son grimoire, qui apparaît entre ses mains. Cet objet est responsable de tous les maux des villageois, et vous savez qu’il pourrait aussi causer votre perte. Vous tirez votre arme, prête à éliminer le vieux magicien complètement défoncé qui se tient devant vous, toujours en robe ouverte sur caleçon.",
     "image": "",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Dégainer le Canard de l'Apocalypse",
@@ -2125,8 +1978,9 @@
   {
     "_id": 112,
     "title": "L’apocalypse (Dégainer le Canard de l’Apocalypse)",
-    "text": "Le Canard de l’Apocalypse vibre dans votre poche. Vous le sortez et le brandissez. Vous mourrez. Tout le monde meurt. Le royaume d’Angleterre explose et le monde entier est désintégré. En même temps, vous avez utilisé un objet qui a “Apocalypse” dans son nom.",
-    "image": "",
+    "text":"Le Canard de l’Apocalypse vibre dans votre poche. Vous le sortez et le brandissez. Vous mourrez. Tout le monde meurt. Le royaume d’Angleterre explose et le monde entier est désintégré. En même temps, vous avez utilisé un objet qui a “Apocalypse” dans son nom.",
+    "image": "assets/img/background/story/death1.svg",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Coin Coin",
@@ -2140,6 +1994,7 @@
     "title": "Fermeture du grimoire (Bataille contre Merlin - Réussite)",
     "text": "Merlin raille votre petite manœuvre : “Ha ! Vous comptez éteindre l’essence même du feu stellaire avec un seau d’eau ? Pauvre sotte !” En entrant en contact avec “l’essence même du feu stellaire” (il se la pète de ouf ce Merlin quand même), l’eau se transforme en vapeur. Et c’est l’effet recherché. Le vieux magicien ne vous voit plus à présent, tandis que vous le repérez grâce à la pointe de son chapeau.L’air est expulsé de ses poumons lorsque vous lui enfoncez votre lame dans la poitrine. Alors que ses yeux se voilent, l’environnement autour de vous se brouille. Lorsqu’il se stabilise de nouveau, vous êtes à l’extérieur du château. C’est là que Merlin commence à.. changer. ",
     "image": "",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Ah",
@@ -2151,8 +2006,9 @@
   {
     "_id": 114,
     "title": "Un dragon, évidemment (Ah)",
-    "text": "Les membres du magicien se désarticulent. Les contorsions mutilent son corps, qui se convulse tout en se couvrant de tumeurs hideuses. Elles grossissent jusqu’à elles-mêmes engendrer de nouvelles grosseurs… Peu à peu, vous réalisez que Merlin adopte une nouvelle forme, celle d’un dragon monstrueux et menaçant. La transformation achevée, il crache une gerbe de flammes qui embrase le château, puis vous regarde de ses yeux perçants avant de hurler… et ça fait pouic. Genre son cri, c’est *pouiiiiiic*. Vous sentez un fou rire monter, mais vous le réprimez en vous concentrant sur l’idée qu’être ridicule ne l’empêche en aucun cas de vous dévorer. Mais quand même… *pouiiiiiic*.",
-    "image": "",
+    "text":"Les membres du magicien se désarticulent. Les contorsions mutilent son corps, qui se convulse tout en se couvrant de tumeurs hideuses. Elles grossissent jusqu’à elles-mêmes engendrer de nouvelles grosseurs… Peu à peu, vous réalisez que Merlin adopte une nouvelle forme, celle d’un dragon monstrueux et menaçant. La transformation achevée, il crache une gerbe de flammes qui embrase le château, puis vous regarde de ses yeux perçants avant de hurler… et ça fait pouic. Genre son cri, c’est *pouiiiiiic*. Vous sentez un fou rire monter, mais vous le réprimez en vous concentrant sur l’idée qu’être ridicule ne l’empêche en aucun cas de vous dévorer. Mais quand même… *pouiiiiiic*.",
+    "image": "assets/img/background/story/spittingFire1.svg",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Attaquer avec votre Canard de l'Apocalypse",
@@ -2171,8 +2027,9 @@
     "_id": 115,
     "battle": true,
     "title": "Combat contre Merlin",
-    "text": "Le magicien prononce une brève incantation. La puissance des mots vous touche en plein cœur et vous êtes propulsée contre le miroir duquel vous venez d’émerger. Les éclats retombent autour de vous en une pluie tranchante. Vous ignorez la douleur des multiples coupures dont vous écopez et vous servez des fragments comme de dagues de lancer. Merlin est surpris par cette initiative et parvient à lancer un sort de protection au dernier moment. Vos dagues improvisées se brisent sans lui faire le moindre mal, et le voilà qui prépare déjà un nouveau sort, qui s’annonce bien plus menaçant : un boule semblable à un soleil miniature se met à irradier entre ses mains. Vous jetez votre arme sur une grande bassine posée à proximité de la baignoire. L’eau qu’elle contient jaillit sur le globe iridescent. ",
-    "image": "",
+    "text":"Le magicien prononce une brève incantation. La puissance des mots vous touche en plein cœur et vous êtes propulsée contre le miroir duquel vous venez d’émerger. Les éclats retombent autour de vous en une pluie tranchante. Vous ignorez la douleur des multiples coupures dont vous écopez et vous servez des fragments comme de dagues de lancer. Merlin est surpris par cette initiative et parvient à lancer un sort de protection au dernier moment. Vos dagues improvisées se brisent sans lui faire le moindre mal, et le voilà qui prépare déjà un nouveau sort, qui s’annonce bien plus menaçant : un boule semblable à un soleil miniature se met à irradier entre ses mains. Vous jetez votre arme sur une grande bassine posée à proximité de la baignoire. L’eau qu’elle contient jaillit sur le globe iridescent. ",
+    "image": "assets/img/background/story/arena.svg",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Poursuivre le combat",
@@ -2185,8 +2042,9 @@
     "_id": 116,
     "battle": true,
     "title": "Combat contre le Dragon Pouic",
-    "text": "Après un nouveau *pouiiiiiic*, le dragon crache une nouvelle gerbe de flammes, sur vous cette fois. Vous vous jetez derrière un rocher, qui menace de fondre. Soudain, la chaleur se résorbe et vous entendez ce qui ressemble à une quinte de toux. Un coup d’œil au-delà de votre rocher pathétique et complètement ravagé vous permet de constater que papi dragon y a été un peu trop fort. C’est votre moment, vous sautez par-dessus le rocher, mais dès que vous approchez de la créature, vous êtes projetée d’un revers de patte. Heureusement, vous avez la présence d’esprit de planter votre arme vers l’avant. Coup de chance ou coup de maîtresse, vous accrochez l’aile du draconide, ce qui vous permet de ralentir votre chute et de lui asséner un premier coup. Vous atterrissez non loin de l’un des pattes antérieures.",
-    "image": "",
+    "text":"Après un nouveau *pouiiiiiic*, le dragon crache une nouvelle gerbe de flammes, sur vous cette fois. Vous vous jetez derrière un rocher, qui menace de fondre. Soudain, la chaleur se résorbe et vous entendez ce qui ressemble à une quinte de toux. Un coup d’œil au-delà de votre rocher pathétique et complètement ravagé vous permet de constater que papi dragon y a été un peu trop fort. C’est votre moment, vous sautez par-dessus le rocher, mais dès que vous approchez de la créature, vous êtes projetée d’un revers de patte. Heureusement, vous avez la présence d’esprit de planter votre arme vers l’avant. Coup de chance ou coup de maîtresse, vous accrochez l’aile du draconide, ce qui vous permet de ralentir votre chute et de lui asséner un premier coup. Vous atterrissez non loin de l’un des pattes antérieures.",
+    "image": "assets/img/background/story/spittingFire1.svg",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Poursuivre votre combat",
@@ -2198,8 +2056,9 @@
   {
     "_id": 117,
     "title": "Poursuivre votre combat",
-    "text": "Un coup de lame bien placé sectionne un tendon, ce qui contraint le dragon à plier. Au moment où sa tête s’effondre, vous êtes pile à côté pour l’accueillir, avec le tranchant de votre arme. Cette fois, c’en est fini de Merlin. Il lâche un ultime *pouiiiiiic* faiblard, qui renferme son dernier souffle. C’est alors que le grimoire de Merlin apparaît à votre hauteur. Pour une raison que vous ne sauriez expliquer, vous comprenez que vous êtes à présent la maîtresse de cet artefact ô combien puissant. Chouette bonus en plus de la prime qu’Arthur va vous verser.",
-    "image": "",
+    "text":"Un coup de lame bien placé sectionne un tendon, ce qui contraint le dragon à plier. Au moment où sa tête s’effondre, vous êtes pile à côté pour l’accueillir, avec le tranchant de votre arme. Cette fois, c’en est fini de Merlin. Il lâche un ultime *pouiiiiiic* faiblard, qui renferme son dernier souffle. C’est alors que le grimoire de Merlin apparaît à votre hauteur. Pour une raison que vous ne sauriez expliquer, vous comprenez que vous êtes à présent la maîtresse de cet artefact ô combien puissant. Chouette bonus en plus de la prime qu’Arthur va vous verser.",
+    "image": "assets/img/background/story/spittingFire1.svg",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Retourner chercher votre dû à Camelot",
@@ -3375,8 +3234,8 @@
     "_id": 169,
     "title": "Ça sent la puissance, le garder",
     "item": 6,
-    "text": "Vous fourrez le Canard de l'Apocalypse dans votre sac. Il fait un coin coin pas net",
-    "image": "",
+    "text":"Vous fourrez le Canard de l'Apocalypse dans votre sac. Il fait un coin coin pas net",
+    "image": "assets/img/background/story/bedroom1.svg",
     "buttons": [
       {
         "title": "Continuer l'exploration du château",
@@ -3428,8 +3287,8 @@
   {
     "_id": 173,
     "title": "De précieux informateurs",
-    "text": "Passionnée par vos découvertes, vous vous entretenez longuement avec Jimmy, le golem qui vous a accueilli lorsque vous êtes entrée. Vous refaites plusieurs fois le monde et faites la connaissance de tous les golems réfractaires : Jimmy bien sûr, mais aussi Pimmy, Rimmy, Yimmy et Eymmi. Vous plaisantez à de nombreuses reprises sur le fait qu’il est beaucoup trop facile de confondre Jimmy avec Gimmy, alors même qu’ils ne sont clairement pas faits de la même pierre. Lorsqu’ils apprennent la raison de votre venue en ces lieux, ils vous révèlent tout ce qu’ils savent : Merlin a une nouvelle lubie chaque jour, et aujourd’hui ce sont les odeurs et la crasse qui l’obsèdent. Aux dernières nouvelles, le magicien déchu se trouverait dans sa salle de bains à récurer tout ce qu’il trouve. Vous quittez les golems après les avoir tous enlacés sans exception et promettez de revenir les voir pour parler philosophie.",
-    "image": "",
+    "text":"Passionnée par vos découvertes, vous vous entretenez longuement avec Jimmy, le golem qui vous a accueilli lorsque vous êtes entrée. Vous refaites plusieurs fois le monde et faites la connaissance de tous les golems réfractaires : Jimmy bien sûr, mais aussi Pimmy, Rimmy, Yimmy et Eymmi. Vous plaisantez à de nombreuses reprises sur le fait qu’il est beaucoup trop facile de confondre Jimmy avec Gimmy, alors même qu’ils ne sont clairement pas faits de la même pierre. Lorsqu’ils apprennent la raison de votre venue en ces lieux, ils vous révèlent tout ce qu’ils savent : Merlin a une nouvelle lubie chaque jour, et aujourd’hui ce sont les odeurs et la crasse qui l’obsèdent. Aux dernières nouvelles, le magicien déchu se trouverait dans sa salle de bains à récurer tout ce qu’il trouve. Vous quittez les golems après les avoir tous enlacés sans exception et promettez de revenir les voir pour parler philosophie.",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Sortir",
@@ -3467,8 +3326,8 @@
   {
     "_id": 176,
     "title": "Vous êtes en pétard",
-    "text": "Vous avez le choix entre une porte sculptée représentant une multitude de visages, une autre affublée du seul cadre de tout ce foutu couloir (il représente une forme ovale un peu indistincte). Il y a aussi celle qui semble impalpable. Vous pouvez aussi revenir en arrière, si vous arrêtez de vous plaindre deux secondes.",
-    "image": "",
+    "text":"Vous avez le choix entre une porte sculptée représentant une multitude de visages, une autre affublée du seul cadre de tout ce foutu couloir (il représente une forme ovale un peu indistincte). Il y a aussi celle qui semble impalpable. Vous pouvez aussi revenir en arrière, si vous arrêtez de vous plaindre deux secondes.",
+    "image": "assets/img/background/story/4doors.svg",
     "buttons": [
       {
         "title": "La porte aux multiples visage",
@@ -3515,9 +3374,9 @@
     "_id": 178,
     "battle": false,
     "title": "C’est un vampire",
-    "text": "C’est beau une confiance si aveugle, si ingénue. C’est beau et en même temps c’est totalement inconscient. Dès l’instant où vous lui tournez le dos, Edward Cullen cède à ses instincts et vous plante ses crocs dans la jugulaire. La prochaine fois, quand un vampire vous dira qu’il préfère la salade, vous ne vous laisserez pas avoir. Attendez, vous êtes morte, il n’y aura pas de prochaine fois.",
-    "image": "",
-    "sound": "assets/audio/skills1.mp3",
+    "text":"C’est beau une confiance si aveugle, si ingénue. C’est beau et en même temps c’est totalement inconscient. Dès l’instant où vous lui tournez le dos, Edward Cullen cède à ses instincts et vous plante ses crocs dans la jugulaire. La prochaine fois, quand un vampire vous dira qu’il préfère la salade, vous ne vous laisserez pas avoir. Attendez, vous êtes morte, il n’y aura pas de prochaine fois.",
+    "image": "assets/img/background/story/vampire1.svg",
+    "sound":"assets/audio/battle.mp3",
     "buttons": [
       {
         "title": "Ma foi dans les vampires est sérieusement ébranlée",
@@ -3532,7 +3391,7 @@
     "title": "C’est l’heure du du-du-du-duel",
     "text": " “Merci, mais la proposition ne m’intéresse guère.” Par ces mots, vous avez scellé votre destin. Enfin surtout le leur. Mais eux ils croient que vous avez scellé le votre, de destin. Alors qu’en fait non, ils sont bêtes, c’est eux qui vont mourir. Peut-être. Ils sont trois quand même.Avant qu’ils aient eu le temps de réagir, vous vous jetez sur le plus grand, qui vous a alpagué, l’arme au poing.",
     "image": "assets/img/background/story/arena.svg",
-    "sound": "assets/audio/skills1.mp3",
+    "sound": "assets/audio/battle.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3547,7 +3406,7 @@
     "title": "Repousser les Rel’Ours",
     "text": "Vous attrapez votre arme en toute hâte et fendez l’air à plusieurs reprises pour effrayer vos adversaires peloteurs. Cela fonctionne brièvement grâce à l’effet de surprise, mais les Rel’Ours, c’est persévérant.",
     "image": "assets/img/background/story/arena.svg",
-    "sound": "assets/audio/skills1.mp3",
+    "sound": "assets/audio/battle.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3562,7 +3421,7 @@
     "title": "Le géant terrassé ",
     "text": "Vous frappez un coup, puis deux, sans toutefois faire mouche. Votre adversaire vous repousse d’un simple revers de la main. Le mur que vous percutez vide l’air de vos poumons. Alors que le gardien s’approche, vous percevez les vibrations du sol dans vos mains et vos genoux à chacun de ses pas. Vous êtes toujours à quatre pattes, haletante, lorsqu’il vous saisit. ",
     "image": "assets/img/background/story/arena.svg",
-    "sound": "assets/audio/skills1.mp3",
+    "sound": "assets/audio/battle.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3577,7 +3436,7 @@
     "title": "Brochette de géant",
     "text": "Entre les jambes du gardien, vous remarquez un énorme cristal très pointu à quelques mètres derrière lui. Vous prétextez vouloir résoudre son énigme, le laissant plonger dans ses réflexions pour vous en trouver une. C’est à ce moment que vous faites appel à toutes vos forces et poussez le géant d’un coup sec. ",
     "image": "assets/img/background/story/arena.svg",
-    "sound": "assets/audio/skills1.mp3",
+    "sound": "assets/audio/battle.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3592,7 +3451,7 @@
     "title": "C’est l’heure du pieu",
     "text": "C’est un vampire. Vous n’avez pas vraiment besoin d’une incitation supplémentaire pour le tuer. Enfin le retuer. Vu qu’il est déjà mort, techniquement. “Mais puisque je vous dis que je suis végé…” Il n’a pas le temps de finir sa phrase puisque votre poing s’écrase contre sa jolie petite frimousse bien peignée. C’est alors que Cullen semble beaucoup moins enclin au végétarisme. Une lueur rouge envahit ses yeux, ses canines deviennent plus saillantes et sa peau… sa peau brille ? Oui, sa peau brille. Edward devient une boule à facettes quand il est énervé. Pas commun ça.",
     "image": "assets/img/background/story/arena.svg",
-    "sound": "assets/audio/skills1.mp3",
+    "sound": "assets/audio/battle.mp3",
     "buttons": [
       {
         "title": "La mort du disco avant l’heure",
@@ -3605,9 +3464,9 @@
     "_id": 184,
     "battle": false,
     "title": "",
-    "text": "Vous êtes d’abord aveuglée par la lumière qui émane du vampire, ce qui lui donne l’occasion de vous asséner un coup de griffe qui vous lacère le bras. Votre arme tombe à terre. Edward sent que c’est son moment et vous saute dessus. Vous roulez à terre juste à temps, récupérant votre lame au passage. Pendant ce temps, le vampire plante ses dents dans la porte. Bien aiguisées ces dents. Un peu trop pour son propre bien apparemment. Un balayage net vient découper la tête d’Edward, ce qui interrompt immédiatement la soirée disco. Non pas que vous sachiez ce qu’est le disco. Le monde n’est pas encore prêt pour ça. Il n’est déjà pas prêt pour les vampires végétariens.",
-    "image": "",
-    "sound": "assets/audio/foret1.mp3",
+    "text":"Vous êtes d’abord aveuglée par la lumière qui émane du vampire, ce qui lui donne l’occasion de vous asséner un coup de griffe qui vous lacère le bras. Votre arme tombe à terre. Edward sent que c’est son moment et vous saute dessus. Vous roulez à terre juste à temps, récupérant votre lame au passage. Pendant ce temps, le vampire plante ses dents dans la porte. Bien aiguisées ces dents. Un peu trop pour son propre bien apparemment. Un balayage net vient découper la tête d’Edward, ce qui interrompt immédiatement la soirée disco. Non pas que vous sachiez ce qu’est le disco. Le monde n’est pas encore prêt pour ça. Il n’est déjà pas prêt pour les vampires végétariens.",
+    "image": "assets/img/background/story/vampire1.svg",
+    "sound":"assets/audio/foret1.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
