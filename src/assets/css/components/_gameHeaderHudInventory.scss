@@ -28,7 +28,7 @@
     .imgContainer {
       position: relative;
       width: 50px;
-      height: 110px;
+      height: 120px;
       z-index: 200;
       
       .invImg {
@@ -48,11 +48,20 @@
         z-index: 200000000000000000;
         padding: 5px;
         text-align: center;
-        font-size: .9rem;
-        background: whitesmoke;
-        border: solid #ffcdab;
+        font-size: .8rem;
+        background: url('../../img/ui/hud/boardMiddle.png');
+        background-size: 100px;
         white-space: nowrap;
         opacity: 0;
+      }
+
+      .itemDesc::before{
+        background: url('../../img/ui/hud/boardLeft.png');
+        background-size: 100px;
+      }
+
+      .itemDesc::after{
+        background: url('../../img/ui/hud/boardRight.png');
       }
 
       &:hover {

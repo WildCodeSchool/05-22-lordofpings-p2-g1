@@ -26,7 +26,7 @@ const GameStoryButtons = ({ quest, setPage, animation, hero }) => {
             <BigButton
               key={i}
               onclick={() => nextQuest(btn)}
-              text={btn.title}
+              text={btn.title} 
               height='75'
             />
           ))}
