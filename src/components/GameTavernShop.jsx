@@ -16,18 +16,17 @@ const GameTavernShop = ({ setMenu, hero, setHero }) => {
   }, [])
 
   const buyItem = article => {
-    // console.log({ article, hero })
-    if (hero.money >= article.shop.buyPrice) {
+    if (
+      hero.money >= article.shop.buyPrice &&
+      !hero.inventory.map(obj => obj.id).includes(article.id)
+    ) {
       setHero({
         ...hero,
         money: hero.money - article.shop.buyPrice,
         inventory: [...hero.inventory[0], article]
       })
       setMenu(0)
-
-      // console.log({ hero })
     }
-    // console.log('hero: ', hero)
   }
 
   return (
