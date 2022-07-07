@@ -1,7 +1,7 @@
 import MainBackground from '../components/MainBackground'
 
 import heroes from '../assets/json/heroes.json'
-import Archer from '../assets/img/heroes/archer.png'
+import Barbare from '../assets/img/heroes/archer.png'
 import knight from '../assets/img/heroes/knight.png'
 import { Link } from 'react-router-dom'
 
@@ -13,7 +13,7 @@ function Characters() {
 
   return (
     <div className='characters'>
-      <h1>Choisissez votre héros</h1>
+      <h1>Choisissez votre héroïne</h1>
 
       <div className='heroes'>
         {heroes &&
@@ -28,7 +28,7 @@ function Characters() {
                 >
                   <div className='hero' key={hero.name}>
                     <img
-                      src={hero?.class === 'archer' ? Archer : knight}
+                      src={hero?.class === 'barbare' ? Barbare : knight}
                       alt='hero'
                       className='imgHero'
                       draggable={false}

@@ -10,12 +10,6 @@ import shroom from '../assets/img/items/shroom.svg'
 import chiffon from '../assets/img/items/monsieurPropre.svg'
 import canard from '../assets/img/items/canardApocalypse.svg'
 import patator from '../assets/img/items/patator.svg'
-import starterSword from '../assets/img/items/weapons/sword1.svg'
-import combatSword from '../assets/img/items/weapons/sword2.svg'
-import warriorSword from '../assets/img/items/weapons/sword3.svg'
-import starterAxe from '../assets/img/items/weapons/axe1.svg'
-import combatAxe from '../assets/img/items/weapons/axe2.svg'
-import warriorAxe from '../assets/img/items/weapons/axe3.svg'
 
 const GameHeaderHudInventory = ({ hero }) => {
   const [inventoryState, setInventoryState] = useState(false)
@@ -158,7 +152,7 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (weap.name === 'Hâche de débutante') {
               return (
                 <div key={weap.id} className='imgContainer'>
-                  <img src={starterAxe} alt={weap.name} className='invImg' />{' '}
+                  <img src={weap.image} alt={weap.name} className='invImg' />{' '}
                   <p className='itemDesc'>{weap.description}</p>
                 </div>
               )
@@ -168,7 +162,7 @@ const GameHeaderHudInventory = ({ hero }) => {
                 <div key={weap.id} className='imgContainer'>
                   <img
                     key={weap.id}
-                    src={combatAxe}
+                    src={weap.image}
                     alt={weap.name}
                     className='invImg'
                   />
@@ -181,7 +175,7 @@ const GameHeaderHudInventory = ({ hero }) => {
                 <div key={weap.id} className='imgContainer'>
                   <img
                     key={weap.id}
-                    src={warriorAxe}
+                    src={weap.image}
                     alt={weap.name}
                     className='invImg'
                   />
@@ -194,7 +188,7 @@ const GameHeaderHudInventory = ({ hero }) => {
                 <div key={weap.id} className='imgContainer'>
                   <img
                     key={weap.id}
-                    src={starterSword}
+                    src={weap.image}
                     alt={weap.name}
                     className='invImg'
                   />
@@ -207,7 +201,7 @@ const GameHeaderHudInventory = ({ hero }) => {
                 <div key={weap.id} className='imgContainer'>
                   <img
                     key={weap.id}
-                    src={combatSword}
+                    src={weap.image}
                     alt={weap.name}
                     className='invImg'
                   />
@@ -220,7 +214,7 @@ const GameHeaderHudInventory = ({ hero }) => {
                 <div key={weap.id} className='imgContainer'>
                   <img
                     key={weap.id}
-                    src={warriorSword}
+                    src={weap.image}
                     alt={weap.name}
                     className='invImg'
                   />

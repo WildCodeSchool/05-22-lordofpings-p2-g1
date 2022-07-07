@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+
+
+.grandmaContainer {
+    cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+
+    .motherContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        border: solid goldenrod;
+        border-radius: 20px;
+        font-family: 'Cinzel Decorative', cursive;
+        color: goldenrod;
+        background-color: rgba(142, 41, 130, 0.6);}
+
+        hr {
+            display: flex;
+            align-items: center;
+            width: 90%;
+            background-color: goldenrod;
+            border: none;
+            height: 2px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: clamp(10px, 4vh 24px);
+            margin-top: 10%;
+        }
+
+        .formContainer {
+            font-size: 16px;
+            margin-top: 8%;
+            text-align: center;
+
+            label {
+                cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+            }    
+            input {
+                margin-left: 10px;
+                cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+            }
+        
+            select {
+                margin-left: 5px;
+                width: 70px;
+                cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+            }
+
+            .textMessage {
+                margin-left: 5px;
+                margin-top: 10px;
+                height: 160px;
+                width: 300px;
+                border-style: solid;
+                border-radius: 10px;
+                border-color: goldenrod;
+                padding: 0 0 120px 5px;
+            }
+
+            .section1 {
+                input {
+                    width: 153px;
+                }
+            }
+
+            button {
+                margin-top: 50px;
+                margin-bottom: 50px;
+                height: 5vh;
+                font-family: 'Cinzel Decorative', cursive;
+                color: goldenrod;
+                font-style: bold;
+                font-size: 16px;
+                background-color: #6C1C63;
+                border-style: solid;
+                border-radius: 25px;
+                border-color: goldenrod;
+                text-decoration: none;
+                cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+                    }
+}}
+
+    .return {
+        text-decoration: none;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    
+        button.rButton {
+            width: 90%;
+            height: 60px;
+            font-family: 'Cinzel Decorative', cursive;
+            text-decoration: none;
+            color: goldenrod;
+            font-style: bold;
+            font-size: 16px;
+            background-color: #6C1C63;
+            border-style: solid;
+            border-radius: 25px;
+            border-color: goldenrod;
+            cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+            text-decoration: none;
+        }    
+    

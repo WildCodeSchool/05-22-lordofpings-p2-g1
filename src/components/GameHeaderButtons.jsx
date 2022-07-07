@@ -6,6 +6,7 @@ import emptyIcon from '../assets/img/ui/volume/empty-icon.svg'
 import soundOff from '../assets/img/ui/volume/sound-off.svg'
 import soundOn from '../assets/img/ui/volume/sound-on.svg'
 import menuButton from '../assets/img/ui/menuButton.svg'
+import letterBoard from '../assets/img/ui/hud/letterBoard.svg'
 
 const GameHeaderButtons = ({ music, isPlayedYolo, volume, setVolume }) => {
   const getCookie = cname => {
@@ -44,11 +45,6 @@ const GameHeaderButtons = ({ music, isPlayedYolo, volume, setVolume }) => {
     getCookie('volumeToggle') === 'false' &&
       music?.current.audioEl.current.pause()
   }, [isSound])
-
-  console.log(
-    { isSound, volume, music, isPlayedYolo },
-    getCookie('volumeToggle')
-  )
   const play = () => {
     isPlayedYolo && (music?.current.audioEl.current.play(), setIsSound(true))
   }
@@ -84,6 +80,9 @@ const GameHeaderButtons = ({ music, isPlayedYolo, volume, setVolume }) => {
 
   return (
     <div className='gameHeaderButtons'>
+      <Link className='gameHeaderMenu' to='/contact'>
+        <img className='contactButton' src={letterBoard} alt='Contact button' />
+      </Link>
       <Link className='gameHeaderMenu' to='/'>
         <img src={menuButton} alt='Menu button' />
       </Link>

@@ -13,27 +13,27 @@
     }
 
     .blockStart {
-        width: 700px;
+        width: 40%;
         margin: 50px 90px;
         border: 2px solid #F79500;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
         background: #5D349270;
         opacity: 90%;
     }
-   
-    .title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: #F79500;
-        font-size: 4vh; 
-        font-family: 'Cinzel Decorative';       
-    }
 
+    .title {
+  text-align: center;
+  color: #F79500;
+  font-family: 'Cinzel Decorative';
+      h1  {
+        font-size: clamp(12px, 8vh, 60px)
+      }
+}
     .halogo {
-        width: 20%;
+        width: 30%;
         height: 20vh;
         z-index: 5;
         position: relative;
@@ -56,8 +56,10 @@
             animation: 2s ease-in .1s infinite alternate irradiate;
             z-index: -1;
           }
-    }
+    } 
 }
+
+
 
 @keyframes irradiate {
     from {  

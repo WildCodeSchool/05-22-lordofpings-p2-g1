@@ -4,6 +4,7 @@ import GameHeader from './GameHeader'
 import GameStoryBattle from './GameStoryBattle'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import items from '../assets/json/items.json'
 
 const GameStory = ({
   quest,
@@ -18,7 +19,48 @@ const GameStory = ({
   const [animation, setAnimation] = useState(true)
   const [showButton, setShowButton] = useState(false)
 
-  useEffect(() => setShowButton(!quest.battle), [quest])
+  useEffect(() => {
+    setShowButton(!quest?.battle)
+    // if (
+    //   quest?.item &&
+    //   !hero.inventory.items.map(obj => obj.id).includes(quest.item)
+    // ) {
+    //   setHero({
+    //     ...hero,
+    //     inventory: [...hero.inventory.items, items[1][quest.item - 1]]
+    //   })
+    // }
+    // if (!localStorage.getItem(quest._id)) {
+    //   if (quest?.money !== undefined) {
+    //     localStorage.setItem(quest._id, true)
+
+    //     if (quest.money === 0) {
+    //       setHero({
+    //         ...hero,
+    //         money: 0
+    //       })
+    //     } else {
+    //       setHero({
+    //         ...hero,
+    //         money: hero.money + quest.money
+    //       })
+    //     }
+    //   }
+    //   if (quest?.heal !== undefined) {
+    //     localStorage.setItem(quest._id, true)
+
+    //     if (hero.heal + quest.heal > 0) {
+    //       setHero({
+    //         ...hero,
+    //         heal: hero.heal - quest.heal
+    //       })
+    //     } else {
+    //       setPage(1001)
+    //     }
+    //   }
+    // }
+  }, [quest])
+
   return (
     <>
       <GameHeader
@@ -29,19 +71,22 @@ const GameStory = ({
         setVolume={setVolume}
       />
       <div className='gameStory'>
-        <Parchment
-          quest={quest}
-          animation={animation}
-          setAnimation={setAnimation}
-        />
-
-        {showButton && (
-          <Buttons
+        <div className='gameStoryBlock'>
+          <Parchment
             quest={quest}
-            setPage={animation === false && setPage}
             animation={animation}
+            setAnimation={setAnimation}
           />
-        )}
+
+          {showButton && (
+            <Buttons
+              hero={hero}
+              quest={quest}
+              setPage={animation === false && setPage}
+              animation={animation}
+            />
+          )}
+        </div>
 
         {quest?.battle && (
           <GameStoryBattle
@@ -49,6 +94,7 @@ const GameStory = ({
             setHero={setHero}
             setPage={setPage}
             quest={quest}
+            showButton={showButton}
             setShowButton={setShowButton}
           />
         )}
