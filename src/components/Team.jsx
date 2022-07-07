@@ -94,7 +94,13 @@ const CardsPerso = () => {
             >
               <button className='socialmedia1'></button>
             </a>
-            <button className='socialmedia2'></button>
+            <a
+              href='https://linkedin.com/in/vincent-briand44'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia2'></button>
+            </a>
           </div>
         </div>
 
@@ -147,7 +153,13 @@ const CardsPerso = () => {
                 et si vraiment ça ne marche pas j'appelle Vincent.”
               </div>
             </div>
-            <button className='socialmedia1'></button>
+            <a
+              href='https://github.com/kirijeremy'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia1'></button>
+            </a>
             <a
               href=' https://www.linkedin.com/in/j%C3%A9r%C3%A9my-maupome-5b5497224/'
               target='_blank'
@@ -175,7 +187,13 @@ const CardsPerso = () => {
                 série entraîne une autre série…" "
               </div>
             </div>
-            <button className='socialmedia1'></button>
+            <a
+              href='https://github.com/laure-carillo'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia1'></button>
+            </a>
             <a
               href='https://www.linkedin.com/in/laure-carillo-95957473/'
               target='_blank'
@@ -200,7 +218,13 @@ const CardsPerso = () => {
                 fins même si je dois y passer par quatre chemins.”
               </div>
             </div>
-            <button className='socialmedia1'></button>
+            <a
+              href='https://github.com/remisam'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia1'></button>
+            </a>
             <a
               href='https://www.linkedin.com/in/remisamson/'
               target='_blank'
@@ -274,7 +298,13 @@ const CardsPerso = () => {
                 le monde sombrer dans les flammes.”
               </div>
             </div>
-            <button className='socialmedia1'></button>
+            <a
+              href='https://github.com/RomainRoy83'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia1'></button>
+            </a>
             <a
               href='https://www.linkedin.com/in/romainroyhk/'
               target='_blank'
