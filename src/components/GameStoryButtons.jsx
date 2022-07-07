@@ -15,16 +15,6 @@ const GameStoryButtons = ({ quest, setPage, animation, hero }) => {
     <div className='gameStoryButtons' animation={animation.toString()}>
       {quest &&
         !animation &&
-<<<<<<< HEAD
-        quest.buttons.map((button, index) => (
-          <BigButton
-            key={index}
-            onclick={() => setPage(button.quest)}
-            text={button.title}
-            height='85'
-          />
-        ))}
-=======
         quest.buttons
           .filter(
             btn =>
@@ -40,7 +30,6 @@ const GameStoryButtons = ({ quest, setPage, animation, hero }) => {
               height='75'
             />
           ))}
->>>>>>> dev
     </div>
   )
 }

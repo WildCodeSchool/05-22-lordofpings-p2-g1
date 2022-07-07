@@ -49,24 +49,11 @@ const GameStoryBattleDice = ({
     setTimeout(() => setResult({ dice: newDice, rolling: false }), 2000)
   }
   return (
-<<<<<<< HEAD
     <div className='rollDice'>
       <Dice face={dice} rolling={rolling} />
       <button onClick={() => !showButton && roll()} disabled={rolling}>
         {rolling ? 'En cours...' : 'Attaquer'}
       </button>
-=======
-    <div>
-      <div className='rollDice'>
-        {/* <h1> Lance le dé pour attaquer ! </h1> */}
-        <div className='rollDice-container'>
-          <Dice face={dice} rolling={rolling} />
-        </div>
-        <button onClick={roll} disabled={rolling}>
-          {rolling ? 'En cours...' : 'Attaquer'}
-        </button>
-      </div>
->>>>>>> dev
     </div>
   )
 }

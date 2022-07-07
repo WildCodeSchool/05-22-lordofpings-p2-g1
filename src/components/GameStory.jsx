@@ -65,20 +65,8 @@ const GameStory = ({
         setVolume={setVolume}
       />
       <div className='gameStory'>
-<<<<<<< HEAD
         <div className='gameStoryBlock'>
           <Parchment
-=======
-        <Parchment
-          quest={quest}
-          animation={animation}
-          setAnimation={setAnimation}
-        />
-
-        {showButton && (
-          <Buttons
-            hero={hero}
->>>>>>> dev
             quest={quest}
             animation={animation}
             setAnimation={setAnimation}
