@@ -1,7 +1,7 @@
 const BigButton = ({ text, height, onclick }) => {
   let fontSize = height / 5
   if (text.length > 20) {
-    fontSize = height / 6
+    fontSize = height / 8
   }
 
   return (

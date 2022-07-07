@@ -71,20 +71,22 @@ const GameStory = ({
         setVolume={setVolume}
       />
       <div className='gameStory'>
-        <Parchment
-          quest={quest}
-          animation={animation}
-          setAnimation={setAnimation}
-        />
-
-        {showButton && (
-          <Buttons
-            hero={hero}
+        <div className='gameStoryBlock'>
+          <Parchment
             quest={quest}
-            setPage={animation === false && setPage}
             animation={animation}
+            setAnimation={setAnimation}
           />
-        )}
+
+          {showButton && (
+            <Buttons
+              hero={hero}
+              quest={quest}
+              setPage={animation === false && setPage}
+              animation={animation}
+            />
+          )}
+        </div>
 
         {quest?.battle && (
           <GameStoryBattle
@@ -92,6 +94,7 @@ const GameStory = ({
             setHero={setHero}
             setPage={setPage}
             quest={quest}
+            showButton={showButton}
             setShowButton={setShowButton}
           />
         )}

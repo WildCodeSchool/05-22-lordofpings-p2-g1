@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import logoMerlin from '../assets/img/logo_merlin.jpg'
 import BigButton from '../components/BigButton'
 import MainBackground from '../components/MainBackground'
+// import letterBoard from '../assets/img/ui/hud/letterBoard.svg'
 
 function Home() {
   const item = localStorage.getItem('hero')
@@ -16,9 +17,11 @@ function Home() {
             <div id='halo'></div>
           </div>
           <div className='title'>
-            <h1>Le Déclin</h1>
-            <h2>des</h2>
-            <h3>Âmes</h3>
+            <h1>
+              Le Déclin <br />
+              des <br />
+              Âmes
+            </h1>
           </div>
           <BigButton
             text='JOUER'
@@ -28,6 +31,15 @@ function Home() {
             }
           />
         </div>
+        {/* <div className='contactButton'>
+          <Link to='/contact'>
+            <img
+              className='contactImage'
+              src={letterBoard}
+              alt='Contact Button'
+            />
+          </Link>
+        </div> */}
       </div>
       <MainBackground />
     </>

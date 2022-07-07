@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
 
+
 .grandmaContainer {
     cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
-    
-
 
     .motherContainer {
         display: flex;
@@ -15,9 +15,10 @@
         align-items: center;
         flex-flow: column nowrap;
         border: solid goldenrod;
+        border-radius: 20px;
         font-family: 'Cinzel Decorative', cursive;
         color: goldenrod;
-        background-color: rgba(108, 28, 99, 0.6);}
+        background-color: rgba(142, 41, 130, 0.6);}
 
         hr {
             display: flex;
@@ -31,16 +32,16 @@
         }
 
         h1 {
-            font-size: 33px;
+            font-size: clamp(10px, 4vh 24px);
             margin-top: 10%;
         }
 
         .formContainer {
             font-size: 16px;
             margin-top: 8%;
+            text-align: center;
 
             label {
-                // margin-left: 2px;
                 cursor: url('../../img/ui/knight-cursor-select.png'), auto;
             }    
             input {
@@ -72,13 +73,9 @@
             }
 
             button {
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 margin-top: 50px;
-                margin-left: 45px;
                 margin-bottom: 50px;
-                height: 9vh;
+                height: 5vh;
                 font-family: 'Cinzel Decorative', cursive;
                 color: goldenrod;
                 font-style: bold;
@@ -91,3 +88,29 @@
                 cursor: url('../../img/ui/knight-cursor-select.png'), auto;
                     }
 }}
+
+    .return {
+        text-decoration: none;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    
+        button.rButton {
+            width: 90%;
+            height: 60px;
+            font-family: 'Cinzel Decorative', cursive;
+            text-decoration: none;
+            color: goldenrod;
+            font-style: bold;
+            font-size: 16px;
+            background-color: #6C1C63;
+            border-style: solid;
+            border-radius: 25px;
+            border-color: goldenrod;
+            cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+            text-decoration: none;
+        }    
+    

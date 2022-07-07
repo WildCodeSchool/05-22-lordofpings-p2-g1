@@ -19,7 +19,7 @@ const CardsPerso = () => {
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1300,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -87,8 +87,20 @@ const CardsPerso = () => {
                 OneLiner.
               </div>
             </div>
-            <button className='socialmedia1'></button>
-            <button className='socialmedia2'></button>
+            <a
+              href='https://github.com/Canon321'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia1'></button>
+            </a>
+            <a
+              href='https://linkedin.com/in/vincent-briand44'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia2'></button>
+            </a>
           </div>
         </div>
 
@@ -102,20 +114,26 @@ const CardsPerso = () => {
 
               <div className='clash-card__unit-name'>Flora</div>
               <div className='titles'>
-                Développeuse ascendante formatrice en neuroatypie depuis 2020{' '}
+                Développeuse ascendante formatrice en neuroatypie depuis 2020
               </div>
               <div className='clash-card__unit-description'>
                 “Sait cuisiner, parler de troubles mentaux sans jugement, et
                 parfois code entre-temps” / “Une développeuse cheloue”
               </div>
             </div>
-            <button className='socialmedia1'></button>
+            <a
+              href='https://github.com/Synchy'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia1'></button>
+            </a>
             <a
               href='https://www.linkedin.com/in/flora-c-2630a7168/'
               target='_blank'
               rel='noreferrer'
             >
-              <button className='socialmedia2'></button>{' '}
+              <button className='socialmedia2'></button>
             </a>
           </div>
         </div>
@@ -135,8 +153,20 @@ const CardsPerso = () => {
                 et si vraiment ça ne marche pas j'appelle Vincent.”
               </div>
             </div>
-            <button className='socialmedia1'></button>
-            <button className='socialmedia2'></button>
+            <a
+              href='https://github.com/kirijeremy'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia1'></button>
+            </a>
+            <a
+              href=' https://www.linkedin.com/in/j%C3%A9r%C3%A9my-maupome-5b5497224/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia2'></button>
+            </a>
           </div>
         </div>
 
@@ -150,15 +180,27 @@ const CardsPerso = () => {
 
               <div className='clash-card__unit-name'>Laure</div>
               <div className='titles'>
-                Développeuse-ancienne technicienne d’assistance logiciel{' '}
+                Développeuse-ancienne technicienne d’assistance logiciel
               </div>
               <div className='clash-card__unit-description'>
                 “ Geek à ses heures perdues - binge watcheuse <br></br>“ une
                 série entraîne une autre série…" "
               </div>
             </div>
-            <button className='socialmedia1'></button>
-            <button className='socialmedia2'></button>
+            <a
+              href='https://github.com/laure-carillo'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia1'></button>
+            </a>
+            <a
+              href='https://www.linkedin.com/in/laure-carillo-95957473/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia2'></button>
+            </a>
           </div>
         </div>
 
@@ -176,8 +218,20 @@ const CardsPerso = () => {
                 fins même si je dois y passer par quatre chemins.”
               </div>
             </div>
-            <button className='socialmedia1'></button>
-            <button className='socialmedia2'></button>
+            <a
+              href='https://github.com/remisam'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia1'></button>
+            </a>
+            <a
+              href='https://www.linkedin.com/in/remisamson/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia2'></button>
+            </a>
           </div>
         </div>
 
@@ -198,8 +252,20 @@ const CardsPerso = () => {
                 carnets. Bisounours dans l’âme. Git add câlin.”
               </div>
             </div>
-            <button className='socialmedia1'></button>
-            <button className='socialmedia2'></button>
+            <a
+              href='https://github.com/alexandrapanastier'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia1'></button>
+            </a>
+            <a
+              href='https://www.linkedin.com/in/alexandra-panastier-97503023a/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia2'></button>
+            </a>
           </div>
         </div>
 
@@ -232,8 +298,20 @@ const CardsPerso = () => {
                 le monde sombrer dans les flammes.”
               </div>
             </div>
-            <button className='socialmedia1'></button>
-            <button className='socialmedia2'></button>
+            <a
+              href='https://github.com/RomainRoy83'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia1'></button>
+            </a>
+            <a
+              href='https://www.linkedin.com/in/romainroyhk/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia2'></button>
+            </a>
           </div>
         </div>
       </Slider>

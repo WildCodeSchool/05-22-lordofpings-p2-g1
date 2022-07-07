@@ -4,8 +4,8 @@
     height: 100vh;
     text-align: center;
     margin-right: 80px;
-  
-  
+    margin-top: 3%;
+
   .wrapper {
     padding-top: 72px;
     padding-bottom: 40px;
@@ -14,7 +14,16 @@
       outline: 0;
     }
   }
-  
+  .slick-prev:before {
+    left: 8px;
+    z-index: 9999;
+  }
+
+  .slick-next::before {
+    right: -6px;
+    z-index: 9999;
+  }
+
   .clash-card {
     background: white;
     width: 262px;
@@ -25,10 +34,10 @@
     box-shadow: -1px 15px 30px -12px black;
     z-index: 9999;
     border-radius: 41px;
-    height: calc(100vh - 144px);
+    height: calc(100vh - 280px);
 
     .interiorCard{
-        height: calc(100% - 360px);
+        height: calc(100% - 400px);
         overflow-y: scroll;
         padding-top: 20px;
         margin-bottom: 10px;
@@ -139,3 +148,19 @@
    position:absolute
   }
 }
+
+@media screen and (max-width: 1300px){
+  .slick-prev {
+    left: 2px;
+    z-index: 9999;
+  }
+
+  .slick-next {
+    right: -2px;
+    z-index: 9999;
+  }
+  .slick-slider{
+    margin : 0 100px
+  }
+}
+

@@ -8,7 +8,12 @@
     @include gameHeaderButtons;
     float: right;
     margin-left: 10px;
+
+    .contactButton {
+        margin-top: 10%;
+    }
 }
+
 
 .gameHeaderSound {
     @include gameHeaderButtons;

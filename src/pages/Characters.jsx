@@ -13,7 +13,7 @@ function Characters() {
 
   return (
     <div className='characters'>
-      <h1>Choisissez votre héros</h1>
+      <h1>Choisissez votre héroïne</h1>
 
       <div className='heroes'>
         {heroes &&
