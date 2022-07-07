@@ -10,10 +10,7 @@
         1
       ]
     },
-    "inventory": {
-      "weapons": [],
-      "items": []
-    },
+    "inventory": [],
     "skills": {
       "agility": 30,
       "strength": 50,
@@ -30,10 +27,7 @@
     "equipped": {
       "weapons": []
     },
-    "inventory": {
-      "weapons": [],
-      "items": {}
-    },
+    "inventory": [],
     "skills": {
       "agility": 40,
       "strength": 35,

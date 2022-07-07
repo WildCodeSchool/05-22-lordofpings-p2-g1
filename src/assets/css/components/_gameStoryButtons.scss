@@ -1,7 +1,9 @@
 .gameStoryButtons {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
+  min-height: 75px;
   gap: 20px;
 
   button {
