@@ -9,12 +9,6 @@
         "shop": {
           "buyPrice": 100,
           "sellPrice": 50
-        },
-        "requires": {
-          "agility": 0,
-          "strength": 0,
-          "intelligence": 0,
-          "resistance": 0
         }
       },
       {
@@ -25,12 +19,6 @@
         "shop": {
           "buyPrice": 300,
           "sellPrice": 150
-        },
-        "requires": {
-          "agility": 0,
-          "strength": 0,
-          "intelligence": 0,
-          "resistance": 0
         }
       },
       {
@@ -41,12 +29,6 @@
         "shop": {
           "buyPrice": 500,
           "sellPrice": 250
-        },
-        "requires": {
-          "agility": 0,
-          "strength": 0,
-          "intelligence": 0,
-          "resistance": 0
         }
       }
     ],
@@ -59,12 +41,6 @@
         "shop": {
           "buyPrice": 100,
           "sellPrice": 50
-        },
-        "requires": {
-          "agility": 0,
-          "strength": 0,
-          "intelligence": 0,
-          "resistance": 0
         }
       },
       {
@@ -75,12 +51,6 @@
         "shop": {
           "buyPrice": 300,
           "sellPrice": 150
-        },
-        "requires": {
-          "agility": 0,
-          "strength": 0,
-          "intelligence": 0,
-          "resistance": 0
         }
       },
       {
@@ -91,12 +61,6 @@
         "shop": {
           "buyPrice": 500,
           "sellPrice": 250
-        },
-        "requires": {
-          "agility": 0,
-          "strength": 0,
-          "intelligence": 0,
-          "resistance": 0
         }
       }
     ]
@@ -105,11 +69,48 @@
     {
       "id": 1,
       "name": "Potion de vie",
-      "image": "assets/img/items/potions/potion8.svg",
+      "image": "assets/img/items/potion.svg",
+      "description": "Récupérez votre santé",
       "shop": {
         "buyPrice": 200,
         "sellPrice": 100
       }
+    },
+    {
+      "id": 2,
+      "name": "Carte de visite Karvagma Inc.",
+      "image": "assets/img/items/businessCard.png",
+      "description": "Ouh... elle est chaude..."
+    },
+    {
+      "id": 3,
+      "name": "Champignons",
+      "image": "assets/img/items/shroom.svg",
+      "description": "De très beaux champignons"
+    },
+    {
+      "id": 4,
+      "name": "Salade",
+      "image": "assets/img/items/salad.svg",
+      "description": "Magnifique salade"
+    },
+    {
+      "id": 5,
+      "name": "Monsieur Propre",
+      "image": "assets/img/items/monsieurPropre.svg",
+      "description": "Un fantôme qui nettoie à défaut de faire peur"
+    },
+    {
+      "id": 6,
+      "name": "Canard de l'Apocalypse",
+      "image": "assets/img/items/canardApocalypse.svg",
+      "description": "Il fait un coin coin pas net"
+    },
+    {
+      "id": 7,
+      "name": "Patator",
+      "image": "assets/img/items/patator.svg",
+      "description": "L'arme ultime"
     }
   ]
 ]

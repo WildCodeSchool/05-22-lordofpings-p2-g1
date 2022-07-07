@@ -1,162 +1,244 @@
-import Alex from '../assets/img/avatar/Alex.png'
-import Vincent from '../assets/img/avatar/Vincent.png'
-import Flora from '../assets/img/avatar/Flora.png'
-import Laure from '../assets/img/avatar/Laure.png'
-import Remi from '../assets/img/avatar/Remi.png'
-import Romain from '../assets/img/avatar/Romain.png'
-import Jerem from '../assets/img/avatar/Jeremy.png'
+import Alex from '../assets/img/avatar/7.png'
+import Vincent from '../assets/img/avatar/1.png'
+import Flora from '../assets/img/avatar/3.png'
+import Laure from '../assets/img/avatar/6.png'
+import Remi from '../assets/img/avatar/41.png'
+import Romain from '../assets/img/avatar/5.png'
+import Jeremy from '../assets/img/avatar/2.png'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import Slider from 'react-slick'
 
-const Team = () => {
+const CardsPerso = () => {
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  }
+
+  const sizefont0 = {
+    fontSize: '11px'
+  }
+
+  const sizefont1 = {
+    fontSize: '10px'
+  }
+
+  const sizefont2 = {
+    fontSize: '9px'
+  }
+  const sizefont3 = {
+    fontSize: '8px'
+  }
+  const sizefont4 = {
+    fontSize: '7px'
+  }
+  const sizefont5 = {
+    fontSize: '6px'
+  }
+  const sizefont6 = {
+    fontSize: '4px'
+  }
+
   return (
-    <div className='container'>
-      <div className='title'>
-        <h1>Notre Fabulueuse équipe</h1>
-        <div className='top'>
-          <div className='card'>
-            <div className='face face1'>
-              <h3>Vincent</h3>
-              <div className='content'>
-                <img src={Vincent} />
+    <div className='teamContact'>
+      <Slider {...settings}>
+        <div className='wrapper'>
+          <div className='clash-card'>
+            <div className='clash-card__image clash-card__image--bg'>
+              <img src={Vincent} alt='avatar' />
+            </div>
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Barde</div>
+              <div className='clash-card__unit-name'>Vincent</div>
+              <div className='titles'>Développeur de Génie</div>
+              <div className='clash-card__unit-description'>
+                Curieux, flemmard né, sauf si le sujet l’intéresse. Aime titrer.
+                Est fan de développement, c’est ainsi qu’il a été nommé le
+                OneLiner.
               </div>
             </div>
-            <div className='face face2'>
-              <div className='content'>
-                <p>
-                  <span>Alignement :</span>Joyeux<br></br>
-                  <span>Classe :</span> Barde <br></br>
-                  <span>Citation :</span> “Ça peut se faire en une ligne ”
-                  <br></br>
-                  Développeur de Génie
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className='card'>
-            <div className='face face1'>
-              <h3>Alexandra</h3>
-              <div className='content'>
-                <img src={Alex} />
-              </div>
-            </div>
-            <div className='face face2'>
-              <div className='content'>
-                <p>
-                  <span>Alignement :</span>Chaotique bon <br></br>
-                  <span>Classe:</span> Paladin des temps modernes ( Oui, oui ça
-                  existe. La preuve, je suis là ) <br></br>
-                  <span>Citation :</span> “ J’vous nems ” <br></br> Couteau
-                  suisse / Dévéloppeuse / Conteuse / Artisane / Rôliste / Grande
-                  Maître du Jeu / En quête du Saint UI/UX
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className='card'>
-            <div className='face face1'>
-              <h3>Romain</h3>
-              <div className='content'>
-                <img src={Romain} />
-              </div>
-            </div>
-            <div className='face face2'>
-              <div className='content'>
-                <p>
-                  <span>Alignement :</span>Float left <br></br>
-                  <span>Classe :</span> Oui <br></br>
-                  <span>Citation :</span> “ Boh en vrai ça passe ” <br></br>
-                  Développeur, scénariste, seigneur des Dragons, lieutenant des
-                  Orques d’Arhg’baad, Top Chef 2020, Grand Maître de l’Ordre du
-                  Big Mac, Membre Honoraire de la Congrégation du Vignoble,
-                  Cultiste de Cthulhu du mois
-                </p>
-              </div>
-            </div>
+            <button className='socialmedia1'></button>
+            <button className='socialmedia2'></button>
           </div>
         </div>
-        <div className='bottom'>
-          <div className='card'>
-            <div className='face face1'>
-              <h3>Flora</h3>
-              <div className='content'>
-                <img src={Flora} />
+
+        <div className='wrapper'>
+          <div className='clash-card'>
+            <div className='clash-card__image clash-card__image--bg'>
+              <img src={Flora} alt='avatar' />
+            </div>
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Druide</div>
+
+              <div className='clash-card__unit-name'>Flora</div>
+              <div className='titles'>
+                Développeuse ascendante formatrice en neuroatypie depuis 2020{' '}
+              </div>
+              <div className='clash-card__unit-description'>
+                “Sait cuisiner, parler de troubles mentaux sans jugement, et
+                parfois code entre-temps” / “Une développeuse cheloue”
               </div>
             </div>
-            <div className='face face2'>
-              <div className='content'>
-                <p>
-                  <span>Alignement :</span> Sorcière Chaotique <br></br>
-                  <span>Classe :</span> Druide (What did you expect avec ce
-                  prénom ?) <br></br>
-                  <span>Citation :</span> “@&#$! pourquoi ça ne marche pas
-                  encore !”
-                  <br></br> Développeuse ascendante formatrice en neuroatypie
-                  depuis 2020
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className='card'>
-            <div className='face face1'>
-              <h3>Jérémy</h3>
-              <div className='content'>
-                <img src={Jerem} />
-              </div>
-            </div>
-            <div className='face face2'>
-              <div className='content'>
-                <p>
-                  <span>Alignement :</span> Tranquille, enfin pas toujours
-                  <br></br>
-                  <span>Classe :</span> Rôdeur du Nord (Team froid) <br></br>
-                  <span>Citation :</span>“ Utilise l’inspecteur ! ”<br></br>
-                  Développeur, ancien caviste et fan de pleins de trucs
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className='card'>
-            <div className='face face1'>
-              <h3>Laure</h3>
-              <div className='content'>
-                <img src={Laure} />
-              </div>
-            </div>
-            <div className='face face2'>
-              <div className='content'>
-                <p>
-                  <span>Alignement :</span> Chaotique bon <br></br>
-                  <span>Classe :</span> Rôdeuse <br></br>
-                  <span>Citation :</span>“ Ma curiosité me perdra! ”<br></br>
-                  Développeuse-ancienne technicienne d’assistance logiciel -
-                  geek à ses heures perdues - binge watcheuse
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className='card'>
-            <div className='face face1'>
-              <h3>Remi</h3>
-              <div className='content'>
-                <img src={Remi} />
-              </div>
-            </div>
-            <div className='face face2'>
-              <div className='content'>
-                <p>
-                  <span>Alignement :</span> Verticale, de la Terre aux étoiles
-                  et inversement <br></br>
-                  <span>Classe :</span> Druide à la barbe assombrie<br></br>
-                  <span>Citation :</span>“ C'est en faisant n'importe quoi que
-                  l'on devient codeur.”<br></br>
-                  Cyclo-Développeur
-                </p>
-              </div>
-            </div>
+            <button className='socialmedia1'></button>
+            <a
+              href='https://www.linkedin.com/in/flora-c-2630a7168/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='socialmedia2'></button>{' '}
+            </a>
           </div>
         </div>
-      </div>
+        <div className='wrapper'>
+          <div className='clash-card'>
+            <div className='clash-card__image clash-card__image--bg'>
+              <img src={Jeremy} alt='avatar' />
+            </div>
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Rôdeur</div>
+              <div className='clash-card__unit-name'>Jérémy</div>
+              <div className='titles'>
+                Développeur, ancien caviste et fan de pleins de trucs
+              </div>
+              <div className='clash-card__unit-description'>
+                “Je tente des trucs sur css, si ça ne marche pas je recommence
+                et si vraiment ça ne marche pas j'appelle Vincent.”
+              </div>
+            </div>
+            <button className='socialmedia1'></button>
+            <button className='socialmedia2'></button>
+          </div>
+        </div>
+
+        <div className='wrapper'>
+          <div className='clash-card'>
+            <div className='clash-card__image clash-card__image--bg'>
+              <img src={Laure} alt='avatar' />
+            </div>
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Rôdeuse</div>
+
+              <div className='clash-card__unit-name'>Laure</div>
+              <div className='titles'>
+                Développeuse-ancienne technicienne d’assistance logiciel{' '}
+              </div>
+              <div className='clash-card__unit-description'>
+                “ Geek à ses heures perdues - binge watcheuse <br></br>“ une
+                série entraîne une autre série…" "
+              </div>
+            </div>
+            <button className='socialmedia1'></button>
+            <button className='socialmedia2'></button>
+          </div>
+        </div>
+
+        <div className='wrapper'>
+          <div className='clash-card'>
+            <div className='clash-card__image clash-card__image--bg'>
+              <img src={Remi} alt='avatar' />
+            </div>
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Druide</div>
+              <div className='clash-card__unit-name'>Rémi</div>
+              <div className='titles'>Cyclo-développeur</div>
+              <div className='clash-card__unit-description'>
+                “ Déraille souvent pour mieux pédaler. <br></br>Arrive à ses
+                fins même si je dois y passer par quatre chemins.”
+              </div>
+            </div>
+            <button className='socialmedia1'></button>
+            <button className='socialmedia2'></button>
+          </div>
+        </div>
+
+        <div className='wrapper'>
+          <div className='clash-card'>
+            <div className='clash-card__image clash-card__image--bg'>
+              <img src={Alex} alt='avatar' />
+            </div>
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Paladin</div>
+              <div className='clash-card__unit-name'>Alexandra</div>
+              <div className='titles'>
+                Couteau suisse / Développeuse / Conteuse / Artisane / Rôliste
+                /Grand Maître du Jeu / En quête du Saint UI / UX
+              </div>
+              <div className='clash-card__unit-description'>
+                “ Un besoin de connaissance extrême, jamais sans un de mes
+                carnets. Bisounours dans l’âme. Git add câlin.”
+              </div>
+            </div>
+            <button className='socialmedia1'></button>
+            <button className='socialmedia2'></button>
+          </div>
+        </div>
+
+        <div className='wrapper'>
+          <div className='clash-card'>
+            <div className='clash-card__image clash-card__image--bg'>
+              <img src={Romain} alt='avatar' />
+            </div>
+            <div className='interiorCard'>
+              <div className='clash-card__level clash-card__class'>Mage</div>
+              <div className='clash-card__unit-name'>Romain</div>
+              <div className='titles'>
+                Développeur, <span style={sizefont0}>scénariste</span>,
+                <span style={sizefont1}> seigneur des Dragons</span>,
+                <span style={sizefont2}>
+                  {' '}
+                  lieutenant des Orques d’Arhg’baad,
+                </span>
+                <span style={sizefont3}>Top Chef 2020,</span>
+                <span style={sizefont4}>
+                  Grand Maître de l’Ordre du Big Mac,
+                </span>
+                <span style={sizefont5}>
+                  Membre Honoraire de la Congrégation du Vignoble,
+                </span>
+                <span style={sizefont6}> Cultiste de Cthulhu du mois </span>
+              </div>
+              <div className='clash-card__unit-description'>
+                “J'écris des trucs, je fais un git push et <br></br>je regarde
+                le monde sombrer dans les flammes.”
+              </div>
+            </div>
+            <button className='socialmedia1'></button>
+            <button className='socialmedia2'></button>
+          </div>
+        </div>
+      </Slider>
     </div>
   )
 }
 
-export default Team
+export default CardsPerso
