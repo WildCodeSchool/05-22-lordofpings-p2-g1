@@ -73,11 +73,9 @@ const ContactForm = () => {
           <button onSubmit={handleSubmit}> Lancer son parchemin </button>
         </div>
       </div>
-      <div className='returntamère'>
+      <div className='return'>
         <Link to='/'>
-          <button className='returnButton'>
-            Retourner à la page principale
-          </button>
+          <button className='rButton'>Retourner à la page principale</button>
         </Link>
       </div>
     </div>

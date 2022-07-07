@@ -5,8 +5,7 @@
     text-align: center;
     margin-right: 80px;
     margin-top: 3%;
-  
-  
+
   .wrapper {
     padding-top: 72px;
     padding-bottom: 40px;
@@ -15,7 +14,16 @@
       outline: 0;
     }
   }
-  
+  .slick-prev:before {
+    left: 8px;
+    z-index: 9999;
+  }
+
+  .slick-next::before {
+    right: -6px;
+    z-index: 9999;
+  }
+
   .clash-card {
     background: white;
     width: 262px;
@@ -140,3 +148,19 @@
    position:absolute
   }
 }
+
+@media screen and (max-width: 1300px){
+  .slick-prev {
+    left: 2px;
+    z-index: 9999;
+  }
+
+  .slick-next {
+    right: -2px;
+    z-index: 9999;
+  }
+  .slick-slider{
+    margin : 0 100px
+  }
+}
+
