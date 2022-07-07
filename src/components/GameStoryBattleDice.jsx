@@ -43,7 +43,7 @@ const GameStoryBattleDice = ({ hero, setHero, setPage, setShowButton }) => {
       <div className='rollDice'>
         {/* <h1> Lance le dé pour attaquer ! </h1> */}
         <div className='rollDice-container'>
-          <Dice face={result.dice} rolling={rolling} />
+          <Dice face={dice} rolling={rolling} />
         </div>
         <button onClick={roll} disabled={rolling}>
           {rolling ? 'En cours...' : 'Attaquer'}

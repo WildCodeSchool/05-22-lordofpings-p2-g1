@@ -1,57 +1,37 @@
 [
   {
-    "class": "archer",
-    "name": "Archer",
+    "class": "barbare",
+    "name": "Barbare",
     "heal": 4,
     "maxHeal": 4,
     "money": 100,
     "equipped": {
-      "armor": {
-        "helmet": 1,
-        "chest": 1
-      },
-      "weapons": {
-        "bow": 1
-      }
+      "weapons": [
+        1
+      ]
     },
-    "inventory": {
-      "armors": {},
-      "weapons": {},
-      "items": {}
-    },
+    "inventory": [],
     "skills": {
-      "agility": 50,
+      "agility": 30,
       "strength": 50,
-      "intelligence": 50,
-      "resistance": 50
+      "intelligence": 35,
+      "resistance": 40
     }
   },
   {
     "class": "knight",
-    "name": "Épéiste",
+    "name": "Chevaleresse",
     "heal": 5,
     "maxHeal": 5,
     "money": 100,
     "equipped": {
-      "armor": {
-        "helmet": 4,
-        "chest": 4
-      },
-      "weapons": {
-        "sword": 1
-      }
+      "weapons": []
     },
-    "inventory": {
-      "armors": {},
-      "weapons": {
-        "axe": 1
-      },
-      "items": {}
-    },
+    "inventory": [],
     "skills": {
-      "agility": 50,
-      "strength": 50,
-      "intelligence": 50,
+      "agility": 40,
+      "strength": 35,
+      "intelligence": 40,
       "resistance": 50
     }
   }
