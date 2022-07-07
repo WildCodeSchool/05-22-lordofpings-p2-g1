@@ -3,9 +3,8 @@
 
 .rollDice {
     display: flex;
-    position: absolute;
-    width: 200px;
-    height: 305px; 
+    height: 300px; 
+    aspect-ratio: 2/3;
     align-items: center ;
     justify-content: center;
     flex-flow: column nowrap;
@@ -14,18 +13,9 @@
     background-position-x: 05%;
     background-position-y: 50%;
     background-size: 200px;
-    right: 5%;
-    bottom: 15%;
     gap: 20px;
     z-index: 10;
-
-    
-    .rollDice-container {
-        padding-bottom: 3.5%;
-        padding-top: 5%;
-
-
-    }
+    margin: 0 20px;
 
         h1 {
             font-size: 13px;
@@ -46,7 +36,7 @@
             border-radius: 10px;
             color: #EDC90E;
             background-color: rgba(108, 28, 99, 0.6);
-            margin-bottom: 6%;
+            margin-top: 3.5%;
         
             
             

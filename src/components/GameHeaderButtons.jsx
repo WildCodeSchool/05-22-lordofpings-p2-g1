@@ -45,11 +45,6 @@ const GameHeaderButtons = ({ music, isPlayedYolo, volume, setVolume }) => {
     getCookie('volumeToggle') === 'false' &&
       music?.current.audioEl.current.pause()
   }, [isSound])
-
-  console.log(
-    { isSound, volume, music, isPlayedYolo },
-    getCookie('volumeToggle')
-  )
   const play = () => {
     isPlayedYolo && (music?.current.audioEl.current.play(), setIsSound(true))
   }

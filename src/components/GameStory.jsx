@@ -1,7 +1,7 @@
 import Parchment from './GameStoryParchment'
 import Buttons from './GameStoryButtons'
 import GameHeader from './GameHeader'
-import GameStoryBattle from './GameStoryBattle'
+import GameStoryBattleDice from './GameStoryBattleDice'
 import { useState } from 'react'
 import { useEffect } from 'react'
 
@@ -29,26 +29,28 @@ const GameStory = ({
         setVolume={setVolume}
       />
       <div className='gameStory'>
-        <Parchment
-          quest={quest}
-          animation={animation}
-          setAnimation={setAnimation}
-        />
-
-        {showButton && (
-          <Buttons
+        <div className='gameStoryBlock'>
+          <Parchment
             quest={quest}
-            setPage={animation === false && setPage}
             animation={animation}
+            setAnimation={setAnimation}
           />
-        )}
 
+          {showButton && (
+            <Buttons
+              quest={quest}
+              setPage={animation === false && setPage}
+              animation={animation}
+            />
+          )}
+        </div>
         {quest?.battle && (
-          <GameStoryBattle
+          <GameStoryBattleDice
             hero={hero}
             setHero={setHero}
             setPage={setPage}
             quest={quest}
+            showButton={showButton}
             setShowButton={setShowButton}
           />
         )}
