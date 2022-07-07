@@ -21,10 +21,13 @@ const GameStory = ({
 
   useEffect(() => {
     setShowButton(!quest.battle)
-    if (quest?.item) {
+    if (
+      quest?.item &&
+      !hero.inventory.map(obj => obj.id).includes(quest.item)
+    ) {
       setHero({
         ...hero,
-        inventory: [...hero.inventory, items[1][quest.item + 1]]
+        inventory: [...hero.inventory, items[1][quest.item - 1]]
       })
     }
   }, [quest])

@@ -11,7 +11,7 @@ const GameStoryButtons = ({ quest, setPage, animation, hero }) => {
       console.log(unique)
       localStorage.setItem('unique', [...unique, [btn.title]])
     }
-    // setPage(btn.quest)
+    setPage(btn.quest)
   }
   return (
     <div
