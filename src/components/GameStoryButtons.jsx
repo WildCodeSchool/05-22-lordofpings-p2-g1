@@ -11,14 +11,10 @@ const GameStoryButtons = ({ quest, setPage, animation, hero }) => {
       console.log(unique)
       localStorage.setItem('unique', [...unique, [btn.title]])
     }
-    // setPage(btn.quest)
+    setPage(btn.quest)
   }
   return (
-    <div
-      className='gameStoryButtons'
-      animation={animation.toString()}
-      style={{ height: '75px' }}
-    >
+    <div className='gameStoryButtons' animation={animation.toString()}>
       {console.log({ hero })}
       {quest &&
         !animation &&
