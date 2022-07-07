@@ -461,7 +461,7 @@
     "_id": 26,
     "title": "La grotte de cristal ( Explorer la grotte )",
     "text": "Vous avancez à tâtons. L’endroit est plongé dans le noir. Après quelques minutes et quelques bleus récoltés à force de se cogner dans les murs, vous percevez une clarté sourde provenant d’un couloir latéral. Obliquant dans cette direction, vous débouchez dans une immense caverne remplie de cristaux de toutes sortes de couleurs et de formes. Il pourrait se trouver parmi ceux-ci des crystomonnaies : des petits cristaux sphériques très précieux. Les plus riches sujets du royaume sont pratiquement les seuls à en posséder et à s’en servir. Il s’agit d’une monnaie équivalente à environ 200 pièces d’or. Tandis que vous êtes perdue dans vos pensées, votre regard tombe sur un coin légèrement reculé sur votre gauche. Il est jonché d’os divers, éparpillés sur des traces d’un rouge sombre.",
-    "image": "assets/img/background/story/cave2.svg",
+    "image": "assets/img/background/story/cave3.svg",
     "buttons": [
       {
         "title": "Prendre le temps de récupérer des cristaux",
@@ -561,7 +561,7 @@
     "buttons": [
       {
         "title": "Abattre le gardien",
-        "quest": 183,
+        "quest": 182,
         "unique": false
       },
       {
@@ -579,7 +579,7 @@
     "buttons": [
       {
         "title": "Abattre le gardien",
-        "quest": 183,
+        "quest": 182,
         "unique": false
       }
     ]
@@ -769,6 +769,7 @@
     "title": "Un petit havre de paix (Clairière)",
     "text": "Les oiseaux chantent, le vent caresse les branches d’un bois non loin de là, un petit lapin se fait défoncer la tronche par un ours. Le cadre est idyllique.Vous vous trouvez au milieu d’une petite clairière et vous prenez le temps de marcher tranquillement, pour changer. Les tours du château de Merlin percent le ciel un peu plus loin, au-delà d’une petite colline. Tout-à-coup, vous apercevez de magnifiques salades sauvages. Vous pouvez prendre le temps d’en emporter une au passage.",
     "image": "assets/img/background/story/lievre1.svg",
+    "sound": "assets/audio/grassland.mp3",
     "buttons": [
       {
         "title": "Cueillir une belle salade",
@@ -875,7 +876,7 @@
     "image": "assets/img/background/story/gate1.svg",
     "buttons": [
       {
-        "title": "Un petit havre de paix (Clairière)",
+        "title": "Traverser ",
         "quest": 45,
         "unique": false
       }
@@ -1042,7 +1043,7 @@
         "unique": false
       },
       {
-        "title": "Rien à secouer",
+        "title": "Au début j’ai cru que ça m’intéressait, et puis en fait pas du tout.",
         "quest": 62,
         "unique": false
       }
@@ -1120,7 +1121,7 @@
       {
         "title": "Refermer la porte",
         "quest": 63,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Continuer",
@@ -1133,17 +1134,15 @@
     "_id": 65,
     "title": "La Mort arrive",
     "text":"La silhouette continue de parcourir son grimoire quand soudain son doigt s’arrête. La capuche s’approche de la page jaunie. “Ah, attendez… Je vois quelque chose ici.” Vous remarquez que des traits se dessinent à l’endroit désigné. “Peut-être que Corrine va conserver son job et sa vie aujourd’hui, finalement !” Le rire qui s’échappe de la capuche vous évoque le verre pilé.",
-    "image": "assets/img/background/story/3doors.svg",
+    "image": "assets/img/background/story/death1.svg",
     "buttons": [
       {
         "title": "Refermer la porte",
-        "battle": false,
         "quest": 63,
-        "unique": false
+        "unique": true
       },
       {
         "title": "Continuer",
-        "battle": false,
         "quest": 66,
         "unique": false
       }
@@ -1170,13 +1169,13 @@
     "image": "assets/img/background/story/vampire1.svg",
     "buttons": [
       {
-        "title": "Lui lancer de la légumineuse dans un coin de la pièce (requiert salade/champignons)",
+        "title": "Lui lancer de la légumineuse dans un coin de la pièce (requiert salade)",
         "item": 3,
         "quest": 89,
         "unique": false
       },
       {
-        "title": "Lui lancer de la légumineuse dans un coin de la pièce (requiert salade/champignons)",
+        "title": "Lui lancer de la légumineuse dans un coin de la pièce (requiert champignons)",
         "item": 4,
         "quest": 89,
         "unique": false
@@ -1832,7 +1831,7 @@
     "_id": 104,
     "title": "La salle des miroirs",
     "text": "Vous vous multipliez dès l’instant où vous franchissez le seuil de la porte. Votre image en tout cas. Vous vous trouvez au milieu d’une pièce octogonale où chaque mur est un miroir. Tous sans exception vous renvoie un reflet déformé : vous êtes tour à tour grosse, à l’envers, un poulet… (oui). Celui qui vous fait face est différent, cependant : il est maculé de crasse, mais entre les tâches vous croyez discerner un reflet en tout point fidèle à la réalité.",
-    "image": "",
+    "image": "assets/img/background/story/hallOfMirrors1.svg",
     "buttons": [
       {
         "title": "Essuyer le miroir crasseux ",
@@ -1841,7 +1840,7 @@
         "unique": false
       },
       {
-        "title": "Essuyer le miroir crasseux ",
+        "title": "Essuyer le miroir crasseux avec votre manche ",
         "quest": 106,
         "unique": false
       }
@@ -1851,7 +1850,7 @@
     "_id": 105,
     "title": "L’ami qui essuie",
     "text": "Au moment où vous tendez le bras pour essuyer le miroir, Monsieur Propre, le fantôme ménager qui n’a pas lâché votre jambe depuis la salle des fantômes ratés, jaillit pour se jeter à l’assaut de la surface pas si réfléchissante. Il se met à parcourir le miroir de long en large en se tortillant dans tous les sens. Peu à peu la crasse disparaît pour laisser place à votre reflet parfait. Lorsque la dernière once d’impureté disparaît, Monsieur Propre est quant à lui devenu totalement noir. Il effectue une dernière virevolte dans les airs avant de retomber dans vos bras, inerte. Il s’est tué à la tâche. Littéralement. Humour. Rigolez maintenant.",
-    "image": "",
+    "image": "assets/img/background/story/hallOfMirrors1.svg",
     "buttons": [
       {
         "title": "Entrer dans le miroir",
@@ -1874,7 +1873,7 @@
     "_id": 106,
     "title": "Pas les bons outils",
     "text": "Vous vous affairez à frictionner le miroir, mais rien n’y fait : il reste invariablement noirci par la crasse. Votre manche, par contre, est dégueulasse. Encore un truc qui ne partira pas avec une simple lessive. Ceci dit vous avez l’habitude des tâches difficiles, notamment à cause du sang de vos victimes. Tandis que vous divaguez au sujet de votre prochaine tournée de lessive, vous avez la sensation de vous endormir et de vous réveiller en un éclair. Vous voyez flou, mais une chose est sûre : vous n’êtes plus dans la salle des miroirs.",
-    "image": "",
+    "image": "assets/img/background/story/hallOfMirrors1.svg",
     "buttons": [
       {
         "title": "Plisser les yeux",
@@ -1887,7 +1886,7 @@
     "_id": 107,
     "title": "Vous vous surestimez",
     "text": "Vous êtes une de ces rares personnes qui a le don inouï de laisser une pièce plus sale après l’avoir nettoyée. Donc non. Juste pour que ça soit dit : cracher dans ses mains et frotter deux-trois trucs avec votre pouce pendant que vous dégueulassez tout avec vos bottes, ce n’est pas stratégique.",
-    "image": "",
+    "image": "assets/img/background/story/hallOfMirrors1.svg",
     "buttons": [
       {
         "title": "Je suis un génie incompris",
@@ -1900,7 +1899,7 @@
     "_id": 108,
     "title": "Nécromancien du dimanche",
     "text": "Hors de question que Monsieur Propre rende l’âme… encore. Vous vous rappelez cet objet mystique trouvé dans la chambre de Merlin… le Canard de l’Apocalypse. Vous vous souvenez de la puissance qui semblait en émaner, presque palpable. Avec un tel nom, il doit être possible d’accéder au pouvoir du chaos pour ramener la vie. Vous sortez le canard de votre besace et vous le collez au drap inerte de Monsieur Propre. Rien ne se passe. C’est balo, ils ne fournissent pas de manuel avec les Canards de l’Apocalypse apparemment. Vous êtes au milieu d’une pièce qui vous renvoie une myriade de reflets de vous en train de frotter un canard jaune contre un drap. Vous commencez à vous sentir ridicule. Vous avez raison.",
-    "image": "",
+    "image": "assets/img/background/story/hallOfMirrors1.svg",
     "buttons": [
       {
         "title": "J’aurai tout essayé…",
@@ -1913,7 +1912,7 @@
     "_id": 109,
     "title": "Continuer ou ressusciter",
     "text": "Vous remarquez que la surface du miroir désormais propre tremblotte un peu, comme parcourue de vaguelettes. Vous pourriez presque jurer qu’il s’agit d’un miroir d’eau. Monsieur Propre a vraiment fait du beau travail pour l’ultime mission de son existence.",
-    "image": "",
+    "image": "assets/img/background/story/hallOfMirrors1.svg",
     "buttons": [
       {
         "title": "Entrer dans le miroir",
@@ -1931,7 +1930,7 @@
     "_id": 110,
     "title": "La poudre de Merlinpinpin",
     "text": "Vous approchez du miroir, tendez la main pour le toucher et dès l’instant où vos doigts entrent en contact avec la surface liquide, vous êtes happée vers un nouveau lieu. Vous y trouver une baignoire luxueuse posée sur un carrelage exquis. Derrière un paravent, à droite de la baignoire, vous discernez une silhouette. Un chapeau pointu dépasse. “Merlin, il est temps que votre folie s’arrête !” Dans sa surprise, le magicien fait tomber le paravent et vous le découvrez la robe ouverte sur un caleçon pour le moins original. Des canards s’y ébattent, joyeux. Vous voyez leurs ailes se mouvoir. Ils jouent ensemble. C’est fou ce qu’on peut faire avec de la magie, de la folie et du temps. Ce qui est moins mignon, c’est le pif de Merlin, recouvert d’une poudre blanche. Le vieux a visiblement le nez qui traîne dans le saladier, ce qui ne doit pas aider sa condition mentale. Derrière lui, vous remarquez une table sur laquelle trônent des dunes de la même couleur opaline. “Je l’ai inventée, elle est à moi ! Si vous voulez ma Poudre de Merlinpinpin, il faudra me passer sur le corps ! Ou alors me payer excessivement cher.” Ça doit pouvoir se revendre sans problème. Une raison de plus de mettre ce fou hors d’état de nuire.",
-    "image": "",
+    "image": "assets/img/background/story/bathroom1.svg",
     "buttons": [
       {
         "title": "Pour la thune !",
@@ -1959,7 +1958,7 @@
     "_id": 111,
     "title": "Pacifier le vioc",
     "text": "Merlin invoque son grimoire, qui apparaît entre ses mains. Cet objet est responsable de tous les maux des villageois, et vous savez qu’il pourrait aussi causer votre perte. Vous tirez votre arme, prête à éliminer le vieux magicien complètement défoncé qui se tient devant vous, toujours en robe ouverte sur caleçon.",
-    "image": "",
+    "image": "assets/img/background/story/bathroom1.svg",
     "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
@@ -1993,7 +1992,7 @@
     "_id": 113,
     "title": "Fermeture du grimoire (Bataille contre Merlin - Réussite)",
     "text": "Merlin raille votre petite manœuvre : “Ha ! Vous comptez éteindre l’essence même du feu stellaire avec un seau d’eau ? Pauvre sotte !” En entrant en contact avec “l’essence même du feu stellaire” (il se la pète de ouf ce Merlin quand même), l’eau se transforme en vapeur. Et c’est l’effet recherché. Le vieux magicien ne vous voit plus à présent, tandis que vous le repérez grâce à la pointe de son chapeau.L’air est expulsé de ses poumons lorsque vous lui enfoncez votre lame dans la poitrine. Alors que ses yeux se voilent, l’environnement autour de vous se brouille. Lorsqu’il se stabilise de nouveau, vous êtes à l’extérieur du château. C’est là que Merlin commence à.. changer. ",
-    "image": "",
+    "image": "assets/img/background/story/bathroom1.svg",
     "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
@@ -3301,7 +3300,7 @@
     "_id": 174,
     "title": "Rustre",
     "text": "La mine du golem s’assombrit. “Je vous parle de Timmy qui a donné sa vie pour notre cause, et tout ce que vous trouvez à faire, c’est m’interroger ?” C’est vrai que vous auriez pu faire preuve d’un peu de tact. Ceci étant dit, vous n’êtes pas vraiment venu pour tailler le bout de gras, à la base. “Vous feriez mieux de partir, avant qu’on s’énerve avec les autres.” Il y a vraiment beaucoup de golems dans la pièce. Tirez-vous.",
-    "image": "",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Sortir",
@@ -3314,7 +3313,7 @@
     "_id": 175,
     "title": "",
     "text": "“Je ne peux pas vraiment vous dire où se trouve Merlin. Chaque jour le vieux fou a une nouvelle lubie. Tout ce que je peux vous révéler, c’est qu’aujourd’hui il semble particulièrement porté sur les odeurs et la crasse. Timmy nous l’a révélé juste avant de tomber comme une pierre.” Vous vous dites que ça ne doit pas trop lui changer, à Timmy, avant de réaliser que ce n’est pas franchement le sujet. Vous remerciez le golem pour son aide et vous retournez pour quitter la bibliothèque.",
-    "image": "",
+    "image": "assets/img/background/story/golems1.svg",
     "buttons": [
       {
         "title": "Sortir",

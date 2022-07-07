@@ -55,8 +55,6 @@ const GameStory = ({
     }
   }, [quest])
 
-  console.log(hero)
-
   return (
     <>
       <GameHeader
