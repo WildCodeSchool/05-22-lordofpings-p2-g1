@@ -21,7 +21,7 @@ const GameTavernShop = ({ setMenu, hero, setHero }) => {
       setHero({
         ...hero,
         money: hero.money - article.shop.buyPrice,
-        inventory: [...hero.inventory.weapons, article]
+        inventory: [...hero.inventory[0], article]
       })
       setMenu(0)
 

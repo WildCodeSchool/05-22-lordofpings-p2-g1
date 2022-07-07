@@ -3,9 +3,9 @@
     "_id": 0,
     "title": "Le départ de Camelot",
     "battle": false,
-    "text": "Vous marchez depuis quelques heures déjà. Lorsque vous vous êtes mise en route pour le fief de Merlin, vous aviez déjà entendu les histoires. La petite ville ne serait qu’une énième plaisanterie d’un esprit tombant irrémédiablement en décrépitude. L’enchanteur royal n’est plus que l’ombre de lui-même depuis près de 20 ans maintenant. Il terrorise aujourd’hui des villageois avec des golems de pierre, caché dans son château. Lorsque vous avez vu le décret royal à la taverne du “Rotiwok”, vous avez été quelque peu interloqué par la formulation : “Le Roi Arthur ordonne la saisie du grimoire de Merlin, utilisé pour invoquer les “Témoins de Merlin”, des golems de pierre provoquant le dépérissement des âmes des villageois. Sera attribuée la récompense de 1 000 pièces d’or à…” C’est à partir de là que votre cerveau n’en avait plus grand-chose à foutre.", 
+    "text": "Vous marchez depuis quelques heures déjà. Lorsque vous vous êtes mise en route pour le fief de Merlin, vous aviez déjà entendu les histoires. La petite ville ne serait qu’une énième plaisanterie d’un esprit tombant irrémédiablement en décrépitude. L’enchanteur royal n’est plus que l’ombre de lui-même depuis près de 20 ans maintenant. Il terrorise aujourd’hui des villageois avec des golems de pierre, caché dans son château. Lorsque vous avez vu le décret royal à la taverne du “Rotiwok”, vous avez été quelque peu interloqué par la formulation : “Le Roi Arthur ordonne la saisie du grimoire de Merlin, utilisé pour invoquer les “Témoins de Merlin”, des golems de pierre provoquant le dépérissement des âmes des villageois. Sera attribuée la récompense de 1 000 pièces d’or à…” C’est à partir de là que votre cerveau n’en avait plus grand-chose à foutre.",
     "image": "assets/img/background/story/forest1.svg",
-    "sound":"assets/audio/foret1.mp3",
+    "sound": "assets/audio/foret1.mp3",
     "buttons": [
       {
         "title": "Poursuivre votre route",
@@ -16,7 +16,7 @@
   },
   {
     "_id": 1,
-    "battle":false,
+    "battle": false,
     "title": "Les Témoins de Merlin",
     "text": "Lorsque vous passez le panneau indiquant “Fookin Foolths”, des golems se précipitent vers vous. Les fameux “Témoins de Merlin” en pierre et en… pierre. De prime abord effrayée, vous réalisez rapidement qu’ils n’en veulent qu’à vos oreilles : ils ne cessent de réclamer de votre temps pour vous entretenir de “la grandeur du seigneur Merlin”. Vous n’avez droit à aucun répit jusqu’à atteindre la taverne. Pire, vous constatez que les golems commencent à diversifier leurs activités en proposant des ventes de bocaux et autres babioles - vous remarquez notamment une étrange pyramide en fer, très étirée en hauteur, qu’un golem particulièrement enthousiaste vous agite sous le nez en articulant “Touréphel”.",
     "image": "assets/img/background/story/city1.svg",
@@ -231,7 +231,7 @@
   {
     "_id": 13,
     "battle": false,
-    "item":2,
+    "item": 2,
     "title": "La chance de votre vie (Saisissez la chance de votre vie)",
     "text": "“Bonjour, je suis Karvagma, l’un des 4 grands cerfs spirituels. Et aujourd’hui, c’est votre jour de chance mon amie : pendant 24h, je vous offre une remise de 75% sur les kits ignifuges Karvagma. Pas d’entourloupe ! Le jour où mon cousin Gollum est tombé dans la lave, j’ai compris qu’il y avait un marché à saisir. Tenez, prenez ma carte, ça vous donnera un avant-goût !” Là-dessus, Karvagma, CEO spirituel de Karvagma Inc. disparaît dans une volute de fumée. À sa place, vous voyez une carte de visite aussi rougeoyante que lui, au nom de sa start-up.",
     "image": "assets/img/background/story/forest6.svg",
@@ -282,9 +282,9 @@
   {
     "_id": 16,
     "title": "Le château de Merlin (Arrivée au château)",
-    "text":"Merlin a beau être fou, il a tout de même bon goût. Nul doute que les villageois ont travaillé d’arrache-pied pour bâtir les 20% restants du château. En témoignent les magnifiques moulures, les statues finement ouvragées et les vitraux ciselés. Bon c’est bien beau tout ça, mais vous n’êtes pas venu pour acheter, pas vrai ? Alors arrêtez de rêvasser devant ce tas de pierres. Vous vous dites que vous pourriez retourner à la taverne assez facilement maintenant, étant donné que vous vous trouvez à un carrefour et qu’un panneau “Taverne (voie rapide)” est planté là. Si vous aviez su…  Mais après tout, mieux vaut peut-être en finir le plus vite possible avec le vieux frappadingue et ses golems-sandwichs.",
+    "text": "Merlin a beau être fou, il a tout de même bon goût. Nul doute que les villageois ont travaillé d’arrache-pied pour bâtir les 20% restants du château. En témoignent les magnifiques moulures, les statues finement ouvragées et les vitraux ciselés. Bon c’est bien beau tout ça, mais vous n’êtes pas venu pour acheter, pas vrai ? Alors arrêtez de rêvasser devant ce tas de pierres. Vous vous dites que vous pourriez retourner à la taverne assez facilement maintenant, étant donné que vous vous trouvez à un carrefour et qu’un panneau “Taverne (voie rapide)” est planté là. Si vous aviez su…  Mais après tout, mieux vaut peut-être en finir le plus vite possible avec le vieux frappadingue et ses golems-sandwichs.",
     "image": "assets/img/background/story/castle3.svg",
-    "sound":"assets/audio/foret1.mp3",
+    "sound": "assets/audio/foret1.mp3",
     "buttons": [
       {
         "title": "Faire un petit tour à la taverne",
@@ -477,8 +477,6 @@
     "buttons": [
       {
         "title": "Accepter de lui donner toutes vos richesses",
-        "money":0,
-        "item":" ",
         "quest": 28,
         "unique": false
       },
@@ -498,7 +496,7 @@
     "_id": 28,
     "money": 0,
     "title": "La bourse plutôt que la vie (Accepter de lui donner toutes vos richesses)",
-    "text":"“Merci, c’est bien urbain de votre part.” L’œil avide, le Gardien des Crystomonnaies se jette sur son butin et s’emploie à faire les comptes. C’est le moment de vous barrer. Maintenant. Qu’est-ce que vous attendez ? Décarrez",
+    "text": "“Merci, c’est bien urbain de votre part.” L’œil avide, le Gardien des Crystomonnaies se jette sur son butin et s’emploie à faire les comptes. C’est le moment de vous barrer. Maintenant. Qu’est-ce que vous attendez ? Décarrez",
     "image": "assets/img/background/story/cave2.svg",
     "buttons": [
       {
@@ -511,7 +509,7 @@
   {
     "_id": 29,
     "title": "Vous vivez pour jouer, à moins que ce ne soit l’inverse (Résoudre l’énigme du gardien)",
-    "text":"“Énoncez votre énigme, qu’on en finisse. Allons, un peu d’entrain, sinon à quoi bon jouer ?” Voyant que vous ne vous dériderez pas, le géant obtempère, un brin vexé. “Si j’écris tous les nombres de 100 à 400, combien de fois ai-je écrit le chiffre 2 ?” “Ha ! Bien joué !” Le Gardien des Crystomonnaie est visiblement satisfait de votre réponse.",
+    "text": "“Énoncez votre énigme, qu’on en finisse. Allons, un peu d’entrain, sinon à quoi bon jouer ?” Voyant que vous ne vous dériderez pas, le géant obtempère, un brin vexé. “Si j’écris tous les nombres de 100 à 400, combien de fois ai-je écrit le chiffre 2 ?” “Ha ! Bien joué !” Le Gardien des Crystomonnaie est visiblement satisfait de votre réponse.",
     "image": "assets/img/background/story/cave2.svg",
     "buttons": [
       {
@@ -538,8 +536,8 @@
   },
   {
     "_id": 30,
-    "title":"Les chiffres, c'est votre truc( Réussite de l'énigme)",
-    "text":"“Ha ! Bien joué !” Le Gardien des Crystomonnaie est visiblement satisfait de votre réponse. “Vous m’avez apporté un peu de distraction, et pour cette raison je vais vous laisser partir. Comme promis, voici une crystomonnaie, faites-en bon usage.” Même s’il avait promis de vous la remettre, la frustration est peinte sur son visage. “La sortie vers la vallée est par là.” En suivant son doigt du regard, vous apercevez un vaste tunnel. En l’empruntant, vous trouvez rapidement la lumière du jour.",
+    "title": "Les chiffres, c'est votre truc( Réussite de l'énigme)",
+    "text": "“Ha ! Bien joué !” Le Gardien des Crystomonnaie est visiblement satisfait de votre réponse. “Vous m’avez apporté un peu de distraction, et pour cette raison je vais vous laisser partir. Comme promis, voici une crystomonnaie, faites-en bon usage.” Même s’il avait promis de vous la remettre, la frustration est peinte sur son visage. “La sortie vers la vallée est par là.” En suivant son doigt du regard, vous apercevez un vaste tunnel. En l’empruntant, vous trouvez rapidement la lumière du jour.",
     "image": "assets/img/background/story/cave2.svg",
     "buttons": [
       {
@@ -552,7 +550,7 @@
   {
     "_id": 31,
     "title": "Vous n'avez jamais été très chiffre(Echec de l'énigme du gardien)",
-    "text":"Vous donnez votre réponse, convaincue d’avoir déjoué l’énigme du gardien. Mais son grognement de frustration vient couper court à vos espoirs. La frustration se transforme rapidement en rage, et un léger tintement tout autour de vous vous fait réaliser la puissance du grondement grandissant du géant. Il semble que vous n’ayez d’autre choix que de vous battre.",
+    "text": "Vous donnez votre réponse, convaincue d’avoir déjoué l’énigme du gardien. Mais son grognement de frustration vient couper court à vos espoirs. La frustration se transforme rapidement en rage, et un léger tintement tout autour de vous vous fait réaliser la puissance du grondement grandissant du géant. Il semble que vous n’ayez d’autre choix que de vous battre.",
     "image": "assets/img/background/story/cave2.svg",
     "buttons": [
       {
@@ -570,7 +568,7 @@
   {
     "_id": 32,
     "title": "Oui alors bon (Sauf que vous n'avez pas envie de vous battre)",
-    "text":"Vous savez comme on dit que “dans la vie, on n’a pas toujours le choix ?”",
+    "text": "Vous savez comme on dit que “dans la vie, on n’a pas toujours le choix ?”",
     "image": "assets/img/background/story/cave2.svg",
     "buttons": [
       {
@@ -583,7 +581,7 @@
   {
     "_id": 33,
     "title": "Pas de repos pour les braves (Chercher la sortie le plus vite possible)",
-    "text":"Vous ne vous attardez pas, malgré les richesses potentielles qui vous tendent les bras. C’est dommage parce que les thunes, ça fait pas le bonheur, mais ça fait à minima l’équipement. M’enfin c’est vous qui voyez. Vous finissez par trouver une sortie qui vous ramène à l’air libre. Des vibrations régulières dans le sol, comme les pas d’une créature anormalement lourde, vous font penser que vous avez bien fait de ne pas vous attarder. Une chaleur suffocante vous assaille, et pour cause : vous vous trouvez face à un immense lac de lave. Aucun moyen de le contourner, vous allez devoir traverser. Après considération, vous vous dites qu’il est peut-être possible d’atteindre l’autre rive grâce aux rochers qui émergent du magma ça et là",
+    "text": "Vous ne vous attardez pas, malgré les richesses potentielles qui vous tendent les bras. C’est dommage parce que les thunes, ça fait pas le bonheur, mais ça fait à minima l’équipement. M’enfin c’est vous qui voyez. Vous finissez par trouver une sortie qui vous ramène à l’air libre. Des vibrations régulières dans le sol, comme les pas d’une créature anormalement lourde, vous font penser que vous avez bien fait de ne pas vous attarder. Une chaleur suffocante vous assaille, et pour cause : vous vous trouvez face à un immense lac de lave. Aucun moyen de le contourner, vous allez devoir traverser. Après considération, vous vous dites qu’il est peut-être possible d’atteindre l’autre rive grâce aux rochers qui émergent du magma ça et là",
     "image": "assets/img/background/story/cave4.svg",
     "buttons": [
       {
@@ -622,7 +620,7 @@
   {
     "_id": 35,
     "title": "Ça sent le cochon grillé, non ? (Traverser avec prudence)",
-    "text":"Vous vous rappelez la carte de visite de Karvagma et ce qu’il a dit en vous la laissant : “un avant-goût” de ses kits ignifuges. Nichée au creux de votre main, vous sentez qu’elle irradie de pouvoir. Vous vous mettez à genou et avancez un doigt en direction de la lave en fusion, tout en refusant de regarder. Lorsque votre peau touche le magma, vous avez juste l’impression de tâter un gâteau spongieux. Vous vous relevez et avancez prudemment sur le lac de lave, trop incertaine de pouvoir marcher sans crainte. Il est mieux de prendre son temps et d’arriver bien vivante, rien ne presse. Sauf que si. Arrivée à mi-parcours, vous ressentez davantage de chaleur, et le creux de votre main vous chatouille. En ouvrant le poing, vous constatez que la carte de Karvagma se consume pour vous permettre de ne pas être consumée, vous.Il vous reste un petit bout de carte, et 500 mètres de lac de lave en fusion à parcourir. Vous n’y arriverez jamais. Votre voyage se termine ici. Quelle ironie pour quelqu’un qui a toujours détesté la viande trop cuite.",
+    "text": "Vous vous rappelez la carte de visite de Karvagma et ce qu’il a dit en vous la laissant : “un avant-goût” de ses kits ignifuges. Nichée au creux de votre main, vous sentez qu’elle irradie de pouvoir. Vous vous mettez à genou et avancez un doigt en direction de la lave en fusion, tout en refusant de regarder. Lorsque votre peau touche le magma, vous avez juste l’impression de tâter un gâteau spongieux. Vous vous relevez et avancez prudemment sur le lac de lave, trop incertaine de pouvoir marcher sans crainte. Il est mieux de prendre son temps et d’arriver bien vivante, rien ne presse. Sauf que si. Arrivée à mi-parcours, vous ressentez davantage de chaleur, et le creux de votre main vous chatouille. En ouvrant le poing, vous constatez que la carte de Karvagma se consume pour vous permettre de ne pas être consumée, vous.Il vous reste un petit bout de carte, et 500 mètres de lac de lave en fusion à parcourir. Vous n’y arriverez jamais. Votre voyage se termine ici. Quelle ironie pour quelqu’un qui a toujours détesté la viande trop cuite.",
     "image": "assets/img/background/story/cave4.svg",
     "buttons": [
       {
@@ -635,7 +633,7 @@
   {
     "_id": 36,
     "title": "L’entraînement paie enfin (Sauter de rocher en rocher)",
-    "text":"Vous vous délestez de quelques babioles qui vous alourdissent inutilement. Le temps de trouver un itinéraire parmi les rochers, vous voilà à sauter et virevolter de monticule en monticule. Vous atterrissez finalement (avec beaucoup de grâce, si je puis me permettre) de l’autre côté du lac. L’opération n’aura pris qu’une dizaine de minutes. Ce serait un record s’il y avait une épreuve sportive de ce type. Mais il n’y en a pas. En contrebas, une vallée s’offre à vos yeux, et dans cette vallée se dressent quatre tours et un donjon, assortis de murailles. Le château de Merlin est en vue.",
+    "text": "Vous vous délestez de quelques babioles qui vous alourdissent inutilement. Le temps de trouver un itinéraire parmi les rochers, vous voilà à sauter et virevolter de monticule en monticule. Vous atterrissez finalement (avec beaucoup de grâce, si je puis me permettre) de l’autre côté du lac. L’opération n’aura pris qu’une dizaine de minutes. Ce serait un record s’il y avait une épreuve sportive de ce type. Mais il n’y en a pas. En contrebas, une vallée s’offre à vos yeux, et dans cette vallée se dressent quatre tours et un donjon, assortis de murailles. Le château de Merlin est en vue.",
     "image": "assets/img/background/story/cave4.svg",
     "buttons": [
       {
@@ -648,7 +646,7 @@
   {
     "_id": 37,
     "title": "Une aide bienvenue (Proposer votre aide au loup à poil)",
-    "text":"Le loup se détend de manière perceptible. “Vous feriez ça ?” Ses pupilles se dilatent à l’extrême et vous vous rendez compte qu’il est trop choupinoupinet. “Vous m’aideriez à retrouver ma cape rouge ? C’est un chaperon, pour être plus exact. Je vous récompenserai dûment.”",
+    "text": "Le loup se détend de manière perceptible. “Vous feriez ça ?” Ses pupilles se dilatent à l’extrême et vous vous rendez compte qu’il est trop choupinoupinet. “Vous m’aideriez à retrouver ma cape rouge ? C’est un chaperon, pour être plus exact. Je vous récompenserai dûment.”",
     "image": "assets/img/background/story/mountainWolf1.svg",
     "buttons": [
       {
@@ -661,7 +659,7 @@
   {
     "_id": 38,
     "title": "Ça ne doit pas être bien difficile à trouver, un petit chaperon (Bien sûr que vous allez aider ce pauvre loup sans défense)",
-    "text":"“Bien sûr, comment pourrais-je refuser ?” lancez-vous d’une voix un rien mielleuse. Oui, comment vous pourriez refuser ? Il est vraiment trop kiki. Vous fouillez le moins recoin pendant de longues heures. Finalement, épuisée, vous vous asseyez sur un rocher. Qui couine. Vous vous relevez d’un bond. La neige qui couvrait le rocher tombe en morceaux et laisse paraître un magnifique chaperon rouge… portée par une jeune fille terrorisée. “Je vous en prie, aidez-moi. Il veut me dévorer ! Je n’ai pas grand-chose, mais je peux vous donner ma cape, elle vous aidera dans vos périples !” En jetant un regard par-dessus votre épaule, vous constatez que le loup est occupé à retourner le moindre caillou à plusieurs mètres de vous. Il a le dos tourné.",
+    "text": "“Bien sûr, comment pourrais-je refuser ?” lancez-vous d’une voix un rien mielleuse. Oui, comment vous pourriez refuser ? Il est vraiment trop kiki. Vous fouillez le moins recoin pendant de longues heures. Finalement, épuisée, vous vous asseyez sur un rocher. Qui couine. Vous vous relevez d’un bond. La neige qui couvrait le rocher tombe en morceaux et laisse paraître un magnifique chaperon rouge… portée par une jeune fille terrorisée. “Je vous en prie, aidez-moi. Il veut me dévorer ! Je n’ai pas grand-chose, mais je peux vous donner ma cape, elle vous aidera dans vos périples !” En jetant un regard par-dessus votre épaule, vous constatez que le loup est occupé à retourner le moindre caillou à plusieurs mètres de vous. Il a le dos tourné.",
     "image": "assets/img/background/story/mountainWolf1.svg",
     "buttons": [
       {
@@ -680,7 +678,7 @@
     "_id": 39,
     "money": 10,
     "title": "Il en faut pour tous les goûts (Ramener la fillette au loup, il a promis une récompense)",
-    "text":"Vous saisissez la jeune fille par le bras. Elle se débat, mais vous tenez bon et la ramenez auprès du loup. Le regard de celui-ci n’est plus du tout mignon. “Ah, merci infiniment ! Mais heu… vous savez, seule la cape m’intéresse hein…” Il ment vraiment très mal. Il comprend qu’on ne vous la fait pas, mais aussi que vous vous en fichez éperdument. “Tenez, pour votre aide précieuse…” Il lâche au creux de votre main une petite bourse bien pleine. Vous reprenez votre route vers le nord et vous finissez par tomber sur un chemin de montagne qui serpente vers une vallée où se dressent les tours d’un château.",
+    "text": "Vous saisissez la jeune fille par le bras. Elle se débat, mais vous tenez bon et la ramenez auprès du loup. Le regard de celui-ci n’est plus du tout mignon. “Ah, merci infiniment ! Mais heu… vous savez, seule la cape m’intéresse hein…” Il ment vraiment très mal. Il comprend qu’on ne vous la fait pas, mais aussi que vous vous en fichez éperdument. “Tenez, pour votre aide précieuse…” Il lâche au creux de votre main une petite bourse bien pleine. Vous reprenez votre route vers le nord et vous finissez par tomber sur un chemin de montagne qui serpente vers une vallée où se dressent les tours d’un château.",
     "image": "assets/img/background/story/mountainWolf1.svg",
     "buttons": [
       {
@@ -693,7 +691,7 @@
   {
     "_id": 40,
     "title": "La grande évasion (Aider la fillette à s’enfuir)",
-    "text":"“Viens avec moi si tu veux vivre.” Vous tendez la main à la jeune fille, qui ne se fait pas prier pour la saisir. La force de sa poigne témoigne de la terreur intense qui l’habite. Vous profitez que le loup est toujours dos à vous, occupé à réajuster son caleçon en faisant claquer son élastique pour détaler. Bien qu’il s’agissait d’un beau claquement, rien à redire là-dessus, ce n’est pas suffisant pour couvrir votre départ précipité. Le loup se jette à votre poursuite avec une telle vélocité que son caleçon s’envole avec ses louves pin-ups, enfin libres. Le terrain semble obliquer de manière abrupte un peu plus loin, et vous craignez de n’avoir d’autre choix que de vous battre contre le loup à poil (pour de bon, cette fois). Au dernier instant, vous remarquez un chemin sur votre gauche. Vous entendez distinctement le loup s’élancer. Tirant violemment sur le bras de la fillette, vous vous jetez sur le côté. Le loup vous jette un regard médusé tandis qu’il chute le long de la falaise. Après qu’il ait poussé son ultime hurlement rageur, le vent porte à sa suite son caleçon. Qui fait quelques virevoltes avant de se soustraire à votre vue. En vous relevant, vous constatez que le chemin que vous avez trouvé serpente en direction d’une vallée au cœur de laquelle un château dresse fièrement son donjon.",
+    "text": "“Viens avec moi si tu veux vivre.” Vous tendez la main à la jeune fille, qui ne se fait pas prier pour la saisir. La force de sa poigne témoigne de la terreur intense qui l’habite. Vous profitez que le loup est toujours dos à vous, occupé à réajuster son caleçon en faisant claquer son élastique pour détaler. Bien qu’il s’agissait d’un beau claquement, rien à redire là-dessus, ce n’est pas suffisant pour couvrir votre départ précipité. Le loup se jette à votre poursuite avec une telle vélocité que son caleçon s’envole avec ses louves pin-ups, enfin libres. Le terrain semble obliquer de manière abrupte un peu plus loin, et vous craignez de n’avoir d’autre choix que de vous battre contre le loup à poil (pour de bon, cette fois). Au dernier instant, vous remarquez un chemin sur votre gauche. Vous entendez distinctement le loup s’élancer. Tirant violemment sur le bras de la fillette, vous vous jetez sur le côté. Le loup vous jette un regard médusé tandis qu’il chute le long de la falaise. Après qu’il ait poussé son ultime hurlement rageur, le vent porte à sa suite son caleçon. Qui fait quelques virevoltes avant de se soustraire à votre vue. En vous relevant, vous constatez que le chemin que vous avez trouvé serpente en direction d’une vallée au cœur de laquelle un château dresse fièrement son donjon.",
     "image": "assets/img/background/story/mountainWolf1.svg",
     "buttons": [
       {
@@ -706,7 +704,7 @@
   {
     "_id": 41,
     "title": "Kylian était un bon gamin, et vous le savez (Non mais en vrai on n’a qu’à dire nord-est)",
-    "text":"Parce que Kylian, vous saviez bien dans le fond qu’il était amoureux de vous. Ce jour-là il vous avait offert des fleurs qu’il avait cueillies dans le jardin. D’accord c’était le jardin de votre famille, mais on n’a pas forcément tous les couteaux dans le même tiroir, à 5 ans et demi. Ah oui au fait, vous ne voyez que de la neige dans cette direction. Et donc Kylian, il se retrouve avec le nez de Michael Jackson. Cherchez pas, vous ne connaissez pas. Un troubadour d’une contrée lointaine, aux cavités nasales prodigieusement aérées.",
+    "text": "Parce que Kylian, vous saviez bien dans le fond qu’il était amoureux de vous. Ce jour-là il vous avait offert des fleurs qu’il avait cueillies dans le jardin. D’accord c’était le jardin de votre famille, mais on n’a pas forcément tous les couteaux dans le même tiroir, à 5 ans et demi. Ah oui au fait, vous ne voyez que de la neige dans cette direction. Et donc Kylian, il se retrouve avec le nez de Michael Jackson. Cherchez pas, vous ne connaissez pas. Un troubadour d’une contrée lointaine, aux cavités nasales prodigieusement aérées.",
     "image": "assets/img/background/story/mountain3.svg",
     "buttons": [
       {
@@ -737,7 +735,7 @@
   {
     "_id": 43,
     "title": "Non (C’est une direction est-ouest ?)",
-    "text":"Sérieusement ?",
+    "text": "Sérieusement ?",
     "image": "assets/img/background/story/mountain3.svg",
     "buttons": [
       {
@@ -763,7 +761,7 @@
   {
     "_id": 45,
     "title": "Un petit havre de paix (Clairière)",
-    "text":"Les oiseaux chantent, le vent caresse les branches d’un bois non loin de là, un petit lapin se fait défoncer la tronche par un ours. Le cadre est idyllique.Vous vous trouvez au milieu d’une petite clairière et vous prenez le temps de marcher tranquillement, pour changer. Les tours du château de Merlin percent le ciel un peu plus loin, au-delà d’une petite colline. Tout-à-coup, vous apercevez de magnifiques salades sauvages. Vous pouvez prendre le temps d’en emporter une au passage.",
+    "text": "Les oiseaux chantent, le vent caresse les branches d’un bois non loin de là, un petit lapin se fait défoncer la tronche par un ours. Le cadre est idyllique.Vous vous trouvez au milieu d’une petite clairière et vous prenez le temps de marcher tranquillement, pour changer. Les tours du château de Merlin percent le ciel un peu plus loin, au-delà d’une petite colline. Tout-à-coup, vous apercevez de magnifiques salades sauvages. Vous pouvez prendre le temps d’en emporter une au passage.",
     "image": "assets/img/background/story/lievre1.svg",
     "buttons": [
       {
@@ -781,7 +779,7 @@
   {
     "_id": 46,
     "title": "Le départ de Monsieur LeCoq",
-    "text":"Alors que vous approchez des immenses portes du château, celles-ci s’ouvrent dans un grincement retentissant. Un homme vêtu d’une redingote et d’un chapeau élégant apparaît. Un détail notable le concernant : il a des pattes de poulet. À votre approche, il lève les yeux. “Je suppose que - cot cot ! - vous venez pour monsieur. (Il s’écarte) Ne vous faites pas prier.” Constatant que vous restez plantée là à fixer ses membres inférieurs, il ajoute : “Je suis monsieur LeCoq - cot cot ! - et je servais monsieur Merlin en qualité de majordome - cot cot !. Il s’ennuyait aujourd’hui, il a donc décidé de “réconcilier” - cot cot ! - mon image et mon nom. Comme vous le voyez, son sort a raté. Du moins en partie - cot cot ! C’était la goutte d’eau, je rentre en France.”",
+    "text": "Alors que vous approchez des immenses portes du château, celles-ci s’ouvrent dans un grincement retentissant. Un homme vêtu d’une redingote et d’un chapeau élégant apparaît. Un détail notable le concernant : il a des pattes de poulet. À votre approche, il lève les yeux. “Je suppose que - cot cot ! - vous venez pour monsieur. (Il s’écarte) Ne vous faites pas prier.” Constatant que vous restez plantée là à fixer ses membres inférieurs, il ajoute : “Je suis monsieur LeCoq - cot cot ! - et je servais monsieur Merlin en qualité de majordome - cot cot !. Il s’ennuyait aujourd’hui, il a donc décidé de “réconcilier” - cot cot ! - mon image et mon nom. Comme vous le voyez, son sort a raté. Du moins en partie - cot cot ! C’était la goutte d’eau, je rentre en France.”",
     "image": "assets/img/background/story/mainDoor.svg",
     "buttons": [
       {
@@ -799,7 +797,7 @@
   {
     "_id": 47,
     "title": "L’autre glandu. (Boire une autre gorgée)",
-    "text":"Il a donc utilisé un sort d’édification primaire - qui permet d’ériger un bâtiment à 80% - et fait placarder des affiches à travers tout le royaume, promettant moult richesses à tous les bras forts qui finiraient sa place forte. Toutefois, il oublia de mentionner que la récompense promise dépendait de la transformation alchimique du plomb en or. Vous vous doutez bien de ce qu’il en est à ce niveau-là. Les bâtisseurs floués ont décidé de rester jusqu’à ce que Merlin daigne leur payer ce qui leur est dû et ont ainsi fondé une petite ville à quelques kilomètres du château. Le druide a souhaité montrer sa bonne volonté : il a reconnu la ville en lui donnant le nom de Fookin Foolths.",
+    "text": "Il a donc utilisé un sort d’édification primaire - qui permet d’ériger un bâtiment à 80% - et fait placarder des affiches à travers tout le royaume, promettant moult richesses à tous les bras forts qui finiraient sa place forte. Toutefois, il oublia de mentionner que la récompense promise dépendait de la transformation alchimique du plomb en or. Vous vous doutez bien de ce qu’il en est à ce niveau-là. Les bâtisseurs floués ont décidé de rester jusqu’à ce que Merlin daigne leur payer ce qui leur est dû et ont ainsi fondé une petite ville à quelques kilomètres du château. Le druide a souhaité montrer sa bonne volonté : il a reconnu la ville en lui donnant le nom de Fookin Foolths.",
     "image": "assets/img/background/story/tavern2.svg",
     "buttons": [
       {
@@ -812,7 +810,7 @@
   {
     "_id": 48,
     "title": "L’autre glandu (Encore une petite lampée pour la route)",
-    "text":"Une fois rentré à son château, il a ourdi un plan machiavélique et relativement inhumain afin de se débarrasser de ses ouailles impudentes : faisant appel au plan tellurique, il a lancé une invocation… un peu au hasard, il faut le reconnaître. De manière inexplicable, le sort a fonctionné et Fookin Foolths se retrouve à présent envahi de golems de pierre. D’abord effrayés, les habitants de la petite bourgade ont rapidement compris que les créatures ne représentaient aucun danger à proprement parler. Seulement, ils ne cessent de frapper aux portes, répétant inlassablement cette phrase : “avez-vous quelques minutes à m’accorder pour parler de la grandeur de notre seigneur Merlin ?”. Il suffit qu’une fenêtre reste ouverte, qu’un paysan aille aux champs, bref il suffit de la moindre opportunité pour qu’un golem déroule son laïus. “Voilà, vous savez tout” conclut votre interlocuteur. ",
+    "text": "Une fois rentré à son château, il a ourdi un plan machiavélique et relativement inhumain afin de se débarrasser de ses ouailles impudentes : faisant appel au plan tellurique, il a lancé une invocation… un peu au hasard, il faut le reconnaître. De manière inexplicable, le sort a fonctionné et Fookin Foolths se retrouve à présent envahi de golems de pierre. D’abord effrayés, les habitants de la petite bourgade ont rapidement compris que les créatures ne représentaient aucun danger à proprement parler. Seulement, ils ne cessent de frapper aux portes, répétant inlassablement cette phrase : “avez-vous quelques minutes à m’accorder pour parler de la grandeur de notre seigneur Merlin ?”. Il suffit qu’une fenêtre reste ouverte, qu’un paysan aille aux champs, bref il suffit de la moindre opportunité pour qu’un golem déroule son laïus. “Voilà, vous savez tout” conclut votre interlocuteur. ",
     "image": "assets/img/background/story/tavern2.svg",
     "buttons": [
       {
@@ -867,7 +865,7 @@
   {
     "_id": 51,
     "title": "Des salades ",
-    "text":"Le portail s'ouvre. Ça a l’air si humide… Et ça sent le choux, mais vous avancé dans le portail.",
+    "text": "Le portail s'ouvre. Ça a l’air si humide… Et ça sent le choux, mais vous avancé dans le portail.",
     "image": "assets/img/background/story/gate1.svg",
     "buttons": [
       {
@@ -929,9 +927,9 @@
   {
     "_id": 55,
     "title": "Brochette de géant",
-    "text":"Pris par surprise, il ne s’attendait pas à ce qu’une si petite créature ait tant de force -, il vacille, parvient presque à reprendre son équilibre, mais trébuche et s’étend de tout son long. Un bruit humide et dégoûtant accompagne sa chute. Un pieu immense, magnifique et - il faut bien le dire -, franchement dégueu en même temps, orne la poitrine du Gardien des Crystomonnaies. Vous vous dépêchez de le fouiller et trouvez deux crystomonnaies, puis vous décampez en vitesse : vous ne savez pas quelles autres créatures peuvent hanter ces lieux.",
+    "text": "Pris par surprise, il ne s’attendait pas à ce qu’une si petite créature ait tant de force -, il vacille, parvient presque à reprendre son équilibre, mais trébuche et s’étend de tout son long. Un bruit humide et dégoûtant accompagne sa chute. Un pieu immense, magnifique et - il faut bien le dire -, franchement dégueu en même temps, orne la poitrine du Gardien des Crystomonnaies. Vous vous dépêchez de le fouiller et trouvez deux crystomonnaies, puis vous décampez en vitesse : vous ne savez pas quelles autres créatures peuvent hanter ces lieux.",
     "image": "assets/img/background/story/cave2.svg",
-    "sound":"assets/audio/foret1.mp3",
+    "sound": "assets/audio/foret1.mp3",
     "buttons": [
       {
         "title": "Sortir de la caverne de cristal",
@@ -943,7 +941,7 @@
   {
     "_id": 56,
     "title": "Un problème modèle géant",
-    "text":"L’énorme poing du gardien s’abat sur vous. Vous avez à peine le temps de bondir en arrière. Reprenant vos appuis, vous dégainez votre arme, prête à trucider ce nouvel obstacle à votre quête. ",
+    "text": "L’énorme poing du gardien s’abat sur vous. Vous avez à peine le temps de bondir en arrière. Reprenant vos appuis, vous dégainez votre arme, prête à trucider ce nouvel obstacle à votre quête. ",
     "image": "assets/img/background/story/cave2.svg",
     "buttons": [
       {
@@ -956,9 +954,9 @@
   {
     "_id": 57,
     "title": "Le géant terrassé",
-    "text":"À la dernière seconde, vous attrapez votre arme et tandis que le géant vous soulève, votre lame accompagne le mouvement. Vous n’avez qu’à tendre les bras et elle s’enfonce dans le menton du gardien sans résistance, appuyée par la force de celui-ci. Vous frappez un coup, puis deux, sans toutefois faire mouche. Votre adversaire vous repousse d’un simple revers de la main. Le mur que vous percutez vide l’air de vos poumons. Alors que le gardien s’approche, vous percevez les vibrations du sol dans vos mains et vos genoux à chacun de ses pas. Vous êtes toujours à quatre pattes, haletante, lorsqu’il vous saisit. À la dernière seconde, vous attrapez votre arme et tandis que le géant vous soulève, votre lame accompagne le mouvement. Vous n’avez qu’à tendre les bras et elle s’enfonce dans le menton du gardien sans résistance, appuyée par la force de celui-ci. Il vous tient face à lui, le regard médusé, votre arme plantée en travers de son crâne. Vous tombez avec lui à la renverse. Vous vous dépêchez de le fouiller et trouvez deux crystomonnaies, puis vous décampez en vitesse : vous ne savez pas quelles autres créatures peuvent hanter ces lieux.",
+    "text": "À la dernière seconde, vous attrapez votre arme et tandis que le géant vous soulève, votre lame accompagne le mouvement. Vous n’avez qu’à tendre les bras et elle s’enfonce dans le menton du gardien sans résistance, appuyée par la force de celui-ci. Vous frappez un coup, puis deux, sans toutefois faire mouche. Votre adversaire vous repousse d’un simple revers de la main. Le mur que vous percutez vide l’air de vos poumons. Alors que le gardien s’approche, vous percevez les vibrations du sol dans vos mains et vos genoux à chacun de ses pas. Vous êtes toujours à quatre pattes, haletante, lorsqu’il vous saisit. À la dernière seconde, vous attrapez votre arme et tandis que le géant vous soulève, votre lame accompagne le mouvement. Vous n’avez qu’à tendre les bras et elle s’enfonce dans le menton du gardien sans résistance, appuyée par la force de celui-ci. Il vous tient face à lui, le regard médusé, votre arme plantée en travers de son crâne. Vous tombez avec lui à la renverse. Vous vous dépêchez de le fouiller et trouvez deux crystomonnaies, puis vous décampez en vitesse : vous ne savez pas quelles autres créatures peuvent hanter ces lieux.",
     "image": "assets/img/background/story/cave2.svg",
-    "sound":"assets/audio/foret1.mp3",
+    "sound": "assets/audio/foret1.mp3",
     "buttons": [
       {
         "title": "Sortir de la caverne de cristal",
@@ -970,7 +968,7 @@
   {
     "_id": 58,
     "title": "Vous n’avez pas honte ?",
-    "text":"C’est très vilain de se moquer. Moi je ne vous fais pas de remarque sur votre visage étrangement asymétrique.",
+    "text": "C’est très vilain de se moquer. Moi je ne vous fais pas de remarque sur votre visage étrangement asymétrique.",
     "image": "assets/img/background/story/mainDoor.svg",
     "buttons": [
       {
@@ -988,7 +986,7 @@
   {
     "_id": 59,
     "title": "Vous avez bien lu",
-    "text":"Oui oui",
+    "text": "Oui oui",
     "image": "assets/img/background/story/mainDoor.svg",
     "buttons": [
       {
@@ -1006,7 +1004,7 @@
   {
     "_id": 60,
     "title": "Vous l’avez bien cherché (Cot cot)",
-    "text":"Ah c'est comme ça. Non seulement votre tronche manque de cohérence, mais vos muscles ont visiblement fondu. À force d'écumer les tavernes au lieu de tabasser des gobelins, voilà ce qui arrive. Et vous avez du bide. Si. Je fais ce que je veux, je suis le narrateur.Cette mauvaise hygiène de vie a forcément eu des conséquences sur vos performances d'aventurière.",
+    "text": "Ah c'est comme ça. Non seulement votre tronche manque de cohérence, mais vos muscles ont visiblement fondu. À force d'écumer les tavernes au lieu de tabasser des gobelins, voilà ce qui arrive. Et vous avez du bide. Si. Je fais ce que je veux, je suis le narrateur.Cette mauvaise hygiène de vie a forcément eu des conséquences sur vos performances d'aventurière.",
     "image": "assets/img/background/story/mainDoor.svg",
     "buttons": [
       {
@@ -1019,7 +1017,7 @@
   {
     "_id": 61,
     "title": "La grande classe (Pousser la porte du château)",
-    "text":"Derrière la porte, tout n’est que boiseries ouvragées et dorures précieuses. Le grand hall du château de Merlin en met plein la vue, il faut le reconnaître. Le genre de lieu très rare que priserait sans aucun doute Stephan De La Placette. En mettant de côté le rouleau de papier toilette qui traîne dans un coin.Vous voyez qui c’est, Stephan De La Placette, pas vrai ? Mais siiii. C’est ce mercenaire du logis qui vous trouve le bien introuvable ! Enfin bref, rien que le hall lui taperait dans l’œil à coup sûr.",
+    "text": "Derrière la porte, tout n’est que boiseries ouvragées et dorures précieuses. Le grand hall du château de Merlin en met plein la vue, il faut le reconnaître. Le genre de lieu très rare que priserait sans aucun doute Stephan De La Placette. En mettant de côté le rouleau de papier toilette qui traîne dans un coin.Vous voyez qui c’est, Stephan De La Placette, pas vrai ? Mais siiii. C’est ce mercenaire du logis qui vous trouve le bien introuvable ! Enfin bref, rien que le hall lui taperait dans l’œil à coup sûr.",
     "image": "assets/img/background/story/hallCastle.svg",
     "buttons": [
       {
@@ -1043,10 +1041,11 @@
         "unique": false
       }
     ]
-  },{
+  },
+  {
     "_id": 62,
     "title": "Débrouillez-vous (Hall du château)",
-    "text":"Rustre. Vous ne faites aucun effort. Puisque c’est comme ça moi non plus :Y’a deux portes à gauche, deux portes à droite, et un escalier qui monte à l’étage au milieu.",
+    "text": "Rustre. Vous ne faites aucun effort. Puisque c’est comme ça moi non plus :Y’a deux portes à gauche, deux portes à droite, et un escalier qui monte à l’étage au milieu.",
     "image": "assets/img/background/story/hallCastle.svg",
     "buttons": [
       {
@@ -1090,7 +1089,7 @@
       },
       {
         "title": "Quelque chose entre les deux",
-        "battle":false,
+        "battle": false,
         "quest": 67,
         "unique": true
       },
@@ -1132,13 +1131,13 @@
     "buttons": [
       {
         "title": "Refermer la porte",
-        "battle":false,
+        "battle": false,
         "quest": 63,
         "unique": false
       },
       {
         "title": "Continuer",
-        "battle":false,
+        "battle": false,
         "quest": 66,
         "unique": false
       }
@@ -1152,7 +1151,7 @@
     "buttons": [
       {
         "title": "Le Paradis ?",
-        "battle":false,
+        "battle": false,
         "quest": 1001,
         "unique": false
       }
@@ -1180,7 +1179,6 @@
         "title": "Aucune chance que vous lui fassiez confiance, c’est le moment de lui casser les canines.",
         "quest": 183,
         "unique": false
-        
       },
       {
         "title": "S’il dit qu’il préfère la verdure, c’est qu’il préfère la verdure. Sortez.",
@@ -1221,19 +1219,19 @@
     "buttons": [
       {
         "title": "À Venise",
-        "battle":false,
+        "battle": false,
         "quest": 70,
         "unique": false
       },
       {
         "title": "Dans la Creuse",
-        "battle":false,
+        "battle": false,
         "quest": 72,
         "unique": false
       },
       {
         "title": "Hors de cette pièce, c’est déjà pas mal",
-        "battle":false,
+        "battle": false,
         "quest": 72,
         "unique": false
       }
@@ -1247,13 +1245,13 @@
     "buttons": [
       {
         "title": "On se promènerait en gondole, rien que toi et moi",
-        "battle":false,
+        "battle": false,
         "quest": 71,
         "unique": false
       },
       {
         "title": "Bon vas-y c’est chiant",
-        "battle":false,
+        "battle": false,
         "quest": 72,
         "unique": false
       }
@@ -1268,7 +1266,7 @@
     "buttons": [
       {
         "title": "Sortir",
-        "battle":false,
+        "battle": false,
         "quest": 63,
         "unique": false
       }
@@ -1282,7 +1280,7 @@
     "buttons": [
       {
         "title": "Sortir",
-        "battle":false,
+        "battle": false,
         "quest": 63,
         "unique": false
       }
@@ -1435,7 +1433,6 @@
         "quest": 176,
         "unique": false
       }
-
     ]
   },
   {
@@ -1463,7 +1460,6 @@
         "quest": 176,
         "unique": false
       }
-      
     ]
   },
   {
@@ -1561,7 +1557,8 @@
         "title": "Merci… je crois",
         "quest": 176,
         "unique": false
-      },{
+      },
+      {
         "title": "Interroger les golems de où se trouve Merlin",
         "quest": 175,
         "unique": false
@@ -1828,7 +1825,7 @@
   {
     "_id": 104,
     "title": "La salle des miroirs",
-    "text":"Vous vous multipliez dès l’instant où vous franchissez le seuil de la porte. Votre image en tout cas. Vous vous trouvez au milieu d’une pièce octogonale où chaque mur est un miroir. Tous sans exception vous renvoie un reflet déformé : vous êtes tour à tour grosse, à l’envers, un poulet… (oui). Celui qui vous fait face est différent, cependant : il est maculé de crasse, mais entre les tâches vous croyez discerner un reflet en tout point fidèle à la réalité.",
+    "text": "Vous vous multipliez dès l’instant où vous franchissez le seuil de la porte. Votre image en tout cas. Vous vous trouvez au milieu d’une pièce octogonale où chaque mur est un miroir. Tous sans exception vous renvoie un reflet déformé : vous êtes tour à tour grosse, à l’envers, un poulet… (oui). Celui qui vous fait face est différent, cependant : il est maculé de crasse, mais entre les tâches vous croyez discerner un reflet en tout point fidèle à la réalité.",
     "image": "",
     "buttons": [
       {
@@ -1847,7 +1844,7 @@
   {
     "_id": 105,
     "title": "L’ami qui essuie",
-    "text":"Au moment où vous tendez le bras pour essuyer le miroir, Monsieur Propre, le fantôme ménager qui n’a pas lâché votre jambe depuis la salle des fantômes ratés, jaillit pour se jeter à l’assaut de la surface pas si réfléchissante. Il se met à parcourir le miroir de long en large en se tortillant dans tous les sens. Peu à peu la crasse disparaît pour laisser place à votre reflet parfait. Lorsque la dernière once d’impureté disparaît, Monsieur Propre est quant à lui devenu totalement noir. Il effectue une dernière virevolte dans les airs avant de retomber dans vos bras, inerte. Il s’est tué à la tâche. Littéralement. Humour. Rigolez maintenant.",
+    "text": "Au moment où vous tendez le bras pour essuyer le miroir, Monsieur Propre, le fantôme ménager qui n’a pas lâché votre jambe depuis la salle des fantômes ratés, jaillit pour se jeter à l’assaut de la surface pas si réfléchissante. Il se met à parcourir le miroir de long en large en se tortillant dans tous les sens. Peu à peu la crasse disparaît pour laisser place à votre reflet parfait. Lorsque la dernière once d’impureté disparaît, Monsieur Propre est quant à lui devenu totalement noir. Il effectue une dernière virevolte dans les airs avant de retomber dans vos bras, inerte. Il s’est tué à la tâche. Littéralement. Humour. Rigolez maintenant.",
     "image": "",
     "buttons": [
       {
@@ -1870,7 +1867,7 @@
   {
     "_id": 106,
     "title": "Pas les bons outils",
-    "text":"Vous vous affairez à frictionner le miroir, mais rien n’y fait : il reste invariablement noirci par la crasse. Votre manche, par contre, est dégueulasse. Encore un truc qui ne partira pas avec une simple lessive. Ceci dit vous avez l’habitude des tâches difficiles, notamment à cause du sang de vos victimes. Tandis que vous divaguez au sujet de votre prochaine tournée de lessive, vous avez la sensation de vous endormir et de vous réveiller en un éclair. Vous voyez flou, mais une chose est sûre : vous n’êtes plus dans la salle des miroirs.",
+    "text": "Vous vous affairez à frictionner le miroir, mais rien n’y fait : il reste invariablement noirci par la crasse. Votre manche, par contre, est dégueulasse. Encore un truc qui ne partira pas avec une simple lessive. Ceci dit vous avez l’habitude des tâches difficiles, notamment à cause du sang de vos victimes. Tandis que vous divaguez au sujet de votre prochaine tournée de lessive, vous avez la sensation de vous endormir et de vous réveiller en un éclair. Vous voyez flou, mais une chose est sûre : vous n’êtes plus dans la salle des miroirs.",
     "image": "",
     "buttons": [
       {
@@ -1883,7 +1880,7 @@
   {
     "_id": 107,
     "title": "Vous vous surestimez",
-    "text":"Vous êtes une de ces rares personnes qui a le don inouï de laisser une pièce plus sale après l’avoir nettoyée. Donc non. Juste pour que ça soit dit : cracher dans ses mains et frotter deux-trois trucs avec votre pouce pendant que vous dégueulassez tout avec vos bottes, ce n’est pas stratégique.",
+    "text": "Vous êtes une de ces rares personnes qui a le don inouï de laisser une pièce plus sale après l’avoir nettoyée. Donc non. Juste pour que ça soit dit : cracher dans ses mains et frotter deux-trois trucs avec votre pouce pendant que vous dégueulassez tout avec vos bottes, ce n’est pas stratégique.",
     "image": "",
     "buttons": [
       {
@@ -1896,7 +1893,7 @@
   {
     "_id": 108,
     "title": "Nécromancien du dimanche",
-    "text":"Hors de question que Monsieur Propre rende l’âme… encore. Vous vous rappelez cet objet mystique trouvé dans la chambre de Merlin… le Canard de l’Apocalypse. Vous vous souvenez de la puissance qui semblait en émaner, presque palpable. Avec un tel nom, il doit être possible d’accéder au pouvoir du chaos pour ramener la vie. Vous sortez le canard de votre besace et vous le collez au drap inerte de Monsieur Propre. Rien ne se passe. C’est balo, ils ne fournissent pas de manuel avec les Canards de l’Apocalypse apparemment. Vous êtes au milieu d’une pièce qui vous renvoie une myriade de reflets de vous en train de frotter un canard jaune contre un drap. Vous commencez à vous sentir ridicule. Vous avez raison.",
+    "text": "Hors de question que Monsieur Propre rende l’âme… encore. Vous vous rappelez cet objet mystique trouvé dans la chambre de Merlin… le Canard de l’Apocalypse. Vous vous souvenez de la puissance qui semblait en émaner, presque palpable. Avec un tel nom, il doit être possible d’accéder au pouvoir du chaos pour ramener la vie. Vous sortez le canard de votre besace et vous le collez au drap inerte de Monsieur Propre. Rien ne se passe. C’est balo, ils ne fournissent pas de manuel avec les Canards de l’Apocalypse apparemment. Vous êtes au milieu d’une pièce qui vous renvoie une myriade de reflets de vous en train de frotter un canard jaune contre un drap. Vous commencez à vous sentir ridicule. Vous avez raison.",
     "image": "",
     "buttons": [
       {
@@ -1909,7 +1906,7 @@
   {
     "_id": 109,
     "title": "Continuer ou ressusciter",
-    "text":"Vous remarquez que la surface du miroir désormais propre tremblotte un peu, comme parcourue de vaguelettes. Vous pourriez presque jurer qu’il s’agit d’un miroir d’eau. Monsieur Propre a vraiment fait du beau travail pour l’ultime mission de son existence.",
+    "text": "Vous remarquez que la surface du miroir désormais propre tremblotte un peu, comme parcourue de vaguelettes. Vous pourriez presque jurer qu’il s’agit d’un miroir d’eau. Monsieur Propre a vraiment fait du beau travail pour l’ultime mission de son existence.",
     "image": "",
     "buttons": [
       {
@@ -1927,7 +1924,7 @@
   {
     "_id": 110,
     "title": "La poudre de Merlinpinpin",
-    "text":"Vous approchez du miroir, tendez la main pour le toucher et dès l’instant où vos doigts entrent en contact avec la surface liquide, vous êtes happée vers un nouveau lieu. Vous y trouver une baignoire luxueuse posée sur un carrelage exquis. Derrière un paravent, à droite de la baignoire, vous discernez une silhouette. Un chapeau pointu dépasse. “Merlin, il est temps que votre folie s’arrête !” Dans sa surprise, le magicien fait tomber le paravent et vous le découvrez la robe ouverte sur un caleçon pour le moins original. Des canards s’y ébattent, joyeux. Vous voyez leurs ailes se mouvoir. Ils jouent ensemble. C’est fou ce qu’on peut faire avec de la magie, de la folie et du temps. Ce qui est moins mignon, c’est le pif de Merlin, recouvert d’une poudre blanche. Le vieux a visiblement le nez qui traîne dans le saladier, ce qui ne doit pas aider sa condition mentale. Derrière lui, vous remarquez une table sur laquelle trônent des dunes de la même couleur opaline. “Je l’ai inventée, elle est à moi ! Si vous voulez ma Poudre de Merlinpinpin, il faudra me passer sur le corps ! Ou alors me payer excessivement cher.” Ça doit pouvoir se revendre sans problème. Une raison de plus de mettre ce fou hors d’état de nuire.",
+    "text": "Vous approchez du miroir, tendez la main pour le toucher et dès l’instant où vos doigts entrent en contact avec la surface liquide, vous êtes happée vers un nouveau lieu. Vous y trouver une baignoire luxueuse posée sur un carrelage exquis. Derrière un paravent, à droite de la baignoire, vous discernez une silhouette. Un chapeau pointu dépasse. “Merlin, il est temps que votre folie s’arrête !” Dans sa surprise, le magicien fait tomber le paravent et vous le découvrez la robe ouverte sur un caleçon pour le moins original. Des canards s’y ébattent, joyeux. Vous voyez leurs ailes se mouvoir. Ils jouent ensemble. C’est fou ce qu’on peut faire avec de la magie, de la folie et du temps. Ce qui est moins mignon, c’est le pif de Merlin, recouvert d’une poudre blanche. Le vieux a visiblement le nez qui traîne dans le saladier, ce qui ne doit pas aider sa condition mentale. Derrière lui, vous remarquez une table sur laquelle trônent des dunes de la même couleur opaline. “Je l’ai inventée, elle est à moi ! Si vous voulez ma Poudre de Merlinpinpin, il faudra me passer sur le corps ! Ou alors me payer excessivement cher.” Ça doit pouvoir se revendre sans problème. Une raison de plus de mettre ce fou hors d’état de nuire.",
     "image": "",
     "buttons": [
       {
@@ -1955,7 +1952,7 @@
   {
     "_id": 111,
     "title": "Pacifier le vioc",
-    "text":"Merlin invoque son grimoire, qui apparaît entre ses mains. Cet objet est responsable de tous les maux des villageois, et vous savez qu’il pourrait aussi causer votre perte. Vous tirez votre arme, prête à éliminer le vieux magicien complètement défoncé qui se tient devant vous, toujours en robe ouverte sur caleçon.",
+    "text": "Merlin invoque son grimoire, qui apparaît entre ses mains. Cet objet est responsable de tous les maux des villageois, et vous savez qu’il pourrait aussi causer votre perte. Vous tirez votre arme, prête à éliminer le vieux magicien complètement défoncé qui se tient devant vous, toujours en robe ouverte sur caleçon.",
     "image": "",
     "buttons": [
       {
@@ -1987,7 +1984,7 @@
   {
     "_id": 113,
     "title": "Fermeture du grimoire (Bataille contre Merlin - Réussite)",
-    "text":"Merlin raille votre petite manœuvre : “Ha ! Vous comptez éteindre l’essence même du feu stellaire avec un seau d’eau ? Pauvre sotte !” En entrant en contact avec “l’essence même du feu stellaire” (il se la pète de ouf ce Merlin quand même), l’eau se transforme en vapeur. Et c’est l’effet recherché. Le vieux magicien ne vous voit plus à présent, tandis que vous le repérez grâce à la pointe de son chapeau.L’air est expulsé de ses poumons lorsque vous lui enfoncez votre lame dans la poitrine. Alors que ses yeux se voilent, l’environnement autour de vous se brouille. Lorsqu’il se stabilise de nouveau, vous êtes à l’extérieur du château. C’est là que Merlin commence à.. changer. ",
+    "text": "Merlin raille votre petite manœuvre : “Ha ! Vous comptez éteindre l’essence même du feu stellaire avec un seau d’eau ? Pauvre sotte !” En entrant en contact avec “l’essence même du feu stellaire” (il se la pète de ouf ce Merlin quand même), l’eau se transforme en vapeur. Et c’est l’effet recherché. Le vieux magicien ne vous voit plus à présent, tandis que vous le repérez grâce à la pointe de son chapeau.L’air est expulsé de ses poumons lorsque vous lui enfoncez votre lame dans la poitrine. Alors que ses yeux se voilent, l’environnement autour de vous se brouille. Lorsqu’il se stabilise de nouveau, vous êtes à l’extérieur du château. C’est là que Merlin commence à.. changer. ",
     "image": "",
     "buttons": [
       {
@@ -2060,7 +2057,7 @@
   {
     "_id": 118,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2083,7 +2080,7 @@
   {
     "_id": 119,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2106,7 +2103,7 @@
   {
     "_id": 120,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2129,7 +2126,7 @@
   {
     "_id": 121,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2152,7 +2149,7 @@
   {
     "_id": 122,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2175,7 +2172,7 @@
   {
     "_id": 123,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2198,7 +2195,7 @@
   {
     "_id": 124,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2221,7 +2218,7 @@
   {
     "_id": 125,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2244,7 +2241,7 @@
   {
     "_id": 126,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2267,7 +2264,7 @@
   {
     "_id": 127,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2290,7 +2287,7 @@
   {
     "_id": 128,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2313,7 +2310,7 @@
   {
     "_id": 129,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2336,7 +2333,7 @@
   {
     "_id": 130,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2349,7 +2346,7 @@
   {
     "_id": 131,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2372,7 +2369,7 @@
   {
     "_id": 132,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2395,7 +2392,7 @@
   {
     "_id": 133,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2418,7 +2415,7 @@
   {
     "_id": 134,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2441,7 +2438,7 @@
   {
     "_id": 135,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2464,7 +2461,7 @@
   {
     "_id": 136,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2487,7 +2484,7 @@
   {
     "_id": 137,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2510,7 +2507,7 @@
   {
     "_id": 138,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2533,7 +2530,7 @@
   {
     "_id": 139,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2556,7 +2553,7 @@
   {
     "_id": 140,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2579,7 +2576,7 @@
   {
     "_id": 141,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2602,7 +2599,7 @@
   {
     "_id": 142,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2625,7 +2622,7 @@
   {
     "_id": 143,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2648,7 +2645,7 @@
   {
     "_id": 144,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2671,7 +2668,7 @@
   {
     "_id": 145,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2694,7 +2691,7 @@
   {
     "_id": 146,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2717,7 +2714,7 @@
   {
     "_id": 147,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2740,7 +2737,7 @@
   {
     "_id": 148,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2763,7 +2760,7 @@
   {
     "_id": 149,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2786,7 +2783,7 @@
   {
     "_id": 150,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2809,7 +2806,7 @@
   {
     "_id": 151,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2832,7 +2829,7 @@
   {
     "_id": 152,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2855,7 +2852,7 @@
   {
     "_id": 153,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2878,7 +2875,7 @@
   {
     "_id": 154,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2901,7 +2898,7 @@
   {
     "_id": 155,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2924,7 +2921,7 @@
   {
     "_id": 156,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2947,7 +2944,7 @@
   {
     "_id": 157,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2970,7 +2967,7 @@
   {
     "_id": 158,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -2993,7 +2990,7 @@
   {
     "_id": 159,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3016,7 +3013,7 @@
   {
     "_id": 160,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3039,7 +3036,7 @@
   {
     "_id": 161,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3062,7 +3059,7 @@
   {
     "_id": 162,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3085,7 +3082,7 @@
   {
     "_id": 163,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3108,7 +3105,7 @@
   {
     "_id": 164,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3131,7 +3128,7 @@
   {
     "_id": 165,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3154,7 +3151,7 @@
   {
     "_id": 166,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3177,7 +3174,7 @@
   {
     "_id": 167,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3200,7 +3197,7 @@
   {
     "_id": 168,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3238,7 +3235,7 @@
     "_id": 170,
     "title": "Cueillir une belle salade",
     "item": 4,
-    "text":"Vous cueilliez une magnifique salade ",
+    "text": "Vous cueilliez une magnifique salade ",
     "image": "assets/img/background/story/lievre1.svg",
     "buttons": [
       {
@@ -3251,7 +3248,7 @@
   {
     "_id": 171,
     "title": "La valse des esprits (Ouvrir les portes)",
-    "text":"Vous découvrez une salle de bal opulente. La salle est entièrement vide, mais des instruments sont posés sur une petite estrade et malgré l’absence de musiciens, vous entendez une valse entraînante. C’est en arrivant au milieu de la salle que vous réalisez que vous êtes entourée d’esprits qui virevoltent dans les airs. La peur qui commence à vous gagner s’évanouit lorsque vous réalisez qu’ils ne remarquent même pas votre présence. La danse des esprits vous hypnotise. Vous passez probablement plusieurs heures, obnubilée par le ballet éthéré. Alors, la musique se fait plus discrète, et vous entendez les esprits murmurer à l’unisson dans votre tête : “méfiez-vous des canards…” Vous voilà seule au milieu du silence.",
+    "text": "Vous découvrez une salle de bal opulente. La salle est entièrement vide, mais des instruments sont posés sur une petite estrade et malgré l’absence de musiciens, vous entendez une valse entraînante. C’est en arrivant au milieu de la salle que vous réalisez que vous êtes entourée d’esprits qui virevoltent dans les airs. La peur qui commence à vous gagner s’évanouit lorsque vous réalisez qu’ils ne remarquent même pas votre présence. La danse des esprits vous hypnotise. Vous passez probablement plusieurs heures, obnubilée par le ballet éthéré. Alors, la musique se fait plus discrète, et vous entendez les esprits murmurer à l’unisson dans votre tête : “méfiez-vous des canards…” Vous voilà seule au milieu du silence.",
     "image": "assets/img/background/story/hallGhost1.svg",
     "buttons": [
       {
@@ -3264,7 +3261,7 @@
   {
     "_id": 172,
     "title": "La montée des marches (Prendre les escaliers)",
-    "text":"Vous grimpez des marches recouvertes d’un superbe tissu moumoute. Arrivée en haut, seul un couloir s’offre à vous. Au bout de celui-ci, une double porte magnifique ponctue le chemin.",
+    "text": "Vous grimpez des marches recouvertes d’un superbe tissu moumoute. Arrivée en haut, seul un couloir s’offre à vous. Au bout de celui-ci, une double porte magnifique ponctue le chemin.",
     "image": "assets/img/background/story/door1.svg",
     "buttons": [
       {
@@ -3290,7 +3287,7 @@
   {
     "_id": 174,
     "title": "Rustre",
-    "text":"La mine du golem s’assombrit. “Je vous parle de Timmy qui a donné sa vie pour notre cause, et tout ce que vous trouvez à faire, c’est m’interroger ?” C’est vrai que vous auriez pu faire preuve d’un peu de tact. Ceci étant dit, vous n’êtes pas vraiment venu pour tailler le bout de gras, à la base. “Vous feriez mieux de partir, avant qu’on s’énerve avec les autres.” Il y a vraiment beaucoup de golems dans la pièce. Tirez-vous.",
+    "text": "La mine du golem s’assombrit. “Je vous parle de Timmy qui a donné sa vie pour notre cause, et tout ce que vous trouvez à faire, c’est m’interroger ?” C’est vrai que vous auriez pu faire preuve d’un peu de tact. Ceci étant dit, vous n’êtes pas vraiment venu pour tailler le bout de gras, à la base. “Vous feriez mieux de partir, avant qu’on s’énerve avec les autres.” Il y a vraiment beaucoup de golems dans la pièce. Tirez-vous.",
     "image": "",
     "buttons": [
       {
@@ -3303,7 +3300,7 @@
   {
     "_id": 175,
     "title": "",
-    "text":"“Je ne peux pas vraiment vous dire où se trouve Merlin. Chaque jour le vieux fou a une nouvelle lubie. Tout ce que je peux vous révéler, c’est qu’aujourd’hui il semble particulièrement porté sur les odeurs et la crasse. Timmy nous l’a révélé juste avant de tomber comme une pierre.” Vous vous dites que ça ne doit pas trop lui changer, à Timmy, avant de réaliser que ce n’est pas franchement le sujet. Vous remerciez le golem pour son aide et vous retournez pour quitter la bibliothèque.",
+    "text": "“Je ne peux pas vraiment vous dire où se trouve Merlin. Chaque jour le vieux fou a une nouvelle lubie. Tout ce que je peux vous révéler, c’est qu’aujourd’hui il semble particulièrement porté sur les odeurs et la crasse. Timmy nous l’a révélé juste avant de tomber comme une pierre.” Vous vous dites que ça ne doit pas trop lui changer, à Timmy, avant de réaliser que ce n’est pas franchement le sujet. Vous remerciez le golem pour son aide et vous retournez pour quitter la bibliothèque.",
     "image": "",
     "buttons": [
       {
@@ -3344,9 +3341,9 @@
   {
     "_id": 177,
     "title": "Retour à la terre (Victoire brigands)",
-    "text":"Plus c’est grand, plus c’est con, comme on dit. Le plus grand fait mine de vous dissuader de passer à l’attaquer alors que vous êtes déjà sur lui. S’il avait levé son arme, il s’en serait peut-être sorti. Mais non, il est grand (et con, du coup).Sa tête vole et rebondit sur la poitrine de son collègue, qui hurle de terreur et s’enfuit. Le dernier lâche un juron à l’intention de ce dernier, puis revient à vous. Il se lance à une vitesse qui vous surprend, considérant sa corpulence, ce qui suffit à vous prendre de court. Un poing rageur s’écrase sur votre visage, et vous vous retrouvez à terre. Vous avez tout juste le temps de rouler sur le côté pour éviter son épée, qui vient se planter dans le sol. Heureusement, vous réagissez rapidement et lui plantez votre lame entre les côtes. Il s’effondre dans un râle.Après avoir repris votre souffle, vous vous relevez et reprenez votre chemin en laissant leurs corps aux loups. Vous marchez pendant plusieurs heures, ruminant votre combat.Soudain, vous réalisez que vous vous tenez face à une sorte d’immense portail. Sur son pourtour sont enroulées des étoffes soyeuses. Aux branches des arbres alentour sont suspendus de longues bandes de tissu.Votre pied trébuche sur une tablette de pierre gravée posée au milieu des herbes folles.“Je suis un tissu tricoté à partir de gros mythos, que suis-je ?”",
+    "text": "Plus c’est grand, plus c’est con, comme on dit. Le plus grand fait mine de vous dissuader de passer à l’attaquer alors que vous êtes déjà sur lui. S’il avait levé son arme, il s’en serait peut-être sorti. Mais non, il est grand (et con, du coup).Sa tête vole et rebondit sur la poitrine de son collègue, qui hurle de terreur et s’enfuit. Le dernier lâche un juron à l’intention de ce dernier, puis revient à vous. Il se lance à une vitesse qui vous surprend, considérant sa corpulence, ce qui suffit à vous prendre de court. Un poing rageur s’écrase sur votre visage, et vous vous retrouvez à terre. Vous avez tout juste le temps de rouler sur le côté pour éviter son épée, qui vient se planter dans le sol. Heureusement, vous réagissez rapidement et lui plantez votre lame entre les côtes. Il s’effondre dans un râle.Après avoir repris votre souffle, vous vous relevez et reprenez votre chemin en laissant leurs corps aux loups. Vous marchez pendant plusieurs heures, ruminant votre combat.Soudain, vous réalisez que vous vous tenez face à une sorte d’immense portail. Sur son pourtour sont enroulées des étoffes soyeuses. Aux branches des arbres alentour sont suspendus de longues bandes de tissu.Votre pied trébuche sur une tablette de pierre gravée posée au milieu des herbes folles.“Je suis un tissu tricoté à partir de gros mythos, que suis-je ?”",
     "image": "assets/img/background/story/forest5.svg",
-    "sound":"assets/audio/foret1.mp3",
+    "sound": "assets/audio/foret1.mp3",
     "buttons": [
       {
         "title": "Un tissu de mensonges",
@@ -3379,9 +3376,9 @@
     "_id": 179,
     "battle": true,
     "title": "C’est l’heure du du-du-du-duel",
-    "text":" “Merci, mais la proposition ne m’intéresse guère.” Par ces mots, vous avez scellé votre destin. Enfin surtout le leur. Mais eux ils croient que vous avez scellé le votre, de destin. Alors qu’en fait non, ils sont bêtes, c’est eux qui vont mourir. Peut-être. Ils sont trois quand même.Avant qu’ils aient eu le temps de réagir, vous vous jetez sur le plus grand, qui vous a alpagué, l’arme au poing.",
+    "text": " “Merci, mais la proposition ne m’intéresse guère.” Par ces mots, vous avez scellé votre destin. Enfin surtout le leur. Mais eux ils croient que vous avez scellé le votre, de destin. Alors qu’en fait non, ils sont bêtes, c’est eux qui vont mourir. Peut-être. Ils sont trois quand même.Avant qu’ils aient eu le temps de réagir, vous vous jetez sur le plus grand, qui vous a alpagué, l’arme au poing.",
     "image": "assets/img/background/story/arena.svg",
-    "sound":"assets/audio/skills1.mp3",
+    "sound": "assets/audio/skills1.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3394,9 +3391,9 @@
     "_id": 180,
     "battle": true,
     "title": "Repousser les Rel’Ours",
-    "text":"Vous attrapez votre arme en toute hâte et fendez l’air à plusieurs reprises pour effrayer vos adversaires peloteurs. Cela fonctionne brièvement grâce à l’effet de surprise, mais les Rel’Ours, c’est persévérant.",
+    "text": "Vous attrapez votre arme en toute hâte et fendez l’air à plusieurs reprises pour effrayer vos adversaires peloteurs. Cela fonctionne brièvement grâce à l’effet de surprise, mais les Rel’Ours, c’est persévérant.",
     "image": "assets/img/background/story/arena.svg",
-    "sound":"assets/audio/skills1.mp3",
+    "sound": "assets/audio/skills1.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3409,9 +3406,9 @@
     "_id": 181,
     "battle": true,
     "title": "Le géant terrassé ",
-    "text":"Vous frappez un coup, puis deux, sans toutefois faire mouche. Votre adversaire vous repousse d’un simple revers de la main. Le mur que vous percutez vide l’air de vos poumons. Alors que le gardien s’approche, vous percevez les vibrations du sol dans vos mains et vos genoux à chacun de ses pas. Vous êtes toujours à quatre pattes, haletante, lorsqu’il vous saisit. ",
+    "text": "Vous frappez un coup, puis deux, sans toutefois faire mouche. Votre adversaire vous repousse d’un simple revers de la main. Le mur que vous percutez vide l’air de vos poumons. Alors que le gardien s’approche, vous percevez les vibrations du sol dans vos mains et vos genoux à chacun de ses pas. Vous êtes toujours à quatre pattes, haletante, lorsqu’il vous saisit. ",
     "image": "assets/img/background/story/arena.svg",
-    "sound":"assets/audio/skills1.mp3",
+    "sound": "assets/audio/skills1.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3424,9 +3421,9 @@
     "_id": 182,
     "battle": true,
     "title": "Brochette de géant",
-    "text":"Entre les jambes du gardien, vous remarquez un énorme cristal très pointu à quelques mètres derrière lui. Vous prétextez vouloir résoudre son énigme, le laissant plonger dans ses réflexions pour vous en trouver une. C’est à ce moment que vous faites appel à toutes vos forces et poussez le géant d’un coup sec. ",
+    "text": "Entre les jambes du gardien, vous remarquez un énorme cristal très pointu à quelques mètres derrière lui. Vous prétextez vouloir résoudre son énigme, le laissant plonger dans ses réflexions pour vous en trouver une. C’est à ce moment que vous faites appel à toutes vos forces et poussez le géant d’un coup sec. ",
     "image": "assets/img/background/story/arena.svg",
-    "sound":"assets/audio/skills1.mp3",
+    "sound": "assets/audio/skills1.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3439,9 +3436,9 @@
     "_id": 183,
     "battle": true,
     "title": "C’est l’heure du pieu",
-    "text":"C’est un vampire. Vous n’avez pas vraiment besoin d’une incitation supplémentaire pour le tuer. Enfin le retuer. Vu qu’il est déjà mort, techniquement. “Mais puisque je vous dis que je suis végé…” Il n’a pas le temps de finir sa phrase puisque votre poing s’écrase contre sa jolie petite frimousse bien peignée. C’est alors que Cullen semble beaucoup moins enclin au végétarisme. Une lueur rouge envahit ses yeux, ses canines deviennent plus saillantes et sa peau… sa peau brille ? Oui, sa peau brille. Edward devient une boule à facettes quand il est énervé. Pas commun ça.",
+    "text": "C’est un vampire. Vous n’avez pas vraiment besoin d’une incitation supplémentaire pour le tuer. Enfin le retuer. Vu qu’il est déjà mort, techniquement. “Mais puisque je vous dis que je suis végé…” Il n’a pas le temps de finir sa phrase puisque votre poing s’écrase contre sa jolie petite frimousse bien peignée. C’est alors que Cullen semble beaucoup moins enclin au végétarisme. Une lueur rouge envahit ses yeux, ses canines deviennent plus saillantes et sa peau… sa peau brille ? Oui, sa peau brille. Edward devient une boule à facettes quand il est énervé. Pas commun ça.",
     "image": "assets/img/background/story/arena.svg",
-    "sound":"assets/audio/skills1.mp3",
+    "sound": "assets/audio/skills1.mp3",
     "buttons": [
       {
         "title": "La mort du disco avant l’heure",
@@ -3469,9 +3466,9 @@
     "_id": 185,
     "battle": false,
     "title": "Bas les pattes",
-    "text":"La pattes en avant, les Rel’Ours grognent après que vous les ayez repoussés. Surtout, des griffes sont apparues au bout des pattes en question, et ça ça vous déplaît pas mal. Déjà qu’ils sont venus vous emmerder alors que vous étiez bien tranquille… C’est le moment pour une leçon champêtre. Le pommeau de votre arme s’écrase contre les noix des Rel’Ours les uns après les autres, vous sentez même une brindille craquer. L’adversaire concerné tombe immédiatement dans les pommes et vous en profiter pour l’achever. Ses compères voient leurs pattes tomber à leurs pieds après une attaque circulaire particulièrement efficace de votre part. Ils s’enfuient immédiatement dans la forêt en hurlant à la mort, qu’ils rencontreront très bientôt à force de se vider de leur sang.",
+    "text": "La pattes en avant, les Rel’Ours grognent après que vous les ayez repoussés. Surtout, des griffes sont apparues au bout des pattes en question, et ça ça vous déplaît pas mal. Déjà qu’ils sont venus vous emmerder alors que vous étiez bien tranquille… C’est le moment pour une leçon champêtre. Le pommeau de votre arme s’écrase contre les noix des Rel’Ours les uns après les autres, vous sentez même une brindille craquer. L’adversaire concerné tombe immédiatement dans les pommes et vous en profiter pour l’achever. Ses compères voient leurs pattes tomber à leurs pieds après une attaque circulaire particulièrement efficace de votre part. Ils s’enfuient immédiatement dans la forêt en hurlant à la mort, qu’ils rencontreront très bientôt à force de se vider de leur sang.",
     "image": "assets/img/background/story/forest7.svg",
-    "sound":"assets/audio/foret1.mp3",
+    "sound": "assets/audio/foret1.mp3",
     "buttons": [
       {
         "title": "Enfin la paix",
@@ -3484,7 +3481,7 @@
     "_id": 186,
     "battle": true,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3498,7 +3495,7 @@
     "_id": 187,
     "battle": true,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3512,7 +3509,7 @@
     "_id": 188,
     "battle": true,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3526,7 +3523,7 @@
     "_id": 189,
     "battle": true,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3539,7 +3536,7 @@
   {
     "_id": 190,
     "title": "",
-    "text":"",
+    "text": "",
     "image": "",
     "buttons": [
       {
@@ -3549,6 +3546,4 @@
       }
     ]
   }
-
-
 ]
