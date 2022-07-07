@@ -20,6 +20,7 @@
     "title": "Les Témoins de Merlin",
     "text": "Lorsque vous passez le panneau indiquant “Fookin Foolths”, des golems se précipitent vers vous. Les fameux “Témoins de Merlin” en pierre et en… pierre. De prime abord effrayée, vous réalisez rapidement qu’ils n’en veulent qu’à vos oreilles : ils ne cessent de réclamer de votre temps pour vous entretenir de “la grandeur du seigneur Merlin”. Vous n’avez droit à aucun répit jusqu’à atteindre la taverne. Pire, vous constatez que les golems commencent à diversifier leurs activités en proposant des ventes de bocaux et autres babioles - vous remarquez notamment une étrange pyramide en fer, très étirée en hauteur, qu’un golem particulièrement enthousiaste vous agite sous le nez en articulant “Touréphel”.",
     "image": "assets/img/background/story/city1.svg",
+    "sound": "assets/audio/village.mp3",
     "buttons": [
       {
         "title": "Pousser la porte de la taverne",
@@ -34,6 +35,7 @@
     "battle": false,
     "text": "L’endroit est chaleureux. Peut-être est-ce la lourde porte qui s’est refermée sur les sollicitations incessantes des golems, mais vous vous sentez profondément apaisée. Le feu dans l’âtre et la vague odeur de cochon grillé ainsi que… oui… celle de la bonne bière… vous êtes ici en lieu sûr. La taverne est peu peuplée - il n’y a que vous pour vous pointer à 17h et espérer trouver tout le monde à l’apéro. Ce n’est pas une critique. Mais franchement vous pourriez penser à freiner. Le tavernier essuie des verres derrière le comptoir, cependant qu’un vieil homme se cure le nez dans un coin. Tous les yeux sont posés sur vous.",
     "image": "assets/img/background/tavern.svg",
+    "sound": "assets/audio/tavern.mp3",
     "buttons": [
       {
         "title": "Parler au tavernier",
@@ -65,6 +67,7 @@
     "title": "Pardon ?",
     "text": "“Je veux dire, bonjour à vous, aventurière. On m’appelle Borduk la cuillère. Rapport au fait que je dis tout le temps cuillère. C’est pas de mon fait, notez bien. Je suis tombé sur la tête quand j’étais petit, et depuis je répète cuillère à tout bout de champ, c’est plus fort que moi.” Un long silence s’installe durant lequel Borduk semble se concentrer avec beaucoup d’application. Ses joues s’empourprent, son front se plisse, son visage tout entier se renfrogne. Un râle monte dans sa gorge tandis qu’une larme se forme au coin de son œil. “Cuillère.”",
     "image": "assets/img/background/story/tavern1.svg",
+    "sound": "assets/audio/tavern.mp3",
     "buttons": [
       {
         "title": "Demander comment se rendre au château de Merlin",
@@ -96,6 +99,7 @@
     "title": "Départ pour le château du vioc",
     "image": "assets/img/background/story/cityNight1.svg",
     "text": "La fraîcheur de la nuit naissante vous caresse les joues. Seules quelques torches éclairent ça et là les habitations du village. À quelques kilomètres vers l’est, vous voyez le Mont Kuyerh s’élever fièrement contre le firmament. Droit devant vous, au sud, la forêt des Troncs Sonneurs sommeille au-delà du village. Il est temps de choisir votre route : des voix se rapprochent, et elles veulent vous vendre des encyclopédies d’histoire.",
+    "sound": "assets/audio/city.mp3",
     "buttons": [
       {
         "title": "Passer par la forêt des Troncs Sonneurs",
@@ -117,8 +121,9 @@
   {
     "_id": 7,
     "title": "La forêt des Troncs Sonneurs",
-    "image": "assets/img/background/story/forest4.svg",
     "text": "À mesure que vous approchez de la forêt, un murmure grandit jusqu’à devenir une étrange petite musique, comme jamais vous n’en avez entendu auparavant. Parmi les Troncs Sonneurs qui dessinent l’orée de la forêt, vous voyez deux chemins se dessiner. L’un trace à travers les arbres un passage clairsemé ; l’autre se montre plus sombre, même si vous croyez apercevoir une faible lueur rougeâtre plus loin dans cette direction. Tandis que vous réfléchissez, vous remarquez de magnifiques champignons à proximité. Vous salivez rien qu’à les regarder.",
+    "image": "assets/img/background/story/forest4.svg",
+    "sound": "assets/audio/forest.mp3",
     "buttons": [
       {
         "title": "Dans la lumière lunaire, nul ne saurait me surprendre",
@@ -150,7 +155,6 @@
       },
       {
         "title": "Accepter de payer leur tribut",
-        "money": 0,
         "quest": 9,
         "unique": true
       },
@@ -164,6 +168,7 @@
   {
     "_id": 9,
     "title": "Le temps de la disette",
+    "money": 0,
     "text": "“Je me disais bien que vous aviez besoin d’aide !” Un sourire presque édenté fend le visage du grand type. Ses deux acolytes restent quant à eux impassibles. Chacun garde la main sur le pommeau de son épée. Juste au cas où. “C’est par là !” lâche capitaine Tête de Gland en faisant un pas de côté pour vous montrer la suite du chemin que vous suiviez déjà. Vous les dépassez, d’ores et déjà habitée par le regret de ne pas les avoir maravés.",
     "image": "assets/img/background/story/forest5.svg",
     "buttons": [
@@ -208,7 +213,7 @@
   {
     "_id": 12,
     "title": "Une rencontre inattendue",
-    "text": "À mesure que vous avancez à travers la végétation dense, la lueur rouge se fait de plus en plus nette, d’autant que la lumière de la lune peine à percer la frondaison. Vous manquez de vous vautrer à plusieurs reprises, mais c’est vous qui avez voulu vous la péter en prenant le chemin sombre. La lueur rouge se transforme finalement en un magnifique cerf flamboyant. La créature note votre présence. Elle fait un petit mouvement de la tête qui ressemble à s’y méprendre à un hochement. Dans votre tête, des mots se forment : “Approchez jeune aventurière, approchez ! Ne ratez pas la chance de votre vie !”",
+    "text": "À mesure que vous avancez à travers la végétation dense, la lueur bleutée se fait de plus en plus nette, d’autant que la lumière de la lune peine à percer la frondaison. Vous manquez de vous vautrer à plusieurs reprises, mais c’est vous qui avez voulu vous la péter en prenant le chemin sombre. La lueur rouge se transforme finalement en un magnifique cerf flamboyant. La créature note votre présence. Elle fait un petit mouvement de la tête qui ressemble à s’y méprendre à un hochement. Dans votre tête, des mots se forment : “Approchez jeune aventurière, approchez ! Ne ratez pas la chance de votre vie !”",
     "image": "assets/img/background/story/forest6.svg",
     "buttons": [
       {
@@ -284,7 +289,7 @@
     "title": "Le château de Merlin (Arrivée au château)",
     "text": "Merlin a beau être fou, il a tout de même bon goût. Nul doute que les villageois ont travaillé d’arrache-pied pour bâtir les 20% restants du château. En témoignent les magnifiques moulures, les statues finement ouvragées et les vitraux ciselés. Bon c’est bien beau tout ça, mais vous n’êtes pas venu pour acheter, pas vrai ? Alors arrêtez de rêvasser devant ce tas de pierres. Vous vous dites que vous pourriez retourner à la taverne assez facilement maintenant, étant donné que vous vous trouvez à un carrefour et qu’un panneau “Taverne (voie rapide)” est planté là. Si vous aviez su…  Mais après tout, mieux vaut peut-être en finir le plus vite possible avec le vieux frappadingue et ses golems-sandwichs.",
     "image": "assets/img/background/story/castle3.svg",
-    "sound": "assets/audio/foret1.mp3",
+    "sound": "assets/audio/grassland.mp3",
     "buttons": [
       {
         "title": "Faire un petit tour à la taverne",
@@ -316,6 +321,7 @@
     "title": "Gravir le Mont Kuyerh",
     "text": "Vous voilà sur les pentes immaculées du Mont Kuyerh, et celles-ci se révèlent plutôt inhospitalières.La rencontre du firmament et du manteau opalin vous donne néamoins de la force, tandis que le calme absolu qui règne sur ces hauteurs laisse libre cours à un vague à l'âme. Vous vous sentez bien seule, là au milieu de nulle part. Vous l'avez toujours été. Enfant, vous n'étiez pas vraiment ce qu'on peut appeler sociable. Le nez du petit Kylian s'en rappelle encore. Certes il avait un nom peu enviable, mais cela vous obligeait-il à le martyriser pour autant ?  ",
     "image": "assets/img/background/story/mountain3.svg",
+    "sound": "assets/audio/forest.mp3",
     "buttons": [
       {
         "title": "Jeter un oeil vers le Nord-Ouest",
@@ -494,7 +500,7 @@
   },
   {
     "_id": 28,
-    "money": 0,
+    "money":  0,
     "title": "La bourse plutôt que la vie (Accepter de lui donner toutes vos richesses)",
     "text": "“Merci, c’est bien urbain de votre part.” L’œil avide, le Gardien des Crystomonnaies se jette sur son butin et s’emploie à faire les comptes. C’est le moment de vous barrer. Maintenant. Qu’est-ce que vous attendez ? Décarrez",
     "image": "assets/img/background/story/cave2.svg",
@@ -1382,7 +1388,7 @@
   },
   {
     "_id": 78,
-    "heal": 1,
+    "heal": -1,
     "title": "Un cru du trottoir",
     "text":"Vous vous précipitez, au cas où quelqu’un surgirait - de… nulle part ? - pour vous piquer l’idée (personne d’autre n’aurait eu cette idée, vous avez déjà pensé à vous faire aider ?). Vos genoux produisent un son humide lorsqu’ils rencontrent le sol. Vous approchez votre visage du nectar et vous mettez à lapper farouchement. C’était plutôt une bonne idée après tout : le vin se révèle excellent. Ce mélange de grands crus donne lieu à une espèce de maxi best of gustatif que vous jalouseraient les plus fins connaisseurs. Vous en êtes à votre troisième lampée quand vous ressentez une vive douleur au niveau de votre langue. Dans votre hâte, vous avez oublié que si la vinasse a arrosé le sol, c’est parce que les bouteilles se sont brisées. Finalement, c’était vraiment une idée de merde.",
     "image": "assets/img/background/story/wine1.svg",
@@ -1954,6 +1960,7 @@
     "title": "Pacifier le vioc",
     "text": "Merlin invoque son grimoire, qui apparaît entre ses mains. Cet objet est responsable de tous les maux des villageois, et vous savez qu’il pourrait aussi causer votre perte. Vous tirez votre arme, prête à éliminer le vieux magicien complètement défoncé qui se tient devant vous, toujours en robe ouverte sur caleçon.",
     "image": "",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Dégainer le Canard de l'Apocalypse",
@@ -1973,6 +1980,7 @@
     "title": "L’apocalypse (Dégainer le Canard de l’Apocalypse)",
     "text":"Le Canard de l’Apocalypse vibre dans votre poche. Vous le sortez et le brandissez. Vous mourrez. Tout le monde meurt. Le royaume d’Angleterre explose et le monde entier est désintégré. En même temps, vous avez utilisé un objet qui a “Apocalypse” dans son nom.",
     "image": "assets/img/background/story/death1.svg",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Coin Coin",
@@ -1986,6 +1994,7 @@
     "title": "Fermeture du grimoire (Bataille contre Merlin - Réussite)",
     "text": "Merlin raille votre petite manœuvre : “Ha ! Vous comptez éteindre l’essence même du feu stellaire avec un seau d’eau ? Pauvre sotte !” En entrant en contact avec “l’essence même du feu stellaire” (il se la pète de ouf ce Merlin quand même), l’eau se transforme en vapeur. Et c’est l’effet recherché. Le vieux magicien ne vous voit plus à présent, tandis que vous le repérez grâce à la pointe de son chapeau.L’air est expulsé de ses poumons lorsque vous lui enfoncez votre lame dans la poitrine. Alors que ses yeux se voilent, l’environnement autour de vous se brouille. Lorsqu’il se stabilise de nouveau, vous êtes à l’extérieur du château. C’est là que Merlin commence à.. changer. ",
     "image": "",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Ah",
@@ -1999,6 +2008,7 @@
     "title": "Un dragon, évidemment (Ah)",
     "text":"Les membres du magicien se désarticulent. Les contorsions mutilent son corps, qui se convulse tout en se couvrant de tumeurs hideuses. Elles grossissent jusqu’à elles-mêmes engendrer de nouvelles grosseurs… Peu à peu, vous réalisez que Merlin adopte une nouvelle forme, celle d’un dragon monstrueux et menaçant. La transformation achevée, il crache une gerbe de flammes qui embrase le château, puis vous regarde de ses yeux perçants avant de hurler… et ça fait pouic. Genre son cri, c’est *pouiiiiiic*. Vous sentez un fou rire monter, mais vous le réprimez en vous concentrant sur l’idée qu’être ridicule ne l’empêche en aucun cas de vous dévorer. Mais quand même… *pouiiiiiic*.",
     "image": "assets/img/background/story/spittingFire1.svg",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Attaquer avec votre Canard de l'Apocalypse",
@@ -2019,6 +2029,7 @@
     "title": "Combat contre Merlin",
     "text":"Le magicien prononce une brève incantation. La puissance des mots vous touche en plein cœur et vous êtes propulsée contre le miroir duquel vous venez d’émerger. Les éclats retombent autour de vous en une pluie tranchante. Vous ignorez la douleur des multiples coupures dont vous écopez et vous servez des fragments comme de dagues de lancer. Merlin est surpris par cette initiative et parvient à lancer un sort de protection au dernier moment. Vos dagues improvisées se brisent sans lui faire le moindre mal, et le voilà qui prépare déjà un nouveau sort, qui s’annonce bien plus menaçant : un boule semblable à un soleil miniature se met à irradier entre ses mains. Vous jetez votre arme sur une grande bassine posée à proximité de la baignoire. L’eau qu’elle contient jaillit sur le globe iridescent. ",
     "image": "assets/img/background/story/arena.svg",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Poursuivre le combat",
@@ -2033,6 +2044,7 @@
     "title": "Combat contre le Dragon Pouic",
     "text":"Après un nouveau *pouiiiiiic*, le dragon crache une nouvelle gerbe de flammes, sur vous cette fois. Vous vous jetez derrière un rocher, qui menace de fondre. Soudain, la chaleur se résorbe et vous entendez ce qui ressemble à une quinte de toux. Un coup d’œil au-delà de votre rocher pathétique et complètement ravagé vous permet de constater que papi dragon y a été un peu trop fort. C’est votre moment, vous sautez par-dessus le rocher, mais dès que vous approchez de la créature, vous êtes projetée d’un revers de patte. Heureusement, vous avez la présence d’esprit de planter votre arme vers l’avant. Coup de chance ou coup de maîtresse, vous accrochez l’aile du draconide, ce qui vous permet de ralentir votre chute et de lui asséner un premier coup. Vous atterrissez non loin de l’un des pattes antérieures.",
     "image": "assets/img/background/story/spittingFire1.svg",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Poursuivre votre combat",
@@ -2046,6 +2058,7 @@
     "title": "Poursuivre votre combat",
     "text":"Un coup de lame bien placé sectionne un tendon, ce qui contraint le dragon à plier. Au moment où sa tête s’effondre, vous êtes pile à côté pour l’accueillir, avec le tranchant de votre arme. Cette fois, c’en est fini de Merlin. Il lâche un ultime *pouiiiiiic* faiblard, qui renferme son dernier souffle. C’est alors que le grimoire de Merlin apparaît à votre hauteur. Pour une raison que vous ne sauriez expliquer, vous comprenez que vous êtes à présent la maîtresse de cet artefact ô combien puissant. Chouette bonus en plus de la prime qu’Arthur va vous verser.",
     "image": "assets/img/background/story/spittingFire1.svg",
+    "sound":"assets/audio/finalBattle.mp3",
     "buttons": [
       {
         "title": "Retourner chercher votre dû à Camelot",
@@ -3363,7 +3376,7 @@
     "title": "C’est un vampire",
     "text":"C’est beau une confiance si aveugle, si ingénue. C’est beau et en même temps c’est totalement inconscient. Dès l’instant où vous lui tournez le dos, Edward Cullen cède à ses instincts et vous plante ses crocs dans la jugulaire. La prochaine fois, quand un vampire vous dira qu’il préfère la salade, vous ne vous laisserez pas avoir. Attendez, vous êtes morte, il n’y aura pas de prochaine fois.",
     "image": "assets/img/background/story/vampire1.svg",
-    "sound":"assets/audio/skills1.mp3",
+    "sound":"assets/audio/battle.mp3",
     "buttons": [
       {
         "title": "Ma foi dans les vampires est sérieusement ébranlée",
@@ -3378,7 +3391,7 @@
     "title": "C’est l’heure du du-du-du-duel",
     "text": " “Merci, mais la proposition ne m’intéresse guère.” Par ces mots, vous avez scellé votre destin. Enfin surtout le leur. Mais eux ils croient que vous avez scellé le votre, de destin. Alors qu’en fait non, ils sont bêtes, c’est eux qui vont mourir. Peut-être. Ils sont trois quand même.Avant qu’ils aient eu le temps de réagir, vous vous jetez sur le plus grand, qui vous a alpagué, l’arme au poing.",
     "image": "assets/img/background/story/arena.svg",
-    "sound": "assets/audio/skills1.mp3",
+    "sound": "assets/audio/battle.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3393,7 +3406,7 @@
     "title": "Repousser les Rel’Ours",
     "text": "Vous attrapez votre arme en toute hâte et fendez l’air à plusieurs reprises pour effrayer vos adversaires peloteurs. Cela fonctionne brièvement grâce à l’effet de surprise, mais les Rel’Ours, c’est persévérant.",
     "image": "assets/img/background/story/arena.svg",
-    "sound": "assets/audio/skills1.mp3",
+    "sound": "assets/audio/battle.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3408,7 +3421,7 @@
     "title": "Le géant terrassé ",
     "text": "Vous frappez un coup, puis deux, sans toutefois faire mouche. Votre adversaire vous repousse d’un simple revers de la main. Le mur que vous percutez vide l’air de vos poumons. Alors que le gardien s’approche, vous percevez les vibrations du sol dans vos mains et vos genoux à chacun de ses pas. Vous êtes toujours à quatre pattes, haletante, lorsqu’il vous saisit. ",
     "image": "assets/img/background/story/arena.svg",
-    "sound": "assets/audio/skills1.mp3",
+    "sound": "assets/audio/battle.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3423,7 +3436,7 @@
     "title": "Brochette de géant",
     "text": "Entre les jambes du gardien, vous remarquez un énorme cristal très pointu à quelques mètres derrière lui. Vous prétextez vouloir résoudre son énigme, le laissant plonger dans ses réflexions pour vous en trouver une. C’est à ce moment que vous faites appel à toutes vos forces et poussez le géant d’un coup sec. ",
     "image": "assets/img/background/story/arena.svg",
-    "sound": "assets/audio/skills1.mp3",
+    "sound": "assets/audio/battle.mp3",
     "buttons": [
       {
         "title": "Poursuivre l'histoire",
@@ -3438,7 +3451,7 @@
     "title": "C’est l’heure du pieu",
     "text": "C’est un vampire. Vous n’avez pas vraiment besoin d’une incitation supplémentaire pour le tuer. Enfin le retuer. Vu qu’il est déjà mort, techniquement. “Mais puisque je vous dis que je suis végé…” Il n’a pas le temps de finir sa phrase puisque votre poing s’écrase contre sa jolie petite frimousse bien peignée. C’est alors que Cullen semble beaucoup moins enclin au végétarisme. Une lueur rouge envahit ses yeux, ses canines deviennent plus saillantes et sa peau… sa peau brille ? Oui, sa peau brille. Edward devient une boule à facettes quand il est énervé. Pas commun ça.",
     "image": "assets/img/background/story/arena.svg",
-    "sound": "assets/audio/skills1.mp3",
+    "sound": "assets/audio/battle.mp3",
     "buttons": [
       {
         "title": "La mort du disco avant l’heure",

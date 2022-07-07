@@ -19,15 +19,15 @@ const GameStory = ({
   const [animation, setAnimation] = useState(true)
   const [showButton, setShowButton] = useState(false)
 
-  useEffect(() => {
-    setShowButton(!quest.battle)
-    if (quest?.item) {
-      setHero({
-        ...hero,
-        inventory: [...hero.inventory, items[1][quest.item + 1]]
-      })
-    }
-  }, [quest])
+  // useEffect(() => {
+  //   setShowButton(!quest.battle)
+  //   if (quest?.item) {
+  //     setHero({
+  //       ...hero,
+  //       inventory: [...hero.inventory, items[1][quest.item + 1]]
+  //     })
+  //   }
+  // }, [quest])
 
   console.log(hero)
 
