@@ -18,7 +18,8 @@ const GameStoryButtons = ({ quest, setPage, animation, hero }) => {
         quest.buttons
           .filter(
             btn =>
-              hero.inventory.map(obj => obj.id).includes(btn?.item) ||
+              herogp
+              .inventory.map(obj => obj.id).includes(btn?.item) ||
               !btn?.item
           )
           .filter(btn => !unique.includes(btn?.title))
