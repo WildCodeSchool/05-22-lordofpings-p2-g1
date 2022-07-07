@@ -1,7 +1,7 @@
 import Parchment from './GameStoryParchment'
 import Buttons from './GameStoryButtons'
 import GameHeader from './GameHeader'
-import GameStoryBattleDice from './GameStoryBattleDice'
+import GameStoryBattle from './GameStoryBattle'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import items from '../assets/json/items.json'
@@ -80,14 +80,16 @@ const GameStory = ({
 
           {showButton && (
             <Buttons
+              hero={hero}
               quest={quest}
               setPage={animation === false && setPage}
               animation={animation}
             />
           )}
         </div>
+
         {quest?.battle && (
-          <GameStoryBattleDice
+          <GameStoryBattle
             hero={hero}
             setHero={setHero}
             setPage={setPage}
