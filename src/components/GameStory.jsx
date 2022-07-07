@@ -21,44 +21,44 @@ const GameStory = ({
 
   useEffect(() => {
     setShowButton(!quest?.battle)
-    // if (
-    //   quest?.item &&
-    //   !hero.inventory.items.map(obj => obj.id).includes(quest.item)
-    // ) {
-    //   setHero({
-    //     ...hero,
-    //     inventory: [...hero.inventory.items, items[1][quest.item - 1]]
-    //   })
-    // }
-    // if (!localStorage.getItem(quest._id)) {
-    //   if (quest?.money !== undefined) {
-    //     localStorage.setItem(quest._id, true)
+    if (quest?.item && !hero.inventory.items.includes(quest.item)) {
+      setHero({
+        ...hero,
+        inventory: {
+          ...hero.inventory,
+          items: [...hero.inventory.items, items[1][quest.item - 1]?.id]
+        }
+      })
+    }
+    if (!localStorage.getItem(quest._id)) {
+      if (quest?.money !== undefined) {
+        localStorage.setItem(quest._id, true)
 
-    //     if (quest.money === 0) {
-    //       setHero({
-    //         ...hero,
-    //         money: 0
-    //       })
-    //     } else {
-    //       setHero({
-    //         ...hero,
-    //         money: hero.money + quest.money
-    //       })
-    //     }
-    //   }
-    //   if (quest?.heal !== undefined) {
-    //     localStorage.setItem(quest._id, true)
+        if (quest.money === 0) {
+          setHero({
+            ...hero,
+            money: 0
+          })
+        } else {
+          setHero({
+            ...hero,
+            money: hero.money + quest.money
+          })
+        }
+      }
+      if (quest?.heal !== undefined) {
+        localStorage.setItem(quest._id, true)
 
-    //     if (hero.heal + quest.heal > 0) {
-    //       setHero({
-    //         ...hero,
-    //         heal: hero.heal - quest.heal
-    //       })
-    //     } else {
-    //       setPage(1001)
-    //     }
-    //   }
-    // }
+        if (hero.heal + quest.heal > 0) {
+          setHero({
+            ...hero,
+            heal: hero.heal - quest.heal
+          })
+        } else {
+          setPage(1001)
+        }
+      }
+    }
   }, [quest])
 
   return (
