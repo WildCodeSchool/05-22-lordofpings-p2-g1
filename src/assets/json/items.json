@@ -40,7 +40,7 @@
         "id": 1,
         "name": "Hâche de débutante",
         "image": "assets/img/items/weapons/axe1.svg",
-        "description": "Une super hache",
+        "description": "La hache du pauvre",
         "damage": 10,
         "shop": {
           "buyPrice": 100,

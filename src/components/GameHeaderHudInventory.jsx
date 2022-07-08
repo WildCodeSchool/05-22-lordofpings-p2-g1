@@ -29,7 +29,7 @@ const GameHeaderHudInventory = ({ hero }) => {
       hero.inventory.items.includes(item.id)
     )
 
-    const heroClass = hero.class === 'archer' ? 0 : 1
+    const heroClass = hero.class === 'knight' ? 0 : 1
 
     const weaponsFiltered = Items[0][heroClass].filter(weapon =>
       hero.inventory.weapons.includes(weapon.id)
