@@ -67,7 +67,7 @@ const Game = () => {
     if (page < 1000) {
       // Game Story
       quest?.image ? setBg(quest.image) : setBg(forest)
-      quest?.sound ? setSound(quest.sound) : setSound('assets/audio/foret1.mp3')
+      quest?.sound && sound !== quest.sound && setSound(quest.sound)
     } else if (page === 1000) {
       // Game Tavern
       setBg(tavernImg)
@@ -122,8 +122,10 @@ const Game = () => {
         <button onClick={() => setPage(1001)}>GameOver</button>
         <button onClick={() => setPage(1002)}>GameWon</button>
         <button onClick={() => setPage(1003)}>GameSkills</button>
-        <button onClick={() => setPage(1004)}>GameBattle</button>
         <button onClick={() => setPage(1005)}>Contact</button>
+        <button onClick={() => setHero({ ...hero, heal: hero.maxHeal })}>
+          Heal
+        </button>
         <input type={'number'} onChange={e => setPage(e.target.value)} />
       </div>
 
