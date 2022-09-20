@@ -1,7 +1,7 @@
 import MainBackground from '../components/MainBackground'
 
 import heroes from '../assets/json/heroes.json'
-import Barbare from '../assets/img/heroes/archer.png'
+import Barbare from '../assets/img/heroes/barbarian.png'
 import knight from '../assets/img/heroes/knight.png'
 import { Link } from 'react-router-dom'
 
@@ -43,10 +43,6 @@ function Characters() {
                       <ul>
                         <li>points de vie: {hero.heal} </li>
                         <li>pieces d&#39;or: {hero.money} </li>
-                        <li>Agilité: {hero.skills.agility}</li>
-                        <li>Force: {hero.skills.strength}</li>
-                        <li>Intelligence: {hero.skills.intelligence}</li>
-                        <li>Resistance: {hero.skills.resistance}</li>
                       </ul>
                     </div>
                   </div>

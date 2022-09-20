@@ -5,9 +5,7 @@ import brokenHeart from '../assets/img/ui/hud/broken-heart.svg'
 
 const GameHeaderHudHealth = ({ hero }) => {
   const [life, setLife] = useState([hero?.heal])
-  // console.log('hudhealth', hero)
   useEffect(() => {
-    // console.log('hero', hero)
     const result = []
     for (let i = 0; i < hero?.maxHeal; i++) {
       if (i < hero.heal) {

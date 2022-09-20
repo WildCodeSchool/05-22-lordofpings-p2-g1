@@ -1,4 +1,4 @@
-import Barbare from '../assets/img/heroes/archer.png'
+import Barbare from '../assets/img/heroes/barbarian.png'
 import Knight from '../assets/img/heroes/knight.png'
 
 const GameHeaderHudPortrait = ({ hero }) => {

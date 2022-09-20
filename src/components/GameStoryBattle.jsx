@@ -13,22 +13,23 @@ const GameStoryBattle = ({
     rolling: false
   })
   const { dice, rolling } = result
+  const [weapon, setWeapon] = useState(
+    hero.inventory.weapons.reduce((weap1, weap2) =>
+      weap1 > weap2 ? weap1 : weap2
+    )
+  )
 
   useEffect(() => {
     const winOrDie = () => {
       if (rolling) {
         if (hero.heal > 1) {
-          // let heroData = hero
           let heart = hero.heal
           if (result.dice == 1) {
-            heart -= 2
-            console.log('-2')
-          } else if (result.dice < 5) {
+            heart -= weapon == 7 ? 1 : 2
+          } else if (result.dice < (weapon == 2 ? 4 : 5)) {
             heart -= 1
-            console.log('-1')
           } else {
             setShowButton(true)
-            console.log('true button')
           }
           setHero({ ...hero, heal: heart })
         } else {
@@ -41,8 +42,15 @@ const GameStoryBattle = ({
   }, [result])
 
   const roll = () => {
-    const newDice = Math.floor(Math.random() * 6) + 1
-
+    let newDice = Math.floor(Math.random() * 6) + 1
+    if (weapon == 3) {
+      newDice = Math.floor(Math.random() * 8) + 1
+      newDice > 6 && (newDice = 6)
+    }
+    if (weapon == 7) {
+      newDice = Math.floor(Math.random() * 10) + 1
+      newDice > 6 && (newDice = 6)
+    }
     setResult({
       dice: newDice,
       rolling: true

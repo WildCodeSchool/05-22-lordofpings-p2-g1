@@ -28,11 +28,22 @@
   
 }
 
+.credits {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+  a {
+    color: black;
+    cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+  }
+}
+
 @mixin characters {
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
-  cursor: pointer;
+  cursor: url('../../img/ui/knight-cursor-select.png'), auto;
   float: left;
 
   &:hover {

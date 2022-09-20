@@ -92,7 +92,7 @@
     overflow: hidden;
     transition: .6s;
     background-color: aliceblue;
-    cursor: pointer;
+    cursor: url('../../img/ui/knight-cursor-select.png'), auto;
   
   }
   .socialmedia1:hover{
@@ -117,7 +117,7 @@
     overflow: hidden;
     transition: .6s;
     background-color: aliceblue;
-    cursor: pointer;
+    cursor: url('../../img/ui/knight-cursor-select.png'), auto;
   
   }
   .socialmedia2:hover{
@@ -146,6 +146,14 @@
     color: rgb(34, 29, 29);
     font-weight: 700;
    position:absolute
+  }
+
+  .slick-next {
+    cursor: url('../../img/ui/knight-cursor-select.png'), auto;
+  }
+
+  .slick-prev {
+    cursor: url('../../img/ui/knight-cursor-select.png'), auto;
   }
 }
 

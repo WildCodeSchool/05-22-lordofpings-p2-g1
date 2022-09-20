@@ -9,11 +9,16 @@
     width: 50%;
     top: 25.4%;
     left: 71.3%;
-    @include characters;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
 
-    &:hover {
-      background-image: url('../../img/background/tavern/knife-hover.svg');
-    }
+    // @include characters;
+
+    // &:hover {
+    //   background-image: url('../../img/background/tavern/knife-hover.svg');
+    // }
   }
 
   .idiot {
@@ -21,7 +26,7 @@
     height: 48.3%;
     width: 22.6%;
     top: 51.81%;
-    left: -37.8%;
+    left: 25.8%;
     @include characters;
 
     &:hover {
@@ -34,7 +39,7 @@
     height: 16.4%;
     width: 9.3%;
     top: 45.2%;
-    left: 44.1%;
+    left: 64.1%;
     z-index: 1;
     @include characters;
 
@@ -48,10 +53,14 @@
     height: 24.8%;
     width: 8.8%;
     top: 37.4%;
-    @include characters;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    // @include characters;
 
-    &:hover {
-      background-image: url('../../img/background/tavern/target-hover.svg');
-    }
+    // &:hover {
+    //   background-image: url('../../img/background/tavern/target-hover.svg');
+    // }
   }
 }

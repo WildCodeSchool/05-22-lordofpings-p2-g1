@@ -1,5 +1,3 @@
-import page404 from '../assets/css/pages/_pages404.scss'
-
 function Page404() {
   const pages404 = [
     {

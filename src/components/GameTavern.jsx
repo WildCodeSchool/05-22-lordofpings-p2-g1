@@ -31,9 +31,9 @@ const GameTavern = ({
         volume={volume}
         setVolume={setVolume}
       />
-      <div className='target' onClick={() => setMenu(3)} />
+      {/* <div className='target' onClick={() => setMenu(3)} /> */}
       <div className='barman' onClick={() => setMenu(1)} />
-      <div className='knife' onClick={() => setMenu(0)} />
+      {/* <div className='knife' onClick={() => setMenu(0)} /> */}
       <div className='idiot' onClick={() => setMenu(2)} />
 
       {/*<GameTavernQuest /> */}

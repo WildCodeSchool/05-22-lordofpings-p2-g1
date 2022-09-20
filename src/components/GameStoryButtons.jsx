@@ -11,7 +11,6 @@ const GameStoryButtons = ({ quest, setPage, animation, hero }) => {
     }
     setPage(btn.quest)
   }
-  console.log(unique)
   return (
     <div className='gameStoryButtons' animation={animation.toString()}>
       {quest &&

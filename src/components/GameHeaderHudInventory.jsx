@@ -29,7 +29,7 @@ const GameHeaderHudInventory = ({ hero }) => {
       hero.inventory.items.includes(item.id)
     )
 
-    const heroClass = hero.class === 'archer' ? 0 : 1
+    const heroClass = hero.class === 'Barbare' ? 0 : 1
 
     const weaponsFiltered = Items[0][heroClass].filter(weapon =>
       hero.inventory.weapons.includes(weapon.id)
@@ -63,7 +63,9 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (el.name === 'Potion de vie') {
               return (
                 <div key={el.id} className='imgContainer'>
-                  <img src={potion} alt={el.name} className='invImg' />
+                  <div className='invImgContainer'>
+                    <img src={potion} alt={el.name} className='invImg' />
+                  </div>
                   <p className='itemDesc'>{el.description}</p>
                 </div>
               )
@@ -71,12 +73,14 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (el.name === 'Carte de visite Karvagma Inc.') {
               return (
                 <div key={el.id} className='imgContainer'>
-                  <img
-                    key={el.id}
-                    src={carte}
-                    alt={el.name}
-                    className='invImg'
-                  />
+                  <div className='invImgContainer'>
+                    <img
+                      key={el.id}
+                      src={carte}
+                      alt={el.name}
+                      className='invImg'
+                    />
+                  </div>
                   <p className='itemDesc'>{el.description}</p>
                 </div>
               )
@@ -84,12 +88,14 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (el.name === 'Champignons') {
               return (
                 <div key={el.id} className='imgContainer'>
-                  <img
-                    key={el.id}
-                    src={shroom}
-                    alt={el.name}
-                    className='invImg'
-                  />
+                  <div className='invImgContainer'>
+                    <img
+                      key={el.id}
+                      src={shroom}
+                      alt={el.name}
+                      className='invImg'
+                    />
+                  </div>
                   <p className='itemDesc'>{el.description}</p>
                 </div>
               )
@@ -97,12 +103,14 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (el.name === 'Salade') {
               return (
                 <div key={el.id} className='imgContainer'>
-                  <img
-                    key={el.id}
-                    src={salade}
-                    alt={el.name}
-                    className='invImg'
-                  />
+                  <div className='invImgContainer'>
+                    <img
+                      key={el.id}
+                      src={salade}
+                      alt={el.name}
+                      className='invImg'
+                    />
+                  </div>
                   <p className='itemDesc'>{el.description}</p>
                 </div>
               )
@@ -110,12 +118,14 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (el.name === 'Monsieur Propre') {
               return (
                 <div key={el.id} className='imgContainer'>
-                  <img
-                    key={el.id}
-                    src={chiffon}
-                    alt={el.name}
-                    className='invImg'
-                  />
+                  <div className='invImgContainer'>
+                    <img
+                      key={el.id}
+                      src={chiffon}
+                      alt={el.name}
+                      className='invImg'
+                    />
+                  </div>
                   <p className='itemDesc'>{el.description}</p>
                 </div>
               )
@@ -123,12 +133,14 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (el.name === "Canard de l'Apocalypse") {
               return (
                 <div key={el.id} className='imgContainer'>
-                  <img
-                    key={el.id}
-                    src={canard}
-                    alt={el.name}
-                    className='invImg'
-                  />
+                  <div className='invImgContainer'>
+                    <img
+                      key={el.id}
+                      src={canard}
+                      alt={el.name}
+                      className='invImg'
+                    />
+                  </div>
                   <p className='itemDesc'>{el.description}</p>
                 </div>
               )
@@ -136,12 +148,14 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (el.name === 'Patator') {
               return (
                 <div key={el.id} className='imgContainer'>
-                  <img
-                    key={el.id}
-                    src={patator}
-                    alt={el.name}
-                    className='invImg'
-                  />
+                  <div className='invImgContainer'>
+                    <img
+                      key={el.id}
+                      src={patator}
+                      alt={el.name}
+                      className='invImg'
+                    />
+                  </div>
                   <p className='itemDesc'>{el.description}</p>
                 </div>
               )
@@ -152,7 +166,9 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (weap.name === 'Hâche de débutante') {
               return (
                 <div key={weap.id} className='imgContainer'>
-                  <img src={weap.image} alt={weap.name} className='invImg' />{' '}
+                  <div className='invImgContainer'>
+                    <img src={weap.image} alt={weap.name} className='invImg' />
+                  </div>
                   <p className='itemDesc'>{weap.description}</p>
                 </div>
               )
@@ -160,25 +176,29 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (weap.name === 'Hâche de combat') {
               return (
                 <div key={weap.id} className='imgContainer'>
-                  <img
-                    key={weap.id}
-                    src={weap.image}
-                    alt={weap.name}
-                    className='invImg'
-                  />
+                  <div className='invImgContainer'>
+                    <img
+                      key={weap.id}
+                      src={weap.image}
+                      alt={weap.name}
+                      className='invImg'
+                    />
+                  </div>
                   <p className='itemDesc'>{weap.description}</p>
                 </div>
               )
             }
-            if (weap.name === 'Hâche de Guerrière') {
+            if (weap.name === 'Hâche de guerrière') {
               return (
                 <div key={weap.id} className='imgContainer'>
-                  <img
-                    key={weap.id}
-                    src={weap.image}
-                    alt={weap.name}
-                    className='invImg'
-                  />
+                  <div className='invImgContainer'>
+                    <img
+                      key={weap.id}
+                      src={weap.image}
+                      alt={weap.name}
+                      className='invImg'
+                    />
+                  </div>
                   <p className='itemDesc'>{weap.description}</p>
                 </div>
               )
@@ -186,12 +206,14 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (weap.name === 'Épée de débutante') {
               return (
                 <div key={weap.id} className='imgContainer'>
-                  <img
-                    key={weap.id}
-                    src={weap.image}
-                    alt={weap.name}
-                    className='invImg'
-                  />
+                  <div className='invImgContainer'>
+                    <img
+                      key={weap.id}
+                      src={weap.image}
+                      alt={weap.name}
+                      className='invImg'
+                    />
+                  </div>
                   <p className='itemDesc'>{weap.description}</p>
                 </div>
               )
@@ -199,12 +221,14 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (weap.name === 'Épée de combat') {
               return (
                 <div key={weap.id} className='imgContainer'>
-                  <img
-                    key={weap.id}
-                    src={weap.image}
-                    alt={weap.name}
-                    className='invImg'
-                  />
+                  <div className='invImgContainer'>
+                    <img
+                      key={weap.id}
+                      src={weap.image}
+                      alt={weap.name}
+                      className='invImg'
+                    />
+                  </div>
                   <p className='itemDesc'>{weap.description}</p>
                 </div>
               )
@@ -212,12 +236,14 @@ const GameHeaderHudInventory = ({ hero }) => {
             if (weap.name === 'Épée de guerrière') {
               return (
                 <div key={weap.id} className='imgContainer'>
-                  <img
-                    key={weap.id}
-                    src={weap.image}
-                    alt={weap.name}
-                    className='invImg'
-                  />
+                  <div className='invImgContainer'>
+                    <img
+                      key={weap.id}
+                      src={weap.image}
+                      alt={weap.name}
+                      className='invImg'
+                    />
+                  </div>
                   <p className='itemDesc'>{weap.description}</p>
                 </div>
               )
