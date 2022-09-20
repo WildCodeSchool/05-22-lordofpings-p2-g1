@@ -4,12 +4,10 @@
 @import "./components/bigButton";
 
 @import "./pages/concept";
-
 @import "./pages/characters";
-
 @import "./pages/home";
-
 @import "./pages/game";
+@import "./pages/pages404";
 
 @import "./components/gameTavern";
 @import "./components/gameTavernShop";
@@ -58,7 +56,7 @@ body {
   width: 100%;
   scrollbar-width: 0;
   cursor: url('../img/ui/knight-cursor.png'), auto;
-
+  
   &::-webkit-scrollbar {
     width: 0;
   }

@@ -8,6 +8,7 @@
   .backpack {
     height: 40px;
     width: 40px;
+    cursor: url('../../img/ui/knight-cursor-select.png'), auto;
 
     &:hover {
         transform: scale(1.2);
@@ -28,7 +29,6 @@
     .imgContainer {
       position: relative;
       width: 50px;
-      height: 110px;
       z-index: 200;
       
       .invImg {
@@ -40,11 +40,13 @@
         max-height: 35px;
         animation: .5s linear .1s itemShow forwards;
         opacity: 0;
+        cursor: url('../../img/ui/knight-cursor-select.png'), auto;
       }
 
       .itemDesc {
         position: absolute;
         bottom: 0;
+        transform: translateY(60px);
         z-index: 200000000000000000;
         padding: 5px;
         text-align: center;
@@ -55,17 +57,16 @@
         opacity: 0;
       }
 
-      &:hover {
-        transform: scale(1.2)
+      .invImgContainer:hover {
+        transform: scale(1.2);
+
+        +.itemDesc {
+          opacity: 1;
+        }
       }
     }
 
-    .imgContainer:hover > .itemDesc {
-      opacity: 1;
-      // animation: 3s ease-in-out alternate descReflect;
-    }
   }
-
   .inventoryParchmentRight {
     margin-top: -5px;
     margin-left: -20px;
@@ -82,20 +83,6 @@
   from { height: 50px; border: 1px solid #ffcdab; }
   to { width: 0; height: 50px; }
 }
-
-// @keyframes descReflect {
-//   0% {background: linear-gradient(90deg, rgba(236,167,105,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
-//   10% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(236,167,105,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
-//   20% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(236,167,105,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
-//   30% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(236,167,105,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
-//   40% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(236,167,105,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
-//   50% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(236,167,105,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
-//   60% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(236,167,105,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
-//   70% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(236,167,105,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
-//   80% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(236,167,105,1) 80%, rgba(215,99,110,1) 90%, rgba(215,99,110,1) 100%)}
-//   90% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(236,167,105,1) 90%, rgba(215,99,110,1) 100%)}
-//   100% {background: linear-gradient(90deg, rgba(215,99,110,1) 0%, rgba(215,99,110,1) 10% rgba(215,99,110,1) 20%, rgba(215,99,110,1) 30%, rgba(215,99,110,1) 40%, rgba(215,99,110,1) 50%, rgba(215,99,110,1) 60%, rgba(215,99,110,1) 70%, rgba(215,99,110,1) 80%, rgba(215,99,110,1) 90%, rgba(236,167,105,1) 100%)}
-// }
 
 @keyframes itemShow {
   from {opacity: 0}

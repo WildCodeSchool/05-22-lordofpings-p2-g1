@@ -28,7 +28,7 @@ const ContactForm = () => {
               </label>
               <input
                 type='text'
-                placeholder='Lola Fourth'
+                placeholder='Prénom épique'
                 value={ClientName}
                 onChange={e => setClientName(e.target.value)}
               />
@@ -41,7 +41,7 @@ const ContactForm = () => {
               </label>
               <input
                 type='text'
-                placeholder='Lola4th@setmail.fr'
+                placeholder='mailepique@epique.fr'
                 value={email}
                 onChange={e => setEmail(e.target.value)}
               />

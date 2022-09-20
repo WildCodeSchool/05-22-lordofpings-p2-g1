@@ -5,7 +5,7 @@
         "id": 1,
         "name": "Épée de débutante",
         "image": "../assets/img/items/weapons/sword1.svg",
-        "description": "Un début modeste",
+        "description": "Épée de débutante - Un début modeste",
         "damage": 10,
         "shop": {
           "buyPrice": 100,
@@ -16,7 +16,7 @@
         "id": 2,
         "name": "Épée de combat",
         "image": "assets/img/items/weapons/sword2.svg",
-        "description": "Coupe aussi le saucisson",
+        "description": "Épée de combat - Coupe aussi le saucisson (le seuil de réussite passe de 5 à 4)",
         "damage": 30,
         "shop": {
           "buyPrice": 300,
@@ -27,7 +27,7 @@
         "id": 3,
         "name": "Épée de guerrière",
         "image": "assets/img/items/weapons/sword3.svg",
-        "description": "Tranchante comme un bâton hyper-méga aiguisé",
+        "description": "Épée de guerrière - Tranchante comme un bâton hyper-méga aiguisé (améliore la probabilité de réussir un jet dé)",
         "damage": 50,
         "shop": {
           "buyPrice": 500,
@@ -40,7 +40,7 @@
         "id": 1,
         "name": "Hâche de débutante",
         "image": "assets/img/items/weapons/axe1.svg",
-        "description": "Une super hache",
+        "description": "Hâche de débutante - Un début modeste",
         "damage": 10,
         "shop": {
           "buyPrice": 100,
@@ -51,7 +51,7 @@
         "id": 2,
         "name": "Hâche de combat",
         "image": "assets/img/items/weapons/axe2.svg",
-        "description": "Coupe aussi le saucisson",
+        "description": "Hâche de combat - Coupe aussi le saucisson (le seuil de réussite passe de 5 à 4)",
         "damage": 30,
         "shop": {
           "buyPrice": 300,
@@ -62,7 +62,7 @@
         "id": 3,
         "name": "Hâche de guerrière",
         "image": "assets/img/items/weapons/axe3.svg",
-        "description": "Tranchante comme un bâton hyper-méga aiguisé",
+        "description": "Hâche de guerrière - Tranchante comme un bâton hyper-méga aiguisé (améliore la probabilité de réussir un jet dé)",
         "damage": 50,
         "shop": {
           "buyPrice": 500,
@@ -116,7 +116,7 @@
       "id": 7,
       "name": "Patator",
       "image": "assets/img/items/patator.svg",
-      "description": "L'arme ultime"
+      "description": "Patator - L'arme ultime (améliore fortement la probabilité de réussir un jet de dés et empêche le malus d'échec critique)"
     }
   ]
 ]

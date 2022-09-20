@@ -16,16 +16,20 @@ const GameTavernShop = ({ setMenu, hero, setHero }) => {
   }, [])
 
   const buyItem = article => {
-    if (
+    if (hero.inventory.weapons.map(obj => obj).includes(article.id))
+      window.alert('Vous possédez déjà cet objet !')
+    else if (
       hero.money >= article.shop.buyPrice &&
-      !hero.inventory.map(obj => obj.id).includes(article.id)
+      !hero.inventory.weapons.map(obj => obj.id).includes(article.id)
     ) {
       setHero({
         ...hero,
         money: hero.money - article.shop.buyPrice,
-        inventory: [...hero.inventory[0], article]
+        weapons: [...hero.inventory.weapons, article.id]
       })
       setMenu(0)
+    } else {
+      window.alert("Vous n'avez pas assez d'argent !")
     }
   }
 
@@ -36,7 +40,6 @@ const GameTavernShop = ({ setMenu, hero, setHero }) => {
           <div key={index} className={`gameTavernShopBox bg-${index}`}>
             <h1>{article.name}</h1>
             <img src={article.image} alt={article.name} draggable={false} />
-            {/* {console.log(article.image)} */}
             <a onClick={() => buyItem(article)}>{article.shop.buyPrice}</a>
           </div>
         ))}

@@ -1187,7 +1187,7 @@
       },
       {
         "title": "S’il dit qu’il préfère la verdure, c’est qu’il préfère la verdure. Sortez.",
-        "quest": 179,
+        "quest": 178,
         "unique": false
       }
     ]
@@ -3388,7 +3388,7 @@
     "_id": 179,
     "battle": true,
     "title": "C’est l’heure du du-du-du-duel",
-    "text": " “Merci, mais la proposition ne m’intéresse guère.” Par ces mots, vous avez scellé votre destin. Enfin surtout le leur. Mais eux ils croient que vous avez scellé le votre, de destin. Alors qu’en fait non, ils sont bêtes, c’est eux qui vont mourir. Peut-être. Ils sont trois quand même.Avant qu’ils aient eu le temps de réagir, vous vous jetez sur le plus grand, qui vous a alpagué, l’arme au poing.",
+    "text": " “Merci, mais la proposition ne m’intéresse guère.” Par ces mots, vous avez scellé votre destin. Enfin surtout le leur. Mais eux ils croient que vous avez scellé le votre, de destin. Alors qu’en fait non, ils sont bêtes, c’est eux qui vont mourir. Peut-être. Ils sont trois quand même. Avant qu’ils aient eu le temps de réagir, vous vous jetez sur le plus grand, qui vous a alpagué, l’arme au poing.",
     "image": "assets/img/background/story/arena.svg",
     "sound": "assets/audio/battle.mp3",
     "buttons": [

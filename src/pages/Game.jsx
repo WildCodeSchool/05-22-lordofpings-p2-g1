@@ -112,8 +112,8 @@ const Game = () => {
         className='gameBackground'
         style={{ backgroundImage: `url(${bg})` }}
       ></div>
-
-      <div className='gameAdmin'>
+      {/*Menu admin}
+      {/* <div className='gameAdmin'>
         <b>ADMIN MENU: </b>
         <button onClick={() => setPage(localStorage.getItem('quest'))}>
           Story
@@ -127,8 +127,7 @@ const Game = () => {
           Heal
         </button>
         <input type={'number'} onChange={e => setPage(e.target.value)} />
-      </div>
-
+      </div> */}
       <div className='game' style={{ backgroundImage: bg && `url(${bg})` }}>
         {page < 1000 && (
           <GameStory
@@ -167,7 +166,7 @@ const Game = () => {
         )}
         {page === 1005 && <Contact />}
 
-        <div>
+        <div className='credits'>
           <a
             style={{ margin: 0, textAlign: 'center', lineHeight: '40px' }}
             href={'https://fr.freepik.com/auteur/upklyak'}
